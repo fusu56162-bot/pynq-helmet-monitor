@@ -1,0 +1,969 @@
+{
+  "schema_version": 1,
+  "status": "LIVE_FPGA_CPU_ALL_FRAMES_BIT_EXACT_NOT_FULL_SYSTEM_ACCEPTANCE",
+  "stage": "FINISHED",
+  "package_verified_files": 46,
+  "backend": "REAL_FPGA_PREFIX_PLUS_ARM_SUFFIX_RECOVER5_224",
+  "source": "live",
+  "scene_declared": "empty_scene",
+  "scene_is_not_ground_truth": true,
+  "notes": "",
+  "requested_seconds": 20,
+  "camera_index": 0,
+  "model": "recover5",
+  "input_side": 224,
+  "cpu_reference_cases": [
+    {
+      "id": "case_01",
+      "bit_exact": true
+    },
+    {
+      "id": "case_02",
+      "bit_exact": true
+    },
+    {
+      "id": "case_03",
+      "bit_exact": true
+    },
+    {
+      "id": "case_04",
+      "bit_exact": true
+    },
+    {
+      "id": "case_05",
+      "bit_exact": true
+    },
+    {
+      "id": "case_06",
+      "bit_exact": true
+    },
+    {
+      "id": "case_07",
+      "bit_exact": true
+    },
+    {
+      "id": "case_08",
+      "bit_exact": true
+    },
+    {
+      "id": "case_09",
+      "bit_exact": true
+    },
+    {
+      "id": "case_10",
+      "bit_exact": true
+    },
+    {
+      "id": "case_11",
+      "bit_exact": true
+    },
+    {
+      "id": "case_12",
+      "bit_exact": true
+    }
+  ],
+  "fpga_reference_cases": [
+    {
+      "id": "case_01",
+      "boundary_bit_exact": true,
+      "full_bit_exact": true
+    },
+    {
+      "id": "case_02",
+      "boundary_bit_exact": true,
+      "full_bit_exact": true
+    },
+    {
+      "id": "case_03",
+      "boundary_bit_exact": true,
+      "full_bit_exact": true
+    },
+    {
+      "id": "case_04",
+      "boundary_bit_exact": true,
+      "full_bit_exact": true
+    },
+    {
+      "id": "case_05",
+      "boundary_bit_exact": true,
+      "full_bit_exact": true
+    },
+    {
+      "id": "case_06",
+      "boundary_bit_exact": true,
+      "full_bit_exact": true
+    },
+    {
+      "id": "case_07",
+      "boundary_bit_exact": true,
+      "full_bit_exact": true
+    },
+    {
+      "id": "case_08",
+      "boundary_bit_exact": true,
+      "full_bit_exact": true
+    },
+    {
+      "id": "case_09",
+      "boundary_bit_exact": true,
+      "full_bit_exact": true
+    },
+    {
+      "id": "case_10",
+      "boundary_bit_exact": true,
+      "full_bit_exact": true
+    },
+    {
+      "id": "case_11",
+      "boundary_bit_exact": true,
+      "full_bit_exact": true
+    },
+    {
+      "id": "case_12",
+      "boundary_bit_exact": true,
+      "full_bit_exact": true
+    }
+  ],
+  "fpga_reference_forward_count": 12,
+  "live_fpga_forward_count": 16,
+  "frames": [
+    {
+      "id": "frame_000001",
+      "capture_monotonic_ms": 1872719.065881,
+      "source": "live",
+      "detections_xyxy_score_class": [],
+      "timing": {
+        "preprocess_ms": 14.923629999884724,
+        "fpga_plus_cpu_forward_ms": 213.44659700002921,
+        "cpu_reference_forward_ms": 239.3314640000881,
+        "decode_ms": 16.659538999874712,
+        "preprocess_forward_reference_decode_ms": 484.36122999987674,
+        "components_ms": {
+          "input_pack_ms": 18.069766000053278,
+          "dma_window_ms": 7.808190999867293,
+          "cache_dma_readback_guard_ms": 9.996762999890052,
+          "owned_pack_and_suffix_ms": 185.29029500018623
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000001.png": "015977a6fee65ebaa3895a9943381c3de224f4b74f4921f7b4c434761f9adf55",
+        "frame_000001_fpga_raw.npy": "986b55249e7a5108d431a807b549cfa9fd72202110f0a860d8d59eaee2704d02",
+        "frame_000001_cpu_raw.npy": "986b55249e7a5108d431a807b549cfa9fd72202110f0a860d8d59eaee2704d02",
+        "frame_000001_boxes.npy": "7e321a0a016e6103de9344a9561f6ef415994bbcb7d1d05b307ac23cdcd5f711",
+        "frame_000001_view.jpg": "058080f4078732e70fa29572beb9d411e71a909b0a547e8edc790ab3ed6b9b58"
+      }
+    },
+    {
+      "id": "frame_000002",
+      "capture_monotonic_ms": 1873955.627449,
+      "source": "live",
+      "detections_xyxy_score_class": [],
+      "timing": {
+        "preprocess_ms": 19.567513999845687,
+        "fpga_plus_cpu_forward_ms": 220.53266400007487,
+        "cpu_reference_forward_ms": 242.0009840000148,
+        "decode_ms": 16.768670999908863,
+        "preprocess_forward_reference_decode_ms": 498.8698329998442,
+        "components_ms": {
+          "input_pack_ms": 28.323734999958106,
+          "dma_window_ms": 7.739287000049444,
+          "cache_dma_readback_guard_ms": 10.203711000031035,
+          "owned_pack_and_suffix_ms": 181.92148299999644
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000002.png": "8b7c635b9d5e382877d754d4655f5d413b09143dae28c3a322269477d8c7747b",
+        "frame_000002_fpga_raw.npy": "3b4e181169c4ff2b00ca40a9be77fcc581cb8c058c741f8d33dae7f5ad2bc161",
+        "frame_000002_cpu_raw.npy": "3b4e181169c4ff2b00ca40a9be77fcc581cb8c058c741f8d33dae7f5ad2bc161",
+        "frame_000002_boxes.npy": "7e321a0a016e6103de9344a9561f6ef415994bbcb7d1d05b307ac23cdcd5f711",
+        "frame_000002_view.jpg": "f1366932c7f2d5704b60afd459b7ba6063f5401374ffd5f240cb402dd56f7094"
+      }
+    },
+    {
+      "id": "frame_000003",
+      "capture_monotonic_ms": 1875196.317872,
+      "source": "live",
+      "detections_xyxy_score_class": [],
+      "timing": {
+        "preprocess_ms": 16.966553999964162,
+        "fpga_plus_cpu_forward_ms": 221.14738400000533,
+        "cpu_reference_forward_ms": 237.8483810000489,
+        "decode_ms": 16.699490000064543,
+        "preprocess_forward_reference_decode_ms": 492.66180900008294,
+        "components_ms": {
+          "input_pack_ms": 26.177373000109583,
+          "dma_window_ms": 8.319754000012836,
+          "cache_dma_readback_guard_ms": 10.040849000006347,
+          "owned_pack_and_suffix_ms": 184.1064179998284
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000003.png": "ffcb0d6eda6d784f42241896900a7e3170f1eaeba2643d7bf338f2411760632e",
+        "frame_000003_fpga_raw.npy": "db37b4b046699663b0cdd18c3e0ae42cd47d60598517d4651a8c2803c44e2e64",
+        "frame_000003_cpu_raw.npy": "db37b4b046699663b0cdd18c3e0ae42cd47d60598517d4651a8c2803c44e2e64",
+        "frame_000003_boxes.npy": "7e321a0a016e6103de9344a9561f6ef415994bbcb7d1d05b307ac23cdcd5f711",
+        "frame_000003_view.jpg": "a66fcd9062db6a3cc04a160512e17b64daffe1d1291b2f837b678bcde3d03994"
+      }
+    },
+    {
+      "id": "frame_000004",
+      "capture_monotonic_ms": 1876463.9365160002,
+      "source": "live",
+      "detections_xyxy_score_class": [
+        [
+          5.6297607421875,
+          312.96307373046875,
+          74.79447937011719,
+          360.3131103515625,
+          0.3527321219444275,
+          0.0
+        ]
+      ],
+      "timing": {
+        "preprocess_ms": 23.600055000088105,
+        "fpga_plus_cpu_forward_ms": 215.63600600006794,
+        "cpu_reference_forward_ms": 240.0716239999383,
+        "decode_ms": 19.60544000007758,
+        "preprocess_forward_reference_decode_ms": 498.91312500017193,
+        "components_ms": {
+          "input_pack_ms": 19.591624000213415,
+          "dma_window_ms": 7.776560000138488,
+          "cache_dma_readback_guard_ms": 9.33778499984328,
+          "owned_pack_and_suffix_ms": 186.61836299997958
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000004.png": "bb72858c723774e0700d1d06ef46c6c969ff85afba0d98b842757a1e352d7f62",
+        "frame_000004_fpga_raw.npy": "5c2ebf77054f518b674446b1e5ebdd4869de0631fc4e8f1955213e205ef24871",
+        "frame_000004_cpu_raw.npy": "5c2ebf77054f518b674446b1e5ebdd4869de0631fc4e8f1955213e205ef24871",
+        "frame_000004_boxes.npy": "425e6f4832d2275d54dc151d9b30cbd896cff6b0c374d8292e7a85de9323d1bd",
+        "frame_000004_view.jpg": "d08c3c96f115bb8b813e4fd83b4ab6d512c1a60060f11f4516611fe26733bcad"
+      }
+    },
+    {
+      "id": "frame_000005",
+      "capture_monotonic_ms": 1877761.68764,
+      "source": "live",
+      "detections_xyxy_score_class": [],
+      "timing": {
+        "preprocess_ms": 16.58414800022001,
+        "fpga_plus_cpu_forward_ms": 227.1964549997847,
+        "cpu_reference_forward_ms": 239.96759300007398,
+        "decode_ms": 16.6915820000213,
+        "preprocess_forward_reference_decode_ms": 500.4397780001,
+        "components_ms": {
+          "input_pack_ms": 18.657582000059847,
+          "dma_window_ms": 7.726560000037352,
+          "cache_dma_readback_guard_ms": 9.589070999936666,
+          "owned_pack_and_suffix_ms": 198.86524200001077
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000005.png": "21eb363141e1181948ba88e40f13e52b66abada27fa1808396224c8b92dd72f8",
+        "frame_000005_fpga_raw.npy": "812aa2f289c98d9fa11f2b7501a23bbfc05c8158fab34b7a034004089331cb09",
+        "frame_000005_cpu_raw.npy": "812aa2f289c98d9fa11f2b7501a23bbfc05c8158fab34b7a034004089331cb09",
+        "frame_000005_boxes.npy": "7e321a0a016e6103de9344a9561f6ef415994bbcb7d1d05b307ac23cdcd5f711",
+        "frame_000005_view.jpg": "36ec7e12267edd00539ad10efd1b7abf243549bd4a2274b48244fc25327667cf"
+      }
+    },
+    {
+      "id": "frame_000006",
+      "capture_monotonic_ms": 1879068.6867520001,
+      "source": "live",
+      "detections_xyxy_score_class": [
+        [
+          26.102420806884766,
+          290.1041259765625,
+          83.53169250488281,
+          345.6558837890625,
+          0.44470980763435364,
+          0.0
+        ],
+        [
+          9.898042678833008,
+          240.35116577148438,
+          45.97832489013672,
+          313.0617370605469,
+          0.26632747054100037,
+          1.0
+        ]
+      ],
+      "timing": {
+        "preprocess_ms": 17.24497300006078,
+        "fpga_plus_cpu_forward_ms": 215.43917500002863,
+        "cpu_reference_forward_ms": 240.32215900001574,
+        "decode_ms": 27.91822799986221,
+        "preprocess_forward_reference_decode_ms": 500.92453499996736,
+        "components_ms": {
+          "input_pack_ms": 18.63917599985143,
+          "dma_window_ms": 7.832443000097555,
+          "cache_dma_readback_guard_ms": 9.79539000013574,
+          "owned_pack_and_suffix_ms": 186.91707699986182
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000006.png": "97ba7494f979958162a82a0948171748eeb8b9c7ee452a73a78f7d73cab45c8b",
+        "frame_000006_fpga_raw.npy": "94300384f3f9b9b65deeb8f298b6b614b0254bc77f0c5eddb4282100f58f1628",
+        "frame_000006_cpu_raw.npy": "94300384f3f9b9b65deeb8f298b6b614b0254bc77f0c5eddb4282100f58f1628",
+        "frame_000006_boxes.npy": "cc150b1e4c5c4448b3b2098a1a013d2d85cc0f6eaaa39f78ecbd34d9cf3421e7",
+        "frame_000006_view.jpg": "9b5d15b07febefc49fff511dfa9ddf2f06db6af6b45ede83e5cab011414833bc"
+      }
+    },
+    {
+      "id": "frame_000007",
+      "capture_monotonic_ms": 1880325.996609,
+      "source": "live",
+      "detections_xyxy_score_class": [],
+      "timing": {
+        "preprocess_ms": 15.916226999934224,
+        "fpga_plus_cpu_forward_ms": 225.7752119999168,
+        "cpu_reference_forward_ms": 241.9573600000149,
+        "decode_ms": 17.34729800000423,
+        "preprocess_forward_reference_decode_ms": 500.99609699987013,
+        "components_ms": {
+          "input_pack_ms": 19.003760000032344,
+          "dma_window_ms": 7.780565999837563,
+          "cache_dma_readback_guard_ms": 9.892806000152632,
+          "owned_pack_and_suffix_ms": 196.7833599999267
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000007.png": "f544a000b966e86ef45a9ba61c990886fa48772c2b6680481246eafb330c92cb",
+        "frame_000007_fpga_raw.npy": "67c468902de31ec444b1ded497fccd0c8c741726e3dbe1612d62f6b67b775340",
+        "frame_000007_cpu_raw.npy": "67c468902de31ec444b1ded497fccd0c8c741726e3dbe1612d62f6b67b775340",
+        "frame_000007_boxes.npy": "7e321a0a016e6103de9344a9561f6ef415994bbcb7d1d05b307ac23cdcd5f711",
+        "frame_000007_view.jpg": "1a8f3ed570416b752fa08349304347b38a527729f3d13526df0efdaa61bd160e"
+      }
+    },
+    {
+      "id": "frame_000008",
+      "capture_monotonic_ms": 1881585.974656,
+      "source": "live",
+      "detections_xyxy_score_class": [],
+      "timing": {
+        "preprocess_ms": 17.08286100006262,
+        "fpga_plus_cpu_forward_ms": 212.96763699979238,
+        "cpu_reference_forward_ms": 242.2151620000932,
+        "decode_ms": 16.919637000000876,
+        "preprocess_forward_reference_decode_ms": 489.18529699994906,
+        "components_ms": {
+          "input_pack_ms": 18.285213000126532,
+          "dma_window_ms": 7.853803999978481,
+          "cache_dma_readback_guard_ms": 9.666903999914211,
+          "owned_pack_and_suffix_ms": 184.92646100003185
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000008.png": "8eb925f2bb10025a8001cb8cc319a01bfe3174eb03271c808bde32c9b12b6b58",
+        "frame_000008_fpga_raw.npy": "af50bd409de98ceff7587dd3b6e9046978ff0df69c0029781a14d2a53960e31f",
+        "frame_000008_cpu_raw.npy": "af50bd409de98ceff7587dd3b6e9046978ff0df69c0029781a14d2a53960e31f",
+        "frame_000008_boxes.npy": "7e321a0a016e6103de9344a9561f6ef415994bbcb7d1d05b307ac23cdcd5f711",
+        "frame_000008_view.jpg": "037f63d6bc168416017a26b538362b1d5117a7d7bdc67a217cfbb89901504058"
+      }
+    },
+    {
+      "id": "frame_000009",
+      "capture_monotonic_ms": 1882819.0270109999,
+      "source": "live",
+      "detections_xyxy_score_class": [
+        [
+          199.49205017089844,
+          169.86126708984375,
+          344.17852783203125,
+          341.489013671875,
+          0.5547507405281067,
+          0.0
+        ]
+      ],
+      "timing": {
+        "preprocess_ms": 16.620719999991707,
+        "fpga_plus_cpu_forward_ms": 215.99935899985212,
+        "cpu_reference_forward_ms": 244.31964900009007,
+        "decode_ms": 20.177736000050572,
+        "preprocess_forward_reference_decode_ms": 497.11746399998447,
+        "components_ms": {
+          "input_pack_ms": 18.807402999982514,
+          "dma_window_ms": 7.940048999898863,
+          "cache_dma_readback_guard_ms": 9.640110999953322,
+          "owned_pack_and_suffix_ms": 187.462848999985
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000009.png": "2f5ed519d33d402d3c47744cf9e40c8df18d3614287890cde60f8fc9d1c2db27",
+        "frame_000009_fpga_raw.npy": "78c9c718f99b68790c1a2f41f4976690cd7fce3085680f29ddc27c478dfbb480",
+        "frame_000009_cpu_raw.npy": "78c9c718f99b68790c1a2f41f4976690cd7fce3085680f29ddc27c478dfbb480",
+        "frame_000009_boxes.npy": "8ca1bce28421597a9b7cc2b4a81ec99b146a93e2a8869056be4640404e39c792",
+        "frame_000009_view.jpg": "b49f24756c818193026f8147eba78909c720d551ff6669428d5539d601a49493"
+      }
+    },
+    {
+      "id": "frame_000010",
+      "capture_monotonic_ms": 1884021.9396,
+      "source": "live",
+      "detections_xyxy_score_class": [
+        [
+          215.834228515625,
+          248.23233032226562,
+          267.94378662109375,
+          307.2401428222656,
+          0.47932198643684387,
+          0.0
+        ],
+        [
+          213.40872192382812,
+          211.50473022460938,
+          271.3131103515625,
+          294.5917053222656,
+          0.36436229944229126,
+          1.0
+        ]
+      ],
+      "timing": {
+        "preprocess_ms": 16.83679400002802,
+        "fpga_plus_cpu_forward_ms": 218.67019699993762,
+        "cpu_reference_forward_ms": 242.0010700000148,
+        "decode_ms": 21.802990999958638,
+        "preprocess_forward_reference_decode_ms": 499.3110519999391,
+        "components_ms": {
+          "input_pack_ms": 18.380153999942195,
+          "dma_window_ms": 9.24226400002226,
+          "cache_dma_readback_guard_ms": 11.444769000036104,
+          "owned_pack_and_suffix_ms": 188.74321199996302
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000010.png": "e411ae4dc25e755e254a0ff769cdf5fab56b7356cfd6f2b675d7f79d40cdccf2",
+        "frame_000010_fpga_raw.npy": "aa02d98a9845afa413e820cfa064f7a6508dd08e13111aab054f1de49f03cff5",
+        "frame_000010_cpu_raw.npy": "aa02d98a9845afa413e820cfa064f7a6508dd08e13111aab054f1de49f03cff5",
+        "frame_000010_boxes.npy": "4bd3cc558f1618cde63c7c24d6707755d13c29fe8ec892c004cd88f313703695",
+        "frame_000010_view.jpg": "06f59a44a035a75958cde888feef7e6722b929360747b7d07f8348e9c57c84d8"
+      }
+    },
+    {
+      "id": "frame_000011",
+      "capture_monotonic_ms": 1885239.993463,
+      "source": "live",
+      "detections_xyxy_score_class": [
+        [
+          228.21405029296875,
+          231.6607666015625,
+          271.983642578125,
+          275.826171875,
+          0.4265636205673218,
+          0.0
+        ]
+      ],
+      "timing": {
+        "preprocess_ms": 16.881065000006856,
+        "fpga_plus_cpu_forward_ms": 223.84061500019925,
+        "cpu_reference_forward_ms": 237.16036299992993,
+        "decode_ms": 20.443402999944738,
+        "preprocess_forward_reference_decode_ms": 498.3254460000808,
+        "components_ms": {
+          "input_pack_ms": 18.590160000030664,
+          "dma_window_ms": 7.76878199985731,
+          "cache_dma_readback_guard_ms": 9.611322999944605,
+          "owned_pack_and_suffix_ms": 195.53843600010623
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000011.png": "4b0522ebfe7436255cd550c1ab599b60f1c35ee698061d93b188cc510c80d174",
+        "frame_000011_fpga_raw.npy": "884d791d1f7e886e724619548fa28219405fa2b809e182e6fcb158041f5b97aa",
+        "frame_000011_cpu_raw.npy": "884d791d1f7e886e724619548fa28219405fa2b809e182e6fcb158041f5b97aa",
+        "frame_000011_boxes.npy": "57972edec48f578431849fb004154fdd452849065fd79c5d68556f9350fb1089",
+        "frame_000011_view.jpg": "bae89738024d458f432bb4298a07808ba12b8f0511e6ed19888b63b2d993cdf5"
+      }
+    },
+    {
+      "id": "frame_000012",
+      "capture_monotonic_ms": 1886477.927492,
+      "source": "live",
+      "detections_xyxy_score_class": [],
+      "timing": {
+        "preprocess_ms": 16.962843000101202,
+        "fpga_plus_cpu_forward_ms": 220.9382959999857,
+        "cpu_reference_forward_ms": 237.752128000011,
+        "decode_ms": 16.808276999881855,
+        "preprocess_forward_reference_decode_ms": 492.46154399997977,
+        "components_ms": {
+          "input_pack_ms": 19.041457999946942,
+          "dma_window_ms": 7.655015000182175,
+          "cache_dma_readback_guard_ms": 9.484523000082845,
+          "owned_pack_and_suffix_ms": 192.31887399996594
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000012.png": "38639182050010c81810801630e35e4d06c078f5441160ad96e5132c3e24e856",
+        "frame_000012_fpga_raw.npy": "9a87b7238c310dc6acc61c8a1427aeb040152524e00b9d968c37373b71ded1bb",
+        "frame_000012_cpu_raw.npy": "9a87b7238c310dc6acc61c8a1427aeb040152524e00b9d968c37373b71ded1bb",
+        "frame_000012_boxes.npy": "7e321a0a016e6103de9344a9561f6ef415994bbcb7d1d05b307ac23cdcd5f711",
+        "frame_000012_view.jpg": "ba3d78537b892b206bb643253d3ef9d06f6586a301ab71f33eefc24d7d704072"
+      }
+    },
+    {
+      "id": "frame_000013",
+      "capture_monotonic_ms": 1887753.5370840002,
+      "source": "live",
+      "detections_xyxy_score_class": [
+        [
+          82.06965637207031,
+          225.0047607421875,
+          168.67459106445312,
+          277.43157958984375,
+          0.5029937028884888,
+          0.0
+        ]
+      ],
+      "timing": {
+        "preprocess_ms": 18.01236300002529,
+        "fpga_plus_cpu_forward_ms": 224.39647300006982,
+        "cpu_reference_forward_ms": 240.07439399997565,
+        "decode_ms": 19.96284300003026,
+        "preprocess_forward_reference_decode_ms": 502.446073000101,
+        "components_ms": {
+          "input_pack_ms": 29.783371999883457,
+          "dma_window_ms": 7.823458000075334,
+          "cache_dma_readback_guard_ms": 9.624271000120643,
+          "owned_pack_and_suffix_ms": 184.90792599982342
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000013.png": "b6efae6b9f2b2c17da0e314426a810cb034cc6e48e4dde74ee6c97ef60aaae38",
+        "frame_000013_fpga_raw.npy": "013ba8fc282157f6487e5cb8a097114073fb76a4ef061c29b7acea405f5e1fe7",
+        "frame_000013_cpu_raw.npy": "013ba8fc282157f6487e5cb8a097114073fb76a4ef061c29b7acea405f5e1fe7",
+        "frame_000013_boxes.npy": "cb7efc20973a19addbd72c9dca091a43940733e1872703a00be60e666e8b9387",
+        "frame_000013_view.jpg": "69e35038dca1eca9d02b4de53ef25b33f0903817c452654b6aa3b65734009427"
+      }
+    },
+    {
+      "id": "frame_000014",
+      "capture_monotonic_ms": 1889028.584633,
+      "source": "live",
+      "detections_xyxy_score_class": [],
+      "timing": {
+        "preprocess_ms": 16.51535300015894,
+        "fpga_plus_cpu_forward_ms": 222.6589229999263,
+        "cpu_reference_forward_ms": 240.2092550000816,
+        "decode_ms": 16.74406799997996,
+        "preprocess_forward_reference_decode_ms": 496.1275990001468,
+        "components_ms": {
+          "input_pack_ms": 30.271599999878163,
+          "dma_window_ms": 7.618572999945172,
+          "cache_dma_readback_guard_ms": 10.17672600005426,
+          "owned_pack_and_suffix_ms": 182.1221840000362
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000014.png": "45762fcad2600e34205b1a394fae2195a2d85db92baa5087cb5d8e4e2149ef7e",
+        "frame_000014_fpga_raw.npy": "1a2a5fede8ffacc2f4308adc9c1b703bf009fc824dc46d8c579f69084c0ca722",
+        "frame_000014_cpu_raw.npy": "1a2a5fede8ffacc2f4308adc9c1b703bf009fc824dc46d8c579f69084c0ca722",
+        "frame_000014_boxes.npy": "7e321a0a016e6103de9344a9561f6ef415994bbcb7d1d05b307ac23cdcd5f711",
+        "frame_000014_view.jpg": "5d6952fade482bc2e84a68d342c805c9fc219abde92a8b40ff0c9bf67dd0fb07"
+      }
+    },
+    {
+      "id": "frame_000015",
+      "capture_monotonic_ms": 1890331.0554,
+      "source": "live",
+      "detections_xyxy_score_class": [],
+      "timing": {
+        "preprocess_ms": 22.563586999922336,
+        "fpga_plus_cpu_forward_ms": 215.770023999994,
+        "cpu_reference_forward_ms": 240.0226649999695,
+        "decode_ms": 16.56873199999609,
+        "preprocess_forward_reference_decode_ms": 494.9250079998819,
+        "components_ms": {
+          "input_pack_ms": 19.458160000112912,
+          "dma_window_ms": 7.767822000005253,
+          "cache_dma_readback_guard_ms": 10.164042999804224,
+          "owned_pack_and_suffix_ms": 186.064344000215
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000015.png": "424d9ea9b04f8303dbffac065ecb48425402373753505f9940b4ce7da065d4ee",
+        "frame_000015_fpga_raw.npy": "4d21c688ee0ebae913607248aedf364a30b10c87e854c18deb8a848c68cb6339",
+        "frame_000015_cpu_raw.npy": "4d21c688ee0ebae913607248aedf364a30b10c87e854c18deb8a848c68cb6339",
+        "frame_000015_boxes.npy": "7e321a0a016e6103de9344a9561f6ef415994bbcb7d1d05b307ac23cdcd5f711",
+        "frame_000015_view.jpg": "c8a00e67f5475a8b1421ca897a374478239caf1657763854801209ff6dc6b5c5"
+      }
+    },
+    {
+      "id": "frame_000016",
+      "capture_monotonic_ms": 1891585.627749,
+      "source": "live",
+      "detections_xyxy_score_class": [],
+      "timing": {
+        "preprocess_ms": 17.973077000078774,
+        "fpga_plus_cpu_forward_ms": 216.3970579999841,
+        "cpu_reference_forward_ms": 240.4166090000217,
+        "decode_ms": 16.550042999824655,
+        "preprocess_forward_reference_decode_ms": 491.33678699990924,
+        "components_ms": {
+          "input_pack_ms": 23.355906999995568,
+          "dma_window_ms": 7.641580999916187,
+          "cache_dma_readback_guard_ms": 9.185010000010152,
+          "owned_pack_and_suffix_ms": 183.6913470001491
+        }
+      },
+      "proof": {
+        "fpga_forward_completed": true,
+        "same_frame_cpu_bit_exact": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      },
+      "files": {
+        "frame_000016.png": "5e2d45a667faea69333d8075177eb5d8c40868c153d99d41f8ee5b46149aac5e",
+        "frame_000016_fpga_raw.npy": "63a842199e44afa5012f08b11b687c8c674b9fcd9e9abb56d965209af6999e96",
+        "frame_000016_cpu_raw.npy": "63a842199e44afa5012f08b11b687c8c674b9fcd9e9abb56d965209af6999e96",
+        "frame_000016_boxes.npy": "7e321a0a016e6103de9344a9561f6ef415994bbcb7d1d05b307ac23cdcd5f711",
+        "frame_000016_view.jpg": "907f5a6f6995c7ac5a4c666245d552d1f70054186b622bab4ac1037d0339152e"
+      }
+    }
+  ],
+  "saved_bytes": 13854904,
+  "camera_opened": true,
+  "camera_allowed_after_12_fpga_cases": true,
+  "new_overlay_load_attempted": true,
+  "new_overlay_loaded": true,
+  "old_hardware_restored": true,
+  "dma_quiesced": true,
+  "cpu_fallback_enabled": false,
+  "live_cpu_check_every_frame": true,
+  "model_identity": {
+    "best.ncnn.param": "a84e451f9c00085e67b2be3b3aaa08db238ed55c3ed36c01b31bb607348a312d",
+    "best.ncnn.bin": "e7129641c5bba679f0881c392d18e748b6a86026e2b84da084fd0f6d2c0d8be4"
+  },
+  "thresholds": [
+    0.35,
+    0.25,
+    0.5,
+    0.2
+  ],
+  "nms_iou": 0.45,
+  "tracking_performed": false,
+  "head_rider_association_performed": false,
+  "event_validation_performed": false,
+  "light_state": null,
+  "light_valid": false,
+  "latest_frame_guaranteed": false,
+  "capture_time_basis": "PS monotonic after read returns; NOT sensor exposure",
+  "wall_time_may_be_wrong_on_board": true,
+  "timing_scope": "FPGA+ARM forward includes exact packing/cache/DMA/guard/owned-copy/suffix/output; excludes capture/preprocess/CPU-reference/NMS/display/save/setup. Paired live check reduces preview FPS; not end-to-end sensor latency.",
+  "overlay_sha256": {
+    "overlay/rider_monitor_chain_float.bit": "8edf2ab6ae6e73cb65ff27023532479407e0d7f3582e245f090f915d5f240693",
+    "overlay/rider_monitor_chain_float.hwh": "b38f77e2c9e5ec9d2900d32fda1b851c49169772ec364cd57365a1fa47160f2d"
+  },
+  "build": {
+    "command": [
+      "/usr/bin/g++",
+      "-std=c++11",
+      "-O3",
+      "-DNDEBUG",
+      "-fPIC",
+      "-shared",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-mcpu=cortex-a9",
+      "-mfpu=neon",
+      "-mfloat-abi=hard",
+      "-fopenmp",
+      "-pthread",
+      "-I/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/int8_v1/build/source/ncnn-20260526/src",
+      "-I/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/int8_v1/build/source/ncnn-20260526/src/layer",
+      "-I/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/int8_v1/build/ncnn/src",
+      "-I/home/xilinx/jupyter_notebooks/traffic_project/fpga_camera_v1",
+      "/home/xilinx/jupyter_notebooks/traffic_project/fpga_camera_v1/whole_bridge.cpp",
+      "/home/xilinx/jupyter_notebooks/traffic_project/fpga_camera_v1/boundary_bridge.cpp",
+      "/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/int8_v1/build/ncnn/src/libncnn.a",
+      "-Wl,-Bsymbolic",
+      "-Wl,--no-undefined",
+      "-lm",
+      "-ldl",
+      "-o",
+      "/home/xilinx/jupyter_notebooks/traffic_project/fpga_camera_v1/results/empty_scene_20250504_151942_4d0cad5a/libwhole_chain.so"
+    ],
+    "library_sha256": "ace58bc96dc29aaae3d9dd973d958e0ff20458e2c93c9510e65d4b9020517905",
+    "static_sha256": "38d75b2b8a28c3bcaaa881b287a2ab3377de7bae342247e6ad400d03f6ba2a46"
+  },
+  "fclk0_mhz": 100.0,
+  "capture_loop_seconds": 20.948091672999908,
+  "originals_unchanged": {
+    "build/librider_ncnn.so": true,
+    "int8_v1/build/librider_ncnn_int8.so": true,
+    "small_v1/build/libsmall.so": true,
+    "int8_v1/build/ncnn/src/libncnn.a": true,
+    "mixed_v1/models/recover5/best.ncnn.param": true,
+    "mixed_v1/models/recover5/best.ncnn.bin": true
+  },
+  "safe_cleanup_complete": true,
+  "evidence_files_sha256": {
+    "case_11_fpga_raw.npy": "f5fe8a50e9475179f9c4ca32245672deba35cef6d4b7b843348356c6e76087f2",
+    "case_01_fpga_boundary.npy": "3936bbed6f32aabd782fb2a71c3bd83851865fdbb1dd4a5f0ef8591fb3a99636",
+    "case_12_fpga_raw.npy": "fd3b18b3fbcdf6fdaa0494fa78d0ad024cf748b675922ccd4588016e73de92d1",
+    "case_03_fpga_raw.npy": "02edd08b7467538b6e13404c14e4b3491658b5acf925f8ced4c079fa0ec59999",
+    "case_09_fpga_raw.npy": "3a37e6f9e6b47744c7ce5533e32c8217857e1b909f5a4d2df6a3426d3fc984a6",
+    "case_02_fpga_boundary.npy": "97efa0afed8ae6be975f8169c22f8454b37d70af692ae023215d6683abd5a942",
+    "case_02_fpga_raw.npy": "f175517dec22515b75fc0aa129b1a0edb633f670b0e375e477951fc2f25c813d",
+    "case_08_fpga_boundary.npy": "3930255bf68e11ad72983e3c4b0f7cb17335eff0cfbef7d19d01c5930ee1c001",
+    "case_07_fpga_boundary.npy": "8b4b14966e614f83abea0efdf913b6bf49fbec06dc07fb0952b6cc1b5e0635fd",
+    "case_10_fpga_boundary.npy": "15f94dbdd193822e17c541bf43c2ea226fd0ba57dda2f28dff041f07a3ef15a1",
+    "case_12_fpga_boundary.npy": "64731a2754526fb4220b98822d11fc7b1630aeba37914810a0d60aeb58cf6c59",
+    "case_09_fpga_boundary.npy": "b6c75557b0da6039e1ab97852795ac0edaee36d3f9601b798c1276f15ad55788",
+    "case_04_fpga_raw.npy": "3f849e4fcb1de55b45bb7913f7610a069b0a991fbc948c04faeade7e1e3543c3",
+    "case_10_fpga_raw.npy": "df7632caeee2191041bc2c38cdf47bacb473af3f70a007a91eb830b577b6b79b",
+    "case_05_fpga_raw.npy": "b048b986dfa2f672c94f259d22204c6cdc9a01efff1943f6f51d8a9f5b5c2792",
+    "case_06_fpga_boundary.npy": "5c1b4677e12c30d1cd12f80e8e7cdd2d014e38965ce1fc51bcbff59826418a59",
+    "case_06_fpga_raw.npy": "213ecac69165d11f46e621f88ae9adfe59b53c216ac301ac364e2cbf2cc62b8a",
+    "case_08_fpga_raw.npy": "107aae895a6be105b0581257cca33dc36097e57f1d5ec332528fe86f395fc252",
+    "case_07_fpga_raw.npy": "73ecbfd1c8d59689f083cea9170aebb936135f11111389316bd07d7ddadb5e8a",
+    "case_04_fpga_boundary.npy": "8286c185a37081e3f999c3c2adaede2985f98c3a5e4c37dd7559e29b5d10cc12",
+    "case_05_fpga_boundary.npy": "af3c1540f93ab81b16f5152a6ce15564dcc2d43af0c62b07d36e5617cfef04c6",
+    "case_01_fpga_raw.npy": "32d4a83dd1bf8d22b89370859abaf5e65a721f10405c5a4edef6b3420615b513",
+    "case_03_fpga_boundary.npy": "2a5bfe090b82aacf51602481543d5c64b2c54d0111a145e2b0989cdc22a21c06",
+    "case_11_fpga_boundary.npy": "3b66c7717e3da9873f655bdd5addc5890d19341e133415eda1ab9c0a9c24f6cc"
+  },
+  "live_fpga_plus_cpu_forward": {
+    "mean_ms": 219.42575468747805,
+    "median_ms": 219.60143050000624,
+    "min_ms": 212.96763699979238,
+    "max_ms": 227.1964549997847,
+    "p95_ms": 226.13052274988377,
+    "samples_ms": [
+      213.44659700002921,
+      220.53266400007487,
+      221.14738400000533,
+      215.63600600006794,
+      227.1964549997847,
+      215.43917500002863,
+      225.7752119999168,
+      212.96763699979238,
+      215.99935899985212,
+      218.67019699993762,
+      223.84061500019925,
+      220.9382959999857,
+      224.39647300006982,
+      222.6589229999263,
+      215.770023999994,
+      216.3970579999841
+    ]
+  },
+  "all_saved_live_frames_cpu_bit_exact": true
+}

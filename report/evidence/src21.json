@@ -1,0 +1,560 @@
+{
+  "status": "BOARD_NUMERICS_PASS_COMPLETE_LAYER_SPEED_REGRESSION_NOT_DEPLOYED",
+  "archive_sha256": "9381b907faf512dff1221207e64109da24f73306b13624b905ebf46ab9f034b6",
+  "archive_files": 148,
+  "verified_return_hashes": 147,
+  "arrays_compared": 144,
+  "values_compared": {
+    "q": 1379840,
+    "act": 2107392,
+    "pre": 526848,
+    "sums": 702464
+  },
+  "total_values": 4716544,
+  "total_calls": 72,
+  "warmups": 18,
+  "timed_calls": 54,
+  "actual_FPGA_commands": 24,
+  "timed_FPGA_commands": 18,
+  "FPGA_DSP": 18,
+  "clock_MHz": 100,
+  "original_ARM_arithmetic_preserved": true,
+  "FPGA_loaded": true,
+  "trace_DMA_halted_and_rechecked": true,
+  "restored_matching_178": true,
+  "cleanup_pass": true,
+  "model_sha256": {
+    "best.ncnn.param": "3f4cb05109cc65a1563d557ca44b8a6542282acf7bc73c7f9fd570ac8a271b1d",
+    "best.ncnn.bin": "c07c5773535189d23bc0c9c94fc3377bc2e7713982735c7dced85ff8f49daa9f"
+  },
+  "source_manifest_sha256": "177ce0123928ca3050348296388f226f824ab1b11a8a289f5fba0bd837f7a3ca",
+  "test_bit_sha256": "dea5373dc05e660b6a0d36c0c3b2561691423653c87e0215e848f432ee2bec6d",
+  "numerical_and_speed_acceptance_separate": true,
+  "speedup_proven": false,
+  "whole_network_or_camera_speed_tested": false,
+  "summaries": [
+    {
+      "layer": "conv_2",
+      "ARM_samples": 12,
+      "V3_samples": 6,
+      "metrics": {
+        "ARM": {
+          "total_ms": {
+            "mean": 4.279860083329368,
+            "median": 4.344000000173764,
+            "minimum": 4.00475100013864,
+            "maximum": 4.514726999786944
+          },
+          "native_total_ms": {
+            "mean": 4.038067666697316,
+            "median": 4.111154000042006,
+            "minimum": 3.751329000107944,
+            "maximum": 4.275950999930501
+          },
+          "quantize_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "dispatch_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "convolution_or_post_ms": {
+            "mean": 2.149196583389615,
+            "median": 2.0363814998418093,
+            "minimum": 1.986591000109911,
+            "maximum": 2.438467999920249
+          },
+          "silu_and_output_layout_ms": {
+            "mean": 1.881048833252862,
+            "median": 1.7379660001024604,
+            "minimum": 1.73393899993971,
+            "maximum": 2.2760489997453988
+          },
+          "Q_copy_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "cache_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "MMIO_wait_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "full_output_guard_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "pack4_ownership_copy_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "outer_overhead_ms": {
+            "mean": 0.24179241663205175,
+            "median": 0.2388774999017187,
+            "minimum": 0.22345799979302683,
+            "maximum": 0.27368099977684324
+          },
+          "native_other_ms": {
+            "mean": 0.007822250054838756,
+            "median": 0.00769850006327033,
+            "minimum": 0.006965000182390213,
+            "maximum": 0.009217999875545502
+          }
+        },
+        "V3": {
+          "total_ms": {
+            "mean": 15.657803166732265,
+            "median": 15.361261499947432,
+            "minimum": 15.32235100012258,
+            "maximum": 16.332147999946756
+          },
+          "native_total_ms": {
+            "mean": 15.309254333299274,
+            "median": 15.10736949997954,
+            "minimum": 15.046792999841273,
+            "maximum": 15.991427999921143
+          },
+          "quantize_ms": {
+            "mean": 0.854863666696474,
+            "median": 0.8555850000120699,
+            "minimum": 0.8347129998728633,
+            "maximum": 0.873785000294447
+          },
+          "dispatch_ms": {
+            "mean": 11.973392833412314,
+            "median": 11.899165499955416,
+            "minimum": 11.840567000210285,
+            "maximum": 12.260622000321746
+          },
+          "convolution_or_post_ms": {
+            "mean": 0.6444318332554152,
+            "median": 0.6060184999369085,
+            "minimum": 0.5823450000025332,
+            "maximum": 0.8703449997119606
+          },
+          "silu_and_output_layout_ms": {
+            "mean": 1.8178979998920113,
+            "median": 1.7363344999030232,
+            "minimum": 1.7339689997024834,
+            "maximum": 2.1774829998612404
+          },
+          "Q_copy_ms": {
+            "mean": 0.150059666717425,
+            "median": 0.14928600005805492,
+            "minimum": 0.14654799969866872,
+            "maximum": 0.15384000027552247
+          },
+          "cache_ms": {
+            "mean": 1.1374831666083385,
+            "median": 1.1369509999640286,
+            "minimum": 1.095501999836415,
+            "maximum": 1.1817779997363687
+          },
+          "MMIO_wait_ms": {
+            "mean": 1.2815745001037915,
+            "median": 1.2813755001407117,
+            "minimum": 1.2808680003508925,
+            "maximum": 1.2827940001152456
+          },
+          "full_output_guard_ms": {
+            "mean": 8.525233833507324,
+            "median": 8.461301500210539,
+            "minimum": 8.386068000458181,
+            "maximum": 8.858640000224113
+          },
+          "pack4_ownership_copy_ms": {
+            "mean": 0.8569629999498526,
+            "median": 0.808750499971211,
+            "minimum": 0.8019570000469685,
+            "maximum": 1.0292799999006093
+          },
+          "outer_overhead_ms": {
+            "mean": 0.34854883343299053,
+            "median": 0.24458450032761903,
+            "minimum": 0.2323320003997651,
+            "maximum": 0.8088619995869522
+          },
+          "native_other_ms": {
+            "mean": 0.01866800004305939,
+            "median": 0.01861549960449338,
+            "minimum": 0.01787099987268448,
+            "maximum": 0.019766999874264002
+          }
+        }
+      },
+      "V3_over_ARM_median": 3.536202002608878,
+      "speedup_ARM_over_V3_median": 0.2827892748384389
+    },
+    {
+      "layer": "conv_10",
+      "ARM_samples": 12,
+      "V3_samples": 6,
+      "metrics": {
+        "ARM": {
+          "total_ms": {
+            "mean": 3.5054670000060164,
+            "median": 3.495101499993325,
+            "minimum": 3.220800000235613,
+            "maximum": 3.8404000001719396
+          },
+          "native_total_ms": {
+            "mean": 3.266212916544949,
+            "median": 3.2569019999355078,
+            "minimum": 2.97740999981761,
+            "maximum": 3.6053720000199974
+          },
+          "quantize_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "dispatch_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "convolution_or_post_ms": {
+            "mean": 2.255813416598054,
+            "median": 2.1674490000586957,
+            "minimum": 2.0611819997429848,
+            "maximum": 2.7247199998237193
+          },
+          "silu_and_output_layout_ms": {
+            "mean": 1.002889750059694,
+            "median": 0.874526500236243,
+            "minimum": 0.8729049996472895,
+            "maximum": 1.4046460003592074
+          },
+          "Q_copy_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "cache_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "MMIO_wait_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "full_output_guard_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "pack4_ownership_copy_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "outer_overhead_ms": {
+            "mean": 0.23925408346106755,
+            "median": 0.2402579999579757,
+            "minimum": 0.23221500026556896,
+            "maximum": 0.24448600040341262
+          },
+          "native_other_ms": {
+            "mean": 0.007509749887200694,
+            "median": 0.007424499606713653,
+            "minimum": 0.006535000167787075,
+            "maximum": 0.008806999772787094
+          }
+        },
+        "V3": {
+          "total_ms": {
+            "mean": 9.869351833458495,
+            "median": 9.8674275002395,
+            "minimum": 9.855975999926159,
+            "maximum": 9.890154000004259
+          },
+          "native_total_ms": {
+            "mean": 9.64209850000528,
+            "median": 9.641661500092596,
+            "minimum": 9.626178999897093,
+            "maximum": 9.65931099979207
+          },
+          "quantize_ms": {
+            "mean": 0.3034893333291014,
+            "median": 0.30369849991984665,
+            "minimum": 0.28941599978134036,
+            "maximum": 0.3155749998986721
+          },
+          "dispatch_ms": {
+            "mean": 8.098069500022879,
+            "median": 8.132670500082895,
+            "minimum": 8.018485999666154,
+            "maximum": 8.14065199997276
+          },
+          "convolution_or_post_ms": {
+            "mean": 0.33626583334989846,
+            "median": 0.3146124999038875,
+            "minimum": 0.30385900009423494,
+            "maximum": 0.44108300004154444
+          },
+          "silu_and_output_layout_ms": {
+            "mean": 0.8885836666449904,
+            "median": 0.8732280000112951,
+            "minimum": 0.8721110001206398,
+            "maximum": 0.9650579998269677
+          },
+          "Q_copy_ms": {
+            "mean": 0.031504166622956596,
+            "median": 0.03166100010275841,
+            "minimum": 0.02993200020864606,
+            "maximum": 0.03246699972078204
+          },
+          "cache_ms": {
+            "mean": 1.0802760001582403,
+            "median": 1.0773384999483824,
+            "minimum": 1.0553420004434884,
+            "maximum": 1.1069729998707771
+          },
+          "MMIO_wait_ms": {
+            "mean": 2.751913833354289,
+            "median": 2.7517689999658614,
+            "minimum": 2.7512739999219775,
+            "maximum": 2.7531320000998676
+          },
+          "full_output_guard_ms": {
+            "mean": 3.804943500009055,
+            "median": 3.8369630000088364,
+            "minimum": 3.7110460000112653,
+            "maximum": 3.8701779996044934
+          },
+          "pack4_ownership_copy_ms": {
+            "mean": 0.4080123334036519,
+            "median": 0.4090309999883175,
+            "minimum": 0.40423400001600385,
+            "maximum": 0.4100919999182224
+          },
+          "outer_overhead_ms": {
+            "mean": 0.2272533334532151,
+            "median": 0.2287014999819803,
+            "minimum": 0.22003100016445387,
+            "maximum": 0.2313170000197715
+          },
+          "native_other_ms": {
+            "mean": 0.015690166658411425,
+            "median": 0.0153264997061342,
+            "minimum": 0.014879999682307243,
+            "maximum": 0.0174150001257658
+          }
+        }
+      },
+      "V3_over_ARM_median": 2.823216292934081,
+      "speedup_ARM_over_V3_median": 0.35420594677878225
+    },
+    {
+      "layer": "conv_18",
+      "ARM_samples": 12,
+      "V3_samples": 6,
+      "metrics": {
+        "ARM": {
+          "total_ms": {
+            "mean": 5.722689666716481,
+            "median": 2.7251659998910327,
+            "minimum": 2.5866650003081304,
+            "maximum": 38.79591299983076
+          },
+          "native_total_ms": {
+            "mean": 5.486713000146362,
+            "median": 2.4916525001171976,
+            "minimum": 2.353372000157833,
+            "maximum": 38.5467630000785
+          },
+          "quantize_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "dispatch_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "convolution_or_post_ms": {
+            "mean": 4.534630416776054,
+            "median": 1.9461845001205802,
+            "minimum": 1.879520000424236,
+            "maximum": 32.776419000234455
+          },
+          "silu_and_output_layout_ms": {
+            "mean": 0.9449368333443999,
+            "median": 0.45540300011634827,
+            "minimum": 0.4410769999958575,
+            "maximum": 5.76174100022763
+          },
+          "Q_copy_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "cache_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "MMIO_wait_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "full_output_guard_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "pack4_ownership_copy_ms": {
+            "mean": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "maximum": 0.0
+          },
+          "outer_overhead_ms": {
+            "mean": 0.23597666657011965,
+            "median": 0.23512899985871627,
+            "minimum": 0.22803099974044017,
+            "maximum": 0.24914999975226237
+          },
+          "native_other_ms": {
+            "mean": 0.0071457500259081526,
+            "median": 0.006818000227212906,
+            "minimum": 0.006498999893665314,
+            "maximum": 0.008602999616414309
+          }
+        },
+        "V3": {
+          "total_ms": {
+            "mean": 7.0564268333631235,
+            "median": 7.027901999890673,
+            "minimum": 6.995255000219913,
+            "maximum": 7.188836999830528
+          },
+          "native_total_ms": {
+            "mean": 6.834116999991238,
+            "median": 6.80585249979049,
+            "minimum": 6.769956999924034,
+            "maximum": 6.964573000092059
+          },
+          "quantize_ms": {
+            "mean": 0.20809333336850008,
+            "median": 0.20738499984145164,
+            "minimum": 0.1926400000229478,
+            "maximum": 0.22007999988272786
+          },
+          "dispatch_ms": {
+            "mean": 5.948026499943808,
+            "median": 5.932556499959901,
+            "minimum": 5.910313999745995,
+            "maximum": 6.01223999960348
+          },
+          "convolution_or_post_ms": {
+            "mean": 0.2216790001063297,
+            "median": 0.21145900012925267,
+            "minimum": 0.2042519999668002,
+            "maximum": 0.27649200009182096
+          },
+          "silu_and_output_layout_ms": {
+            "mean": 0.4413573332907011,
+            "median": 0.44135749991983175,
+            "minimum": 0.44070200016722083,
+            "maximum": 0.4418709999881685
+          },
+          "Q_copy_ms": {
+            "mean": 0.016234833281487226,
+            "median": 0.01615100004710257,
+            "minimum": 0.01564900018274784,
+            "maximum": 0.017242999747395515
+          },
+          "cache_ms": {
+            "mean": 1.0852431665019442,
+            "median": 1.0911879995837808,
+            "minimum": 1.0433659995906055,
+            "maximum": 1.1060740002430975
+          },
+          "MMIO_wait_ms": {
+            "mean": 2.6199948333669454,
+            "median": 2.619929000036791,
+            "minimum": 2.6188680003397167,
+            "maximum": 2.62104000011459
+          },
+          "full_output_guard_ms": {
+            "mean": 1.9836790000554174,
+            "median": 1.962917000055313,
+            "minimum": 1.954793999902904,
+            "maximum": 2.0365170002914965
+          },
+          "pack4_ownership_copy_ms": {
+            "mean": 0.22293716669082642,
+            "median": 0.20613200007937849,
+            "minimum": 0.20228299964219332,
+            "maximum": 0.31054800003767014
+          },
+          "outer_overhead_ms": {
+            "mean": 0.22230983337188567,
+            "median": 0.22229550009433297,
+            "minimum": 0.21827800009123166,
+            "maximum": 0.22529800029587932
+          },
+          "native_other_ms": {
+            "mean": 0.014960833281899491,
+            "median": 0.015203000046312809,
+            "minimum": 0.013902000151574612,
+            "maximum": 0.0154939997009933
+          }
+        }
+      },
+      "V3_over_ARM_median": 2.578889506243542,
+      "speedup_ARM_over_V3_median": 0.38776380204695876
+    }
+  ],
+  "outliers": [
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 2,
+      "total_ms": 38.79591299983076,
+      "policy": "retained; both raw mean and median reported; cause not established"
+    }
+  ],
+  "limitations": [
+    "Full guard includes CMA poison initialization and input/output full checks; no sub-timer separates their costs",
+    "MMIO_wait is start-to-complete wait including weight load, AXI and compute, not compute-only latency",
+    "Removing measured guard time arithmetically is not measured deployment performance",
+    "One ARM timed outlier is retained; mean for that input/layer must not be interpreted as genuine FPGA speedup"
+  ]
+}

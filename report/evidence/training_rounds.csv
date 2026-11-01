@@ -1,0 +1,6 @@
+﻿id,planned_epochs,completed_epochs,standard_map50_max,archive,sha256,result_member
+T1,50,11,0.6332,C:\Users\zzyzz\Desktop\训练成果\ROUND1_TRAIN_RESULT_20261025.zip,9d9d260d036ea32b316198e6754d430c9d2f942db1cbee2ebb371efd9199c0d2,train_20261025_042223/results.csv
+T2,40,17,0.72711,C:\Users\zzyzz\Desktop\训练成果\ROUND2_train_20261025_133832_676687_RESULT.zip,e5c07f1b9dd68103ab14696d9e0f395d8478302cd127d271f4fe8187d95fbff4,run/results.csv
+T3,40,14,0.72287,C:\Users\zzyzz\Desktop\训练成果\ROUND3_train_20261025_202546_463931_RESULT.zip,fe00a649761fbc668d9c72f56643e582375ec05b759f50280bad7342c6509596,run/results.csv
+T4,80,43,0.76688,C:\Users\zzyzz\Desktop\训练成果\ROUND4_train_20261025_211137_969403_RESULT.zip,2a8fb6756689c757aefdcbab3c892795223c5e51ebdf160e7102ebe154e6df0b,run/results.csv
+T5,150,150,0.80102,C:\Users\zzyzz\Desktop\训练成果\FINAL224_train_20261025_230012_411336_RESULT.zip,a5b0beaaa64f35fb2a4797d455bd4aa0ec93879c16c7526b241ba3d31049e008,run/results.csv

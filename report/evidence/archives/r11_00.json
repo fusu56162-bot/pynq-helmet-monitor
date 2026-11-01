@@ -1,0 +1,312 @@
+{
+  "status": "COMPLETE_FLOAT_FIRST_LAYER_PASS_NOT_WHOLE_MODEL",
+  "stage": "FINISHED",
+  "cases": [
+    {
+      "name": "case_01",
+      "width": 112,
+      "height": 112,
+      "int32_values_per_run": 200704,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "float_matches_board_cpu_all_runs": true,
+      "input_unchanged": true,
+      "warmups": 2,
+      "timed_runs": 6,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": true,
+          "dma_window_ms": 10.380245999840554,
+          "native_reorg_quantize_pack_ms": 11.842596999485977,
+          "safety_fill_and_cache_prep_ms": 1.5934150005705305,
+          "dma_setup_wait_and_checks_ms": 10.728239999480138,
+          "invalidate_and_native_float_output_ms": 10.022591000051762,
+          "complete_float_path_ms": 34.18684299958841
+        },
+        {
+          "iteration": 1,
+          "warmup": true,
+          "dma_window_ms": 10.308762999557075,
+          "native_reorg_quantize_pack_ms": 11.582209000152943,
+          "safety_fill_and_cache_prep_ms": 0.9691700006442261,
+          "dma_setup_wait_and_checks_ms": 10.655063999365666,
+          "invalidate_and_native_float_output_ms": 7.531729000220366,
+          "complete_float_path_ms": 30.7381720003832
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "dma_window_ms": 10.238216000288958,
+          "native_reorg_quantize_pack_ms": 11.734332000742143,
+          "safety_fill_and_cache_prep_ms": 1.057630999639514,
+          "dma_setup_wait_and_checks_ms": 10.596000000077765,
+          "invalidate_and_native_float_output_ms": 8.000283000001218,
+          "complete_float_path_ms": 31.38824600046064
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "dma_window_ms": 10.371489000135625,
+          "native_reorg_quantize_pack_ms": 11.517249999997148,
+          "safety_fill_and_cache_prep_ms": 0.9727199994813418,
+          "dma_setup_wait_and_checks_ms": 10.717636000663333,
+          "invalidate_and_native_float_output_ms": 7.578122999802872,
+          "complete_float_path_ms": 30.785728999944695
+        },
+        {
+          "iteration": 4,
+          "warmup": false,
+          "dma_window_ms": 10.346603000471077,
+          "native_reorg_quantize_pack_ms": 11.410985000111395,
+          "safety_fill_and_cache_prep_ms": 0.9712490000310936,
+          "dma_setup_wait_and_checks_ms": 10.697939000237966,
+          "invalidate_and_native_float_output_ms": 7.544301000052656,
+          "complete_float_path_ms": 30.62447400043311
+        },
+        {
+          "iteration": 5,
+          "warmup": false,
+          "dma_window_ms": 10.35811699966871,
+          "native_reorg_quantize_pack_ms": 11.673943999994663,
+          "safety_fill_and_cache_prep_ms": 0.9723329994812957,
+          "dma_setup_wait_and_checks_ms": 10.70772900038719,
+          "invalidate_and_native_float_output_ms": 7.470689000001585,
+          "complete_float_path_ms": 30.824694999864732
+        },
+        {
+          "iteration": 6,
+          "warmup": false,
+          "dma_window_ms": 10.303519999979471,
+          "native_reorg_quantize_pack_ms": 11.539452999386413,
+          "safety_fill_and_cache_prep_ms": 0.9686090006653103,
+          "dma_setup_wait_and_checks_ms": 10.650257999259338,
+          "invalidate_and_native_float_output_ms": 7.598714000778273,
+          "complete_float_path_ms": 30.757034000089334
+        },
+        {
+          "iteration": 7,
+          "warmup": false,
+          "dma_window_ms": 10.245704000226397,
+          "native_reorg_quantize_pack_ms": 11.430338000536722,
+          "safety_fill_and_cache_prep_ms": 0.9667079993960215,
+          "dma_setup_wait_and_checks_ms": 10.586719999992056,
+          "invalidate_and_native_float_output_ms": 7.580529000733804,
+          "complete_float_path_ms": 30.564295000658603
+        }
+      ],
+      "cpu_reorg_conv0_extract": {
+        "mean_ms": 30.850099666666665,
+        "min_ms": 30.813317,
+        "max_ms": 30.892751,
+        "samples": [
+          30.846037,
+          30.834037,
+          30.813317,
+          30.845545,
+          30.892751,
+          30.868911
+        ]
+      },
+      "cpu_full_native_call": {
+        "mean_ms": 36.258667499926865,
+        "min_ms": 36.18897199976345,
+        "max_ms": 36.326159999589436,
+        "samples": [
+          36.24438699989696,
+          36.18897199976345,
+          36.27034400051343,
+          36.19864000029338,
+          36.326159999589436,
+          36.323501999504515
+        ]
+      },
+      "fpga_complete_float_path": {
+        "mean_ms": 30.824078833575186,
+        "min_ms": 30.564295000658603,
+        "max_ms": 31.38824600046064,
+        "samples": [
+          31.38824600046064,
+          30.785728999944695,
+          30.62447400043311,
+          30.824694999864732,
+          30.757034000089334,
+          30.564295000658603
+        ]
+      },
+      "cpu_extract_over_fpga_float_path": 1.0008441722859578,
+      "max_abs_float_error_last_run": 0.0,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    },
+    {
+      "name": "case_02",
+      "width": 112,
+      "height": 112,
+      "int32_values_per_run": 200704,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "float_matches_board_cpu_all_runs": true,
+      "input_unchanged": true,
+      "warmups": 2,
+      "timed_runs": 6,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": true,
+          "dma_window_ms": 10.269107000567601,
+          "native_reorg_quantize_pack_ms": 11.436357000093267,
+          "safety_fill_and_cache_prep_ms": 0.966276999861293,
+          "dma_setup_wait_and_checks_ms": 10.616739000397502,
+          "invalidate_and_native_float_output_ms": 7.55112599927088,
+          "complete_float_path_ms": 30.57049899962294
+        },
+        {
+          "iteration": 1,
+          "warmup": true,
+          "dma_window_ms": 10.18975999977556,
+          "native_reorg_quantize_pack_ms": 11.426277000282425,
+          "safety_fill_and_cache_prep_ms": 1.0417779994895682,
+          "dma_setup_wait_and_checks_ms": 10.534019000260741,
+          "invalidate_and_native_float_output_ms": 7.476049000615603,
+          "complete_float_path_ms": 30.47812300064834
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "dma_window_ms": 10.221747000286996,
+          "native_reorg_quantize_pack_ms": 11.491340999782551,
+          "safety_fill_and_cache_prep_ms": 0.9733050001159427,
+          "dma_setup_wait_and_checks_ms": 10.567950999757159,
+          "invalidate_and_native_float_output_ms": 7.599556000059238,
+          "complete_float_path_ms": 30.63215299971489
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "dma_window_ms": 10.236486999929184,
+          "native_reorg_quantize_pack_ms": 11.435766000431613,
+          "safety_fill_and_cache_prep_ms": 0.9715939995658118,
+          "dma_setup_wait_and_checks_ms": 10.578276999694936,
+          "invalidate_and_native_float_output_ms": 7.588179000777018,
+          "complete_float_path_ms": 30.573816000469378
+        },
+        {
+          "iteration": 4,
+          "warmup": false,
+          "dma_window_ms": 10.18376000047283,
+          "native_reorg_quantize_pack_ms": 11.402898000596906,
+          "safety_fill_and_cache_prep_ms": 0.9678579999672365,
+          "dma_setup_wait_and_checks_ms": 10.530750999350857,
+          "invalidate_and_native_float_output_ms": 7.55137900068803,
+          "complete_float_path_ms": 30.45288600060303
+        },
+        {
+          "iteration": 5,
+          "warmup": false,
+          "dma_window_ms": 10.24095299999317,
+          "native_reorg_quantize_pack_ms": 11.665156999697501,
+          "safety_fill_and_cache_prep_ms": 0.9672980004324927,
+          "dma_setup_wait_and_checks_ms": 10.583248999864736,
+          "invalidate_and_native_float_output_ms": 7.467944999916654,
+          "complete_float_path_ms": 30.683648999911384
+        },
+        {
+          "iteration": 6,
+          "warmup": false,
+          "dma_window_ms": 10.185015999923053,
+          "native_reorg_quantize_pack_ms": 11.438831000305072,
+          "safety_fill_and_cache_prep_ms": 0.9705040001790621,
+          "dma_setup_wait_and_checks_ms": 10.530714000196895,
+          "invalidate_and_native_float_output_ms": 7.614739000018744,
+          "complete_float_path_ms": 30.554788000699773
+        },
+        {
+          "iteration": 7,
+          "warmup": false,
+          "dma_window_ms": 10.225255000477773,
+          "native_reorg_quantize_pack_ms": 11.572725999940303,
+          "safety_fill_and_cache_prep_ms": 0.9698769999886281,
+          "dma_setup_wait_and_checks_ms": 10.573100999863527,
+          "invalidate_and_native_float_output_ms": 7.582000000184053,
+          "complete_float_path_ms": 30.69770399997651
+        }
+      ],
+      "cpu_reorg_conv0_extract": {
+        "mean_ms": 31.863164166666667,
+        "min_ms": 30.817003,
+        "max_ms": 36.271212,
+        "samples": [
+          30.83552,
+          30.817003,
+          31.031662,
+          31.031877,
+          31.191711,
+          36.271212
+        ]
+      },
+      "cpu_full_native_call": {
+        "mean_ms": 37.18198549980419,
+        "min_ms": 36.18137799912802,
+        "max_ms": 41.69263299991144,
+        "samples": [
+          36.22123700006341,
+          36.18137799912802,
+          36.311187999672256,
+          36.238400000002,
+          36.44707700004801,
+          41.69263299991144
+        ]
+      },
+      "fpga_complete_float_path": {
+        "mean_ms": 30.59916600022916,
+        "min_ms": 30.45288600060303,
+        "max_ms": 30.69770399997651,
+        "samples": [
+          30.63215299971489,
+          30.573816000469378,
+          30.45288600060303,
+          30.683648999911384,
+          30.554788000699773,
+          30.69770399997651
+        ]
+      },
+      "cpu_extract_over_fpga_float_path": 1.0413082554742845,
+      "max_abs_float_error_last_run": 0.0,
+      "atol": 0.0001,
+      "rtol": 1e-05
+    }
+  ],
+  "package_verified_files": 22,
+  "backup_on_pc_confirmed_by_user": true,
+  "other_programs_stopped_confirmed_by_user": true,
+  "new_overlay_load_attempted": true,
+  "new_overlay_loaded": true,
+  "old_hardware_restored": true,
+  "board_test_passed": true,
+  "whole_model_integrated": false,
+  "whole_model_ms": null,
+  "implementation": "Same board-tested conv_v2 hardware (96 DSP); new native tiled CPU float IO only",
+  "timing_scope": "Raw float CHW224 -> Reorg+INT8 quantization+packet -> cache maintenance+DMA+conv_v2 -> INT32+dequantization+bias -> float CHW112. Excludes Swish and rest of model. Timed FPGA path also includes RX safety poison/flush; validation and buffer allocation are outside timings.",
+  "partial_report": "/home/xilinx/jupyter_notebooks/traffic_project/conv_float_v1/results/20250504_073919_5a8f9db6/RESULT.json",
+  "native_io_checks_before_fpga": [
+    {
+      "case": "case_01",
+      "native_packet_byte_exact": true,
+      "native_float_reconstruction_passed": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "case": "case_02",
+      "native_packet_byte_exact": true,
+      "native_float_reconstruction_passed": true,
+      "max_abs_error": 0.0
+    }
+  ],
+  "cpu_build_info": "conv0-cpu-check-v1;ncnn=1.0.20260526;threads=2;int8=on",
+  "fclk0_mhz": 100.0,
+  "invalid_size_guards_passed": true,
+  "single_layer_speedup_observed_both_cases": true,
+  "dma_quiesced": true,
+  "original_libraries_unchanged": true
+}

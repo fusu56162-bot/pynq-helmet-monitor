@@ -1,0 +1,485 @@
+{
+  "profile": "baseline",
+  "configuration": {
+    "library": "baseline",
+    "threads": 2,
+    "pooled": false,
+    "passive": false
+  },
+  "environment": {
+    "OMP_NUM_THREADS": "2",
+    "OMP_WAIT_POLICY": null,
+    "GOMP_SPINCOUNT": null,
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": null,
+    "OMP_PROC_BIND": null,
+    "OMP_PLACES": null,
+    "GOMP_CPU_AFFINITY": null,
+    "KMP_BLOCKTIME": null
+  },
+  "status": "ARM_SUFFIX_EXACT_PASS_NOT_CAMERA_FPS_OR_ACCURACY_ACCEPTANCE",
+  "actual_fpga_access": false,
+  "camera_opened": false,
+  "B_adapter_executed": false,
+  "model_identity": {
+    "best.ncnn.param": "a84e451f9c00085e67b2be3b3aaa08db238ed55c3ed36c01b31bb607348a312d",
+    "best.ncnn.bin": "e7129641c5bba679f0881c392d18e748b6a86026e2b84da084fd0f6d2c0d8be4"
+  },
+  "timing_scope": "owned packed4 conversion + ARM suffix + output allocation/copy/finite check",
+  "sensor_or_browser_latency_measured": false,
+  "originals_unchanged_before": {
+    "build/librider_ncnn.so": true,
+    "int8_v1/build/librider_ncnn_int8.so": true,
+    "small_v1/build/libsmall.so": true,
+    "int8_v1/build/ncnn/src/libncnn.a": true,
+    "mixed_v1/models/recover5/best.ncnn.param": true,
+    "mixed_v1/models/recover5/best.ncnn.bin": true
+  },
+  "reference_cases": [
+    {
+      "id": "case_01",
+      "original_cpu_exact": true,
+      "bridge_full_exact": true,
+      "boundary_exact": true,
+      "suffix_exact": true
+    },
+    {
+      "id": "case_02",
+      "original_cpu_exact": true,
+      "bridge_full_exact": true,
+      "boundary_exact": true,
+      "suffix_exact": true
+    },
+    {
+      "id": "case_03",
+      "original_cpu_exact": true,
+      "bridge_full_exact": true,
+      "boundary_exact": true,
+      "suffix_exact": true
+    },
+    {
+      "id": "case_04",
+      "original_cpu_exact": true,
+      "bridge_full_exact": true,
+      "boundary_exact": true,
+      "suffix_exact": true
+    },
+    {
+      "id": "case_05",
+      "original_cpu_exact": true,
+      "bridge_full_exact": true,
+      "boundary_exact": true,
+      "suffix_exact": true
+    },
+    {
+      "id": "case_06",
+      "original_cpu_exact": true,
+      "bridge_full_exact": true,
+      "boundary_exact": true,
+      "suffix_exact": true
+    },
+    {
+      "id": "case_07",
+      "original_cpu_exact": true,
+      "bridge_full_exact": true,
+      "boundary_exact": true,
+      "suffix_exact": true
+    },
+    {
+      "id": "case_08",
+      "original_cpu_exact": true,
+      "bridge_full_exact": true,
+      "boundary_exact": true,
+      "suffix_exact": true
+    },
+    {
+      "id": "case_09",
+      "original_cpu_exact": true,
+      "bridge_full_exact": true,
+      "boundary_exact": true,
+      "suffix_exact": true
+    },
+    {
+      "id": "case_10",
+      "original_cpu_exact": true,
+      "bridge_full_exact": true,
+      "boundary_exact": true,
+      "suffix_exact": true
+    },
+    {
+      "id": "case_11",
+      "original_cpu_exact": true,
+      "bridge_full_exact": true,
+      "boundary_exact": true,
+      "suffix_exact": true
+    },
+    {
+      "id": "case_12",
+      "original_cpu_exact": true,
+      "bridge_full_exact": true,
+      "boundary_exact": true,
+      "suffix_exact": true
+    }
+  ],
+  "warmup": [
+    "case_01",
+    "case_02",
+    "case_03",
+    "case_04",
+    "case_05",
+    "case_06",
+    "case_07",
+    "case_08",
+    "case_09",
+    "case_10",
+    "case_11",
+    "case_12"
+  ],
+  "samples": [
+    {
+      "case": "case_01",
+      "round": 1,
+      "wall_ms": 154.10011600033613,
+      "bit_exact": true,
+      "output_sha256": "52f7c690c91c1b1c537de02f302bc2760d9a2274f2a2185c7d460cc76e81a326"
+    },
+    {
+      "case": "case_02",
+      "round": 1,
+      "wall_ms": 154.28510699712206,
+      "bit_exact": true,
+      "output_sha256": "2d346d8e2ec3851d59e6c25cab21e272f18e8a2e8e36f3f3d7434d61a21a78c5"
+    },
+    {
+      "case": "case_03",
+      "round": 1,
+      "wall_ms": 153.8258090004092,
+      "bit_exact": true,
+      "output_sha256": "874a0b7c594dabf877344d797aa05d78c7d8b8dbe43ca2483f55d1542f12fc53"
+    },
+    {
+      "case": "case_04",
+      "round": 1,
+      "wall_ms": 155.29853599946364,
+      "bit_exact": true,
+      "output_sha256": "2b65fc7bc24bb78c3f2468f3bb60decaf3619d13cb830d0ad2dec776cd048730"
+    },
+    {
+      "case": "case_05",
+      "round": 1,
+      "wall_ms": 153.80957599700196,
+      "bit_exact": true,
+      "output_sha256": "29dad2be0ade219e6f6046ae7fd9971023f7a8c9ea915f7d28cb90c835c86e74"
+    },
+    {
+      "case": "case_06",
+      "round": 1,
+      "wall_ms": 154.12717499930295,
+      "bit_exact": true,
+      "output_sha256": "fdac4df693f612b8bd5e99561a1b9537617f9bc7c07e1844e8d2c2b8f8249e20"
+    },
+    {
+      "case": "case_07",
+      "round": 1,
+      "wall_ms": 154.1745169997739,
+      "bit_exact": true,
+      "output_sha256": "0c9d80b8a5920abfc928e2637529b543d669291948beeaf2131b8ea568042dfe"
+    },
+    {
+      "case": "case_08",
+      "round": 1,
+      "wall_ms": 153.85284299918567,
+      "bit_exact": true,
+      "output_sha256": "b94f235b4363f92f57690d3b1f60ddd7bd230a92917ae99b85a8c2df2a16e8dc"
+    },
+    {
+      "case": "case_09",
+      "round": 1,
+      "wall_ms": 154.28910800255835,
+      "bit_exact": true,
+      "output_sha256": "4ab3869ff3bce6a7d679f01153f2bd668069c2bc194adc4502da058027a57b4e"
+    },
+    {
+      "case": "case_10",
+      "round": 1,
+      "wall_ms": 153.67942699958803,
+      "bit_exact": true,
+      "output_sha256": "7ed395f3fd15e6c2e7e82a99f8f2f820df20316a5fff0af675f1ea92c2790c9f"
+    },
+    {
+      "case": "case_11",
+      "round": 1,
+      "wall_ms": 163.11008599950583,
+      "bit_exact": true,
+      "output_sha256": "78e4e0df469b75259eff75a3a10c481b721cbb193522e039791ff67736e57fd7"
+    },
+    {
+      "case": "case_12",
+      "round": 1,
+      "wall_ms": 154.27905799879227,
+      "bit_exact": true,
+      "output_sha256": "36760c376af2d3e4e17f80b84630e4aeb4e001864b7c6332bd2b88d04e8b4635"
+    },
+    {
+      "case": "case_02",
+      "round": 2,
+      "wall_ms": 153.576067998074,
+      "bit_exact": true,
+      "output_sha256": "2d346d8e2ec3851d59e6c25cab21e272f18e8a2e8e36f3f3d7434d61a21a78c5"
+    },
+    {
+      "case": "case_03",
+      "round": 2,
+      "wall_ms": 155.77847999884398,
+      "bit_exact": true,
+      "output_sha256": "874a0b7c594dabf877344d797aa05d78c7d8b8dbe43ca2483f55d1542f12fc53"
+    },
+    {
+      "case": "case_04",
+      "round": 2,
+      "wall_ms": 153.89527899969835,
+      "bit_exact": true,
+      "output_sha256": "2b65fc7bc24bb78c3f2468f3bb60decaf3619d13cb830d0ad2dec776cd048730"
+    },
+    {
+      "case": "case_05",
+      "round": 2,
+      "wall_ms": 241.42492199825938,
+      "bit_exact": true,
+      "output_sha256": "29dad2be0ade219e6f6046ae7fd9971023f7a8c9ea915f7d28cb90c835c86e74"
+    },
+    {
+      "case": "case_06",
+      "round": 2,
+      "wall_ms": 154.9038709999877,
+      "bit_exact": true,
+      "output_sha256": "fdac4df693f612b8bd5e99561a1b9537617f9bc7c07e1844e8d2c2b8f8249e20"
+    },
+    {
+      "case": "case_07",
+      "round": 2,
+      "wall_ms": 153.68221500102663,
+      "bit_exact": true,
+      "output_sha256": "0c9d80b8a5920abfc928e2637529b543d669291948beeaf2131b8ea568042dfe"
+    },
+    {
+      "case": "case_08",
+      "round": 2,
+      "wall_ms": 158.31747700212873,
+      "bit_exact": true,
+      "output_sha256": "b94f235b4363f92f57690d3b1f60ddd7bd230a92917ae99b85a8c2df2a16e8dc"
+    },
+    {
+      "case": "case_09",
+      "round": 2,
+      "wall_ms": 167.17416000028607,
+      "bit_exact": true,
+      "output_sha256": "4ab3869ff3bce6a7d679f01153f2bd668069c2bc194adc4502da058027a57b4e"
+    },
+    {
+      "case": "case_10",
+      "round": 2,
+      "wall_ms": 159.45780299807666,
+      "bit_exact": true,
+      "output_sha256": "7ed395f3fd15e6c2e7e82a99f8f2f820df20316a5fff0af675f1ea92c2790c9f"
+    },
+    {
+      "case": "case_11",
+      "round": 2,
+      "wall_ms": 155.40496600078768,
+      "bit_exact": true,
+      "output_sha256": "78e4e0df469b75259eff75a3a10c481b721cbb193522e039791ff67736e57fd7"
+    },
+    {
+      "case": "case_12",
+      "round": 2,
+      "wall_ms": 155.08363700064365,
+      "bit_exact": true,
+      "output_sha256": "36760c376af2d3e4e17f80b84630e4aeb4e001864b7c6332bd2b88d04e8b4635"
+    },
+    {
+      "case": "case_01",
+      "round": 2,
+      "wall_ms": 153.8367620014469,
+      "bit_exact": true,
+      "output_sha256": "52f7c690c91c1b1c537de02f302bc2760d9a2274f2a2185c7d460cc76e81a326"
+    },
+    {
+      "case": "case_03",
+      "round": 3,
+      "wall_ms": 155.28084900142858,
+      "bit_exact": true,
+      "output_sha256": "874a0b7c594dabf877344d797aa05d78c7d8b8dbe43ca2483f55d1542f12fc53"
+    },
+    {
+      "case": "case_04",
+      "round": 3,
+      "wall_ms": 153.949906998605,
+      "bit_exact": true,
+      "output_sha256": "2b65fc7bc24bb78c3f2468f3bb60decaf3619d13cb830d0ad2dec776cd048730"
+    },
+    {
+      "case": "case_05",
+      "round": 3,
+      "wall_ms": 154.00817800036748,
+      "bit_exact": true,
+      "output_sha256": "29dad2be0ade219e6f6046ae7fd9971023f7a8c9ea915f7d28cb90c835c86e74"
+    },
+    {
+      "case": "case_06",
+      "round": 3,
+      "wall_ms": 154.41822699722252,
+      "bit_exact": true,
+      "output_sha256": "fdac4df693f612b8bd5e99561a1b9537617f9bc7c07e1844e8d2c2b8f8249e20"
+    },
+    {
+      "case": "case_07",
+      "round": 3,
+      "wall_ms": 154.18378399772337,
+      "bit_exact": true,
+      "output_sha256": "0c9d80b8a5920abfc928e2637529b543d669291948beeaf2131b8ea568042dfe"
+    },
+    {
+      "case": "case_08",
+      "round": 3,
+      "wall_ms": 153.7561539989838,
+      "bit_exact": true,
+      "output_sha256": "b94f235b4363f92f57690d3b1f60ddd7bd230a92917ae99b85a8c2df2a16e8dc"
+    },
+    {
+      "case": "case_09",
+      "round": 3,
+      "wall_ms": 154.25131699885242,
+      "bit_exact": true,
+      "output_sha256": "4ab3869ff3bce6a7d679f01153f2bd668069c2bc194adc4502da058027a57b4e"
+    },
+    {
+      "case": "case_10",
+      "round": 3,
+      "wall_ms": 155.55795099862735,
+      "bit_exact": true,
+      "output_sha256": "7ed395f3fd15e6c2e7e82a99f8f2f820df20316a5fff0af675f1ea92c2790c9f"
+    },
+    {
+      "case": "case_11",
+      "round": 3,
+      "wall_ms": 154.23381499931565,
+      "bit_exact": true,
+      "output_sha256": "78e4e0df469b75259eff75a3a10c481b721cbb193522e039791ff67736e57fd7"
+    },
+    {
+      "case": "case_12",
+      "round": 3,
+      "wall_ms": 154.19703400038998,
+      "bit_exact": true,
+      "output_sha256": "36760c376af2d3e4e17f80b84630e4aeb4e001864b7c6332bd2b88d04e8b4635"
+    },
+    {
+      "case": "case_01",
+      "round": 3,
+      "wall_ms": 154.77564300090307,
+      "bit_exact": true,
+      "output_sha256": "52f7c690c91c1b1c537de02f302bc2760d9a2274f2a2185c7d460cc76e81a326"
+    },
+    {
+      "case": "case_02",
+      "round": 3,
+      "wall_ms": 153.66732899929048,
+      "bit_exact": true,
+      "output_sha256": "2d346d8e2ec3851d59e6c25cab21e272f18e8a2e8e36f3f3d7434d61a21a78c5"
+    }
+  ],
+  "output_files": {
+    "case_03_suffix.npy": "02edd08b7467538b6e13404c14e4b3491658b5acf925f8ced4c079fa0ec59999",
+    "case_04_suffix.npy": "3f849e4fcb1de55b45bb7913f7610a069b0a991fbc948c04faeade7e1e3543c3",
+    "case_05_suffix.npy": "b048b986dfa2f672c94f259d22204c6cdc9a01efff1943f6f51d8a9f5b5c2792",
+    "case_06_suffix.npy": "213ecac69165d11f46e621f88ae9adfe59b53c216ac301ac364e2cbf2cc62b8a",
+    "case_07_suffix.npy": "73ecbfd1c8d59689f083cea9170aebb936135f11111389316bd07d7ddadb5e8a",
+    "case_08_suffix.npy": "107aae895a6be105b0581257cca33dc36097e57f1d5ec332528fe86f395fc252",
+    "case_09_suffix.npy": "3a37e6f9e6b47744c7ce5533e32c8217857e1b909f5a4d2df6a3426d3fc984a6",
+    "case_10_suffix.npy": "df7632caeee2191041bc2c38cdf47bacb473af3f70a007a91eb830b577b6b79b",
+    "case_11_suffix.npy": "f5fe8a50e9475179f9c4ca32245672deba35cef6d4b7b843348356c6e76087f2",
+    "case_12_suffix.npy": "fd3b18b3fbcdf6fdaa0494fa78d0ad024cf748b675922ccd4588016e73de92d1",
+    "case_01_suffix.npy": "32d4a83dd1bf8d22b89370859abaf5e65a721f10405c5a4edef6b3420615b513",
+    "case_02_suffix.npy": "f175517dec22515b75fc0aa129b1a0edb633f670b0e375e477951fc2f25c813d"
+  },
+  "library_sha256": "98026ac6e15a80a6153a1f9aa5f77ed74120663e96ce33548802f90d185c300b",
+  "native_configuration_readback": {
+    "threads": 2,
+    "pooled": false
+  },
+  "loop_seconds": 5.908514638002089,
+  "loop_seconds_scope": "includes untimed exact comparisons and last-round evidence writes; use per-call samples for suffix latency",
+  "usage_before": {
+    "user_s": 20.952301,
+    "system_s": 0.879257,
+    "max_rss_kib": 66824,
+    "voluntary_switches": 437,
+    "involuntary_switches": 319
+  },
+  "usage_after": {
+    "user_s": 32.231918,
+    "system_s": 0.938309,
+    "max_rss_kib": 66824,
+    "voluntary_switches": 499,
+    "involuntary_switches": 633
+  },
+  "statistics": {
+    "mean_ms": 157.60131072177805,
+    "median_ms": 154.24256599908404,
+    "min_ms": 153.576067998074,
+    "max_ms": 241.42492199825938,
+    "p95_ms": 164.1261044997009,
+    "samples_ms": [
+      154.10011600033613,
+      154.28510699712206,
+      153.8258090004092,
+      155.29853599946364,
+      153.80957599700196,
+      154.12717499930295,
+      154.1745169997739,
+      153.85284299918567,
+      154.28910800255835,
+      153.67942699958803,
+      163.11008599950583,
+      154.27905799879227,
+      153.576067998074,
+      155.77847999884398,
+      153.89527899969835,
+      241.42492199825938,
+      154.9038709999877,
+      153.68221500102663,
+      158.31747700212873,
+      167.17416000028607,
+      159.45780299807666,
+      155.40496600078768,
+      155.08363700064365,
+      153.8367620014469,
+      155.28084900142858,
+      153.949906998605,
+      154.00817800036748,
+      154.41822699722252,
+      154.18378399772337,
+      153.7561539989838,
+      154.25131699885242,
+      155.55795099862735,
+      154.23381499931565,
+      154.19703400038998,
+      154.77564300090307,
+      153.66732899929048
+    ]
+  },
+  "openmp_libraries_in_maps": [
+    "/usr/lib/arm-linux-gnueabihf/libgomp.so.1.0.0"
+  ],
+  "cleanup_errors": [],
+  "originals_unchanged_after": {
+    "build/librider_ncnn.so": true,
+    "int8_v1/build/librider_ncnn_int8.so": true,
+    "small_v1/build/libsmall.so": true,
+    "int8_v1/build/ncnn/src/libncnn.a": true,
+    "mixed_v1/models/recover5/best.ncnn.param": true,
+    "mixed_v1/models/recover5/best.ncnn.bin": true
+  }
+}

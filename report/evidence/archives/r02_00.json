@@ -1,0 +1,2425 @@
+{
+  "passed": true,
+  "instrumented_model_verified": true,
+  "cases": [
+    {
+      "id": "case_01",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true
+    },
+    {
+      "id": "case_02",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true
+    },
+    {
+      "id": "case_03",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true
+    },
+    {
+      "id": "case_04",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true
+    },
+    {
+      "id": "case_05",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true
+    },
+    {
+      "id": "case_06",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true
+    },
+    {
+      "id": "case_07",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true
+    },
+    {
+      "id": "case_08",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true
+    },
+    {
+      "id": "case_09",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true
+    },
+    {
+      "id": "case_10",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true
+    },
+    {
+      "id": "case_11",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true
+    },
+    {
+      "id": "case_12",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true
+    }
+  ],
+  "threads": 2,
+  "repeat": 3,
+  "machine": "armv7l",
+  "python": "3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0]",
+  "numpy": "1.21.5",
+  "recorded_host_utc": "2025-05-04T01:42:41.279861+00:00",
+  "clock_note": "Recorded board clock only; do not change clock during profiling",
+  "speedup_claim": null,
+  "deployment_changed": false,
+  "scope": "Diagnostic layer distribution, NOT a new performance baseline or field-accuracy test",
+  "profiler_sha256": "cf67a71e1a2cab80561db677dda43cad25c67ee3d08b158a9fc95f2337f2ce84",
+  "model_param_sha256": "cc362890d690e7791b41dfd4ba0cf448292cf30eaeafd593f22df1383a16bfa2",
+  "model_bin_sha256": "c6f4f3d6882abed64348575015be16a439197657c9eb9dbf6103a01248c07ed3",
+  "build_info": "rider-profile-v1;ncnn-20260526;upstream-cpu-layer-timing",
+  "memory_after": {
+    "rss_mb": 132.3125,
+    "peak_rss_mb": 135.4453125
+  },
+  "measured_frames": 36,
+  "layers_per_frame": 220,
+  "mean_sum_layer_ms_per_frame": 736.1299999999991,
+  "groups": [
+    {
+      "group": "Convolution 6x6 stride 2x2",
+      "mean_ms_per_frame": 171.15444444444444,
+      "share_of_layer_sum_percent": 23.250573192838853
+    },
+    {
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms_per_frame": 169.23888888888888,
+      "share_of_layer_sum_percent": 22.99035345508118
+    },
+    {
+      "group": "Convolution 3x3 stride 2x2",
+      "mean_ms_per_frame": 166.6197222222222,
+      "share_of_layer_sum_percent": 22.63455126434494
+    },
+    {
+      "group": "Swish",
+      "mean_ms_per_frame": 96.25388888888895,
+      "share_of_layer_sum_percent": 13.075664473515422
+    },
+    {
+      "group": "Convolution 3x3 stride 1x1",
+      "mean_ms_per_frame": 83.7313888888889,
+      "share_of_layer_sum_percent": 11.374538313733852
+    },
+    {
+      "group": "Sigmoid",
+      "mean_ms_per_frame": 17.059444444444445,
+      "share_of_layer_sum_percent": 2.3174499673215965
+    },
+    {
+      "group": "Concat",
+      "mean_ms_per_frame": 14.14777777777778,
+      "share_of_layer_sum_percent": 1.9219129471394722
+    },
+    {
+      "group": "BinaryOp",
+      "mean_ms_per_frame": 7.965277777777779,
+      "share_of_layer_sum_percent": 1.0820477059456601
+    },
+    {
+      "group": "Pooling",
+      "mean_ms_per_frame": 2.3802777777777777,
+      "share_of_layer_sum_percent": 0.3233501932780597
+    },
+    {
+      "group": "Reshape",
+      "mean_ms_per_frame": 2.2080555555555557,
+      "share_of_layer_sum_percent": 0.2999545672035589
+    },
+    {
+      "group": "Interp",
+      "mean_ms_per_frame": 1.7372222222222222,
+      "share_of_layer_sum_percent": 0.23599394430633508
+    },
+    {
+      "group": "Slice",
+      "mean_ms_per_frame": 1.6355555555555554,
+      "share_of_layer_sum_percent": 0.22218297794622655
+    },
+    {
+      "group": "Permute",
+      "mean_ms_per_frame": 0.7813888888888889,
+      "share_of_layer_sum_percent": 0.10614821959285586
+    },
+    {
+      "group": "Split",
+      "mean_ms_per_frame": 0.4619444444444446,
+      "share_of_layer_sum_percent": 0.06275310671273351
+    },
+    {
+      "group": "MemoryData",
+      "mean_ms_per_frame": 0.40055555555555555,
+      "share_of_layer_sum_percent": 0.05441369806359692
+    },
+    {
+      "group": "Eltwise",
+      "mean_ms_per_frame": 0.2516666666666667,
+      "share_of_layer_sum_percent": 0.03418780197338337
+    },
+    {
+      "group": "UnaryOp",
+      "mean_ms_per_frame": 0.1025,
+      "share_of_layer_sum_percent": 0.013924171002404484
+    }
+  ],
+  "layers": [
+    {
+      "name": "conv_0",
+      "type": "Convolution",
+      "group": "Convolution 6x6 stride 2x2",
+      "mean_ms": 171.15444444444444,
+      "min_ms": 170.08,
+      "max_ms": 179.93,
+      "samples": 36,
+      "share_of_layer_sum_percent": 23.250573192838853
+    },
+    {
+      "name": "conv_1",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 2x2",
+      "mean_ms": 40.1775,
+      "min_ms": 37.02,
+      "max_ms": 90.61,
+      "samples": 36,
+      "share_of_layer_sum_percent": 5.45793541901567
+    },
+    {
+      "name": "conv_7",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 2x2",
+      "mean_ms": 31.77388888888889,
+      "min_ms": 31.58,
+      "max_ms": 32.14,
+      "samples": 36,
+      "share_of_layer_sum_percent": 4.316342071222329
+    },
+    {
+      "name": "conv_25",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 2x2",
+      "mean_ms": 31.739722222222223,
+      "min_ms": 31.46,
+      "max_ms": 31.96,
+      "samples": 36,
+      "share_of_layer_sum_percent": 4.311700680888194
+    },
+    {
+      "name": "conv_15",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 2x2",
+      "mean_ms": 29.216666666666665,
+      "min_ms": 29.14,
+      "max_ms": 29.41,
+      "samples": 36,
+      "share_of_layer_sum_percent": 3.9689547588967575
+    },
+    {
+      "name": "conv_51",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 2x2",
+      "mean_ms": 17.18777777777778,
+      "min_ms": 17.0,
+      "max_ms": 20.94,
+      "samples": 36,
+      "share_of_layer_sum_percent": 2.334883482235176
+    },
+    {
+      "name": "conv_45",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 2x2",
+      "mean_ms": 16.524166666666666,
+      "min_ms": 16.41,
+      "max_ms": 16.63,
+      "samples": 36,
+      "share_of_layer_sum_percent": 2.244734852086817
+    },
+    {
+      "name": "silu_75",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 15.132222222222222,
+      "min_ms": 14.18,
+      "max_ms": 31.76,
+      "samples": 36,
+      "share_of_layer_sum_percent": 2.0556453645717796
+    },
+    {
+      "name": "conv_32",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 12.039166666666667,
+      "min_ms": 11.97,
+      "max_ms": 12.7,
+      "samples": 36,
+      "share_of_layer_sum_percent": 1.635467467249899
+    },
+    {
+      "name": "conv_4",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 1x1",
+      "mean_ms": 12.016388888888889,
+      "min_ms": 10.65,
+      "max_ms": 43.03,
+      "samples": 36,
+      "share_of_layer_sum_percent": 1.6323732070271424
+    },
+    {
+      "name": "conv_28",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 1x1",
+      "mean_ms": 8.4,
+      "min_ms": 8.23,
+      "max_ms": 11.51,
+      "samples": 36,
+      "share_of_layer_sum_percent": 1.1411027943433918
+    },
+    {
+      "name": "conv_54",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 1x1",
+      "mean_ms": 8.392777777777779,
+      "min_ms": 8.29,
+      "max_ms": 8.44,
+      "samples": 36,
+      "share_of_layer_sum_percent": 1.1401216874434936
+    },
+    {
+      "name": "conv_6",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 8.155,
+      "min_ms": 7.87,
+      "max_ms": 13.27,
+      "samples": 36,
+      "share_of_layer_sum_percent": 1.1078206295083761
+    },
+    {
+      "name": "conv_40",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 7.946944444444444,
+      "min_ms": 7.69,
+      "max_ms": 13.19,
+      "samples": 36,
+      "share_of_layer_sum_percent": 1.0795572038151486
+    },
+    {
+      "name": "silu_76",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 7.789444444444444,
+      "min_ms": 7.06,
+      "max_ms": 19.34,
+      "samples": 36,
+      "share_of_layer_sum_percent": 1.05816152642121
+    },
+    {
+      "name": "conv_43",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 7.683055555555556,
+      "min_ms": 7.59,
+      "max_ms": 7.74,
+      "samples": 36,
+      "share_of_layer_sum_percent": 1.043709067088091
+    },
+    {
+      "name": "conv_42",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 1x1",
+      "mean_ms": 7.435833333333333,
+      "min_ms": 6.68,
+      "max_ms": 30.16,
+      "samples": 36,
+      "share_of_layer_sum_percent": 1.010125023206953
+    },
+    {
+      "name": "silu_80",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 7.141944444444444,
+      "min_ms": 7.06,
+      "max_ms": 7.36,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.9702015193572404
+    },
+    {
+      "name": "conv_10",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 1x1",
+      "mean_ms": 6.842777777777778,
+      "min_ms": 6.74,
+      "max_ms": 6.99,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.9295610527729866
+    },
+    {
+      "name": "conv_12",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 1x1",
+      "mean_ms": 6.830277777777778,
+      "min_ms": 6.71,
+      "max_ms": 6.98,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.9278629831385471
+    },
+    {
+      "name": "conv_36",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 1x1",
+      "mean_ms": 6.81,
+      "min_ms": 6.71,
+      "max_ms": 6.87,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.9251083368426785
+    },
+    {
+      "name": "conv_22",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 1x1",
+      "mean_ms": 6.791944444444445,
+      "min_ms": 6.7,
+      "max_ms": 6.93,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.9226555695929324
+    },
+    {
+      "name": "conv_20",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 1x1",
+      "mean_ms": 6.783888888888889,
+      "min_ms": 6.66,
+      "max_ms": 7.24,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.921561258050738
+    },
+    {
+      "name": "conv_48",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 1x1",
+      "mean_ms": 6.725555555555555,
+      "min_ms": 6.63,
+      "max_ms": 6.85,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.9136369330900199
+    },
+    {
+      "name": "conv_37",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 6.705555555555556,
+      "min_ms": 6.63,
+      "max_ms": 6.75,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.9109200216749167
+    },
+    {
+      "name": "conv_18",
+      "type": "Convolution",
+      "group": "Convolution 3x3 stride 1x1",
+      "mean_ms": 6.701944444444445,
+      "min_ms": 6.58,
+      "max_ms": 7.04,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.9104294682249676
+    },
+    {
+      "name": "conv_34",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 6.6369444444444445,
+      "min_ms": 6.53,
+      "max_ms": 6.73,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.9015995061258817
+    },
+    {
+      "name": "conv_14",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 6.386111111111111,
+      "min_ms": 6.23,
+      "max_ms": 6.58,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.8675249087947942
+    },
+    {
+      "name": "conv_44",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 6.296111111111111,
+      "min_ms": 6.22,
+      "max_ms": 6.47,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.8552988074268294
+    },
+    {
+      "name": "conv_2",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 5.948888888888889,
+      "min_ms": 5.13,
+      "max_ms": 20.85,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.8081302064701746
+    },
+    {
+      "name": "conv_30",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 5.743055555555555,
+      "min_ms": 5.68,
+      "max_ms": 5.97,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.7801686598230696
+    },
+    {
+      "name": "conv_50",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 5.695555555555556,
+      "min_ms": 5.59,
+      "max_ms": 5.85,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.7737159952121994
+    },
+    {
+      "name": "conv_38",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 5.690833333333333,
+      "min_ms": 5.6,
+      "max_ms": 5.82,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.7730745022391887
+    },
+    {
+      "name": "conv_56",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 5.676388888888889,
+      "min_ms": 5.62,
+      "max_ms": 5.75,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.771112288439392
+    },
+    {
+      "name": "conv_24",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 5.658055555555555,
+      "min_ms": 5.59,
+      "max_ms": 5.75,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.7686217863088806
+    },
+    {
+      "name": "conv_5",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 5.468333333333334,
+      "min_ms": 5.1,
+      "max_ms": 13.98,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.7428488627461645
+    },
+    {
+      "name": "sigmoid_65",
+      "type": "Sigmoid",
+      "group": "Sigmoid",
+      "mean_ms": 5.175277777777778,
+      "min_ms": 4.82,
+      "max_ms": 10.27,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.7030385635387478
+    },
+    {
+      "name": "silu_77",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 3.9408333333333334,
+      "min_ms": 3.54,
+      "max_ms": 10.31,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.5353447534176489
+    },
+    {
+      "name": "silu_78",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 3.841388888888889,
+      "min_ms": 3.54,
+      "max_ms": 13.01,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.5218356661036629
+    },
+    {
+      "name": "silu_79",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 3.8336111111111113,
+      "min_ms": 3.54,
+      "max_ms": 12.21,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.5207790894422338
+    },
+    {
+      "name": "conv_13",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.828611111111111,
+      "min_ms": 3.64,
+      "max_ms": 7.07,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.520099861588458
+    },
+    {
+      "name": "conv_8",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.6461111111111113,
+      "min_ms": 3.6,
+      "max_ms": 3.74,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.49530804492564035
+    },
+    {
+      "name": "conv_57",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.611388888888889,
+      "min_ms": 3.55,
+      "max_ms": 3.73,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.49059118482997477
+    },
+    {
+      "name": "silu_112",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 3.5875,
+      "min_ms": 3.54,
+      "max_ms": 3.72,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.48734598508415694
+    },
+    {
+      "name": "silu_81",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 3.5747222222222224,
+      "min_ms": 3.54,
+      "max_ms": 3.71,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.4856101805689521
+    },
+    {
+      "name": "silu_86",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 3.5652777777777778,
+      "min_ms": 3.54,
+      "max_ms": 3.66,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.48432719462293106
+    },
+    {
+      "name": "conv_23",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.3780555555555556,
+      "min_ms": 3.2,
+      "max_ms": 6.99,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.45889388498710276
+    },
+    {
+      "name": "conv_3",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.3169444444444443,
+      "min_ms": 2.41,
+      "max_ms": 17.09,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.4505922112187315
+    },
+    {
+      "name": "conv_49",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.1705555555555556,
+      "min_ms": 3.11,
+      "max_ms": 3.26,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.43070592905540594
+    },
+    {
+      "name": "conv_29",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.129722222222222,
+      "min_ms": 3.09,
+      "max_ms": 3.21,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.42515890158290326
+    },
+    {
+      "name": "conv_55",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.082222222222222,
+      "min_ms": 3.04,
+      "max_ms": 3.16,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.4187062369720329
+    },
+    {
+      "name": "conv_46",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.0683333333333334,
+      "min_ms": 3.01,
+      "max_ms": 3.16,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.41681949293376674
+    },
+    {
+      "name": "conv_16",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.060833333333333,
+      "min_ms": 3.01,
+      "max_ms": 3.15,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.415800651153103
+    },
+    {
+      "name": "conv_52",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.020277777777778,
+      "min_ms": 2.99,
+      "max_ms": 3.22,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.4102913585613657
+    },
+    {
+      "name": "conv_39",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.0144444444444445,
+      "min_ms": 2.93,
+      "max_ms": 3.54,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.409498926065294
+    },
+    {
+      "name": "conv_33",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 3.006111111111111,
+      "min_ms": 2.96,
+      "max_ms": 3.08,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.40836687964233426
+    },
+    {
+      "name": "conv_31",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 2.9894444444444446,
+      "min_ms": 2.95,
+      "max_ms": 3.11,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.40610278679641476
+    },
+    {
+      "name": "conv_26",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 2.9811111111111113,
+      "min_ms": 2.95,
+      "max_ms": 3.06,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.40497074037345504
+    },
+    {
+      "name": "cat_7",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 2.5791666666666666,
+      "min_ms": 2.47,
+      "max_ms": 3.64,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.3503683679060315
+    },
+    {
+      "name": "cat_0",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 2.578333333333333,
+      "min_ms": 2.5,
+      "max_ms": 2.71,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.3502551632637355
+    },
+    {
+      "name": "sigmoid_66",
+      "type": "Sigmoid",
+      "group": "Sigmoid",
+      "mean_ms": 2.4375,
+      "min_ms": 2.38,
+      "max_ms": 3.18,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.33112357871571635
+    },
+    {
+      "name": "sigmoid_67",
+      "type": "Sigmoid",
+      "group": "Sigmoid",
+      "mean_ms": 2.4097222222222223,
+      "min_ms": 2.38,
+      "max_ms": 2.49,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.327350090639184
+    },
+    {
+      "name": "sigmoid_72",
+      "type": "Sigmoid",
+      "group": "Sigmoid",
+      "mean_ms": 2.1641666666666666,
+      "min_ms": 2.07,
+      "max_ms": 4.67,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.29399245604263774
+    },
+    {
+      "name": "conv_41",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 2.053888888888889,
+      "min_ms": 1.7,
+      "max_ms": 13.46,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.2790117083788042
+    },
+    {
+      "name": "silu_108",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 1.976388888888889,
+      "min_ms": 1.78,
+      "max_ms": 8.08,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.2684836766452789
+    },
+    {
+      "name": "silu_109",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 1.9202777777777778,
+      "min_ms": 1.78,
+      "max_ms": 6.13,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.26086123073068346
+    },
+    {
+      "name": "silu_84",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 1.8166666666666667,
+      "min_ms": 1.78,
+      "max_ms": 2.47,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.24678612020521767
+    },
+    {
+      "name": "silu_93",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 1.8052777777777778,
+      "min_ms": 1.78,
+      "max_ms": 1.95,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.2452389900938394
+    },
+    {
+      "name": "silu_118",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 1.8050000000000002,
+      "min_ms": 1.78,
+      "max_ms": 1.87,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.24520125521307412
+    },
+    {
+      "name": "silu_87",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 1.805,
+      "min_ms": 1.78,
+      "max_ms": 2.26,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.2452012552130741
+    },
+    {
+      "name": "silu_110",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 1.8047222222222223,
+      "min_ms": 1.78,
+      "max_ms": 1.88,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.24516352033230876
+    },
+    {
+      "name": "silu_83",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 1.8027777777777778,
+      "min_ms": 1.78,
+      "max_ms": 1.98,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.24489937616695148
+    },
+    {
+      "name": "silu_111",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 1.801388888888889,
+      "min_ms": 1.78,
+      "max_ms": 1.89,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.2447107017631249
+    },
+    {
+      "name": "silu_82",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 1.7986111111111112,
+      "min_ms": 1.78,
+      "max_ms": 1.94,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.24433335295547162
+    },
+    {
+      "name": "silu_106",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 1.7938888888888889,
+      "min_ms": 1.78,
+      "max_ms": 1.88,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.24369185998246112
+    },
+    {
+      "name": "silu_85",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 1.7852777777777777,
+      "min_ms": 1.78,
+      "max_ms": 1.85,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.2425220786787361
+    },
+    {
+      "name": "conv_11",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 1.785,
+      "min_ms": 1.76,
+      "max_ms": 1.93,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.24248434379797074
+    },
+    {
+      "name": "conv_21",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 1.7263888888888888,
+      "min_ms": 1.63,
+      "max_ms": 4.19,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.23452228395648744
+    },
+    {
+      "name": "conv_9",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 1.723611111111111,
+      "min_ms": 1.68,
+      "max_ms": 1.87,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.23414493514883417
+    },
+    {
+      "name": "conv_58",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 1.7002777777777778,
+      "min_ms": 1.66,
+      "max_ms": 1.81,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.230975205164547
+    },
+    {
+      "name": "conv_19",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 1.6397222222222223,
+      "min_ms": 1.61,
+      "max_ms": 1.88,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.22274900115770643
+    },
+    {
+      "name": "conv_47",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 1.6258333333333335,
+      "min_ms": 1.57,
+      "max_ms": 2.29,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.22086225711944024
+    },
+    {
+      "name": "conv_17",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 1.6147222222222224,
+      "min_ms": 1.59,
+      "max_ms": 1.72,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.21935286188882727
+    },
+    {
+      "name": "conv_35",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 1.5758333333333334,
+      "min_ms": 1.54,
+      "max_ms": 1.7,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.21406997858168195
+    },
+    {
+      "name": "conv_53",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 1.3875,
+      "min_ms": 1.36,
+      "max_ms": 1.67,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.1884857294227924
+    },
+    {
+      "name": "mul_0",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 1.3772222222222223,
+      "min_ms": 1.31,
+      "max_ms": 1.49,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.18708953883447543
+    },
+    {
+      "name": "add_1",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 1.370277777777778,
+      "min_ms": 1.32,
+      "max_ms": 1.63,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.18614616681534235
+    },
+    {
+      "name": "conv_27",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 1.3677777777777778,
+      "min_ms": 1.34,
+      "max_ms": 1.45,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.1858065528884544
+    },
+    {
+      "name": "split_0",
+      "type": "Slice",
+      "group": "Slice",
+      "mean_ms": 1.2147222222222223,
+      "min_ms": 1.2,
+      "max_ms": 1.29,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.16501463358676102
+    },
+    {
+      "name": "sigmoid_70",
+      "type": "Sigmoid",
+      "group": "Sigmoid",
+      "mean_ms": 1.2,
+      "min_ms": 1.19,
+      "max_ms": 1.28,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.16301468490619883
+    },
+    {
+      "name": "sigmoid_68",
+      "type": "Sigmoid",
+      "group": "Sigmoid",
+      "mean_ms": 1.1983333333333333,
+      "min_ms": 1.19,
+      "max_ms": 1.28,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.1627882756216069
+    },
+    {
+      "name": "sigmoid_69",
+      "type": "Sigmoid",
+      "group": "Sigmoid",
+      "mean_ms": 1.1952777777777777,
+      "min_ms": 1.19,
+      "max_ms": 1.26,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.16237319193318833
+    },
+    {
+      "name": "cat_13",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 1.1822222222222223,
+      "min_ms": 1.12,
+      "max_ms": 1.27,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.1605996525372181
+    },
+    {
+      "name": "cat_8",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 1.1605555555555556,
+      "min_ms": 1.12,
+      "max_ms": 1.25,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.15765633183752287
+    },
+    {
+      "name": "cat_1",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 1.1577777777777778,
+      "min_ms": 1.12,
+      "max_ms": 1.29,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.15727898302986962
+    },
+    {
+      "name": "interpolate_61",
+      "type": "Interp",
+      "group": "Interp",
+      "mean_ms": 1.145,
+      "min_ms": 1.13,
+      "max_ms": 1.23,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.15554317851466473
+    },
+    {
+      "name": "cat_5",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 1.1311111111111112,
+      "min_ms": 1.1,
+      "max_ms": 1.23,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.15365643447639854
+    },
+    {
+      "name": "conv_59",
+      "type": "Convolution",
+      "group": "Convolution 1x1 stride 1x1",
+      "mean_ms": 1.0041666666666667,
+      "min_ms": 0.98,
+      "max_ms": 1.11,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.13641159396664554
+    },
+    {
+      "name": "silu_105",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9394444444444444,
+      "min_ms": 0.9,
+      "max_ms": 1.96,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.1276193667483251
+    },
+    {
+      "name": "silu_91",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9283333333333333,
+      "min_ms": 0.9,
+      "max_ms": 1.5,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12610997151771217
+    },
+    {
+      "name": "silu_114",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9169444444444445,
+      "min_ms": 0.9,
+      "max_ms": 1.39,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12456284140633389
+    },
+    {
+      "name": "silu_115",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9169444444444445,
+      "min_ms": 0.9,
+      "max_ms": 1.1,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12456284140633389
+    },
+    {
+      "name": "silu_88",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9130555555555556,
+      "min_ms": 0.9,
+      "max_ms": 1.05,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12403455307561935
+    },
+    {
+      "name": "silu_92",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9094444444444445,
+      "min_ms": 0.9,
+      "max_ms": 1.0,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12354399962567013
+    },
+    {
+      "name": "silu_116",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9091666666666667,
+      "min_ms": 0.9,
+      "max_ms": 0.97,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12350626474490482
+    },
+    {
+      "name": "silu_124",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9086111111111111,
+      "min_ms": 0.9,
+      "max_ms": 0.98,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12343079498337417
+    },
+    {
+      "name": "silu_90",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9080555555555556,
+      "min_ms": 0.9,
+      "max_ms": 0.98,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12335532522184352
+    },
+    {
+      "name": "silu_107",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9077777777777778,
+      "min_ms": 0.9,
+      "max_ms": 1.0,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.1233175903410782
+    },
+    {
+      "name": "silu_89",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9072222222222223,
+      "min_ms": 0.9,
+      "max_ms": 1.16,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12324212057954756
+    },
+    {
+      "name": "silu_94",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9069444444444444,
+      "min_ms": 0.9,
+      "max_ms": 0.97,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12320438569878223
+    },
+    {
+      "name": "silu_100",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9069444444444444,
+      "min_ms": 0.9,
+      "max_ms": 0.97,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12320438569878223
+    },
+    {
+      "name": "silu_104",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9052777777777778,
+      "min_ms": 0.9,
+      "max_ms": 0.97,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12297797641419028
+    },
+    {
+      "name": "silu_113",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9052777777777778,
+      "min_ms": 0.9,
+      "max_ms": 0.97,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12297797641419028
+    },
+    {
+      "name": "silu_117",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.905,
+      "min_ms": 0.9,
+      "max_ms": 0.99,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12294024153342495
+    },
+    {
+      "name": "silu_102",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9044444444444445,
+      "min_ms": 0.9,
+      "max_ms": 0.97,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12286477177189431
+    },
+    {
+      "name": "silu_103",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9044444444444445,
+      "min_ms": 0.9,
+      "max_ms": 1.06,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12286477177189431
+    },
+    {
+      "name": "silu_98",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.9016666666666667,
+      "min_ms": 0.9,
+      "max_ms": 0.96,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.12248742296424107
+    },
+    {
+      "name": "maxpool2d_64",
+      "type": "Pooling",
+      "group": "Pooling",
+      "mean_ms": 0.826388888888889,
+      "min_ms": 0.76,
+      "max_ms": 2.71,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.11226127027683833
+    },
+    {
+      "name": "reshape_128",
+      "type": "Reshape",
+      "group": "Reshape",
+      "mean_ms": 0.8058333333333334,
+      "min_ms": 0.79,
+      "max_ms": 0.9,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.10946888910020437
+    },
+    {
+      "name": "reshape_129",
+      "type": "Reshape",
+      "group": "Reshape",
+      "mean_ms": 0.7991666666666667,
+      "min_ms": 0.77,
+      "max_ms": 0.93,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.1085632519618366
+    },
+    {
+      "name": "maxpool2d_63",
+      "type": "Pooling",
+      "group": "Pooling",
+      "mean_ms": 0.7791666666666667,
+      "min_ms": 0.76,
+      "max_ms": 0.99,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.10584634054673328
+    },
+    {
+      "name": "maxpool2d_62",
+      "type": "Pooling",
+      "group": "Pooling",
+      "mean_ms": 0.7747222222222222,
+      "min_ms": 0.77,
+      "max_ms": 0.87,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.10524258245448807
+    },
+    {
+      "name": "cat_16",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 0.6855555555555556,
+      "min_ms": 0.67,
+      "max_ms": 0.8,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.09312968572881916
+    },
+    {
+      "name": "add_5",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.6841666666666667,
+      "min_ms": 0.67,
+      "max_ms": 0.76,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.09294101132499254
+    },
+    {
+      "name": "add_3",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.6836111111111112,
+      "min_ms": 0.66,
+      "max_ms": 0.89,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.09286554156346188
+    },
+    {
+      "name": "mul_4",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.6172222222222222,
+      "min_ms": 0.58,
+      "max_ms": 0.71,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0838469050605495
+    },
+    {
+      "name": "sigmoid_71",
+      "type": "Sigmoid",
+      "group": "Sigmoid",
+      "mean_ms": 0.6141666666666666,
+      "min_ms": 0.61,
+      "max_ms": 0.68,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.08343182137213093
+    },
+    {
+      "name": "mul_2",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.6136111111111111,
+      "min_ms": 0.59,
+      "max_ms": 0.71,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.08335635161060029
+    },
+    {
+      "name": "interpolate_60",
+      "type": "Interp",
+      "group": "Interp",
+      "mean_ms": 0.5922222222222222,
+      "min_ms": 0.58,
+      "max_ms": 0.66,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.08045076579167035
+    },
+    {
+      "name": "permute_125",
+      "type": "Permute",
+      "group": "Permute",
+      "mean_ms": 0.5700000000000001,
+      "min_ms": 0.56,
+      "max_ms": 0.66,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.07743197533044445
+    },
+    {
+      "name": "cat_4",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 0.5425,
+      "min_ms": 0.52,
+      "max_ms": 0.63,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.07369622213467739
+    },
+    {
+      "name": "cat_2",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 0.535,
+      "min_ms": 0.51,
+      "max_ms": 0.61,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.07267738035401365
+    },
+    {
+      "name": "cat_6",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 0.5238888888888888,
+      "min_ms": 0.5,
+      "max_ms": 0.64,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0711679851234007
+    },
+    {
+      "name": "sigmoid_73",
+      "type": "Sigmoid",
+      "group": "Sigmoid",
+      "mean_ms": 0.5230555555555556,
+      "min_ms": 0.52,
+      "max_ms": 0.59,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.07105478048110472
+    },
+    {
+      "name": "cat_10",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 0.5091666666666667,
+      "min_ms": 0.5,
+      "max_ms": 0.59,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.06916803644283853
+    },
+    {
+      "name": "silu_96",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.4708333333333333,
+      "min_ms": 0.45,
+      "max_ms": 0.72,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.06396062289722385
+    },
+    {
+      "name": "silu_121",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.46444444444444444,
+      "min_ms": 0.46,
+      "max_ms": 0.55,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0630927206396214
+    },
+    {
+      "name": "silu_120",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.46416666666666667,
+      "min_ms": 0.46,
+      "max_ms": 0.53,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.06305498575885608
+    },
+    {
+      "name": "silu_119",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.4619444444444445,
+      "min_ms": 0.46,
+      "max_ms": 0.52,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.06275310671273349
+    },
+    {
+      "name": "silu_123",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.4619444444444445,
+      "min_ms": 0.46,
+      "max_ms": 0.52,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.06275310671273349
+    },
+    {
+      "name": "silu_101",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.46166666666666667,
+      "min_ms": 0.46,
+      "max_ms": 0.52,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.06271537183196815
+    },
+    {
+      "name": "silu_122",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.46166666666666667,
+      "min_ms": 0.46,
+      "max_ms": 0.52,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.06271537183196815
+    },
+    {
+      "name": "cat_9",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 0.4613888888888889,
+      "min_ms": 0.45,
+      "max_ms": 0.54,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.06267763695120283
+    },
+    {
+      "name": "silu_95",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.46,
+      "min_ms": 0.46,
+      "max_ms": 0.46,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.06248896254737622
+    },
+    {
+      "name": "silu_97",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.46,
+      "min_ms": 0.46,
+      "max_ms": 0.46,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.06248896254737622
+    },
+    {
+      "name": "silu_99",
+      "type": "Swish",
+      "group": "Swish",
+      "mean_ms": 0.46,
+      "min_ms": 0.46,
+      "max_ms": 0.46,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.06248896254737622
+    },
+    {
+      "name": "add_9",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.33666666666666667,
+      "min_ms": 0.32,
+      "max_ms": 0.42,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.04573467548757245
+    },
+    {
+      "name": "add_11",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.3313888888888889,
+      "min_ms": 0.31,
+      "max_ms": 0.77,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0450177127530313
+    },
+    {
+      "name": "split_1",
+      "type": "Slice",
+      "group": "Slice",
+      "mean_ms": 0.32055555555555554,
+      "min_ms": 0.32,
+      "max_ms": 0.33,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.04354605240318367
+    },
+    {
+      "name": "cat_14",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 0.31722222222222224,
+      "min_ms": 0.3,
+      "max_ms": 0.38,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.04309323383399979
+    },
+    {
+      "name": "add_7",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.3163888888888889,
+      "min_ms": 0.3,
+      "max_ms": 0.39,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.04298002919170381
+    },
+    {
+      "name": "mul_6",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.2808333333333333,
+      "min_ms": 0.25,
+      "max_ms": 0.36,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.038149964453742365
+    },
+    {
+      "name": "mul_8",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.27944444444444444,
+      "min_ms": 0.26,
+      "max_ms": 0.39,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.03796129004991575
+    },
+    {
+      "name": "mul_10",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.27722222222222226,
+      "min_ms": 0.26,
+      "max_ms": 0.34,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.037659411003793164
+    },
+    {
+      "name": "cat_11",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 0.24638888888888888,
+      "min_ms": 0.24,
+      "max_ms": 0.39,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.03347083923884221
+    },
+    {
+      "name": "reshape_130",
+      "type": "Reshape",
+      "group": "Reshape",
+      "mean_ms": 0.22805555555555557,
+      "min_ms": 0.22,
+      "max_ms": 0.32,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.030980337108330844
+    },
+    {
+      "name": "cat_3",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 0.22027777777777777,
+      "min_ms": 0.21,
+      "max_ms": 0.25,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.029923760446901773
+    },
+    {
+      "name": "cat_12",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 0.21888888888888888,
+      "min_ms": 0.21,
+      "max_ms": 0.28,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.02973508604307516
+    },
+    {
+      "name": "reshape_131",
+      "type": "Reshape",
+      "group": "Reshape",
+      "mean_ms": 0.19444444444444445,
+      "min_ms": 0.18,
+      "max_ms": 0.27,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.026414416535726664
+    },
+    {
+      "name": "weighted_sum_0",
+      "type": "Eltwise",
+      "group": "Eltwise",
+      "mean_ms": 0.16305555555555556,
+      "min_ms": 0.16,
+      "max_ms": 0.26,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.022150375009245077
+    },
+    {
+      "name": "add_13",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.15833333333333333,
+      "min_ms": 0.15,
+      "max_ms": 0.16,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.021508882036234567
+    },
+    {
+      "name": "permute_126",
+      "type": "Permute",
+      "group": "Permute",
+      "mean_ms": 0.15833333333333333,
+      "min_ms": 0.15,
+      "max_ms": 0.23,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.021508882036234567
+    },
+    {
+      "name": "sigmoid_74",
+      "type": "Sigmoid",
+      "group": "Sigmoid",
+      "mean_ms": 0.14194444444444446,
+      "min_ms": 0.14,
+      "max_ms": 0.21,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.019282524071080467
+    },
+    {
+      "name": "/model.24/Constant_2_output_0",
+      "type": "MemoryData",
+      "group": "MemoryData",
+      "mean_ms": 0.14166666666666666,
+      "min_ms": 0.13,
+      "max_ms": 0.32,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.01924478919031514
+    },
+    {
+      "name": "mul_19",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.14111111111111113,
+      "min_ms": 0.13,
+      "max_ms": 0.15,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.019169319428784495
+    },
+    {
+      "name": "mul_12",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.13694444444444445,
+      "min_ms": 0.13,
+      "max_ms": 0.2,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.018603296217304638
+    },
+    {
+      "name": "/model.24/Constant_6_output_0",
+      "type": "MemoryData",
+      "group": "MemoryData",
+      "mean_ms": 0.13083333333333333,
+      "min_ms": 0.13,
+      "max_ms": 0.14,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.017773128840467514
+    },
+    {
+      "name": "reshape_132",
+      "type": "Reshape",
+      "group": "Reshape",
+      "mean_ms": 0.10194444444444445,
+      "min_ms": 0.09,
+      "max_ms": 0.18,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.013848701240873836
+    },
+    {
+      "name": "split_2",
+      "type": "Slice",
+      "group": "Slice",
+      "mean_ms": 0.10027777777777779,
+      "min_ms": 0.1,
+      "max_ms": 0.11,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.013622291956281896
+    },
+    {
+      "name": "mul_17",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.09972222222222223,
+      "min_ms": 0.09,
+      "max_ms": 0.17,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.013546822194751248
+    },
+    {
+      "name": "cat_15",
+      "type": "Concat",
+      "group": "Concat",
+      "mean_ms": 0.09833333333333334,
+      "min_ms": 0.09,
+      "max_ms": 0.1,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.013358147790924627
+    },
+    {
+      "name": "mul_16",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.08027777777777778,
+      "min_ms": 0.08,
+      "max_ms": 0.09,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.01090538054117858
+    },
+    {
+      "name": "reshape_133",
+      "type": "Reshape",
+      "group": "Reshape",
+      "mean_ms": 0.07861111111111112,
+      "min_ms": 0.07,
+      "max_ms": 0.14,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.010678971256586638
+    },
+    {
+      "name": "pow_18",
+      "type": "UnaryOp",
+      "group": "UnaryOp",
+      "mean_ms": 0.06722222222222222,
+      "min_ms": 0.06,
+      "max_ms": 0.08,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.009131841145208361
+    },
+    {
+      "name": "weighted_sum_1",
+      "type": "Eltwise",
+      "group": "Eltwise",
+      "mean_ms": 0.05861111111111111,
+      "min_ms": 0.05,
+      "max_ms": 0.06,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.007962059841483321
+    },
+    {
+      "name": "permute_127",
+      "type": "Permute",
+      "group": "Permute",
+      "mean_ms": 0.05305555555555556,
+      "min_ms": 0.05,
+      "max_ms": 0.06,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0072073622261768465
+    },
+    {
+      "name": "mul_25",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.05,
+      "min_ms": 0.05,
+      "max_ms": 0.05,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0067922785377582855
+    },
+    {
+      "name": "/model.24/Constant_10_output_0",
+      "type": "MemoryData",
+      "group": "MemoryData",
+      "mean_ms": 0.04805555555555556,
+      "min_ms": 0.04,
+      "max_ms": 0.12,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.006528134372401019
+    },
+    {
+      "name": "/model.24/Constant_14_output_0",
+      "type": "MemoryData",
+      "group": "MemoryData",
+      "mean_ms": 0.04,
+      "min_ms": 0.04,
+      "max_ms": 0.04,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.005433822830206628
+    },
+    {
+      "name": "mul_23",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.03027777777777778,
+      "min_ms": 0.03,
+      "max_ms": 0.04,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.004113102003420295
+    },
+    {
+      "name": "mul_22",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.03,
+      "min_ms": 0.03,
+      "max_ms": 0.03,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.00407536712265497
+    },
+    {
+      "name": "weighted_sum_2",
+      "type": "Eltwise",
+      "group": "Eltwise",
+      "mean_ms": 0.03,
+      "min_ms": 0.03,
+      "max_ms": 0.03,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.00407536712265497
+    },
+    {
+      "name": "mul_31",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.03,
+      "min_ms": 0.03,
+      "max_ms": 0.03,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.00407536712265497
+    },
+    {
+      "name": "splitncnn_8",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.022222222222222223,
+      "min_ms": 0.02,
+      "max_ms": 0.1,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.003018790461225904
+    },
+    {
+      "name": "mul_29",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.020555555555555556,
+      "min_ms": 0.01,
+      "max_ms": 0.1,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.002792381176633962
+    },
+    {
+      "name": "pow_24",
+      "type": "UnaryOp",
+      "group": "UnaryOp",
+      "mean_ms": 0.020277777777777777,
+      "min_ms": 0.02,
+      "max_ms": 0.03,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0027546462958686377
+    },
+    {
+      "name": "splitncnn_0",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.02,
+      "min_ms": 0.02,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.002716911415103314
+    },
+    {
+      "name": "splitncnn_1",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.02,
+      "min_ms": 0.02,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.002716911415103314
+    },
+    {
+      "name": "splitncnn_3",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.02,
+      "min_ms": 0.02,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.002716911415103314
+    },
+    {
+      "name": "splitncnn_27",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.02,
+      "min_ms": 0.02,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.002716911415103314
+    },
+    {
+      "name": "/model.24/Constant_18_output_0",
+      "type": "MemoryData",
+      "group": "MemoryData",
+      "mean_ms": 0.02,
+      "min_ms": 0.02,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.002716911415103314
+    },
+    {
+      "name": "mul_28",
+      "type": "BinaryOp",
+      "group": "BinaryOp",
+      "mean_ms": 0.02,
+      "min_ms": 0.02,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.002716911415103314
+    },
+    {
+      "name": "/model.24/Constant_22_output_0",
+      "type": "MemoryData",
+      "group": "MemoryData",
+      "mean_ms": 0.02,
+      "min_ms": 0.02,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.002716911415103314
+    },
+    {
+      "name": "splitncnn_29",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.019722222222222224,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.00267917653433799
+    },
+    {
+      "name": "splitncnn_4",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.01916666666666667,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0026037067728073428
+    },
+    {
+      "name": "splitncnn_9",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.01916666666666667,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0026037067728073428
+    },
+    {
+      "name": "splitncnn_2",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.018611111111111113,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0025282370112766953
+    },
+    {
+      "name": "splitncnn_7",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.018055555555555557,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.002452767249746048
+    },
+    {
+      "name": "splitncnn_26",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.017777777777777778,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0024150323689807237
+    },
+    {
+      "name": "splitncnn_16",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.0175,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0023772974882154
+    },
+    {
+      "name": "splitncnn_5",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.01638888888888889,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0022263579651541046
+    },
+    {
+      "name": "splitncnn_11",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.015277777777777777,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0020754184420928093
+    },
+    {
+      "name": "pow_30",
+      "type": "UnaryOp",
+      "group": "UnaryOp",
+      "mean_ms": 0.015,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.002037683561327485
+    },
+    {
+      "name": "splitncnn_24",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.014722222222222223,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.001999948680562162
+    },
+    {
+      "name": "splitncnn_25",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.014722222222222223,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.001999948680562162
+    },
+    {
+      "name": "splitncnn_13",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.014166666666666668,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0019244789190315144
+    },
+    {
+      "name": "splitncnn_17",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.014166666666666668,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0019244789190315144
+    },
+    {
+      "name": "splitncnn_15",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.01388888888888889,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0018867440382661904
+    },
+    {
+      "name": "splitncnn_10",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.012777777777777779,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.001735804515204895
+    },
+    {
+      "name": "splitncnn_19",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.012222222222222223,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0016603347536742474
+    },
+    {
+      "name": "splitncnn_6",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.010555555555555556,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0014339254690823046
+    },
+    {
+      "name": "splitncnn_18",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.010555555555555556,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.0014339254690823046
+    },
+    {
+      "name": "splitncnn_20",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.010277777777777778,
+      "min_ms": 0.01,
+      "max_ms": 0.02,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.001396190588316981
+    },
+    {
+      "name": "splitncnn_12",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.01,
+      "min_ms": 0.01,
+      "max_ms": 0.01,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.001358455707551657
+    },
+    {
+      "name": "splitncnn_14",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.01,
+      "min_ms": 0.01,
+      "max_ms": 0.01,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.001358455707551657
+    },
+    {
+      "name": "splitncnn_21",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.01,
+      "min_ms": 0.01,
+      "max_ms": 0.01,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.001358455707551657
+    },
+    {
+      "name": "splitncnn_22",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.01,
+      "min_ms": 0.01,
+      "max_ms": 0.01,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.001358455707551657
+    },
+    {
+      "name": "splitncnn_23",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.01,
+      "min_ms": 0.01,
+      "max_ms": 0.01,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.001358455707551657
+    },
+    {
+      "name": "splitncnn_28",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.01,
+      "min_ms": 0.01,
+      "max_ms": 0.01,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.001358455707551657
+    },
+    {
+      "name": "splitncnn_30",
+      "type": "Split",
+      "group": "Split",
+      "mean_ms": 0.01,
+      "min_ms": 0.01,
+      "max_ms": 0.01,
+      "samples": 36,
+      "share_of_layer_sum_percent": 0.001358455707551657
+    }
+  ],
+  "diagnostic_lines": [],
+  "diagnostic_line_count": 0,
+  "timing_note": "Upstream layer timers rounded to 0.01ms; includes each layer's layout/allocation work; dependency recursion excluded; diagnostic logging perturbs execution; not production FPS",
+  "instrumented_forward_wall_ms": {
+    "mean": 792.0297205833341,
+    "p95": 862.373143500065,
+    "samples": 36
+  },
+  "postprocess_ms": {
+    "mean": 17.667407833319732,
+    "p95": 23.023324799970617,
+    "samples": 12
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "model_field_values_verified": [
+    "gpt-5.6-sol",
+    "gpt-6.1-sol"
+  ],
+  "source": "turn_context model fields in the user-requested local conversation rollouts",
+  "meaning": "Recorded labels only, no inferred unrecoverable build versions",
+  "hidden_reasoning_exported": false
+}

@@ -1,0 +1,8 @@
+﻿comparison,before,after,unit,relative_improvement_percent,scope,source
+ncnn_runtime,1879.8642377,743.8632361,ms,60.429949079189306,"runtime migration, historical runs",SRC01
+stem_reorg,765.0716841,637.6269853,ms,16.657876830184982,same-batch each108 timings,SRC03
+stride_routes,634.6867291,617.4469447,ms,2.7162667201890867,same-batch each108 timings,SRC04
+224_fp32_to_int8,311.6413659,201.0967727,ms,35.47173299050156,"same input size, detection outputs changed",SRC06
+old_model_pl_arm,214.55,185.51,ms,13.535306455371721,"same model/input, each36 timings",SRC11
+new_model_pl_arm,204.27,180.31,ms,11.729573603563914,"same model/input, each48 timings",SRC14
+camera_pipeline,0.72775,2.4075,FPS,230.81415321195468,different-stage composite optimization; descriptive ratio,SRC12/SRC13

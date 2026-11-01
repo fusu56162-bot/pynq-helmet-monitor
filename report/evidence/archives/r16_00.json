@@ -1,0 +1,350 @@
+{
+  "status": "FULL_PL_FLOAT_SEGMENT_BOARD_PASS_NOT_WHOLE_MODEL",
+  "stage": "FINISHED",
+  "cases": [
+    {
+      "name": "random_0",
+      "width": 1,
+      "height": 1,
+      "float32_values_per_run": 32,
+      "byte_exact_all_runs": true,
+      "actual_arm_reference_case": false,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.1609110004210379,
+          "staging_dma_readback_ms": 1.3967140002932865
+        }
+      ],
+      "dma_window_mean_ms": 0.1609110004210379,
+      "staging_dma_readback_mean_ms": 1.3967140002932865
+    },
+    {
+      "name": "random_1",
+      "width": 3,
+      "height": 2,
+      "float32_values_per_run": 64,
+      "byte_exact_all_runs": true,
+      "actual_arm_reference_case": false,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.15839400020922767,
+          "staging_dma_readback_ms": 1.2592920002134633
+        }
+      ],
+      "dma_window_mean_ms": 0.15839400020922767,
+      "staging_dma_readback_mean_ms": 1.2592920002134633
+    },
+    {
+      "name": "random_2",
+      "width": 2,
+      "height": 3,
+      "float32_values_per_run": 64,
+      "byte_exact_all_runs": true,
+      "actual_arm_reference_case": false,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.1576310005475534,
+          "staging_dma_readback_ms": 1.2615759997061105
+        }
+      ],
+      "dma_window_mean_ms": 0.1576310005475534,
+      "staging_dma_readback_mean_ms": 1.2615759997061105
+    },
+    {
+      "name": "random_3",
+      "width": 7,
+      "height": 5,
+      "float32_values_per_run": 384,
+      "byte_exact_all_runs": true,
+      "actual_arm_reference_case": false,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.15586499921482755,
+          "staging_dma_readback_ms": 1.2791199997082003
+        }
+      ],
+      "dma_window_mean_ms": 0.15586499921482755,
+      "staging_dma_readback_mean_ms": 1.2791199997082003
+    },
+    {
+      "name": "random_4",
+      "width": 8,
+      "height": 8,
+      "float32_values_per_run": 512,
+      "byte_exact_all_runs": true,
+      "actual_arm_reference_case": false,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.15767400054755853,
+          "staging_dma_readback_ms": 1.2965229998371797
+        }
+      ],
+      "dma_window_mean_ms": 0.15767400054755853,
+      "staging_dma_readback_mean_ms": 1.2965229998371797
+    },
+    {
+      "name": "random_5",
+      "width": 8,
+      "height": 7,
+      "float32_values_per_run": 512,
+      "byte_exact_all_runs": true,
+      "actual_arm_reference_case": false,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.16289799987134757,
+          "staging_dma_readback_ms": 1.5258710000125575
+        }
+      ],
+      "dma_window_mean_ms": 0.16289799987134757,
+      "staging_dma_readback_mean_ms": 1.5258710000125575
+    },
+    {
+      "name": "random_6",
+      "width": 7,
+      "height": 8,
+      "float32_values_per_run": 512,
+      "byte_exact_all_runs": true,
+      "actual_arm_reference_case": false,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.21021599968662485,
+          "staging_dma_readback_ms": 1.5366090001407429
+        }
+      ],
+      "dma_window_mean_ms": 0.21021599968662485,
+      "staging_dma_readback_mean_ms": 1.5366090001407429
+    },
+    {
+      "name": "constant_0",
+      "width": 5,
+      "height": 6,
+      "float32_values_per_run": 288,
+      "byte_exact_all_runs": true,
+      "actual_arm_reference_case": false,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.15617899953213055,
+          "staging_dma_readback_ms": 1.2794580006811884
+        }
+      ],
+      "dma_window_mean_ms": 0.15617899953213055,
+      "staging_dma_readback_mean_ms": 1.2794580006811884
+    },
+    {
+      "name": "constant_255",
+      "width": 5,
+      "height": 6,
+      "float32_values_per_run": 288,
+      "byte_exact_all_runs": true,
+      "actual_arm_reference_case": false,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.15852899923629593,
+          "staging_dma_readback_ms": 1.2911009998788359
+        }
+      ],
+      "dma_window_mean_ms": 0.15852899923629593,
+      "staging_dma_readback_mean_ms": 1.2911009998788359
+    },
+    {
+      "name": "case_01",
+      "width": 112,
+      "height": 112,
+      "float32_values_per_run": 100352,
+      "byte_exact_all_runs": true,
+      "actual_arm_reference_case": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": true,
+          "dma_window_ms": 7.667415000469191,
+          "staging_dma_readback_ms": 12.638246000278741
+        },
+        {
+          "iteration": 1,
+          "warmup": false,
+          "dma_window_ms": 7.6553100007004105,
+          "staging_dma_readback_ms": 12.195383999824116
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "dma_window_ms": 7.805471000210673,
+          "staging_dma_readback_ms": 11.562319999939064
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "dma_window_ms": 7.800658999258303,
+          "staging_dma_readback_ms": 11.477876999379077
+        },
+        {
+          "iteration": 4,
+          "warmup": false,
+          "dma_window_ms": 7.793845999913174,
+          "staging_dma_readback_ms": 11.495402999571525
+        },
+        {
+          "iteration": 5,
+          "warmup": false,
+          "dma_window_ms": 7.630492000316735,
+          "staging_dma_readback_ms": 11.490671000501607
+        }
+      ],
+      "dma_window_mean_ms": 7.737155600079859,
+      "staging_dma_readback_mean_ms": 11.644330999843078
+    },
+    {
+      "name": "case_02",
+      "width": 112,
+      "height": 112,
+      "float32_values_per_run": 100352,
+      "byte_exact_all_runs": true,
+      "actual_arm_reference_case": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": true,
+          "dma_window_ms": 7.805821999681939,
+          "staging_dma_readback_ms": 11.639543999990565
+        },
+        {
+          "iteration": 1,
+          "warmup": false,
+          "dma_window_ms": 7.76865900024859,
+          "staging_dma_readback_ms": 11.517636000462517
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "dma_window_ms": 7.7527140001620864,
+          "staging_dma_readback_ms": 11.425477000557294
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "dma_window_ms": 7.651082999473147,
+          "staging_dma_readback_ms": 11.458202999165223
+        },
+        {
+          "iteration": 4,
+          "warmup": false,
+          "dma_window_ms": 7.688153999879432,
+          "staging_dma_readback_ms": 11.42360700032441
+        },
+        {
+          "iteration": 5,
+          "warmup": false,
+          "dma_window_ms": 7.87124899943592,
+          "staging_dma_readback_ms": 12.694793999799003
+        }
+      ],
+      "dma_window_mean_ms": 7.746371799839835,
+      "staging_dma_readback_mean_ms": 11.70394340006169
+    },
+    {
+      "name": "full_random",
+      "width": 112,
+      "height": 112,
+      "float32_values_per_run": 100352,
+      "byte_exact_all_runs": true,
+      "actual_arm_reference_case": false,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": true,
+          "dma_window_ms": 7.678516999476415,
+          "staging_dma_readback_ms": 13.569102000474231
+        },
+        {
+          "iteration": 1,
+          "warmup": false,
+          "dma_window_ms": 7.624905000739091,
+          "staging_dma_readback_ms": 12.056499000209442
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "dma_window_ms": 7.812134999767295,
+          "staging_dma_readback_ms": 11.510984999404172
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "dma_window_ms": 7.819963000656571,
+          "staging_dma_readback_ms": 11.48886200007837
+        },
+        {
+          "iteration": 4,
+          "warmup": false,
+          "dma_window_ms": 7.718054999713786,
+          "staging_dma_readback_ms": 11.63733500015951
+        },
+        {
+          "iteration": 5,
+          "warmup": false,
+          "dma_window_ms": 7.768460999614035,
+          "staging_dma_readback_ms": 11.451088999820058
+        }
+      ],
+      "dma_window_mean_ms": 7.748703800098156,
+      "staging_dma_readback_mean_ms": 11.62895399993431
+    }
+  ],
+  "package_verified_files": 49,
+  "backup_on_pc_confirmed_by_user": true,
+  "other_programs_stopped_confirmed_by_user": true,
+  "new_overlay_load_attempted": true,
+  "new_overlay_loaded": true,
+  "old_hardware_restored": true,
+  "board_test_passed": true,
+  "whole_model_integrated": false,
+  "whole_model_ms": null,
+  "implementation": "Reorg/input quantization -> Conv0 -> exact original activation/quantization -> Conv1 -> dequantize/bias/float SiLU; all compute inside PL",
+  "timing_scope": "Frozen RGB byte input to float32 HWC32 segment only. Excludes float-model API boundary packing, image preprocessing, remaining network, NMS/camera/UI. NOT whole-model latency.",
+  "accuracy_accepted": false,
+  "deployment_changed": false,
+  "whole_model_speedup_proven": false,
+  "partial_report": "/home/xilinx/jupyter_notebooks/traffic_project/chain_float_board_v1/results/20250504_120556_f43a2c86/RESULT.json",
+  "fclk0_mhz": 100.0,
+  "invalid_size_guards_passed": true,
+  "dma_quiesced": true,
+  "originals_unchanged": {
+    "build/librider_ncnn.so": true,
+    "int8_v1/build/librider_ncnn_int8.so": true,
+    "small_v1/build/libsmall.so": true,
+    "int8_v1/build/ncnn/src/libncnn.a": true,
+    "mixed_v1/models/recover5/best.ncnn.param": true,
+    "mixed_v1/models/recover5/best.ncnn.bin": true
+  }
+}

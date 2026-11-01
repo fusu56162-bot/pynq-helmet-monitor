@@ -1,0 +1,541 @@
+{
+  "status": "STANDALONE_INTEGER_TILE_BOARD_PASS_NOT_NETWORK_SPEED_ACCEPTANCE",
+  "rows": [
+    {
+      "id": "pointwise_min",
+      "mode": "cold",
+      "repeat": 0,
+      "bit_exact": true,
+      "driver_wall_ms": 1.3327390000199557,
+      "MMIO_wait_window_ms": 0.07675099999460144
+    },
+    {
+      "id": "pointwise_min",
+      "mode": "cached",
+      "repeat": 1,
+      "bit_exact": true,
+      "driver_wall_ms": 1.1760680000065804,
+      "MMIO_wait_window_ms": 0.06888599997978417
+    },
+    {
+      "id": "pointwise_min",
+      "mode": "cached",
+      "repeat": 2,
+      "bit_exact": true,
+      "driver_wall_ms": 1.0261420000006183,
+      "MMIO_wait_window_ms": 0.06447300000900213
+    },
+    {
+      "id": "pointwise_min",
+      "mode": "cached",
+      "repeat": 3,
+      "bit_exact": true,
+      "driver_wall_ms": 1.0058949999915967,
+      "MMIO_wait_window_ms": 0.06465800001365096
+    },
+    {
+      "id": "pointwise_min",
+      "mode": "cached",
+      "repeat": 4,
+      "bit_exact": true,
+      "driver_wall_ms": 0.9941419999961454,
+      "MMIO_wait_window_ms": 0.06325499998638406
+    },
+    {
+      "id": "pointwise_min",
+      "mode": "cached",
+      "repeat": 5,
+      "bit_exact": true,
+      "driver_wall_ms": 1.033914000004188,
+      "MMIO_wait_window_ms": 0.06425799998055481
+    },
+    {
+      "id": "pointwise64",
+      "mode": "cold",
+      "repeat": 0,
+      "bit_exact": true,
+      "driver_wall_ms": 1.739660999987791,
+      "MMIO_wait_window_ms": 0.6489909999913834
+    },
+    {
+      "id": "pointwise64",
+      "mode": "cached",
+      "repeat": 1,
+      "bit_exact": true,
+      "driver_wall_ms": 1.6467939999813552,
+      "MMIO_wait_window_ms": 0.6277790000126515
+    },
+    {
+      "id": "pointwise64",
+      "mode": "cached",
+      "repeat": 2,
+      "bit_exact": true,
+      "driver_wall_ms": 1.6053299999896353,
+      "MMIO_wait_window_ms": 0.6154400000184523
+    },
+    {
+      "id": "pointwise64",
+      "mode": "cached",
+      "repeat": 3,
+      "bit_exact": true,
+      "driver_wall_ms": 1.6427630000066529,
+      "MMIO_wait_window_ms": 0.6266400000072281
+    },
+    {
+      "id": "pointwise64",
+      "mode": "cached",
+      "repeat": 4,
+      "bit_exact": true,
+      "driver_wall_ms": 1.599722999998221,
+      "MMIO_wait_window_ms": 0.6168179999974654
+    },
+    {
+      "id": "pointwise64",
+      "mode": "cached",
+      "repeat": 5,
+      "bit_exact": true,
+      "driver_wall_ms": 1.5943810000180747,
+      "MMIO_wait_window_ms": 0.6189659999904507
+    },
+    {
+      "id": "conv3x3_s1",
+      "mode": "cold",
+      "repeat": 0,
+      "bit_exact": true,
+      "driver_wall_ms": 1.6418579999992744,
+      "MMIO_wait_window_ms": 0.4535129999965193
+    },
+    {
+      "id": "conv3x3_s1",
+      "mode": "cached",
+      "repeat": 1,
+      "bit_exact": true,
+      "driver_wall_ms": 1.27532300001576,
+      "MMIO_wait_window_ms": 0.2692490000129055
+    },
+    {
+      "id": "conv3x3_s1",
+      "mode": "cached",
+      "repeat": 2,
+      "bit_exact": true,
+      "driver_wall_ms": 1.2474460000078125,
+      "MMIO_wait_window_ms": 0.2646640000136813
+    },
+    {
+      "id": "conv3x3_s1",
+      "mode": "cached",
+      "repeat": 3,
+      "bit_exact": true,
+      "driver_wall_ms": 1.2331329999994978,
+      "MMIO_wait_window_ms": 0.25996899998403933
+    },
+    {
+      "id": "conv3x3_s1",
+      "mode": "cached",
+      "repeat": 4,
+      "bit_exact": true,
+      "driver_wall_ms": 1.2296669999898313,
+      "MMIO_wait_window_ms": 0.2601230000038868
+    },
+    {
+      "id": "conv3x3_s1",
+      "mode": "cached",
+      "repeat": 5,
+      "bit_exact": true,
+      "driver_wall_ms": 1.2507819999996173,
+      "MMIO_wait_window_ms": 0.26038800001515483
+    },
+    {
+      "id": "conv3x3_s2",
+      "mode": "cold",
+      "repeat": 0,
+      "bit_exact": true,
+      "driver_wall_ms": 2.643833999997014,
+      "MMIO_wait_window_ms": 1.5275379999764027
+    },
+    {
+      "id": "conv3x3_s2",
+      "mode": "cached",
+      "repeat": 1,
+      "bit_exact": true,
+      "driver_wall_ms": 2.2659629999850495,
+      "MMIO_wait_window_ms": 1.145094999998264
+    },
+    {
+      "id": "conv3x3_s2",
+      "mode": "cached",
+      "repeat": 2,
+      "bit_exact": true,
+      "driver_wall_ms": 2.138825000002953,
+      "MMIO_wait_window_ms": 1.1410150000017438
+    },
+    {
+      "id": "conv3x3_s2",
+      "mode": "cached",
+      "repeat": 3,
+      "bit_exact": true,
+      "driver_wall_ms": 2.125027000005275,
+      "MMIO_wait_window_ms": 1.1416300000064439
+    },
+    {
+      "id": "conv3x3_s2",
+      "mode": "cached",
+      "repeat": 4,
+      "bit_exact": true,
+      "driver_wall_ms": 2.1972179999920627,
+      "MMIO_wait_window_ms": 1.2026770000090892
+    },
+    {
+      "id": "conv3x3_s2",
+      "mode": "cached",
+      "repeat": 5,
+      "bit_exact": true,
+      "driver_wall_ms": 2.134036999990485,
+      "MMIO_wait_window_ms": 1.1412740000196209
+    },
+    {
+      "id": "constant_m127",
+      "mode": "cold",
+      "repeat": 0,
+      "bit_exact": true,
+      "driver_wall_ms": 1.3625229999831845,
+      "MMIO_wait_window_ms": 0.28078799999775583
+    },
+    {
+      "id": "constant_m127",
+      "mode": "cached",
+      "repeat": 1,
+      "bit_exact": true,
+      "driver_wall_ms": 1.1443269999915628,
+      "MMIO_wait_window_ms": 0.06972899998913817
+    },
+    {
+      "id": "constant_m127",
+      "mode": "cached",
+      "repeat": 2,
+      "bit_exact": true,
+      "driver_wall_ms": 1.038762999996834,
+      "MMIO_wait_window_ms": 0.06487999999649219
+    },
+    {
+      "id": "constant_m127",
+      "mode": "cached",
+      "repeat": 3,
+      "bit_exact": true,
+      "driver_wall_ms": 1.0102219999907902,
+      "MMIO_wait_window_ms": 0.06364300000427647
+    },
+    {
+      "id": "constant_m127",
+      "mode": "cached",
+      "repeat": 4,
+      "bit_exact": true,
+      "driver_wall_ms": 0.9986770000125489,
+      "MMIO_wait_window_ms": 0.06409200000234705
+    },
+    {
+      "id": "constant_m127",
+      "mode": "cached",
+      "repeat": 5,
+      "bit_exact": true,
+      "driver_wall_ms": 0.9978589999946053,
+      "MMIO_wait_window_ms": 0.06412299998714843
+    },
+    {
+      "id": "constant_0",
+      "mode": "cold",
+      "repeat": 0,
+      "bit_exact": true,
+      "driver_wall_ms": 1.3684989999944719,
+      "MMIO_wait_window_ms": 0.28033800001026066
+    },
+    {
+      "id": "constant_0",
+      "mode": "cached",
+      "repeat": 1,
+      "bit_exact": true,
+      "driver_wall_ms": 1.0565540000015972,
+      "MMIO_wait_window_ms": 0.06554999998797939
+    },
+    {
+      "id": "constant_0",
+      "mode": "cached",
+      "repeat": 2,
+      "bit_exact": true,
+      "driver_wall_ms": 1.135833999995839,
+      "MMIO_wait_window_ms": 0.06489800000508694
+    },
+    {
+      "id": "constant_0",
+      "mode": "cached",
+      "repeat": 3,
+      "bit_exact": true,
+      "driver_wall_ms": 1.0352609999983997,
+      "MMIO_wait_window_ms": 0.06479300000705734
+    },
+    {
+      "id": "constant_0",
+      "mode": "cached",
+      "repeat": 4,
+      "bit_exact": true,
+      "driver_wall_ms": 1.0026150000044254,
+      "MMIO_wait_window_ms": 0.06486800000971016
+    },
+    {
+      "id": "constant_0",
+      "mode": "cached",
+      "repeat": 5,
+      "bit_exact": true,
+      "driver_wall_ms": 0.9975999999767282,
+      "MMIO_wait_window_ms": 0.06521200000975114
+    },
+    {
+      "id": "constant_127",
+      "mode": "cold",
+      "repeat": 0,
+      "bit_exact": true,
+      "driver_wall_ms": 1.3659689999769853,
+      "MMIO_wait_window_ms": 0.28209200002038415
+    },
+    {
+      "id": "constant_127",
+      "mode": "cached",
+      "repeat": 1,
+      "bit_exact": true,
+      "driver_wall_ms": 1.0547379999934492,
+      "MMIO_wait_window_ms": 0.06471400001828442
+    },
+    {
+      "id": "constant_127",
+      "mode": "cached",
+      "repeat": 2,
+      "bit_exact": true,
+      "driver_wall_ms": 1.0132740000017293,
+      "MMIO_wait_window_ms": 0.0640060000023368
+    },
+    {
+      "id": "constant_127",
+      "mode": "cached",
+      "repeat": 3,
+      "bit_exact": true,
+      "driver_wall_ms": 1.0025229999826024,
+      "MMIO_wait_window_ms": 0.06430199999840625
+    },
+    {
+      "id": "constant_127",
+      "mode": "cached",
+      "repeat": 4,
+      "bit_exact": true,
+      "driver_wall_ms": 1.0299749999944652,
+      "MMIO_wait_window_ms": 0.06595700000389115
+    },
+    {
+      "id": "constant_127",
+      "mode": "cached",
+      "repeat": 5,
+      "bit_exact": true,
+      "driver_wall_ms": 1.0086030000024948,
+      "MMIO_wait_window_ms": 0.06425799998055481
+    },
+    {
+      "id": "case_01_real_conv0",
+      "mode": "cold",
+      "repeat": 0,
+      "bit_exact": true,
+      "driver_wall_ms": 1.4518589999852338,
+      "MMIO_wait_window_ms": 0.2753659999825686
+    },
+    {
+      "id": "case_01_real_conv0",
+      "mode": "cached",
+      "repeat": 1,
+      "bit_exact": true,
+      "driver_wall_ms": 1.274714000004451,
+      "MMIO_wait_window_ms": 0.26854800000819523
+    },
+    {
+      "id": "case_01_real_conv0",
+      "mode": "cached",
+      "repeat": 2,
+      "bit_exact": true,
+      "driver_wall_ms": 1.2322640000093088,
+      "MMIO_wait_window_ms": 0.25944600000116225
+    },
+    {
+      "id": "case_01_real_conv0",
+      "mode": "cached",
+      "repeat": 3,
+      "bit_exact": true,
+      "driver_wall_ms": 1.2276799999995092,
+      "MMIO_wait_window_ms": 0.2589040000202658
+    },
+    {
+      "id": "case_01_real_conv0",
+      "mode": "cached",
+      "repeat": 4,
+      "bit_exact": true,
+      "driver_wall_ms": 1.276677000021209,
+      "MMIO_wait_window_ms": 0.25955099999919184
+    },
+    {
+      "id": "case_01_real_conv0",
+      "mode": "cached",
+      "repeat": 5,
+      "bit_exact": true,
+      "driver_wall_ms": 1.2405849999765906,
+      "MMIO_wait_window_ms": 0.25902800001631476
+    },
+    {
+      "id": "case_01_real_conv1",
+      "mode": "cold",
+      "repeat": 0,
+      "bit_exact": true,
+      "driver_wall_ms": 1.5530280000177754,
+      "MMIO_wait_window_ms": 0.4577970000241294
+    },
+    {
+      "id": "case_01_real_conv1",
+      "mode": "cached",
+      "repeat": 1,
+      "bit_exact": true,
+      "driver_wall_ms": 1.4541050000218547,
+      "MMIO_wait_window_ms": 0.4465970000069319
+    },
+    {
+      "id": "case_01_real_conv1",
+      "mode": "cached",
+      "repeat": 2,
+      "bit_exact": true,
+      "driver_wall_ms": 1.4153230000033545,
+      "MMIO_wait_window_ms": 0.44041300000685624
+    },
+    {
+      "id": "case_01_real_conv1",
+      "mode": "cached",
+      "repeat": 3,
+      "bit_exact": true,
+      "driver_wall_ms": 1.4069169999970654,
+      "MMIO_wait_window_ms": 0.43644900000572306
+    },
+    {
+      "id": "case_01_real_conv1",
+      "mode": "cached",
+      "repeat": 4,
+      "bit_exact": true,
+      "driver_wall_ms": 1.5088859999821125,
+      "MMIO_wait_window_ms": 0.44014200000219716
+    },
+    {
+      "id": "case_01_real_conv1",
+      "mode": "cached",
+      "repeat": 5,
+      "bit_exact": true,
+      "driver_wall_ms": 1.4071079999951053,
+      "MMIO_wait_window_ms": 0.44133000000101674
+    },
+    {
+      "id": "case_02_real_conv0",
+      "mode": "cold",
+      "repeat": 0,
+      "bit_exact": true,
+      "driver_wall_ms": 1.3758030000019517,
+      "MMIO_wait_window_ms": 0.27889800000480136
+    },
+    {
+      "id": "case_02_real_conv0",
+      "mode": "cached",
+      "repeat": 1,
+      "bit_exact": true,
+      "driver_wall_ms": 1.2830279999889171,
+      "MMIO_wait_window_ms": 0.2706899999793677
+    },
+    {
+      "id": "case_02_real_conv0",
+      "mode": "cached",
+      "repeat": 2,
+      "bit_exact": true,
+      "driver_wall_ms": 1.2371939999979986,
+      "MMIO_wait_window_ms": 0.26218400000743713
+    },
+    {
+      "id": "case_02_real_conv0",
+      "mode": "cached",
+      "repeat": 3,
+      "bit_exact": true,
+      "driver_wall_ms": 1.307329000013624,
+      "MMIO_wait_window_ms": 0.2639999999871634
+    },
+    {
+      "id": "case_02_real_conv0",
+      "mode": "cached",
+      "repeat": 4,
+      "bit_exact": true,
+      "driver_wall_ms": 1.236578000003874,
+      "MMIO_wait_window_ms": 0.25984000001244567
+    },
+    {
+      "id": "case_02_real_conv0",
+      "mode": "cached",
+      "repeat": 5,
+      "bit_exact": true,
+      "driver_wall_ms": 1.2281410000127835,
+      "MMIO_wait_window_ms": 0.26207999999883214
+    },
+    {
+      "id": "case_02_real_conv1",
+      "mode": "cold",
+      "repeat": 0,
+      "bit_exact": true,
+      "driver_wall_ms": 1.5571689999944738,
+      "MMIO_wait_window_ms": 0.461544000017966
+    },
+    {
+      "id": "case_02_real_conv1",
+      "mode": "cached",
+      "repeat": 1,
+      "bit_exact": true,
+      "driver_wall_ms": 1.4578459999938786,
+      "MMIO_wait_window_ms": 0.44910200000458644
+    },
+    {
+      "id": "case_02_real_conv1",
+      "mode": "cached",
+      "repeat": 2,
+      "bit_exact": true,
+      "driver_wall_ms": 1.4602280000133305,
+      "MMIO_wait_window_ms": 0.4429290000018682
+    },
+    {
+      "id": "case_02_real_conv1",
+      "mode": "cached",
+      "repeat": 3,
+      "bit_exact": true,
+      "driver_wall_ms": 1.410369000012679,
+      "MMIO_wait_window_ms": 0.4430029999866747
+    },
+    {
+      "id": "case_02_real_conv1",
+      "mode": "cached",
+      "repeat": 4,
+      "bit_exact": true,
+      "driver_wall_ms": 1.3977229999966312,
+      "MMIO_wait_window_ms": 0.43844900000067355
+    },
+    {
+      "id": "case_02_real_conv1",
+      "mode": "cached",
+      "repeat": 5,
+      "bit_exact": true,
+      "driver_wall_ms": 1.395470999995041,
+      "MMIO_wait_window_ms": 0.4368859999885899
+    }
+  ],
+  "whole_model_run": false,
+  "swish_run": false,
+  "CPU_fallback": false,
+  "timing_scope": "Prepared packed tile buffers -> HLS integer tile -> cache invalidated output; includes poisoning/cache/MMIO dispatch/poll, excludes Python input packing, model activation and inter-layer scheduling; NOT YOLO forward or camera FPS",
+  "model_image_replaced_permanently": false,
+  "old_hardware_restored": true,
+  "master_idle": true,
+  "fclk0_mhz": 100.0
+}

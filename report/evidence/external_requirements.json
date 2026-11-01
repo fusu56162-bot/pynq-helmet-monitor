@@ -1,0 +1,14 @@
+[
+  {
+    "purpose": "complete frozen board baseline, needed for clean-board reproduction",
+    "path": "C:\\Users\\zzyzz\\Desktop\\编译方案保存\\traffic_project.tar.gz",
+    "bytes": 1595905442,
+    "sha256": "8e425d93dbcfb5c365d775df54d256729826d7e1372bf7e831759ea582484761"
+  },
+  {
+    "purpose": "organized source, runtime, HLS and conversion",
+    "path": "D:/Codex/submission_20261028/deliverables/骑行头盔检测系统_整理源码_20261028.zip",
+    "bytes": 18535959,
+    "sha256": "a5e0ffac8a598604a3d750890c3203559b1ad08c22a9b4db26384b78bb297775"
+  }
+]

@@ -1,0 +1,778 @@
+{
+  "status": "TWO_LAYER_REFERENCE_PASS_NOT_FPGA_OR_ACCURACY_ACCEPTANCE",
+  "stage": "FINISHED",
+  "package_verified_files": 65,
+  "cases": [
+    {
+      "id": "case_01",
+      "passed": true,
+      "input_unchanged": true,
+      "previous_full_model_check": {
+        "passed": true,
+        "coordinates_passed": true,
+        "scores_passed": true,
+        "detections_passed": true,
+        "byte_exact": true,
+        "max_coordinate_error": 0.0,
+        "max_score_error": 0.0
+      },
+      "new_first_integer_reconstruction_checked_against_ARM": true,
+      "midlayer_int8_mapping_byte_exact": true,
+      "float_checks": {
+        "conv0_pre": {
+          "passed": true,
+          "byte_exact": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-05,
+          "rtol": 1e-06
+        },
+        "silu0": {
+          "passed": true,
+          "byte_exact": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-05,
+          "rtol": 1e-06
+        },
+        "conv1_pre": {
+          "passed": true,
+          "byte_exact": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-05,
+          "rtol": 1e-06
+        },
+        "silu1": {
+          "passed": true,
+          "byte_exact": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-05,
+          "rtol": 1e-06
+        }
+      },
+      "resumed_whole_model_check": {
+        "passed": true,
+        "coordinates_passed": true,
+        "scores_passed": true,
+        "detections_passed": true,
+        "byte_exact": true,
+        "max_coordinate_error": 0.0,
+        "max_score_error": 0.0
+      },
+      "input_byte_reconstructible": true,
+      "files": {
+        "raw": {
+          "file": "case_01_raw.npy",
+          "shape": [
+            1,
+            3,
+            224,
+            224
+          ],
+          "dtype": "float32",
+          "sha256": "6ad438d4df254ddcd2a7f05d5c55ab4fba8445a4964d663e305ca73541b358eb"
+        },
+        "reorg_q0": {
+          "file": "case_01_reorg_q0.npy",
+          "shape": [
+            12,
+            112,
+            112
+          ],
+          "dtype": "int8",
+          "sha256": "1a855fb8be1baf1f96ebc33389b13f0460cebad9db8e4308d547a185d6906db8"
+        },
+        "conv0_sum": {
+          "file": "case_01_conv0_sum.npy",
+          "shape": [
+            16,
+            112,
+            112
+          ],
+          "dtype": "int32",
+          "sha256": "fbff3f2ba766f2c288deb7915553c602548a18b4a3f0036b2ef403042a414433"
+        },
+        "conv0_pre": {
+          "file": "case_01_conv0_pre.npy",
+          "shape": [
+            16,
+            112,
+            112
+          ],
+          "dtype": "float32",
+          "sha256": "501c226172c888005f6bba2615aba318a09b0c7f0dbaaf5484b6a27039041020"
+        },
+        "silu0": {
+          "file": "case_01_silu0.npy",
+          "shape": [
+            16,
+            112,
+            112
+          ],
+          "dtype": "float32",
+          "sha256": "17cef225c82c3f6346f41eac3362c66db3c824e61ff075bab40c0e808e0b5fab"
+        },
+        "conv1_input_q1": {
+          "file": "case_01_conv1_input_q1.npy",
+          "shape": [
+            16,
+            112,
+            112
+          ],
+          "dtype": "int8",
+          "sha256": "8cfda17c387a9f1005c53336ff15d46a43652737842db48bfeb8859590ff4962"
+        },
+        "conv1_sum": {
+          "file": "case_01_conv1_sum.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int32",
+          "sha256": "aa53b7971f2879c54e30172904d1ed34f44eff62a8f26cd7a4d5808dfb0415b0"
+        },
+        "conv1_pre": {
+          "file": "case_01_conv1_pre.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "d46e4d22a494ca29d1708acc8bb8325e51a694af3d7a9cb609e6d34965bccf25"
+        },
+        "silu1_boundary": {
+          "file": "case_01_silu1_boundary.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "aab00bc6c76e6a6bbfc0726b909adf3e54b90794a5e5a0f483f77e556fb334b8"
+        },
+        "reconstructed_silu1": {
+          "file": "case_01_reconstructed_silu1.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "aab00bc6c76e6a6bbfc0726b909adf3e54b90794a5e5a0f483f77e556fb334b8"
+        },
+        "full_original": {
+          "file": "case_01_full_original.npy",
+          "shape": [
+            1,
+            3087,
+            9
+          ],
+          "dtype": "float32",
+          "sha256": "6e478491a1693dddbeedeb41350332df500d45af0ff140f4c7266b2d52d2f5d1"
+        },
+        "full_resumed": {
+          "file": "case_01_full_resumed.npy",
+          "shape": [
+            1,
+            3087,
+            9
+          ],
+          "dtype": "float32",
+          "sha256": "6e478491a1693dddbeedeb41350332df500d45af0ff140f4c7266b2d52d2f5d1"
+        }
+      }
+    },
+    {
+      "id": "case_02",
+      "passed": true,
+      "input_unchanged": true,
+      "previous_full_model_check": {
+        "passed": true,
+        "coordinates_passed": true,
+        "scores_passed": true,
+        "detections_passed": true,
+        "byte_exact": true,
+        "max_coordinate_error": 0.0,
+        "max_score_error": 0.0
+      },
+      "new_first_integer_reconstruction_checked_against_ARM": true,
+      "midlayer_int8_mapping_byte_exact": true,
+      "float_checks": {
+        "conv0_pre": {
+          "passed": true,
+          "byte_exact": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-05,
+          "rtol": 1e-06
+        },
+        "silu0": {
+          "passed": true,
+          "byte_exact": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-05,
+          "rtol": 1e-06
+        },
+        "conv1_pre": {
+          "passed": true,
+          "byte_exact": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-05,
+          "rtol": 1e-06
+        },
+        "silu1": {
+          "passed": true,
+          "byte_exact": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-05,
+          "rtol": 1e-06
+        }
+      },
+      "resumed_whole_model_check": {
+        "passed": true,
+        "coordinates_passed": true,
+        "scores_passed": true,
+        "detections_passed": true,
+        "byte_exact": true,
+        "max_coordinate_error": 0.0,
+        "max_score_error": 0.0
+      },
+      "input_byte_reconstructible": true,
+      "files": {
+        "raw": {
+          "file": "case_02_raw.npy",
+          "shape": [
+            1,
+            3,
+            224,
+            224
+          ],
+          "dtype": "float32",
+          "sha256": "2c294e0718bbb285078e8bd484d19f4eb877bcb8a76e21fcfa15d5f6f85c6d1a"
+        },
+        "reorg_q0": {
+          "file": "case_02_reorg_q0.npy",
+          "shape": [
+            12,
+            112,
+            112
+          ],
+          "dtype": "int8",
+          "sha256": "973d2cea78dba59dcacd35e0c179fa651e3c370d0c527e1d21444f44a3492a63"
+        },
+        "conv0_sum": {
+          "file": "case_02_conv0_sum.npy",
+          "shape": [
+            16,
+            112,
+            112
+          ],
+          "dtype": "int32",
+          "sha256": "f5704677d77bba33c7a854c16ae11c598e0944b244a92554a2fde52f83264847"
+        },
+        "conv0_pre": {
+          "file": "case_02_conv0_pre.npy",
+          "shape": [
+            16,
+            112,
+            112
+          ],
+          "dtype": "float32",
+          "sha256": "826901d58664555eb08a2c5bc15a835b2a15b5bbc180276c7f0bcaab3f29a78f"
+        },
+        "silu0": {
+          "file": "case_02_silu0.npy",
+          "shape": [
+            16,
+            112,
+            112
+          ],
+          "dtype": "float32",
+          "sha256": "fd20606fe40c1f11566672ed01b96e9310cb590412d4e70b36cc4a7fd63e3c1e"
+        },
+        "conv1_input_q1": {
+          "file": "case_02_conv1_input_q1.npy",
+          "shape": [
+            16,
+            112,
+            112
+          ],
+          "dtype": "int8",
+          "sha256": "29e3d8b11cd7bfcce1f1695f153e2cb8df2a9396b2e139f11775ce84f50919ac"
+        },
+        "conv1_sum": {
+          "file": "case_02_conv1_sum.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int32",
+          "sha256": "459bb1ddcc057d2c78eb5c5b324e7bc00c64b555534ab56bd052ab689239b307"
+        },
+        "conv1_pre": {
+          "file": "case_02_conv1_pre.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "4e581d1706795213c0ac3259b4afd264ac766dd9562b785c1461ed823c83c454"
+        },
+        "silu1_boundary": {
+          "file": "case_02_silu1_boundary.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "b42f483851baf344416ab5b6edd7b55d233951e65d3de616d1cdf3887fa70526"
+        },
+        "reconstructed_silu1": {
+          "file": "case_02_reconstructed_silu1.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "b42f483851baf344416ab5b6edd7b55d233951e65d3de616d1cdf3887fa70526"
+        },
+        "full_original": {
+          "file": "case_02_full_original.npy",
+          "shape": [
+            1,
+            3087,
+            9
+          ],
+          "dtype": "float32",
+          "sha256": "95314a9724fe0cf9a5ea61fa7ad646673d68196afc7107f6d624c9189e3f2bba"
+        },
+        "full_resumed": {
+          "file": "case_02_full_resumed.npy",
+          "shape": [
+            1,
+            3087,
+            9
+          ],
+          "dtype": "float32",
+          "sha256": "95314a9724fe0cf9a5ea61fa7ad646673d68196afc7107f6d624c9189e3f2bba"
+        }
+      }
+    }
+  ],
+  "model": "final224_KL_recover5_layout",
+  "input_side": 224,
+  "fpga_accessed": false,
+  "deployment_changed": false,
+  "accuracy_accepted": false,
+  "whole_model_speedup_proven": false,
+  "pc_arm_numeric_issue_resolved": false,
+  "purpose": "Golden data for FPGA-internal Conv0 -> original SiLU/quantization -> Conv1; NOT another speed benchmark",
+  "no_performance_measurement": true,
+  "actual_arm_mapping_generated": true,
+  "native_rom_decoder_all_values_checked": true,
+  "full_two_layer_fpga_not_built": true,
+  "native_stderr_log": "native_stderr.log",
+  "build": {
+    "command": [
+      "/usr/bin/g++",
+      "-std=c++11",
+      "-O3",
+      "-DNDEBUG",
+      "-fPIC",
+      "-shared",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-mcpu=cortex-a9",
+      "-mfpu=neon",
+      "-mfloat-abi=hard",
+      "-fopenmp",
+      "-pthread",
+      "-I/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/int8_v1/build/source/ncnn-20260526/src",
+      "-I/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/int8_v1/build/source/ncnn-20260526/src/layer",
+      "-I/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/int8_v1/build/ncnn/src",
+      "/home/xilinx/jupyter_notebooks/traffic_project/final224_model_v1/chain_bridge.cpp",
+      "/home/xilinx/jupyter_notebooks/traffic_project/final224_model_v1/integer_reference.cpp",
+      "/home/xilinx/jupyter_notebooks/traffic_project/final224_model_v1/lut_core.cpp",
+      "/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/int8_v1/build/ncnn/src/libncnn.a",
+      "-Wl,-Bsymbolic",
+      "-Wl,--no-undefined",
+      "-lm",
+      "-ldl",
+      "-o",
+      "/home/xilinx/jupyter_notebooks/traffic_project/final224_model_v1/results/20250505_033716_5906f1a3/libchain_reference.so"
+    ],
+    "library_sha256": "59445a14124e2c32746c241b5393b4f2017d229db95d021af04b5f2916b0843c",
+    "original_static_sha256": "38d75b2b8a28c3bcaaa881b287a2ab3377de7bae342247e6ad400d03f6ba2a46"
+  },
+  "arm_model_comparison": "ARM_CPU_REFERENCES_COLLECTED_NOT_FPGA_DEPLOYMENT",
+  "original_arm_parameters": {
+    "file": "actual_arm_scale_bias_input_scales.npy",
+    "shape": [
+      98
+    ],
+    "dtype": "float32",
+    "sha256": "41feea25b8c61248945e78d22040069ec0085f6732c08a4242e6af16aae22e3e"
+  },
+  "input_normalization_lut": {
+    "file": "input_u8_to_float32_lut.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32",
+    "sha256": "7ef564aefa7ace56e31e905ae069c56b1231d3f7b0e5d3044923c2f31ec02949"
+  },
+  "input_quantization_lut": {
+    "file": "input_u8_to_int8_lut.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "int8",
+    "sha256": "c00096240347bb0a58be6da3d1f83645b721fa5df9b1e03a634a5214c1b4f214"
+  },
+  "mapping_complete_conservative_domain_values": 1486551,
+  "mapping_domains": [
+    {
+      "channel": 0,
+      "minimum": -43180,
+      "maximum": 50292,
+      "file": "channel_00_actual_arm_map.npy",
+      "shape": [
+        93473
+      ],
+      "dtype": "int8",
+      "sha256": "34cdf950201c9a760588f60056ce701f9ed371647f9c14c8b0025e3f63a34204"
+    },
+    {
+      "channel": 1,
+      "minimum": -64262,
+      "maximum": 70358,
+      "file": "channel_01_actual_arm_map.npy",
+      "shape": [
+        134621
+      ],
+      "dtype": "int8",
+      "sha256": "d03b931372283fc817fbbb9b7dc16a622a882e696ad011e86ff8dc52f050b561"
+    },
+    {
+      "channel": 2,
+      "minimum": -64008,
+      "maximum": 64135,
+      "file": "channel_02_actual_arm_map.npy",
+      "shape": [
+        128144
+      ],
+      "dtype": "int8",
+      "sha256": "f5a081e40d2a49b120e5cf7a668792e30a114f58ad4c07d4311976bb216be1e8"
+    },
+    {
+      "channel": 3,
+      "minimum": -19177,
+      "maximum": 18923,
+      "file": "channel_03_actual_arm_map.npy",
+      "shape": [
+        38101
+      ],
+      "dtype": "int8",
+      "sha256": "b88ec843843652f7229ecd27b8b31bf3c1c5df356d7b2b62ad1ab1d2826f8c50"
+    },
+    {
+      "channel": 4,
+      "minimum": -38989,
+      "maximum": 38735,
+      "file": "channel_04_actual_arm_map.npy",
+      "shape": [
+        77725
+      ],
+      "dtype": "int8",
+      "sha256": "ed823a9c81862621940560023604ec9b001eed1ae81131af58b8bbc3027a1729"
+    },
+    {
+      "channel": 5,
+      "minimum": -44196,
+      "maximum": 42926,
+      "file": "channel_05_actual_arm_map.npy",
+      "shape": [
+        87123
+      ],
+      "dtype": "int8",
+      "sha256": "6d5010bf38c82f4b1792d2c1a3efea2d3ad83663208a0443c342d460e35cc8f7"
+    },
+    {
+      "channel": 6,
+      "minimum": -74041,
+      "maximum": 71882,
+      "file": "channel_06_actual_arm_map.npy",
+      "shape": [
+        145924
+      ],
+      "dtype": "int8",
+      "sha256": "fd9042be14b6bd281ce1f9f59712c21237446ccbfa7403a5147b8f67dcb32212"
+    },
+    {
+      "channel": 7,
+      "minimum": -88646,
+      "maximum": 87884,
+      "file": "channel_07_actual_arm_map.npy",
+      "shape": [
+        176531
+      ],
+      "dtype": "int8",
+      "sha256": "a56a448bb3e59cab285429fe27cf9ed7d8c2d98ff64c26c34e05ced3c4c2bf85"
+    },
+    {
+      "channel": 8,
+      "minimum": -17018,
+      "maximum": 18288,
+      "file": "channel_08_actual_arm_map.npy",
+      "shape": [
+        35307
+      ],
+      "dtype": "int8",
+      "sha256": "e4f48edf9adb5865053ccdfecb228286f17bf8ab1137abcfe57e084297c9f0fc"
+    },
+    {
+      "channel": 9,
+      "minimum": -61722,
+      "maximum": 63119,
+      "file": "channel_09_actual_arm_map.npy",
+      "shape": [
+        124842
+      ],
+      "dtype": "int8",
+      "sha256": "366d52c4ec690fa16ed72a28bf265a1887bce82c220dc1680797c9a46b2fba76"
+    },
+    {
+      "channel": 10,
+      "minimum": -71882,
+      "maximum": 70866,
+      "file": "channel_10_actual_arm_map.npy",
+      "shape": [
+        142749
+      ],
+      "dtype": "int8",
+      "sha256": "240d42d467ee50dfe17a346767c8174f5c3c39f9b30e176e394906da7b82e72f"
+    },
+    {
+      "channel": 11,
+      "minimum": -64643,
+      "maximum": 65024,
+      "file": "channel_11_actual_arm_map.npy",
+      "shape": [
+        129668
+      ],
+      "dtype": "int8",
+      "sha256": "808b11eb9abe3640df6e9f545196310c3dd5b4442761c85bde4e0fee6e2d685e"
+    },
+    {
+      "channel": 12,
+      "minimum": -26924,
+      "maximum": 14351,
+      "file": "channel_12_actual_arm_map.npy",
+      "shape": [
+        41276
+      ],
+      "dtype": "int8",
+      "sha256": "128efdf70dced91146b2e684f7ddc6ed88b03fdd80a493fa43dce69537d1ef71"
+    },
+    {
+      "channel": 13,
+      "minimum": -31496,
+      "maximum": 16129,
+      "file": "channel_13_actual_arm_map.npy",
+      "shape": [
+        47626
+      ],
+      "dtype": "int8",
+      "sha256": "463f1caf463a39242ce7b4e6f6d4c8464832f5a3c08f7f081795caf9848334eb"
+    },
+    {
+      "channel": 14,
+      "minimum": -22733,
+      "maximum": 22987,
+      "file": "channel_14_actual_arm_map.npy",
+      "shape": [
+        45721
+      ],
+      "dtype": "int8",
+      "sha256": "069ed12cb9fedbcdaceb035f1835495c58b406a8390fcaa03e3fc4c67dc60ef9"
+    },
+    {
+      "channel": 15,
+      "minimum": -18796,
+      "maximum": 18923,
+      "file": "channel_15_actual_arm_map.npy",
+      "shape": [
+        37720
+      ],
+      "dtype": "int8",
+      "sha256": "4d7c8dd780cdd63604f4027ff934359cdaf2dd12c91c3cbd97c196ebe6f1ada0"
+    }
+  ],
+  "rom_fits_initial_budget": true,
+  "rom": {
+    "file": "exact_activation_quantization_rom.npy",
+    "shape": [
+      4936
+    ],
+    "dtype": "uint32",
+    "sha256": "19dc6e23c839642d2e7ed44f272efbd6f8fd52052856a7607efef75514cbd58c"
+  },
+  "rom_raw_bytes": 19744,
+  "rom_configs": [
+    {
+      "minimum": -43180,
+      "maximum": 50292,
+      "table_minimum": -11834,
+      "table_maximum": 12409,
+      "first": 0,
+      "count": 379,
+      "shift": 6
+    },
+    {
+      "minimum": -64262,
+      "maximum": 70358,
+      "table_minimum": -11733,
+      "table_maximum": 15356,
+      "first": 379,
+      "count": 212,
+      "shift": 7
+    },
+    {
+      "minimum": -64008,
+      "maximum": 64135,
+      "table_minimum": -4428,
+      "table_maximum": 6016,
+      "first": 591,
+      "count": 327,
+      "shift": 5
+    },
+    {
+      "minimum": -19177,
+      "maximum": 18923,
+      "table_minimum": -4042,
+      "table_maximum": 3330,
+      "first": 918,
+      "count": 231,
+      "shift": 5
+    },
+    {
+      "minimum": -38989,
+      "maximum": 38735,
+      "table_minimum": -5037,
+      "table_maximum": 8016,
+      "first": 1149,
+      "count": 408,
+      "shift": 5
+    },
+    {
+      "minimum": -44196,
+      "maximum": 42926,
+      "table_minimum": -4771,
+      "table_maximum": 4720,
+      "first": 1557,
+      "count": 297,
+      "shift": 5
+    },
+    {
+      "minimum": -74041,
+      "maximum": 71882,
+      "table_minimum": -6342,
+      "table_maximum": 6060,
+      "first": 1854,
+      "count": 388,
+      "shift": 5
+    },
+    {
+      "minimum": -88646,
+      "maximum": 87884,
+      "table_minimum": -8946,
+      "table_maximum": 10130,
+      "first": 2242,
+      "count": 299,
+      "shift": 6
+    },
+    {
+      "minimum": -17018,
+      "maximum": 18288,
+      "table_minimum": -3341,
+      "table_maximum": 3619,
+      "first": 2541,
+      "count": 218,
+      "shift": 5
+    },
+    {
+      "minimum": -61722,
+      "maximum": 63119,
+      "table_minimum": -16478,
+      "table_maximum": 21820,
+      "first": 2759,
+      "count": 300,
+      "shift": 7
+    },
+    {
+      "minimum": -71882,
+      "maximum": 70866,
+      "table_minimum": -29401,
+      "table_maximum": 26120,
+      "first": 3059,
+      "count": 217,
+      "shift": 8
+    },
+    {
+      "minimum": -64643,
+      "maximum": 65024,
+      "table_minimum": -21529,
+      "table_maximum": 25605,
+      "first": 3276,
+      "count": 369,
+      "shift": 7
+    },
+    {
+      "minimum": -26924,
+      "maximum": 14351,
+      "table_minimum": -5219,
+      "table_maximum": 1154,
+      "first": 3645,
+      "count": 399,
+      "shift": 4
+    },
+    {
+      "minimum": -31496,
+      "maximum": 16129,
+      "table_minimum": -7156,
+      "table_maximum": 792,
+      "first": 4044,
+      "count": 249,
+      "shift": 5
+    },
+    {
+      "minimum": -22733,
+      "maximum": 22987,
+      "table_minimum": -4156,
+      "table_maximum": 4248,
+      "first": 4293,
+      "count": 263,
+      "shift": 5
+    },
+    {
+      "minimum": -18796,
+      "maximum": 18923,
+      "table_minimum": -3642,
+      "table_maximum": 2435,
+      "first": 4556,
+      "count": 380,
+      "shift": 4
+    }
+  ],
+  "originals_unchanged": {
+    "/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/build/librider_ncnn.so": true,
+    "/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/int8_v1/build/librider_ncnn_int8.so": true,
+    "/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/small_v1/build/libsmall.so": true,
+    "/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/int8_v1/build/ncnn/src/libncnn.a": true,
+    "/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/mixed_v1/models/recover5/best.ncnn.param": true,
+    "/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/mixed_v1/models/recover5/best.ncnn.bin": true
+  }
+}

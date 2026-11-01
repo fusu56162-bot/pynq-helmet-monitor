@@ -1,0 +1,700 @@
+{
+  "status": "CAMERA_AB_MEASURED_NOT_DETECTION_OR_OPTICAL_FOCUS_ACCEPTANCE",
+  "stages": [
+    {
+      "dynamic_requested": 1,
+      "requested_seconds": 6,
+      "frames": [
+        {
+          "returned_ms": 8586778.172774,
+          "read_api_ms": 125.40412899943476,
+          "bytes": 48504
+        },
+        {
+          "returned_ms": 8586910.342934,
+          "read_api_ms": 36.05097200124874,
+          "bytes": 51376
+        },
+        {
+          "returned_ms": 8586976.313285,
+          "read_api_ms": 65.67825899946911,
+          "bytes": 64504
+        },
+        {
+          "returned_ms": 8587042.215365,
+          "read_api_ms": 65.58695400053693,
+          "bytes": 65352
+        },
+        {
+          "returned_ms": 8587114.459118,
+          "read_api_ms": 50.34095399969374,
+          "bytes": 74048
+        },
+        {
+          "returned_ms": 8587246.443734,
+          "read_api_ms": 131.6390030006005,
+          "bytes": 87640
+        },
+        {
+          "returned_ms": 8587378.470749,
+          "read_api_ms": 131.65935399956652,
+          "bytes": 98352
+        },
+        {
+          "returned_ms": 8587510.727185,
+          "read_api_ms": 106.34940300042217,
+          "bytes": 99040
+        },
+        {
+          "returned_ms": 8587576.445973,
+          "read_api_ms": 65.2969969996775,
+          "bytes": 99136
+        },
+        {
+          "returned_ms": 8587642.426404,
+          "read_api_ms": 65.5535019996023,
+          "bytes": 99424
+        },
+        {
+          "returned_ms": 8587714.619136,
+          "read_api_ms": 45.96777299957466,
+          "bytes": 99512
+        },
+        {
+          "returned_ms": 8587846.416367,
+          "read_api_ms": 131.38518100095098,
+          "bytes": 100312
+        },
+        {
+          "returned_ms": 8587978.419258999,
+          "read_api_ms": 131.58575299894437,
+          "bytes": 100272
+        },
+        {
+          "returned_ms": 8588110.834606,
+          "read_api_ms": 106.37601199960045,
+          "bytes": 100760
+        },
+        {
+          "returned_ms": 8588176.426612,
+          "read_api_ms": 65.04328600021836,
+          "bytes": 100040
+        },
+        {
+          "returned_ms": 8588242.395086,
+          "read_api_ms": 65.55519399989862,
+          "bytes": 100464
+        },
+        {
+          "returned_ms": 8588314.622378001,
+          "read_api_ms": 46.03759400015406,
+          "bytes": 100160
+        },
+        {
+          "returned_ms": 8588446.42447,
+          "read_api_ms": 131.38688599974557,
+          "bytes": 100496
+        },
+        {
+          "returned_ms": 8588578.423941001,
+          "read_api_ms": 131.59433799955877,
+          "bytes": 99136
+        },
+        {
+          "returned_ms": 8588710.524322,
+          "read_api_ms": 106.64505800014012,
+          "bytes": 95392
+        },
+        {
+          "returned_ms": 8588776.346944,
+          "read_api_ms": 65.41162499888742,
+          "bytes": 94592
+        },
+        {
+          "returned_ms": 8588842.347344,
+          "read_api_ms": 65.6143449996307,
+          "bytes": 93472
+        },
+        {
+          "returned_ms": 8588914.663042,
+          "read_api_ms": 47.25379699993937,
+          "bytes": 98528
+        },
+        {
+          "returned_ms": 8589046.491589,
+          "read_api_ms": 131.1689590002061,
+          "bytes": 100520
+        },
+        {
+          "returned_ms": 8589178.417201,
+          "read_api_ms": 131.43404299989925,
+          "bytes": 99144
+        },
+        {
+          "returned_ms": 8589310.558198,
+          "read_api_ms": 105.20456599988393,
+          "bytes": 100856
+        },
+        {
+          "returned_ms": 8589376.396112,
+          "read_api_ms": 65.42985200030671,
+          "bytes": 100608
+        },
+        {
+          "returned_ms": 8589442.40821,
+          "read_api_ms": 65.560135000851,
+          "bytes": 101344
+        },
+        {
+          "returned_ms": 8589514.613576,
+          "read_api_ms": 46.32092300016666,
+          "bytes": 100872
+        },
+        {
+          "returned_ms": 8589646.403348,
+          "read_api_ms": 131.38675699883606,
+          "bytes": 100768
+        },
+        {
+          "returned_ms": 8589778.441538999,
+          "read_api_ms": 131.62753800133942,
+          "bytes": 100584
+        },
+        {
+          "returned_ms": 8589910.559853,
+          "read_api_ms": 106.48310699980357,
+          "bytes": 100840
+        },
+        {
+          "returned_ms": 8589976.440837,
+          "read_api_ms": 65.38846100011142,
+          "bytes": 101256
+        },
+        {
+          "returned_ms": 8590042.436462,
+          "read_api_ms": 65.56552000074589,
+          "bytes": 101912
+        },
+        {
+          "returned_ms": 8590114.763883,
+          "read_api_ms": 45.77699699984805,
+          "bytes": 101512
+        },
+        {
+          "returned_ms": 8590246.490424,
+          "read_api_ms": 131.22873199972673,
+          "bytes": 101376
+        },
+        {
+          "returned_ms": 8590378.435021,
+          "read_api_ms": 131.33828299942252,
+          "bytes": 101128
+        },
+        {
+          "returned_ms": 8590510.578984,
+          "read_api_ms": 104.32369799855223,
+          "bytes": 101584
+        },
+        {
+          "returned_ms": 8590576.501513,
+          "read_api_ms": 65.504296000654,
+          "bytes": 101288
+        },
+        {
+          "returned_ms": 8590642.445304,
+          "read_api_ms": 65.52944599934563,
+          "bytes": 101096
+        },
+        {
+          "returned_ms": 8590720.888393,
+          "read_api_ms": 52.17117000029248,
+          "bytes": 101168
+        },
+        {
+          "returned_ms": 8590846.420664,
+          "read_api_ms": 125.00355100019078,
+          "bytes": 101008
+        },
+        {
+          "returned_ms": 8590978.445279,
+          "read_api_ms": 131.5874210013135,
+          "bytes": 101016
+        },
+        {
+          "returned_ms": 8591110.623168001,
+          "read_api_ms": 105.07888000029197,
+          "bytes": 100848
+        },
+        {
+          "returned_ms": 8591176.518988999,
+          "read_api_ms": 65.45752000056382,
+          "bytes": 101232
+        },
+        {
+          "returned_ms": 8591242.449088,
+          "read_api_ms": 65.5062280002312,
+          "bytes": 101040
+        },
+        {
+          "returned_ms": 8591314.629875,
+          "read_api_ms": 46.00584699983301,
+          "bytes": 100960
+        },
+        {
+          "returned_ms": 8591446.432706,
+          "read_api_ms": 131.38585900014732,
+          "bytes": 100712
+        },
+        {
+          "returned_ms": 8591578.435019001,
+          "read_api_ms": 131.5705839988368,
+          "bytes": 101280
+        },
+        {
+          "returned_ms": 8591710.554065,
+          "read_api_ms": 106.16238700094982,
+          "bytes": 100952
+        },
+        {
+          "returned_ms": 8591776.440595001,
+          "read_api_ms": 65.45334700058447,
+          "bytes": 101192
+        },
+        {
+          "returned_ms": 8591842.435973,
+          "read_api_ms": 65.56394400104182,
+          "bytes": 101224
+        },
+        {
+          "returned_ms": 8591914.694865,
+          "read_api_ms": 46.301975000460516,
+          "bytes": 101272
+        },
+        {
+          "returned_ms": 8592046.499984998,
+          "read_api_ms": 131.31343399982143,
+          "bytes": 101048
+        },
+        {
+          "returned_ms": 8592178.463837001,
+          "read_api_ms": 131.4690889994381,
+          "bytes": 101120
+        },
+        {
+          "returned_ms": 8592310.56356,
+          "read_api_ms": 106.42917500081239,
+          "bytes": 100952
+        },
+        {
+          "returned_ms": 8592376.41196,
+          "read_api_ms": 65.41847399967082,
+          "bytes": 100808
+        },
+        {
+          "returned_ms": 8592443.014741,
+          "read_api_ms": 66.12267700074881,
+          "bytes": 100544
+        },
+        {
+          "returned_ms": 8592517.771732,
+          "read_api_ms": 39.487863999966066,
+          "bytes": 100640
+        },
+        {
+          "returned_ms": 8592646.714236,
+          "read_api_ms": 116.48184599835076,
+          "bytes": 100760
+        },
+        {
+          "returned_ms": 8592778.497627,
+          "read_api_ms": 131.187389999468,
+          "bytes": 101216
+        }
+      ],
+      "camera": {
+        "requested_format": "MJPG",
+        "requested_fps": 15,
+        "set_returned": {
+          "FRAME_WIDTH": true,
+          "FRAME_HEIGHT": true,
+          "FOURCC": true,
+          "FPS": true,
+          "BUFFERSIZE": true,
+          "CONVERT_RGB": true
+        },
+        "reported": {
+          "FRAME_WIDTH": 640.0,
+          "FRAME_HEIGHT": 480.0,
+          "FOURCC": 1196444237.0,
+          "FPS": 15.0,
+          "BUFFERSIZE": 1.0,
+          "CONVERT_RGB": 0.0
+        },
+        "actual_fourcc": "MJPG",
+        "raw_undecoded_requested": true,
+        "opencv_version": "4.5.4",
+        "opencv_threads": 2
+      },
+      "dynamic_readback_before_warmup": 1,
+      "dynamic_readback_after_warmup": 1,
+      "dynamic_readback_at_end": 1,
+      "count": 61,
+      "elapsed_s": 6.152670243000102,
+      "read_returns_per_second": 9.91439449715345,
+      "saved_samples": 3,
+      "preview_submission_limit_fps": 4,
+      "jpeg_reencoded": false,
+      "frame_resized": false,
+      "model_loaded": false,
+      "fpga_accessed": false
+    },
+    {
+      "dynamic_requested": 0,
+      "requested_seconds": 6,
+      "frames": [
+        {
+          "returned_ms": 8594827.629292,
+          "read_api_ms": 125.72079399978975,
+          "bytes": 62936
+        },
+        {
+          "returned_ms": 8594959.665131,
+          "read_api_ms": 110.33403100009309,
+          "bytes": 68400
+        },
+        {
+          "returned_ms": 8595025.50054,
+          "read_api_ms": 65.4313409995666,
+          "bytes": 68152
+        },
+        {
+          "returned_ms": 8595091.641888,
+          "read_api_ms": 65.82591999904253,
+          "bytes": 71672
+        },
+        {
+          "returned_ms": 8595163.621426,
+          "read_api_ms": 49.612585000431864,
+          "bytes": 72328
+        },
+        {
+          "returned_ms": 8595295.682023,
+          "read_api_ms": 131.6731750011968,
+          "bytes": 81560
+        },
+        {
+          "returned_ms": 8595427.750208,
+          "read_api_ms": 131.7082030000165,
+          "bytes": 92248
+        },
+        {
+          "returned_ms": 8595559.879124,
+          "read_api_ms": 106.98041199975705,
+          "bytes": 102624
+        },
+        {
+          "returned_ms": 8595625.703506,
+          "read_api_ms": 65.2964430009888,
+          "bytes": 102232
+        },
+        {
+          "returned_ms": 8595691.700773,
+          "read_api_ms": 65.59294100043189,
+          "bytes": 102144
+        },
+        {
+          "returned_ms": 8595763.88801,
+          "read_api_ms": 45.61171000023023,
+          "bytes": 102224
+        },
+        {
+          "returned_ms": 8595895.716379,
+          "read_api_ms": 131.40845599991735,
+          "bytes": 101800
+        },
+        {
+          "returned_ms": 8596027.706458999,
+          "read_api_ms": 131.49511300071026,
+          "bytes": 101424
+        },
+        {
+          "returned_ms": 8596159.784421999,
+          "read_api_ms": 105.77015400122036,
+          "bytes": 101864
+        },
+        {
+          "returned_ms": 8596225.733122999,
+          "read_api_ms": 65.33670799944957,
+          "bytes": 102408
+        },
+        {
+          "returned_ms": 8596291.728206001,
+          "read_api_ms": 65.57116299882182,
+          "bytes": 102192
+        },
+        {
+          "returned_ms": 8596363.877387999,
+          "read_api_ms": 46.12072599957173,
+          "bytes": 102080
+        },
+        {
+          "returned_ms": 8596495.732421001,
+          "read_api_ms": 131.4229660001729,
+          "bytes": 101944
+        },
+        {
+          "returned_ms": 8596627.715737998,
+          "read_api_ms": 131.5593719991739,
+          "bytes": 101848
+        },
+        {
+          "returned_ms": 8596759.790673,
+          "read_api_ms": 106.17742800059204,
+          "bytes": 101688
+        },
+        {
+          "returned_ms": 8596825.797535,
+          "read_api_ms": 65.39968700053578,
+          "bytes": 102080
+        },
+        {
+          "returned_ms": 8596891.749805,
+          "read_api_ms": 65.5219260006561,
+          "bytes": 102032
+        },
+        {
+          "returned_ms": 8596963.871313,
+          "read_api_ms": 46.41738499958592,
+          "bytes": 101952
+        },
+        {
+          "returned_ms": 8597095.761239,
+          "read_api_ms": 131.46135399983905,
+          "bytes": 101480
+        },
+        {
+          "returned_ms": 8597227.722328,
+          "read_api_ms": 131.53749499906553,
+          "bytes": 102032
+        },
+        {
+          "returned_ms": 8597359.789097,
+          "read_api_ms": 106.25386399988201,
+          "bytes": 103248
+        },
+        {
+          "returned_ms": 8597425.716032,
+          "read_api_ms": 65.28760000037437,
+          "bytes": 101856
+        },
+        {
+          "returned_ms": 8597491.725558,
+          "read_api_ms": 65.54427700029919,
+          "bytes": 101728
+        },
+        {
+          "returned_ms": 8597563.86706,
+          "read_api_ms": 46.535563000361435,
+          "bytes": 101224
+        },
+        {
+          "returned_ms": 8597695.711896,
+          "read_api_ms": 131.42695900023682,
+          "bytes": 100776
+        },
+        {
+          "returned_ms": 8597827.730795,
+          "read_api_ms": 131.6045909989043,
+          "bytes": 100624
+        },
+        {
+          "returned_ms": 8597959.790555,
+          "read_api_ms": 106.59215299892821,
+          "bytes": 101120
+        },
+        {
+          "returned_ms": 8598025.736265,
+          "read_api_ms": 65.40790199869662,
+          "bytes": 101592
+        },
+        {
+          "returned_ms": 8598091.792794,
+          "read_api_ms": 65.65769799999543,
+          "bytes": 100856
+        },
+        {
+          "returned_ms": 8598164.003563,
+          "read_api_ms": 46.459298000627314,
+          "bytes": 102712
+        },
+        {
+          "returned_ms": 8598295.777397,
+          "read_api_ms": 131.30612900022243,
+          "bytes": 103224
+        },
+        {
+          "returned_ms": 8598427.767409,
+          "read_api_ms": 131.56058999993547,
+          "bytes": 103560
+        },
+        {
+          "returned_ms": 8598559.8072,
+          "read_api_ms": 104.12801900019986,
+          "bytes": 103184
+        },
+        {
+          "returned_ms": 8598625.71315,
+          "read_api_ms": 65.38518199886312,
+          "bytes": 102944
+        },
+        {
+          "returned_ms": 8598691.729267001,
+          "read_api_ms": 65.60984600037045,
+          "bytes": 103488
+        },
+        {
+          "returned_ms": 8598763.907169,
+          "read_api_ms": 45.92349499944248,
+          "bytes": 104040
+        },
+        {
+          "returned_ms": 8598895.74683,
+          "read_api_ms": 131.4230209991365,
+          "bytes": 104024
+        },
+        {
+          "returned_ms": 8599027.743131,
+          "read_api_ms": 131.58638200002315,
+          "bytes": 102976
+        },
+        {
+          "returned_ms": 8599159.808430001,
+          "read_api_ms": 105.80607900010364,
+          "bytes": 103080
+        },
+        {
+          "returned_ms": 8599225.741747,
+          "read_api_ms": 65.40466499973263,
+          "bytes": 102976
+        },
+        {
+          "returned_ms": 8599291.729777,
+          "read_api_ms": 65.59081900013553,
+          "bytes": 103360
+        },
+        {
+          "returned_ms": 8599363.921457,
+          "read_api_ms": 45.92764999870269,
+          "bytes": 103504
+        },
+        {
+          "returned_ms": 8599495.782005,
+          "read_api_ms": 131.4559319998807,
+          "bytes": 102856
+        },
+        {
+          "returned_ms": 8599627.718478,
+          "read_api_ms": 131.51284900050086,
+          "bytes": 102256
+        },
+        {
+          "returned_ms": 8599759.994706001,
+          "read_api_ms": 106.25274499943771,
+          "bytes": 102816
+        },
+        {
+          "returned_ms": 8599891.775099,
+          "read_api_ms": 131.03003700052795,
+          "bytes": 102536
+        },
+        {
+          "returned_ms": 8599964.077388,
+          "read_api_ms": 44.56440600006317,
+          "bytes": 97952
+        },
+        {
+          "returned_ms": 8600095.844471,
+          "read_api_ms": 131.37477499913075,
+          "bytes": 100032
+        },
+        {
+          "returned_ms": 8600227.73081,
+          "read_api_ms": 131.49478699961037,
+          "bytes": 100984
+        },
+        {
+          "returned_ms": 8600359.820563,
+          "read_api_ms": 105.33145799854537,
+          "bytes": 99504
+        },
+        {
+          "returned_ms": 8600491.74596,
+          "read_api_ms": 131.4070089993038,
+          "bytes": 100200
+        },
+        {
+          "returned_ms": 8600563.887665,
+          "read_api_ms": 46.32931100059068,
+          "bytes": 100128
+        },
+        {
+          "returned_ms": 8600695.711043,
+          "read_api_ms": 131.41368600008718,
+          "bytes": 98984
+        },
+        {
+          "returned_ms": 8600827.710433,
+          "read_api_ms": 131.5846520010382,
+          "bytes": 99040
+        }
+      ],
+      "camera": {
+        "requested_format": "MJPG",
+        "requested_fps": 15,
+        "set_returned": {
+          "FRAME_WIDTH": true,
+          "FRAME_HEIGHT": true,
+          "FOURCC": true,
+          "FPS": true,
+          "BUFFERSIZE": true,
+          "CONVERT_RGB": true
+        },
+        "reported": {
+          "FRAME_WIDTH": 640.0,
+          "FRAME_HEIGHT": 480.0,
+          "FOURCC": 1196444237.0,
+          "FPS": 15.0,
+          "BUFFERSIZE": 1.0,
+          "CONVERT_RGB": 0.0
+        },
+        "actual_fourcc": "MJPG",
+        "raw_undecoded_requested": true,
+        "opencv_version": "4.5.4",
+        "opencv_threads": 2
+      },
+      "dynamic_readback_before_warmup": 0,
+      "dynamic_readback_after_warmup": 0,
+      "dynamic_readback_at_end": 0,
+      "count": 59,
+      "elapsed_s": 6.151280538000719,
+      "read_returns_per_second": 9.591498816468562,
+      "saved_samples": 3,
+      "preview_submission_limit_fps": 4,
+      "jpeg_reencoded": false,
+      "frame_resized": false,
+      "model_loaded": false,
+      "fpga_accessed": false
+    }
+  ],
+  "original_dynamic": 1,
+  "control_restore_confirmed": true,
+  "fpga_accessed": false,
+  "model_loaded": false,
+  "only_changed_control_hex": "0x9a0903",
+  "true_sensor_or_browser_fps_measured": false,
+  "auto_exposure_before": 3,
+  "control_change_attempted": true,
+  "dynamic_after_restore": 1,
+  "auto_exposure_after": 3,
+  "auto_exposure_mode_unchanged": true
+}

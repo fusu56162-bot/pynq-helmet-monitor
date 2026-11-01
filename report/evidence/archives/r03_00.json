@@ -1,0 +1,1575 @@
+{
+  "passed": true,
+  "board_verified": true,
+  "deployment_changed": false,
+  "environment": "board",
+  "backend": "native",
+  "machine": "armv7l",
+  "rounds": 3,
+  "repeat": 3,
+  "threads": 2,
+  "phases": [
+    {
+      "variant": "baseline",
+      "round": 1,
+      "passed": true,
+      "cases": [
+        {
+          "id": "case_01",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0025634765625,
+          "max_score_error": 6.496906280517578e-06,
+          "inference_ms": {
+            "mean": 751.2883926665381,
+            "p95": 752.184630399779,
+            "samples": 3
+          },
+          "detection_count": 6
+        },
+        {
+          "id": "case_02",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0009918212890625,
+          "max_score_error": 4.857778549194336e-06,
+          "inference_ms": {
+            "mean": 765.113480000006,
+            "p95": 789.5694001001175,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_03",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.000946044921875,
+          "max_score_error": 8.285045623779297e-06,
+          "inference_ms": {
+            "mean": 753.3968909997384,
+            "p95": 756.0789108997596,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_04",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00244140625,
+          "max_score_error": 6.318092346191406e-06,
+          "inference_ms": {
+            "mean": 756.7334426667003,
+            "p95": 762.0238838001114,
+            "samples": 3
+          },
+          "detection_count": 0
+        },
+        {
+          "id": "case_05",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0009307861328125,
+          "max_score_error": 4.947185516357422e-06,
+          "inference_ms": {
+            "mean": 752.1779806667533,
+            "p95": 753.6591270000827,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_06",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0010528564453125,
+          "max_score_error": 5.7220458984375e-06,
+          "inference_ms": {
+            "mean": 752.4475413333676,
+            "p95": 755.2402791001896,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_07",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00225830078125,
+          "max_score_error": 5.930662155151367e-06,
+          "inference_ms": {
+            "mean": 754.5196463335438,
+            "p95": 760.2336222003032,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_08",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00213623046875,
+          "max_score_error": 7.897615432739258e-06,
+          "inference_ms": {
+            "mean": 755.0556066665498,
+            "p95": 757.022464299871,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_09",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0012359619140625,
+          "max_score_error": 6.258487701416016e-06,
+          "inference_ms": {
+            "mean": 750.7042963334243,
+            "p95": 751.1431810999511,
+            "samples": 3
+          },
+          "detection_count": 2
+        },
+        {
+          "id": "case_10",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00310516357421875,
+          "max_score_error": 1.710653305053711e-05,
+          "inference_ms": {
+            "mean": 799.4115416668137,
+            "p95": 879.7952589000033,
+            "samples": 3
+          },
+          "detection_count": 2
+        },
+        {
+          "id": "case_11",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001312255859375,
+          "max_score_error": 5.662441253662109e-06,
+          "inference_ms": {
+            "mean": 753.4371353334185,
+            "p95": 755.3999490999104,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_12",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.003204345703125,
+          "max_score_error": 6.854534149169922e-06,
+          "inference_ms": {
+            "mean": 752.3611683332092,
+            "p95": 755.0146405997111,
+            "samples": 3
+          },
+          "detection_count": 4
+        }
+      ],
+      "build_info": "ncnn=1.0.20260526;armv7-neon;fp32;vulkan=off;abi=1",
+      "memory_after": {
+        "rss_mb": 147.59765625,
+        "peak_rss_mb": 148.72265625
+      },
+      "inference_ms": {
+        "mean": 758.0539269166719,
+        "p95": 770.4999862501154,
+        "samples": 36
+      },
+      "postprocess_ms": {
+        "mean": 16.839707583396073,
+        "p95": 18.752102300254588,
+        "samples": 12
+      },
+      "measured_ms": [
+        750.7593459999953,
+        750.7632729998477,
+        752.3425589997714,
+        793.8165780001327,
+        751.3447989999804,
+        750.179062999905,
+        751.6566199997214,
+        752.0021709997309,
+        756.5318819997628,
+        755.6887370001277,
+        762.7277890001096,
+        751.7838019998635,
+        751.0457280000082,
+        753.8878820000718,
+        751.6003320001801,
+        750.4572170000756,
+        755.6896730002336,
+        751.1957339997934,
+        761.2098080003307,
+        751.4479500000562,
+        750.9011810002448,
+        756.0476229996311,
+        757.1307799998976,
+        751.9884170001205,
+        751.2186389999442,
+        750.4301900003156,
+        750.464060000013,
+        893.7815369999953,
+        753.9187560000755,
+        750.5343320003703,
+        754.5100300003469,
+        755.4988289998619,
+        750.3025470000466,
+        755.4544239997085,
+        751.0565899997346,
+        750.5724910001845
+      ]
+    },
+    {
+      "variant": "candidate",
+      "round": 1,
+      "passed": true,
+      "cases": [
+        {
+          "id": "case_01",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001373291015625,
+          "max_score_error": 6.22868537902832e-06,
+          "inference_ms": {
+            "mean": 689.0778863335072,
+            "p95": 796.2223194000217,
+            "samples": 3
+          },
+          "detection_count": 6
+        },
+        {
+          "id": "case_02",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001007080078125,
+          "max_score_error": 4.231929779052734e-06,
+          "inference_ms": {
+            "mean": 625.453440999839,
+            "p95": 627.7407572999437,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_03",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00091552734375,
+          "max_score_error": 6.0498714447021484e-06,
+          "inference_ms": {
+            "mean": 625.79725433352,
+            "p95": 629.4073906001358,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_04",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0028076171875,
+          "max_score_error": 6.020069122314453e-06,
+          "inference_ms": {
+            "mean": 625.6250866666354,
+            "p95": 627.8484035002293,
+            "samples": 3
+          },
+          "detection_count": 0
+        },
+        {
+          "id": "case_05",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0010986328125,
+          "max_score_error": 5.364418029785156e-06,
+          "inference_ms": {
+            "mean": 625.2618063332799,
+            "p95": 625.8092509997823,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_06",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0009765625,
+          "max_score_error": 4.470348358154297e-06,
+          "inference_ms": {
+            "mean": 640.6321406666393,
+            "p95": 667.1929704999457,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_07",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00225830078125,
+          "max_score_error": 5.424022674560547e-06,
+          "inference_ms": {
+            "mean": 625.5786800000654,
+            "p95": 627.6806406000105,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_08",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001708984375,
+          "max_score_error": 6.496906280517578e-06,
+          "inference_ms": {
+            "mean": 686.9162839998353,
+            "p95": 793.3168562999526,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_09",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001800537109375,
+          "max_score_error": 4.76837158203125e-06,
+          "inference_ms": {
+            "mean": 626.3449013332926,
+            "p95": 630.3434699000263,
+            "samples": 3
+          },
+          "detection_count": 2
+        },
+        {
+          "id": "case_10",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001312255859375,
+          "max_score_error": 5.781650543212891e-06,
+          "inference_ms": {
+            "mean": 624.9793493332921,
+            "p95": 625.1015004999772,
+            "samples": 3
+          },
+          "detection_count": 2
+        },
+        {
+          "id": "case_11",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0016021728515625,
+          "max_score_error": 5.781650543212891e-06,
+          "inference_ms": {
+            "mean": 628.4290699998868,
+            "p95": 635.9572416999526,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_12",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001708984375,
+          "max_score_error": 6.139278411865234e-06,
+          "inference_ms": {
+            "mean": 689.5232813335497,
+            "p95": 793.0214177004018,
+            "samples": 3
+          },
+          "detection_count": 4
+        }
+      ],
+      "build_info": "ncnn=1.0.20260526;armv7-neon;fp32;vulkan=off;abi=1",
+      "memory_after": {
+        "rss_mb": 149.2890625,
+        "peak_rss_mb": 150.46484375
+      },
+      "inference_ms": {
+        "mean": 642.8015984444452,
+        "p95": 811.3666082502959,
+        "samples": 36
+      },
+      "postprocess_ms": {
+        "mean": 16.775653083451896,
+        "p95": 18.14988755018021,
+        "samples": 12
+      },
+      "measured_ms": [
+        627.6298950001546,
+        814.9548110000069,
+        624.64895300036,
+        623.8077339999109,
+        628.1068729999788,
+        624.4457159996273,
+        624.3142330004048,
+        623.1042330000491,
+        629.973297000106,
+        628.2128860002558,
+        624.0943129996595,
+        624.5680609999908,
+        625.8218939997278,
+        625.6954640002732,
+        624.2680609998388,
+        671.8406879999748,
+        624.6922210002595,
+        625.3635129996837,
+        624.6468539998205,
+        624.0714580003441,
+        628.0177280000316,
+        623.8953529996252,
+        624.814115999925,
+        812.0393829999557,
+        631.0131000000183,
+        623.7048049997611,
+        624.3167990000984,
+        625.1028179999594,
+        624.7455869997793,
+        625.0896430001376,
+        637.2634829999697,
+        623.8226569998915,
+        624.2010699997991,
+        811.1423500004094,
+        627.4944669999059,
+        629.9330270003338
+      ]
+    },
+    {
+      "variant": "candidate",
+      "round": 2,
+      "passed": true,
+      "cases": [
+        {
+          "id": "case_01",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001373291015625,
+          "max_score_error": 6.22868537902832e-06,
+          "inference_ms": {
+            "mean": 628.4828706664788,
+            "p95": 629.5101146999059,
+            "samples": 3
+          },
+          "detection_count": 6
+        },
+        {
+          "id": "case_02",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001007080078125,
+          "max_score_error": 4.231929779052734e-06,
+          "inference_ms": {
+            "mean": 622.6845450000837,
+            "p95": 623.0184684999585,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_03",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00091552734375,
+          "max_score_error": 6.0498714447021484e-06,
+          "inference_ms": {
+            "mean": 641.3835660000586,
+            "p95": 671.9974855000601,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_04",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0028076171875,
+          "max_score_error": 6.020069122314453e-06,
+          "inference_ms": {
+            "mean": 624.624532333352,
+            "p95": 627.3470587000247,
+            "samples": 3
+          },
+          "detection_count": 0
+        },
+        {
+          "id": "case_05",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0010986328125,
+          "max_score_error": 5.364418029785156e-06,
+          "inference_ms": {
+            "mean": 623.2847456667514,
+            "p95": 623.7441553000281,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_06",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0009765625,
+          "max_score_error": 4.470348358154297e-06,
+          "inference_ms": {
+            "mean": 623.4811906667043,
+            "p95": 623.7605017997794,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_07",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00225830078125,
+          "max_score_error": 5.424022674560547e-06,
+          "inference_ms": {
+            "mean": 691.0071373332963,
+            "p95": 805.4186916997423,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_08",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001708984375,
+          "max_score_error": 6.496906280517578e-06,
+          "inference_ms": {
+            "mean": 623.9409243335103,
+            "p95": 625.8965347000867,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_09",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001800537109375,
+          "max_score_error": 4.76837158203125e-06,
+          "inference_ms": {
+            "mean": 627.0502390001033,
+            "p95": 630.7933224000408,
+            "samples": 3
+          },
+          "detection_count": 2
+        },
+        {
+          "id": "case_10",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001312255859375,
+          "max_score_error": 5.781650543212891e-06,
+          "inference_ms": {
+            "mean": 627.434047999941,
+            "p95": 632.2112905000267,
+            "samples": 3
+          },
+          "detection_count": 2
+        },
+        {
+          "id": "case_11",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0016021728515625,
+          "max_score_error": 5.781650543212891e-06,
+          "inference_ms": {
+            "mean": 624.3088193332369,
+            "p95": 626.3757111000359,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_12",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001708984375,
+          "max_score_error": 6.139278411865234e-06,
+          "inference_ms": {
+            "mean": 655.2295906667496,
+            "p95": 668.8673085001938,
+            "samples": 3
+          },
+          "detection_count": 4
+        }
+      ],
+      "build_info": "ncnn=1.0.20260526;armv7-neon;fp32;vulkan=off;abi=1",
+      "memory_after": {
+        "rss_mb": 148.05859375,
+        "peak_rss_mb": 150.46484375
+      },
+      "inference_ms": {
+        "mean": 634.4093507500222,
+        "p95": 671.1947922501622,
+        "samples": 36
+      },
+      "postprocess_ms": {
+        "mean": 16.750408666742562,
+        "p95": 18.13077680017159,
+        "samples": 12
+      },
+      "measured_ms": [
+        629.6057459999247,
+        627.1934329997748,
+        628.6494329997367,
+        622.3327500001687,
+        622.6629100001446,
+        623.0579749999379,
+        623.8369959996817,
+        677.3486510001021,
+        622.9650510003921,
+        627.8031560000272,
+        623.2421830000021,
+        622.8282580000268,
+        623.8111190000382,
+        622.9016360002788,
+        623.1414819999372,
+        623.1863620000695,
+        623.4637340003246,
+        623.7934759997188,
+        623.2963190000191,
+        825.5577279996942,
+        624.1673650001758,
+        622.2256420001031,
+        626.1710270000549,
+        623.426104000373,
+        631.2760910000179,
+        626.4484050002466,
+        623.4262210000452,
+        626.3944600000286,
+        623.0500789997677,
+        632.8576050000265,
+        623.1814139996459,
+        626.7306330000793,
+        623.0144109999856,
+        666.3815310002974,
+        669.1435060001822,
+        630.1637349997691
+      ]
+    },
+    {
+      "variant": "baseline",
+      "round": 2,
+      "passed": true,
+      "cases": [
+        {
+          "id": "case_01",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0025634765625,
+          "max_score_error": 6.496906280517578e-06,
+          "inference_ms": {
+            "mean": 750.3365030000472,
+            "p95": 750.592468700188,
+            "samples": 3
+          },
+          "detection_count": 6
+        },
+        {
+          "id": "case_02",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0009918212890625,
+          "max_score_error": 4.857778549194336e-06,
+          "inference_ms": {
+            "mean": 807.3134063333782,
+            "p95": 900.6717797999045,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_03",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.000946044921875,
+          "max_score_error": 8.285045623779297e-06,
+          "inference_ms": {
+            "mean": 751.1066903333207,
+            "p95": 753.4785586001362,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_04",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00244140625,
+          "max_score_error": 6.318092346191406e-06,
+          "inference_ms": {
+            "mean": 749.7470306667916,
+            "p95": 750.0474031002341,
+            "samples": 3
+          },
+          "detection_count": 0
+        },
+        {
+          "id": "case_05",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0009307861328125,
+          "max_score_error": 4.947185516357422e-06,
+          "inference_ms": {
+            "mean": 813.6206486666803,
+            "p95": 922.6196383001479,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_06",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0010528564453125,
+          "max_score_error": 5.7220458984375e-06,
+          "inference_ms": {
+            "mean": 752.6705140000255,
+            "p95": 754.0390471998762,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_07",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00225830078125,
+          "max_score_error": 5.930662155151367e-06,
+          "inference_ms": {
+            "mean": 751.0558306665492,
+            "p95": 752.9079186998842,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_08",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00213623046875,
+          "max_score_error": 7.897615432739258e-06,
+          "inference_ms": {
+            "mean": 813.9354266666791,
+            "p95": 910.227689599833,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_09",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0012359619140625,
+          "max_score_error": 6.258487701416016e-06,
+          "inference_ms": {
+            "mean": 751.1192109999078,
+            "p95": 753.0004666999048,
+            "samples": 3
+          },
+          "detection_count": 2
+        },
+        {
+          "id": "case_10",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00310516357421875,
+          "max_score_error": 1.710653305053711e-05,
+          "inference_ms": {
+            "mean": 749.4832806667849,
+            "p95": 749.8078205001548,
+            "samples": 3
+          },
+          "detection_count": 2
+        },
+        {
+          "id": "case_11",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001312255859375,
+          "max_score_error": 5.662441253662109e-06,
+          "inference_ms": {
+            "mean": 817.6819926666212,
+            "p95": 924.6271440001237,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_12",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.003204345703125,
+          "max_score_error": 6.854534149169922e-06,
+          "inference_ms": {
+            "mean": 753.4423646666255,
+            "p95": 758.2543394000368,
+            "samples": 3
+          },
+          "detection_count": 4
+        }
+      ],
+      "build_info": "ncnn=1.0.20260526;armv7-neon;fp32;vulkan=off;abi=1",
+      "memory_after": {
+        "rss_mb": 145.40234375,
+        "peak_rss_mb": 150.46484375
+      },
+      "inference_ms": {
+        "mean": 771.7927416111175,
+        "p95": 930.1234814998907,
+        "samples": 36
+      },
+      "postprocess_ms": {
+        "mean": 16.635026833265936,
+        "p95": 17.95136034997995,
+        "samples": 12
+      },
+      "measured_ms": [
+        750.045893999868,
+        750.3434810000726,
+        750.6201340002008,
+        751.0618209998938,
+        916.9799249998505,
+        753.8984730003904,
+        749.8365159999594,
+        749.6003249998466,
+        753.8832300001559,
+        749.9115489999895,
+        750.0624980002613,
+        749.2670450001242,
+        749.0974510001251,
+        941.8039860001954,
+        749.9605089997203,
+        753.0095750003056,
+        750.8485339999424,
+        754.1534329998285,
+        753.2251309999083,
+        750.0530079996679,
+        749.8893530000714,
+        766.207076000228,
+        749.36922400002,
+        926.2299799997891,
+        749.7546380000131,
+        750.3027859997928,
+        753.3002089999172,
+        749.3666810000832,
+        749.8568360001627,
+        749.2263250001088,
+        761.0717279999335,
+        749.1742819997853,
+        942.7999680001449,
+        749.8448920000556,
+        751.4745529997526,
+        759.0076490000683
+      ]
+    },
+    {
+      "variant": "baseline",
+      "round": 3,
+      "passed": true,
+      "cases": [
+        {
+          "id": "case_01",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0025634765625,
+          "max_score_error": 6.496906280517578e-06,
+          "inference_ms": {
+            "mean": 751.4289693332709,
+            "p95": 753.6233349999748,
+            "samples": 3
+          },
+          "detection_count": 6
+        },
+        {
+          "id": "case_02",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0009918212890625,
+          "max_score_error": 4.857778549194336e-06,
+          "inference_ms": {
+            "mean": 751.5816273333561,
+            "p95": 753.7573135000457,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_03",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.000946044921875,
+          "max_score_error": 8.285045623779297e-06,
+          "inference_ms": {
+            "mean": 783.2067866667481,
+            "p95": 801.2447897000129,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_04",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00244140625,
+          "max_score_error": 6.318092346191406e-06,
+          "inference_ms": {
+            "mean": 753.5617196666257,
+            "p95": 760.01792510001,
+            "samples": 3
+          },
+          "detection_count": 0
+        },
+        {
+          "id": "case_05",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0009307861328125,
+          "max_score_error": 4.947185516357422e-06,
+          "inference_ms": {
+            "mean": 750.7720356666141,
+            "p95": 751.376368199999,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_06",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0010528564453125,
+          "max_score_error": 5.7220458984375e-06,
+          "inference_ms": {
+            "mean": 750.2474453332676,
+            "p95": 750.6219916998361,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_07",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00225830078125,
+          "max_score_error": 5.930662155151367e-06,
+          "inference_ms": {
+            "mean": 754.8873300000499,
+            "p95": 762.2377544999836,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_08",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00213623046875,
+          "max_score_error": 7.897615432739258e-06,
+          "inference_ms": {
+            "mean": 751.5542490000371,
+            "p95": 754.0088526001,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_09",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0012359619140625,
+          "max_score_error": 6.258487701416016e-06,
+          "inference_ms": {
+            "mean": 806.911725666699,
+            "p95": 898.5640749000595,
+            "samples": 3
+          },
+          "detection_count": 2
+        },
+        {
+          "id": "case_10",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00310516357421875,
+          "max_score_error": 1.710653305053711e-05,
+          "inference_ms": {
+            "mean": 750.7685876665468,
+            "p95": 751.8697720999171,
+            "samples": 3
+          },
+          "detection_count": 2
+        },
+        {
+          "id": "case_11",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001312255859375,
+          "max_score_error": 5.662441253662109e-06,
+          "inference_ms": {
+            "mean": 763.2651083332954,
+            "p95": 785.6008927999483,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_12",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.003204345703125,
+          "max_score_error": 6.854534149169922e-06,
+          "inference_ms": {
+            "mean": 816.2350223334821,
+            "p95": 927.7077823001036,
+            "samples": 3
+          },
+          "detection_count": 4
+        }
+      ],
+      "build_info": "ncnn=1.0.20260526;armv7-neon;fp32;vulkan=off;abi=1",
+      "memory_after": {
+        "rss_mb": 145.63671875,
+        "peak_rss_mb": 150.46484375
+      },
+      "inference_ms": {
+        "mean": 765.3683839166661,
+        "p95": 829.8874050000222,
+        "samples": 36
+      },
+      "postprocess_ms": {
+        "mean": 16.79154341661615,
+        "p95": 18.145904350012643,
+        "samples": 12
+      },
+      "measured_ms": [
+        750.1711059999252,
+        750.1088859999072,
+        754.0069159999803,
+        750.6038080000508,
+        754.1077030000451,
+        750.0333709999722,
+        801.7235620000065,
+        750.9609590001673,
+        796.9358390000707,
+        749.6207799999866,
+        749.9250199998642,
+        761.1393590000262,
+        750.9550079998917,
+        749.9379129999397,
+        751.4231860000109,
+        749.6151870000176,
+        750.4905529999633,
+        750.636595999822,
+        763.5120850000021,
+        750.7687799998166,
+        750.3811250003309,
+        750.2585219999673,
+        754.4255560001147,
+        749.9786690000292,
+        756.2303429999702,
+        750.1259000000573,
+        914.3789340000694,
+        750.4519310000433,
+        749.8265219996938,
+        752.0273099999031,
+        789.5312109999395,
+        750.2280290000272,
+        750.0360849999197,
+        947.2916290001194,
+        751.4531619999616,
+        749.9602760003654
+      ]
+    },
+    {
+      "variant": "candidate",
+      "round": 3,
+      "passed": true,
+      "cases": [
+        {
+          "id": "case_01",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001373291015625,
+          "max_score_error": 6.22868537902832e-06,
+          "inference_ms": {
+            "mean": 626.812445999955,
+            "p95": 629.3638443999498,
+            "samples": 3
+          },
+          "detection_count": 6
+        },
+        {
+          "id": "case_02",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001007080078125,
+          "max_score_error": 4.231929779052734e-06,
+          "inference_ms": {
+            "mean": 624.7465263331833,
+            "p95": 625.331647899975,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_03",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00091552734375,
+          "max_score_error": 6.0498714447021484e-06,
+          "inference_ms": {
+            "mean": 624.2682189999869,
+            "p95": 624.6965784001077,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_04",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0028076171875,
+          "max_score_error": 6.020069122314453e-06,
+          "inference_ms": {
+            "mean": 629.4903026666058,
+            "p95": 635.0458993000302,
+            "samples": 3
+          },
+          "detection_count": 0
+        },
+        {
+          "id": "case_05",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0010986328125,
+          "max_score_error": 5.364418029785156e-06,
+          "inference_ms": {
+            "mean": 624.5581403333441,
+            "p95": 625.4066518002219,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_06",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0009765625,
+          "max_score_error": 4.470348358154297e-06,
+          "inference_ms": {
+            "mean": 625.5797896665172,
+            "p95": 626.9993110000087,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_07",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.00225830078125,
+          "max_score_error": 5.424022674560547e-06,
+          "inference_ms": {
+            "mean": 689.6649053334537,
+            "p95": 799.5292283000708,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_08",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001708984375,
+          "max_score_error": 6.496906280517578e-06,
+          "inference_ms": {
+            "mean": 625.6780793334352,
+            "p95": 628.0012013000032,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_09",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001800537109375,
+          "max_score_error": 4.76837158203125e-06,
+          "inference_ms": {
+            "mean": 624.3081630000233,
+            "p95": 624.4812303000799,
+            "samples": 3
+          },
+          "detection_count": 2
+        },
+        {
+          "id": "case_10",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001312255859375,
+          "max_score_error": 5.781650543212891e-06,
+          "inference_ms": {
+            "mean": 624.6475416666423,
+            "p95": 625.2713888999551,
+            "samples": 3
+          },
+          "detection_count": 2
+        },
+        {
+          "id": "case_11",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.0016021728515625,
+          "max_score_error": 5.781650543212891e-06,
+          "inference_ms": {
+            "mean": 683.0897136666559,
+            "p95": 779.4708518999414,
+            "samples": 3
+          },
+          "detection_count": 3
+        },
+        {
+          "id": "case_12",
+          "passed": true,
+          "raw_coordinates_passed": true,
+          "raw_scores_passed": true,
+          "detections_passed": true,
+          "input_unchanged": true,
+          "max_coordinate_error": 0.001708984375,
+          "max_score_error": 6.139278411865234e-06,
+          "inference_ms": {
+            "mean": 625.1962536666724,
+            "p95": 627.0347086000584,
+            "samples": 3
+          },
+          "detection_count": 4
+        }
+      ],
+      "build_info": "ncnn=1.0.20260526;armv7-neon;fp32;vulkan=off;abi=1",
+      "memory_after": {
+        "rss_mb": 148.1328125,
+        "peak_rss_mb": 150.46484375
+      },
+      "inference_ms": {
+        "mean": 635.6700067222063,
+        "p95": 675.925126500033,
+        "samples": 36
+      },
+      "postprocess_ms": {
+        "mean": 17.070743749930745,
+        "p95": 19.41380689981997,
+        "samples": 12
+      },
+      "measured_ms": [
+        626.9050389996664,
+        623.8952540002174,
+        629.6370449999813,
+        624.228299999686,
+        625.4131499999858,
+        624.5981289998781,
+        624.7609470001407,
+        624.1172609998102,
+        623.9264490000096,
+        628.1502819997513,
+        635.8120790000612,
+        624.5085470000049,
+        625.5287120002322,
+        623.8375989996712,
+        624.3081100001291,
+        624.2924909997782,
+        627.1932790000392,
+        625.2535989997341,
+        624.2090569999164,
+        818.8133280000329,
+        625.9723310004119,
+        628.3972979999817,
+        624.2006090001269,
+        624.4363310001972,
+        624.4950820000668,
+        624.072841999805,
+        624.3565650001983,
+        624.452189999829,
+        625.3624109999691,
+        624.1280240001288,
+        796.2642689999484,
+        628.3300979998785,
+        624.674774000141,
+        627.333199000077,
+        623.9072670000496,
+        624.3482949998906
+      ]
+    }
+  ],
+  "recorded_host_utc": "2025-05-04T02:13:15.721325+00:00",
+  "clock_note": "Host clock recorded as-is, no clock changes during timing",
+  "timing_scope": "Same validated FP32 input; validation+copy+forward+output copy; excludes model load, image decode, camera, hardware preprocessing, tracking and evidence",
+  "accuracy_scope": "Original 12 internal photo fixtures and original tolerances; not field accuracy",
+  "preparation": {
+    "original_param_sha256": "cc362890d690e7791b41dfd4ba0cf448292cf30eaeafd593f22df1383a16bfa2",
+    "original_bin_sha256": "c6f4f3d6882abed64348575015be16a439197657c9eb9dbf6103a01248c07ed3",
+    "candidate_param_sha256": "c789f33b92c299f99a8f7a5d0f1e54de1050e327262243c8c5ebac48e8833a95",
+    "candidate_bin_sha256": "b84da64c23fe6411ed16a597652ac204c9a9ba55d96ff24b03287a6fe07c7a8c",
+    "transformation": "conv_0 6x6,s2,p2 -> Reorg stride2 mode0 + 3x3,s1,p1",
+    "weights": "Exact invertible permutation of conv_0 only; bias and binary suffix unchanged",
+    "input": "FP32 RGB NCHW [1,3,320,320], unchanged",
+    "board_verified": false,
+    "deployment_changed": false
+  },
+  "baseline_ms": {
+    "mean": 765.0716841481518,
+    "p95": 907.1698450500433,
+    "samples": 108
+  },
+  "candidate_ms": {
+    "mean": 637.6269853055578,
+    "p95": 754.6438027000012,
+    "samples": 108
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "baseline_ms": 758.0539269166719,
+      "candidate_ms": 642.8015984444452,
+      "speedup": 1.1792968915309683
+    },
+    {
+      "round": 2,
+      "baseline_ms": 771.7927416111175,
+      "candidate_ms": 634.4093507500222,
+      "speedup": 1.2165532249779667
+    },
+    {
+      "round": 3,
+      "baseline_ms": 765.3683839166661,
+      "candidate_ms": 635.6700067222063,
+      "speedup": 1.204034130638382
+    }
+  ],
+  "observed_speedup": 1.1998734397690543,
+  "observed_time_reduction_percent": 16.6578768347039,
+  "performance_recheck_complete": true,
+  "candidate_eligible_for_review": true,
+  "original_files_unchanged": true
+}

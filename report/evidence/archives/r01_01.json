@@ -1,0 +1,173 @@
+{
+  "passed": true,
+  "board_verified": true,
+  "backend": "ncnn_native",
+  "environment": "board",
+  "threads": 1,
+  "repeat": 3,
+  "machine": "armv7l",
+  "platform": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+  "python": "3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0]",
+  "numpy": "1.21.5",
+  "cases": [
+    {
+      "id": "case_01",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true,
+      "count": 6,
+      "max_coordinate_error": 0.0025634765625,
+      "max_score_error": 6.496906280517578e-06
+    },
+    {
+      "id": "case_02",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true,
+      "count": 3,
+      "max_coordinate_error": 0.0009918212890625,
+      "max_score_error": 4.857778549194336e-06
+    },
+    {
+      "id": "case_03",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true,
+      "count": 3,
+      "max_coordinate_error": 0.000946044921875,
+      "max_score_error": 8.285045623779297e-06
+    },
+    {
+      "id": "case_04",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true,
+      "count": 0,
+      "max_coordinate_error": 0.00244140625,
+      "max_score_error": 6.318092346191406e-06
+    },
+    {
+      "id": "case_05",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true,
+      "count": 3,
+      "max_coordinate_error": 0.0009307861328125,
+      "max_score_error": 4.947185516357422e-06
+    },
+    {
+      "id": "case_06",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true,
+      "count": 3,
+      "max_coordinate_error": 0.0010528564453125,
+      "max_score_error": 5.7220458984375e-06
+    },
+    {
+      "id": "case_07",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true,
+      "count": 3,
+      "max_coordinate_error": 0.00225830078125,
+      "max_score_error": 5.930662155151367e-06
+    },
+    {
+      "id": "case_08",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true,
+      "count": 3,
+      "max_coordinate_error": 0.00213623046875,
+      "max_score_error": 7.897615432739258e-06
+    },
+    {
+      "id": "case_09",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true,
+      "count": 2,
+      "max_coordinate_error": 0.0012359619140625,
+      "max_score_error": 6.258487701416016e-06
+    },
+    {
+      "id": "case_10",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true,
+      "count": 2,
+      "max_coordinate_error": 0.00310516357421875,
+      "max_score_error": 1.710653305053711e-05
+    },
+    {
+      "id": "case_11",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true,
+      "count": 3,
+      "max_coordinate_error": 0.001312255859375,
+      "max_score_error": 5.662441253662109e-06
+    },
+    {
+      "id": "case_12",
+      "passed": true,
+      "raw_coordinates_passed": true,
+      "raw_scores_passed": true,
+      "detections_passed": true,
+      "input_unchanged": true,
+      "count": 4,
+      "max_coordinate_error": 0.003204345703125,
+      "max_score_error": 6.854534149169922e-06
+    }
+  ],
+  "recorded_host_utc": "2025-05-04T00:12:43.933177+00:00",
+  "clock_note": "Recorded host wall clock only; confirm board clock independently",
+  "timing_scope": "warm offline batch=1; validation+input copy+forward+output copy; excludes load, image decode, camera, DMA, FPGA/NEON preprocessing, tracking, events/evidence",
+  "fixture_scope": "B internal supplied photo fixtures; not live-camera accuracy or public redistribution approval",
+  "model_sha256": "e59a5b2aac22a9d610176460afc4be2d1a66861d7d23647bfd7bfb7b1474f9e9",
+  "ncnn_param_sha256": "cc362890d690e7791b41dfd4ba0cf448292cf30eaeafd593f22df1383a16bfa2",
+  "ncnn_bin_sha256": "c6f4f3d6882abed64348575015be16a439197657c9eb9dbf6103a01248c07ed3",
+  "memory_before": {
+    "rss_mb": 20.95703125,
+    "peak_rss_mb": 36.6796875
+  },
+  "load_ms": 313.28112599840097,
+  "runtime_build_info": "ncnn=1.0.20260526;armv7-neon;fp32;vulkan=off;abi=1",
+  "memory_after": {
+    "rss_mb": 130.68359375,
+    "peak_rss_mb": 133.81640625
+  },
+  "inference_ms": {
+    "mean": 1344.658911166789,
+    "p95": 1381.5957467495537,
+    "samples": 36
+  },
+  "postprocess_ms": {
+    "mean": 16.06263083385784,
+    "p95": 18.22979565104106,
+    "samples": 12
+  }
+}

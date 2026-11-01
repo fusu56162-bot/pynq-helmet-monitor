@@ -1,0 +1,1411 @@
+{
+  "status": "ARM_BUILD_AND_PACKED_REFERENCE_PASS_FPGA_SPEED_NOT_TESTED",
+  "stage": "COMPLETE",
+  "ARM_BUILD": "PASS",
+  "groups": [
+    {
+      "id": "case_01_conv_2",
+      "arrays": {
+        "weights": {
+          "file": "case_01_conv_2_weights.npy",
+          "sha256": "0630597e5f7fdf5bdca2e2c0df0a03bf86cb18a5cdb5c65a32b05ed80c183ad0",
+          "shape": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "dtype": "int8",
+          "byte_exact": true
+        },
+        "scales": {
+          "file": "case_01_conv_2_scales.npy",
+          "sha256": "cd397e309b7e6b4c667f766e28fbe7b3f879b11aac02c0fea85d43f39c42723a",
+          "shape": [
+            33
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "q": {
+          "file": "case_01_conv_2_q.npy",
+          "sha256": "061f563bb43a06bd6bcceea2afa1ee32e7ea179cf1c36752aade9bcb5ca6b7f5",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8",
+          "byte_exact": true
+        },
+        "exact_policy_pre": {
+          "file": "case_01_conv_2_exact_policy_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "exact_policy_act": {
+          "file": "case_01_conv_2_exact_policy_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "uniform_policy_pre": {
+          "file": "case_01_conv_2_uniform_policy_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "uniform_policy_act": {
+          "file": "case_01_conv_2_uniform_policy_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "integer_post_pre": {
+          "file": "case_01_conv_2_integer_post_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "integer_post_act": {
+          "file": "case_01_conv_2_integer_post_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        }
+      },
+      "checks_pass": true,
+      "same_input_storage": true,
+      "input_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "exact_policy_output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "uniform_policy_output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_01_conv_10",
+      "arrays": {
+        "weights": {
+          "file": "case_01_conv_10_weights.npy",
+          "sha256": "21c749aec07be1ddd4e3023dc9311bae8c0a3f598e65d3b4e061590559c1f643",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "dtype": "int8",
+          "byte_exact": true
+        },
+        "scales": {
+          "file": "case_01_conv_10_scales.npy",
+          "sha256": "f594573c0e8d802d27add3ede3fff5db17773a6e93bba99dd0454cbf146f0e35",
+          "shape": [
+            65
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "q": {
+          "file": "case_01_conv_10_q.npy",
+          "sha256": "02104d9228740909d60c308ce1bed519dade5c24102f4843de7905acaffc78d9",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int8",
+          "byte_exact": true
+        },
+        "exact_policy_pre": {
+          "file": "case_01_conv_10_exact_policy_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "exact_policy_act": {
+          "file": "case_01_conv_10_exact_policy_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "uniform_policy_pre": {
+          "file": "case_01_conv_10_uniform_policy_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "uniform_policy_act": {
+          "file": "case_01_conv_10_uniform_policy_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "integer_post_pre": {
+          "file": "case_01_conv_10_integer_post_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "integer_post_act": {
+          "file": "case_01_conv_10_integer_post_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        }
+      },
+      "checks_pass": true,
+      "same_input_storage": true,
+      "input_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "exact_policy_output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "uniform_policy_output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_01_conv_18",
+      "arrays": {
+        "weights": {
+          "file": "case_01_conv_18_weights.npy",
+          "sha256": "686c9dd58506df7b93460cd803c42d41bcf4d17190759ed031e6e78f5c0a854a",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "dtype": "int8",
+          "byte_exact": true
+        },
+        "scales": {
+          "file": "case_01_conv_18_scales.npy",
+          "sha256": "864b4a7047d83485c337f8f4a8a13a5b1588e22e6a80c7ac3e95ce9a0cbd685c",
+          "shape": [
+            129
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "q": {
+          "file": "case_01_conv_18_q.npy",
+          "sha256": "8730f6204cadd66226aca3c646f3fa2051dccc8252ee8ceb5e2a6274c8b96770",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int8",
+          "byte_exact": true
+        },
+        "exact_policy_pre": {
+          "file": "case_01_conv_18_exact_policy_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "exact_policy_act": {
+          "file": "case_01_conv_18_exact_policy_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "uniform_policy_pre": {
+          "file": "case_01_conv_18_uniform_policy_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "uniform_policy_act": {
+          "file": "case_01_conv_18_uniform_policy_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "integer_post_pre": {
+          "file": "case_01_conv_18_integer_post_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "integer_post_act": {
+          "file": "case_01_conv_18_integer_post_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        }
+      },
+      "checks_pass": true,
+      "same_input_storage": true,
+      "input_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "exact_policy_output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "uniform_policy_output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_02_conv_2",
+      "arrays": {
+        "weights": {
+          "file": "case_02_conv_2_weights.npy",
+          "sha256": "0630597e5f7fdf5bdca2e2c0df0a03bf86cb18a5cdb5c65a32b05ed80c183ad0",
+          "shape": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "dtype": "int8",
+          "byte_exact": true
+        },
+        "scales": {
+          "file": "case_02_conv_2_scales.npy",
+          "sha256": "cd397e309b7e6b4c667f766e28fbe7b3f879b11aac02c0fea85d43f39c42723a",
+          "shape": [
+            33
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "q": {
+          "file": "case_02_conv_2_q.npy",
+          "sha256": "afa2b60501260cc28a5fb69130406392fc99e8ea9944f78dc244464ff7d738d4",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8",
+          "byte_exact": true
+        },
+        "exact_policy_pre": {
+          "file": "case_02_conv_2_exact_policy_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "exact_policy_act": {
+          "file": "case_02_conv_2_exact_policy_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "uniform_policy_pre": {
+          "file": "case_02_conv_2_uniform_policy_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "uniform_policy_act": {
+          "file": "case_02_conv_2_uniform_policy_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "integer_post_pre": {
+          "file": "case_02_conv_2_integer_post_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "integer_post_act": {
+          "file": "case_02_conv_2_integer_post_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        }
+      },
+      "checks_pass": true,
+      "same_input_storage": true,
+      "input_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "exact_policy_output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "uniform_policy_output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_02_conv_10",
+      "arrays": {
+        "weights": {
+          "file": "case_02_conv_10_weights.npy",
+          "sha256": "21c749aec07be1ddd4e3023dc9311bae8c0a3f598e65d3b4e061590559c1f643",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "dtype": "int8",
+          "byte_exact": true
+        },
+        "scales": {
+          "file": "case_02_conv_10_scales.npy",
+          "sha256": "f594573c0e8d802d27add3ede3fff5db17773a6e93bba99dd0454cbf146f0e35",
+          "shape": [
+            65
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "q": {
+          "file": "case_02_conv_10_q.npy",
+          "sha256": "ccb054236330e70a42e3901620c943b618437730402269005566becc235e1b5b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int8",
+          "byte_exact": true
+        },
+        "exact_policy_pre": {
+          "file": "case_02_conv_10_exact_policy_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "exact_policy_act": {
+          "file": "case_02_conv_10_exact_policy_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "uniform_policy_pre": {
+          "file": "case_02_conv_10_uniform_policy_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "uniform_policy_act": {
+          "file": "case_02_conv_10_uniform_policy_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "integer_post_pre": {
+          "file": "case_02_conv_10_integer_post_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "integer_post_act": {
+          "file": "case_02_conv_10_integer_post_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        }
+      },
+      "checks_pass": true,
+      "same_input_storage": true,
+      "input_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "exact_policy_output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "uniform_policy_output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_02_conv_18",
+      "arrays": {
+        "weights": {
+          "file": "case_02_conv_18_weights.npy",
+          "sha256": "686c9dd58506df7b93460cd803c42d41bcf4d17190759ed031e6e78f5c0a854a",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "dtype": "int8",
+          "byte_exact": true
+        },
+        "scales": {
+          "file": "case_02_conv_18_scales.npy",
+          "sha256": "864b4a7047d83485c337f8f4a8a13a5b1588e22e6a80c7ac3e95ce9a0cbd685c",
+          "shape": [
+            129
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "q": {
+          "file": "case_02_conv_18_q.npy",
+          "sha256": "39ada81aa07c8ef1f3176c6a9a5afc6d2b0ca58315b7db4e32b5d6e3758657cc",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int8",
+          "byte_exact": true
+        },
+        "exact_policy_pre": {
+          "file": "case_02_conv_18_exact_policy_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "exact_policy_act": {
+          "file": "case_02_conv_18_exact_policy_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "uniform_policy_pre": {
+          "file": "case_02_conv_18_uniform_policy_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "uniform_policy_act": {
+          "file": "case_02_conv_18_uniform_policy_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "integer_post_pre": {
+          "file": "case_02_conv_18_integer_post_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        },
+        "integer_post_act": {
+          "file": "case_02_conv_18_integer_post_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32",
+          "byte_exact": true
+        }
+      },
+      "checks_pass": true,
+      "same_input_storage": true,
+      "input_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "exact_policy_output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "uniform_policy_output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    }
+  ],
+  "source_manifest_sha256": "793e574e99f4e91d0067924b44b470262b8d02bcf3db47663682fbb5067a0052",
+  "source_B_zip_sha256": "0a91d8ab9f1f3ddfb6da815774f2e1284068cc1c7f00d527be7c15a968715b60",
+  "model_sha256": {
+    "best.ncnn.param": "3f4cb05109cc65a1563d557ca44b8a6542282acf7bc73c7f9fd570ac8a271b1d",
+    "best.ncnn.bin": "c07c5773535189d23bc0c9c94fc3377bc2e7713982735c7dced85ff8f49daa9f"
+  },
+  "camera_opened": false,
+  "FPGA_accessed": false,
+  "MMIO_bound": false,
+  "CMA_allocated": false,
+  "overlay_programmed": false,
+  "deployment_allowed": false,
+  "speedup_claimed": false,
+  "scope": "Real ARM build and owned pack4 original-ARM convolution/post/SiLU checks. No FPGA candidate, no speed comparison, no camera.",
+  "environment": {
+    "system": "Linux",
+    "machine": "armv7l",
+    "python": "3.10.4",
+    "pointer_bytes": 4
+  },
+  "library_sha256": "5dd3b75d3125fc4d2e2ea6ba79de28d0b1f89f6cf16f7ff44ca1a6fa7a05565e",
+  "arrays": [
+    {
+      "file": "case_01_conv_2_weights.npy",
+      "sha256": "0630597e5f7fdf5bdca2e2c0df0a03bf86cb18a5cdb5c65a32b05ed80c183ad0",
+      "shape": [
+        16,
+        32,
+        1,
+        1
+      ],
+      "dtype": "int8",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_2_scales.npy",
+      "sha256": "cd397e309b7e6b4c667f766e28fbe7b3f879b11aac02c0fea85d43f39c42723a",
+      "shape": [
+        33
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_2_q.npy",
+      "sha256": "061f563bb43a06bd6bcceea2afa1ee32e7ea179cf1c36752aade9bcb5ca6b7f5",
+      "shape": [
+        32,
+        56,
+        56
+      ],
+      "dtype": "int8",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_2_exact_policy_pre.npy",
+      "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+      "shape": [
+        16,
+        56,
+        56
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_2_exact_policy_act.npy",
+      "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+      "shape": [
+        16,
+        56,
+        56
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_2_uniform_policy_pre.npy",
+      "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+      "shape": [
+        16,
+        56,
+        56
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_2_uniform_policy_act.npy",
+      "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+      "shape": [
+        16,
+        56,
+        56
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_2_integer_post_pre.npy",
+      "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+      "shape": [
+        16,
+        56,
+        56
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_2_integer_post_act.npy",
+      "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+      "shape": [
+        16,
+        56,
+        56
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_10_weights.npy",
+      "sha256": "21c749aec07be1ddd4e3023dc9311bae8c0a3f598e65d3b4e061590559c1f643",
+      "shape": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "dtype": "int8",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_10_scales.npy",
+      "sha256": "f594573c0e8d802d27add3ede3fff5db17773a6e93bba99dd0454cbf146f0e35",
+      "shape": [
+        65
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_10_q.npy",
+      "sha256": "02104d9228740909d60c308ce1bed519dade5c24102f4843de7905acaffc78d9",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "int8",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_10_exact_policy_pre.npy",
+      "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_10_exact_policy_act.npy",
+      "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_10_uniform_policy_pre.npy",
+      "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_10_uniform_policy_act.npy",
+      "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_10_integer_post_pre.npy",
+      "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_10_integer_post_act.npy",
+      "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_18_weights.npy",
+      "sha256": "686c9dd58506df7b93460cd803c42d41bcf4d17190759ed031e6e78f5c0a854a",
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "dtype": "int8",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_18_scales.npy",
+      "sha256": "864b4a7047d83485c337f8f4a8a13a5b1588e22e6a80c7ac3e95ce9a0cbd685c",
+      "shape": [
+        129
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_18_q.npy",
+      "sha256": "8730f6204cadd66226aca3c646f3fa2051dccc8252ee8ceb5e2a6274c8b96770",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "int8",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_18_exact_policy_pre.npy",
+      "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_18_exact_policy_act.npy",
+      "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_18_uniform_policy_pre.npy",
+      "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_18_uniform_policy_act.npy",
+      "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_18_integer_post_pre.npy",
+      "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_01_conv_18_integer_post_act.npy",
+      "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_2_weights.npy",
+      "sha256": "0630597e5f7fdf5bdca2e2c0df0a03bf86cb18a5cdb5c65a32b05ed80c183ad0",
+      "shape": [
+        16,
+        32,
+        1,
+        1
+      ],
+      "dtype": "int8",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_2_scales.npy",
+      "sha256": "cd397e309b7e6b4c667f766e28fbe7b3f879b11aac02c0fea85d43f39c42723a",
+      "shape": [
+        33
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_2_q.npy",
+      "sha256": "afa2b60501260cc28a5fb69130406392fc99e8ea9944f78dc244464ff7d738d4",
+      "shape": [
+        32,
+        56,
+        56
+      ],
+      "dtype": "int8",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_2_exact_policy_pre.npy",
+      "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+      "shape": [
+        16,
+        56,
+        56
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_2_exact_policy_act.npy",
+      "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+      "shape": [
+        16,
+        56,
+        56
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_2_uniform_policy_pre.npy",
+      "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+      "shape": [
+        16,
+        56,
+        56
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_2_uniform_policy_act.npy",
+      "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+      "shape": [
+        16,
+        56,
+        56
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_2_integer_post_pre.npy",
+      "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+      "shape": [
+        16,
+        56,
+        56
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_2_integer_post_act.npy",
+      "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+      "shape": [
+        16,
+        56,
+        56
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_10_weights.npy",
+      "sha256": "21c749aec07be1ddd4e3023dc9311bae8c0a3f598e65d3b4e061590559c1f643",
+      "shape": [
+        32,
+        32,
+        3,
+        3
+      ],
+      "dtype": "int8",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_10_scales.npy",
+      "sha256": "f594573c0e8d802d27add3ede3fff5db17773a6e93bba99dd0454cbf146f0e35",
+      "shape": [
+        65
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_10_q.npy",
+      "sha256": "ccb054236330e70a42e3901620c943b618437730402269005566becc235e1b5b",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "int8",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_10_exact_policy_pre.npy",
+      "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_10_exact_policy_act.npy",
+      "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_10_uniform_policy_pre.npy",
+      "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_10_uniform_policy_act.npy",
+      "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_10_integer_post_pre.npy",
+      "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_10_integer_post_act.npy",
+      "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+      "shape": [
+        32,
+        28,
+        28
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_18_weights.npy",
+      "sha256": "686c9dd58506df7b93460cd803c42d41bcf4d17190759ed031e6e78f5c0a854a",
+      "shape": [
+        64,
+        64,
+        3,
+        3
+      ],
+      "dtype": "int8",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_18_scales.npy",
+      "sha256": "864b4a7047d83485c337f8f4a8a13a5b1588e22e6a80c7ac3e95ce9a0cbd685c",
+      "shape": [
+        129
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_18_q.npy",
+      "sha256": "39ada81aa07c8ef1f3176c6a9a5afc6d2b0ca58315b7db4e32b5d6e3758657cc",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "int8",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_18_exact_policy_pre.npy",
+      "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_18_exact_policy_act.npy",
+      "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_18_uniform_policy_pre.npy",
+      "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_18_uniform_policy_act.npy",
+      "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_18_integer_post_pre.npy",
+      "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    },
+    {
+      "file": "case_02_conv_18_integer_post_act.npy",
+      "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+      "shape": [
+        64,
+        14,
+        14
+      ],
+      "dtype": "float32",
+      "byte_exact": true
+    }
+  ],
+  "native_closed": true
+}

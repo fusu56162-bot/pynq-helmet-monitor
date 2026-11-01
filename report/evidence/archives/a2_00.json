@@ -1,0 +1,415 @@
+{
+  "status": "ARM_REFERENCE_PASS_NOT_HARDWARE_ACCEPTANCE",
+  "cases": [
+    {
+      "case": "case_01",
+      "arrays": {
+        "boundary4": {
+          "file": "case_01_boundary4.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "6599e573c7ac3c09c5b19dd82a8a183d604c8e96627d0f4392fe04e2672b122a"
+        },
+        "conv2_pre": {
+          "file": "case_01_conv2_pre.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "4e02848fc1f6c6f90fbc6c15ad1f2bbc6031391bf7fb027bab8a56d616da7f92"
+        },
+        "silu77": {
+          "file": "case_01_silu77.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "6a8c004af83531c2ad9d3cbae82a253f9937af86d912cbf68bed55a2a9235fa6"
+        },
+        "conv5_pre": {
+          "file": "case_01_conv5_pre.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "c80a02dacd90e08ff34f75bf6e1686c32de88207173bfe1bdbb8eefb5041bfc8"
+        },
+        "silu79": {
+          "file": "case_01_silu79.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "ff087e8f55883cc68f0454224cac1e6827c443c6456548160f6409a2da1c427a"
+        },
+        "full_raw": {
+          "file": "case_01_full_raw.npy",
+          "shape": [
+            1,
+            3087,
+            9
+          ],
+          "dtype": "float32",
+          "sha256": "32d4a83dd1bf8d22b89370859abaf5e65a721f10405c5a4edef6b3420615b513"
+        },
+        "branch0_q": {
+          "file": "case_01_branch0_q.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8",
+          "sha256": "9a7594cf73ba8d7da4e9977bf795a35359cf26325f1530fc11da477d83434bbe"
+        },
+        "branch0_sums": {
+          "file": "case_01_branch0_sums.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32",
+          "sha256": "6a3063f73d3ef5adfabcb873cf775893bd5c7bc3ea63ce3ec487d2ae6ed77c70"
+        },
+        "branch0_reference_pre": {
+          "file": "case_01_branch0_reference_pre.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "4e02848fc1f6c6f90fbc6c15ad1f2bbc6031391bf7fb027bab8a56d616da7f92"
+        },
+        "branch0_reference_act": {
+          "file": "case_01_branch0_reference_act.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "6a8c004af83531c2ad9d3cbae82a253f9937af86d912cbf68bed55a2a9235fa6"
+        },
+        "branch1_q": {
+          "file": "case_01_branch1_q.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8",
+          "sha256": "9a7594cf73ba8d7da4e9977bf795a35359cf26325f1530fc11da477d83434bbe"
+        },
+        "branch1_sums": {
+          "file": "case_01_branch1_sums.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32",
+          "sha256": "e4867ca0466003a2c96e7bb1fda37e912e6add429db323899badf1f3563a6ab9"
+        },
+        "branch1_reference_pre": {
+          "file": "case_01_branch1_reference_pre.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "c80a02dacd90e08ff34f75bf6e1686c32de88207173bfe1bdbb8eefb5041bfc8"
+        },
+        "branch1_reference_act": {
+          "file": "case_01_branch1_reference_act.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "ff087e8f55883cc68f0454224cac1e6827c443c6456548160f6409a2da1c427a"
+        },
+        "resumed_raw": {
+          "file": "case_01_resumed_raw.npy",
+          "shape": [
+            1,
+            3087,
+            9
+          ],
+          "dtype": "float32",
+          "sha256": "32d4a83dd1bf8d22b89370859abaf5e65a721f10405c5a4edef6b3420615b513"
+        }
+      },
+      "checks": {
+        "original_full_vs_frozen": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "boundary_vs_verified_fpga": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "branch0_original_pre": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "branch0_original_silu": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "branch1_original_pre": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "branch1_original_silu": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "both_branches_same_quantized_input": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "two_branch_resume_full_raw": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        }
+      },
+      "status": "REFERENCE_PASS_NOT_HARDWARE_ACCEPTANCE"
+    },
+    {
+      "case": "case_02",
+      "arrays": {
+        "boundary4": {
+          "file": "case_02_boundary4.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "dfa4785b7edb3599a86cb5b2ef7f87aca5089d0d887b609b459a5aa662f4741f"
+        },
+        "conv2_pre": {
+          "file": "case_02_conv2_pre.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "cc0ce68b328bebe44e353bb946f76766caa8eaba777016ed2750866558430630"
+        },
+        "silu77": {
+          "file": "case_02_silu77.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "998e75bd6f88ba945c704624f0e49506faefb11661ae9e127fb93640c2cd4c80"
+        },
+        "conv5_pre": {
+          "file": "case_02_conv5_pre.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "b1d89a5ff2b6003272472f234d6e8cde33564ca37488c6d7b29dea591673e91f"
+        },
+        "silu79": {
+          "file": "case_02_silu79.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "a0ec359e0cb1ab10fd13aea3727c1829bdca79bc524d327fce371c3fb2ac8788"
+        },
+        "full_raw": {
+          "file": "case_02_full_raw.npy",
+          "shape": [
+            1,
+            3087,
+            9
+          ],
+          "dtype": "float32",
+          "sha256": "f175517dec22515b75fc0aa129b1a0edb633f670b0e375e477951fc2f25c813d"
+        },
+        "branch0_q": {
+          "file": "case_02_branch0_q.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8",
+          "sha256": "da8a30173f8830675296e4f3029d278a193ac67f2968444d08fdd8630fd0f122"
+        },
+        "branch0_sums": {
+          "file": "case_02_branch0_sums.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32",
+          "sha256": "1d9aa76e400c7ec899581b5ddb3f55212995c6fa1f21d6da84a164b081d3b714"
+        },
+        "branch0_reference_pre": {
+          "file": "case_02_branch0_reference_pre.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "cc0ce68b328bebe44e353bb946f76766caa8eaba777016ed2750866558430630"
+        },
+        "branch0_reference_act": {
+          "file": "case_02_branch0_reference_act.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "998e75bd6f88ba945c704624f0e49506faefb11661ae9e127fb93640c2cd4c80"
+        },
+        "branch1_q": {
+          "file": "case_02_branch1_q.npy",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8",
+          "sha256": "da8a30173f8830675296e4f3029d278a193ac67f2968444d08fdd8630fd0f122"
+        },
+        "branch1_sums": {
+          "file": "case_02_branch1_sums.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32",
+          "sha256": "d2d04390522498c16f48c4a247cebeff8c695a91db1baa905605f7ab18a71b4a"
+        },
+        "branch1_reference_pre": {
+          "file": "case_02_branch1_reference_pre.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "b1d89a5ff2b6003272472f234d6e8cde33564ca37488c6d7b29dea591673e91f"
+        },
+        "branch1_reference_act": {
+          "file": "case_02_branch1_reference_act.npy",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32",
+          "sha256": "a0ec359e0cb1ab10fd13aea3727c1829bdca79bc524d327fce371c3fb2ac8788"
+        },
+        "resumed_raw": {
+          "file": "case_02_resumed_raw.npy",
+          "shape": [
+            1,
+            3087,
+            9
+          ],
+          "dtype": "float32",
+          "sha256": "f175517dec22515b75fc0aa129b1a0edb633f670b0e375e477951fc2f25c813d"
+        }
+      },
+      "checks": {
+        "original_full_vs_frozen": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "boundary_vs_verified_fpga": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "branch0_original_pre": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "branch0_original_silu": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "branch1_original_pre": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "branch1_original_silu": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "both_branches_same_quantized_input": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        },
+        "two_branch_resume_full_raw": {
+          "byte_exact": true,
+          "max_abs_error": 0.0
+        }
+      },
+      "status": "REFERENCE_PASS_NOT_HARDWARE_ACCEPTANCE"
+    }
+  ],
+  "package_verified_files": 14,
+  "camera_accessed": false,
+  "fpga_accessed": false,
+  "deployment_changed": false,
+  "whole_network_speedup_proven": false,
+  "hardware_accepted": false,
+  "accuracy_accepted": false,
+  "scope": "Actual ARM reference for 1x1 conv_2/conv_5, not a camera FPS benchmark",
+  "built_library_sha256": "9a3568aefd369b5dcd4bc1a8f8d3c747c255ad478b43c371f5adf84297135bab",
+  "parameters": {
+    "file": "actual_arm_scale_bias_input_scale.npy",
+    "shape": [
+      2,
+      33
+    ],
+    "dtype": "float32",
+    "sha256": "e217de3458702124694acb8661bdca845ca4cbcf537d15776c98ea1a118ce7d5"
+  },
+  "weights": {
+    "file": "actual_arm_weights.npy",
+    "shape": [
+      2,
+      16,
+      32
+    ],
+    "dtype": "int8",
+    "sha256": "5efed0eb8445bf759ce93d00c19475bcc69ceec833ffca95a41c56db7e562027"
+  },
+  "shared_input_scale": 3.2350308895111084,
+  "originals_unchanged": true
+}

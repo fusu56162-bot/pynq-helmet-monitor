@@ -1,0 +1,822 @@
+{
+  "passed": false,
+  "target_mean_ms": 250,
+  "target_met": false,
+  "board_verified": false,
+  "deployment_changed": false,
+  "accuracy_accepted": false,
+  "rounds": [
+    {
+      "round": 1,
+      "baseline": {
+        "kind": "baseline",
+        "passed": true,
+        "cases": [
+          {
+            "id": "case_01",
+            "functional_passed": true,
+            "input_unchanged": true,
+            "detections": 6,
+            "inference_ms": {
+              "mean": 600.3178979999575,
+              "p95": 606.8874269002663,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 7.18235969543457e-06
+          },
+          {
+            "id": "case_02",
+            "functional_passed": true,
+            "input_unchanged": true,
+            "detections": 3,
+            "inference_ms": {
+              "mean": 593.9887703334534,
+              "p95": 594.7726900001726,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 4.410743713378906e-06
+          },
+          {
+            "id": "case_03",
+            "functional_passed": true,
+            "input_unchanged": true,
+            "detections": 3,
+            "inference_ms": {
+              "mean": 595.576563000274,
+              "p95": 596.798641100122,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 6.8247318267822266e-06
+          },
+          {
+            "id": "case_04",
+            "functional_passed": true,
+            "input_unchanged": true,
+            "detections": 0,
+            "inference_ms": {
+              "mean": 595.8880356665759,
+              "p95": 599.761450099868,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 4.172325134277344e-06
+          },
+          {
+            "id": "case_05",
+            "functional_passed": true,
+            "input_unchanged": true,
+            "detections": 3,
+            "inference_ms": {
+              "mean": 601.2210696668868,
+              "p95": 611.6403365999759,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 5.602836608886719e-06
+          },
+          {
+            "id": "case_06",
+            "functional_passed": true,
+            "input_unchanged": true,
+            "detections": 3,
+            "inference_ms": {
+              "mean": 605.0862859998839,
+              "p95": 624.8513205000563,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 5.424022674560547e-06
+          },
+          {
+            "id": "case_07",
+            "functional_passed": true,
+            "input_unchanged": true,
+            "detections": 3,
+            "inference_ms": {
+              "mean": 594.5423356667258,
+              "p95": 595.3036297000835,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 5.662441253662109e-06
+          },
+          {
+            "id": "case_08",
+            "functional_passed": true,
+            "input_unchanged": true,
+            "detections": 3,
+            "inference_ms": {
+              "mean": 597.4442413335055,
+              "p95": 603.0405553001401,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 6.377696990966797e-06
+          },
+          {
+            "id": "case_09",
+            "functional_passed": true,
+            "input_unchanged": true,
+            "detections": 2,
+            "inference_ms": {
+              "mean": 616.8094083335139,
+              "p95": 652.9900824999459,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 5.304813385009766e-06
+          },
+          {
+            "id": "case_10",
+            "functional_passed": true,
+            "input_unchanged": true,
+            "detections": 2,
+            "inference_ms": {
+              "mean": 596.4303826664642,
+              "p95": 596.8138212998383,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 4.976987838745117e-06
+          },
+          {
+            "id": "case_11",
+            "functional_passed": true,
+            "input_unchanged": true,
+            "detections": 3,
+            "inference_ms": {
+              "mean": 595.3394166669265,
+              "p95": 598.744370800614,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 7.808208465576172e-06
+          },
+          {
+            "id": "case_12",
+            "functional_passed": true,
+            "input_unchanged": true,
+            "detections": 4,
+            "inference_ms": {
+              "mean": 597.6615436669211,
+              "p95": 599.2552503998922,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 5.4836273193359375e-06
+          }
+        ],
+        "measured_ms": [
+          598.7227429995983,
+          607.7946140003405,
+          594.4363369999337,
+          593.4186270005739,
+          594.8974020002424,
+          593.650281999544,
+          596.9770940000672,
+          594.5600300001388,
+          595.192565000616,
+          600.4005029999462,
+          593.2536300006177,
+          594.0099739991638,
+          593.7482510007612,
+          613.3110509999824,
+          596.603906999917,
+          593.3425650000572,
+          628.3246140001211,
+          593.5916789994735,
+          594.6931750004296,
+          593.5623739997027,
+          595.3714580000451,
+          594.5188180003242,
+          603.9874150001197,
+          593.8264910000726,
+          594.0920480006753,
+          659.195580999949,
+          597.1405959999174,
+          596.8722329998855,
+          596.1307990000932,
+          596.288115999414,
+          599.2888730006598,
+          593.8438510002015,
+          592.8855259999182,
+          599.50937099984,
+          596.5070950005611,
+          596.9681650003622
+        ],
+        "inference_ms": {
+          "mean": 599.1921625834241,
+          "p95": 617.0644417500171,
+          "samples": 36
+        },
+        "memory": {
+          "rss_mb": 35.27734375,
+          "peak_rss_mb": 66.328125
+        },
+        "param_sha256": "7e464179c86031e28e5af9325b25a09ba5c915be4c14df07b0a4dee8d7b3cb19",
+        "bin_sha256": "b84da64c23fe6411ed16a597652ac204c9a9ba55d96ff24b03287a6fe07c7a8c",
+        "library_sha256": "24f823324d12d117e6822b6ae47e20751e4c2c45df6ee78d72acde1b9c1a5f85"
+      },
+      "candidate": {
+        "kind": "candidate",
+        "passed": false,
+        "cases": [
+          {
+            "id": "case_01",
+            "functional_passed": false,
+            "input_unchanged": true,
+            "detections": 6,
+            "inference_ms": {
+              "mean": 400.5589263330573,
+              "p95": 402.2462527999778,
+              "samples": 3
+            },
+            "raw_scores_difference_from_fp32": 0.5677452683448792
+          }
+        ],
+        "measured_ms": [
+          402.50792000006186,
+          399.27761099988857,
+          399.8912479992214
+        ],
+        "inference_ms": {
+          "mean": 400.5589263330573,
+          "p95": 402.2462527999778,
+          "samples": 3
+        },
+        "memory": {
+          "rss_mb": 35.19921875,
+          "peak_rss_mb": 66.328125
+        },
+        "param_sha256": "95ee80c8c74a4ca7375f49664fbdcda08ef44386f1585610c4ac5f24b2445211",
+        "bin_sha256": "b3d8f78a5db44be6f090516c21b684b9db8bebea0faf257c08673d44f9f6ce9f",
+        "library_sha256": "8352754002a11bd17ef6d17ec09cb7c1f8e1e6956338f7d95853ed5846464d7e"
+      }
+    }
+  ],
+  "recorded_host_utc": "2025-05-04T04:51:32.871983+00:00",
+  "platform": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+  "scope": "Warm single-frame model inference including validation and copies; excludes camera/preprocess/NMS/tracking/web",
+  "accuracy_note": "INT8 is not strict FP32 parity. LOCAL_QUALITY.json is separate validation, not new camera blind accuracy.",
+  "local_quality": {
+    "schema": 1,
+    "board_verified": false,
+    "deployment_changed": false,
+    "precision": "INT8 convolution, FP32 remaining operators",
+    "input": [
+      1,
+      3,
+      320,
+      320
+    ],
+    "calibration_count": 256,
+    "validation_count": 37,
+    "fixture_checks": [
+      {
+        "id": "case_01",
+        "fp32_count": 6,
+        "int8_count": 5,
+        "max_raw_score_error": 0.5810792446136475,
+        "not_fp32_parity": true
+      },
+      {
+        "id": "case_02",
+        "fp32_count": 3,
+        "int8_count": 3,
+        "max_raw_score_error": 0.503564715385437,
+        "not_fp32_parity": true
+      },
+      {
+        "id": "case_03",
+        "fp32_count": 3,
+        "int8_count": 4,
+        "max_raw_score_error": 0.5988556146621704,
+        "not_fp32_parity": true
+      },
+      {
+        "id": "case_04",
+        "fp32_count": 0,
+        "int8_count": 1,
+        "max_raw_score_error": 0.49714726209640503,
+        "not_fp32_parity": true
+      },
+      {
+        "id": "case_05",
+        "fp32_count": 3,
+        "int8_count": 3,
+        "max_raw_score_error": 0.5536410808563232,
+        "not_fp32_parity": true
+      },
+      {
+        "id": "case_06",
+        "fp32_count": 3,
+        "int8_count": 3,
+        "max_raw_score_error": 0.7273824214935303,
+        "not_fp32_parity": true
+      },
+      {
+        "id": "case_07",
+        "fp32_count": 3,
+        "int8_count": 4,
+        "max_raw_score_error": 0.6453529000282288,
+        "not_fp32_parity": true
+      },
+      {
+        "id": "case_08",
+        "fp32_count": 3,
+        "int8_count": 3,
+        "max_raw_score_error": 0.6961252093315125,
+        "not_fp32_parity": true
+      },
+      {
+        "id": "case_09",
+        "fp32_count": 2,
+        "int8_count": 2,
+        "max_raw_score_error": 0.49419745802879333,
+        "not_fp32_parity": true
+      },
+      {
+        "id": "case_10",
+        "fp32_count": 2,
+        "int8_count": 2,
+        "max_raw_score_error": 0.6049321889877319,
+        "not_fp32_parity": true
+      },
+      {
+        "id": "case_11",
+        "fp32_count": 3,
+        "int8_count": 3,
+        "max_raw_score_error": 0.5744016766548157,
+        "not_fp32_parity": true
+      },
+      {
+        "id": "case_12",
+        "fp32_count": 4,
+        "int8_count": 3,
+        "max_raw_score_error": 0.6227715611457825,
+        "not_fp32_parity": true
+      }
+    ],
+    "fp32_validation": {
+      "classes": [
+        {
+          "class": 0,
+          "labels": 38,
+          "AP50": 0.9861253753753755,
+          "AP50_95": 0.631007811885638,
+          "operating_TP": 36,
+          "operating_FP": 1,
+          "operating_FN": 2,
+          "operating_precision": 0.972972972972973,
+          "operating_recall": 0.9473684210526315
+        },
+        {
+          "class": 1,
+          "labels": 38,
+          "AP50": 0.8240099545073657,
+          "AP50_95": 0.3063560395683574,
+          "operating_TP": 29,
+          "operating_FP": 8,
+          "operating_FN": 9,
+          "operating_precision": 0.7837837837837838,
+          "operating_recall": 0.7631578947368421
+        },
+        {
+          "class": 2,
+          "labels": 25,
+          "AP50": 0.8638791413795545,
+          "AP50_95": 0.3651781344252788,
+          "operating_TP": 21,
+          "operating_FP": 4,
+          "operating_FN": 4,
+          "operating_precision": 0.84,
+          "operating_recall": 0.84
+        },
+        {
+          "class": 3,
+          "labels": 13,
+          "AP50": 0.4160204642166344,
+          "AP50_95": 0.19835278283595834,
+          "operating_TP": 7,
+          "operating_FP": 5,
+          "operating_FN": 6,
+          "operating_precision": 0.5833333333333334,
+          "operating_recall": 0.5384615384615384
+        }
+      ],
+      "mAP50": 0.7725087338697325,
+      "mAP50_95": 0.3752236921788082
+    },
+    "int8_validation": {
+      "classes": [
+        {
+          "class": 0,
+          "labels": 38,
+          "AP50": 0.9910994152046783,
+          "AP50_95": 0.5946478072263275,
+          "operating_TP": 36,
+          "operating_FP": 1,
+          "operating_FN": 2,
+          "operating_precision": 0.972972972972973,
+          "operating_recall": 0.9473684210526315
+        },
+        {
+          "class": 1,
+          "labels": 38,
+          "AP50": 0.8455450049170232,
+          "AP50_95": 0.3150174945945546,
+          "operating_TP": 29,
+          "operating_FP": 8,
+          "operating_FN": 9,
+          "operating_precision": 0.7837837837837838,
+          "operating_recall": 0.7631578947368421
+        },
+        {
+          "class": 2,
+          "labels": 25,
+          "AP50": 0.8598772157233083,
+          "AP50_95": 0.3442623937652653,
+          "operating_TP": 20,
+          "operating_FP": 4,
+          "operating_FN": 5,
+          "operating_precision": 0.8333333333333334,
+          "operating_recall": 0.8
+        },
+        {
+          "class": 3,
+          "labels": 13,
+          "AP50": 0.3043050553613054,
+          "AP50_95": 0.1549607881181319,
+          "operating_TP": 4,
+          "operating_FP": 6,
+          "operating_FN": 9,
+          "operating_precision": 0.4,
+          "operating_recall": 0.3076923076923077
+        }
+      ],
+      "mAP50": 0.7502066728015789,
+      "mAP50_95": 0.3522221209260698
+    },
+    "mAP50_delta": -0.022302061068153578,
+    "mAP50_95_delta": -0.023001571252738384,
+    "accuracy_accepted": false,
+    "note": "37 internal validation images; assisted labels, not new camera blind accuracy. No automatic accuracy acceptance.",
+    "model_sha256": {
+      "best.ncnn.bin": "b3d8f78a5db44be6f090516c21b684b9db8bebea0faf257c08673d44f9f6ce9f",
+      "best.ncnn.param": "95ee80c8c74a4ca7375f49664fbdcda08ef44386f1585610c4ac5f24b2445211"
+    },
+    "tool_sha256": {
+      "ncnn2table.exe": "3f1fd91ee4ac1813df5ba0507b140c116ee12b7ba7d03c40ea29b3d29e8d638e",
+      "ncnn2int8.exe": "48dcb53df97382092bc0e0f05cc48276a8cb709e452b0f1b1af21cf503a0a452"
+    },
+    "other_development_experiments": [
+      {
+        "classes": [
+          {
+            "class": 0,
+            "labels": 38,
+            "AP50": 0.9757745789267529,
+            "AP50_95": 0.599794906912467,
+            "operating_TP": 34,
+            "operating_FP": 1,
+            "operating_FN": 4,
+            "operating_precision": 0.9714285714285714,
+            "operating_recall": 0.8947368421052632
+          },
+          {
+            "class": 1,
+            "labels": 38,
+            "AP50": 0.837293297374053,
+            "AP50_95": 0.3005663454621462,
+            "operating_TP": 29,
+            "operating_FP": 5,
+            "operating_FN": 9,
+            "operating_precision": 0.8529411764705882,
+            "operating_recall": 0.7631578947368421
+          },
+          {
+            "class": 2,
+            "labels": 25,
+            "AP50": 0.8578556446398714,
+            "AP50_95": 0.33890015869831724,
+            "operating_TP": 20,
+            "operating_FP": 4,
+            "operating_FN": 5,
+            "operating_precision": 0.8333333333333334,
+            "operating_recall": 0.8
+          },
+          {
+            "class": 3,
+            "labels": 13,
+            "AP50": 0.32172279497968137,
+            "AP50_95": 0.17553188207835874,
+            "operating_TP": 5,
+            "operating_FP": 6,
+            "operating_FN": 8,
+            "operating_precision": 0.45454545454545453,
+            "operating_recall": 0.38461538461538464
+          }
+        ],
+        "mAP50": 0.7481615789800897,
+        "mAP50_95": 0.35369832328782225,
+        "name": "all_int8_aciq",
+        "board_verified": false,
+        "accuracy_accepted": false,
+        "model_sha256": {
+          "best.ncnn.bin": "91a22f34b01cf87ca5e31e512f8d93bb960995a61e9a17502a6ae8fe9a9475e5",
+          "best.ncnn.param": "95ee80c8c74a4ca7375f49664fbdcda08ef44386f1585610c4ac5f24b2445211"
+        }
+      },
+      {
+        "classes": [
+          {
+            "class": 0,
+            "labels": 38,
+            "AP50": 0.9910994152046783,
+            "AP50_95": 0.5944557480480432,
+            "operating_TP": 36,
+            "operating_FP": 1,
+            "operating_FN": 2,
+            "operating_precision": 0.972972972972973,
+            "operating_recall": 0.9473684210526315
+          },
+          {
+            "class": 1,
+            "labels": 38,
+            "AP50": 0.8499991563096402,
+            "AP50_95": 0.31521676038503826,
+            "operating_TP": 29,
+            "operating_FP": 8,
+            "operating_FN": 9,
+            "operating_precision": 0.7837837837837838,
+            "operating_recall": 0.7631578947368421
+          },
+          {
+            "class": 2,
+            "labels": 25,
+            "AP50": 0.8027457472457648,
+            "AP50_95": 0.3030318601058826,
+            "operating_TP": 19,
+            "operating_FP": 5,
+            "operating_FN": 6,
+            "operating_precision": 0.7916666666666666,
+            "operating_recall": 0.76
+          },
+          {
+            "class": 3,
+            "labels": 13,
+            "AP50": 0.3320966993006993,
+            "AP50_95": 0.16276707466624282,
+            "operating_TP": 4,
+            "operating_FP": 6,
+            "operating_FN": 9,
+            "operating_precision": 0.4,
+            "operating_recall": 0.3076923076923077
+          }
+        ],
+        "mAP50": 0.7439852545151957,
+        "mAP50_95": 0.3438678608013017,
+        "name": "head_fp32",
+        "fp32_convolutions": [
+          "conv_57",
+          "conv_58",
+          "conv_59"
+        ],
+        "board_verified": false,
+        "model_sha256": {
+          "best.ncnn.bin": "c643b8f88a9ae1b6eedf8a91334d74cb48996ea1f887725cb728d425bd4fc1aa",
+          "best.ncnn.param": "a47008894aa65f7d0b58f01300c8c3df62e32a2adeb85eaa21c02ecc333e5b01"
+        },
+        "note": "Same 37 development images; used for mixed precision selection, not blind accuracy"
+      },
+      {
+        "classes": [
+          {
+            "class": 0,
+            "labels": 38,
+            "AP50": 0.9871481028151775,
+            "AP50_95": 0.6150448831736953,
+            "operating_TP": 36,
+            "operating_FP": 1,
+            "operating_FN": 2,
+            "operating_precision": 0.972972972972973,
+            "operating_recall": 0.9473684210526315
+          },
+          {
+            "class": 1,
+            "labels": 38,
+            "AP50": 0.8344303444358837,
+            "AP50_95": 0.2882593082256065,
+            "operating_TP": 28,
+            "operating_FP": 9,
+            "operating_FN": 10,
+            "operating_precision": 0.7567567567567568,
+            "operating_recall": 0.7368421052631579
+          },
+          {
+            "class": 2,
+            "labels": 25,
+            "AP50": 0.7891487346241033,
+            "AP50_95": 0.3033921018176134,
+            "operating_TP": 20,
+            "operating_FP": 4,
+            "operating_FN": 5,
+            "operating_precision": 0.8333333333333334,
+            "operating_recall": 0.8
+          },
+          {
+            "class": 3,
+            "labels": 13,
+            "AP50": 0.3317182565492321,
+            "AP50_95": 0.18740177472811742,
+            "operating_TP": 5,
+            "operating_FP": 6,
+            "operating_FN": 8,
+            "operating_precision": 0.45454545454545453,
+            "operating_recall": 0.38461538461538464
+          }
+        ],
+        "mAP50": 0.7356113596060991,
+        "mAP50_95": 0.34852451698625814,
+        "name": "kl_scale_0_5",
+        "board_verified": false,
+        "accuracy_accepted": false,
+        "model_sha256": {
+          "best.ncnn.bin": "1d5449f73efa7ad808845ea3e17dc09e39fc0252413184e11c5cd0f1560ccd01",
+          "best.ncnn.param": "95ee80c8c74a4ca7375f49664fbdcda08ef44386f1585610c4ac5f24b2445211"
+        }
+      },
+      {
+        "classes": [
+          {
+            "class": 0,
+            "labels": 38,
+            "AP50": 0.9905730994152047,
+            "AP50_95": 0.6060263970621919,
+            "operating_TP": 35,
+            "operating_FP": 1,
+            "operating_FN": 3,
+            "operating_precision": 0.9722222222222222,
+            "operating_recall": 0.9210526315789473
+          },
+          {
+            "class": 1,
+            "labels": 38,
+            "AP50": 0.8644480162979745,
+            "AP50_95": 0.32798106438773905,
+            "operating_TP": 31,
+            "operating_FP": 7,
+            "operating_FN": 7,
+            "operating_precision": 0.8157894736842105,
+            "operating_recall": 0.8157894736842105
+          },
+          {
+            "class": 2,
+            "labels": 25,
+            "AP50": 0.7696010008743542,
+            "AP50_95": 0.31510231265686056,
+            "operating_TP": 19,
+            "operating_FP": 5,
+            "operating_FN": 6,
+            "operating_precision": 0.7916666666666666,
+            "operating_recall": 0.76
+          },
+          {
+            "class": 3,
+            "labels": 13,
+            "AP50": 0.2922941239316239,
+            "AP50_95": 0.1389576614219114,
+            "operating_TP": 5,
+            "operating_FP": 7,
+            "operating_FN": 8,
+            "operating_precision": 0.4166666666666667,
+            "operating_recall": 0.38461538461538464
+          }
+        ],
+        "mAP50": 0.7292290601297893,
+        "mAP50_95": 0.34701685888217576,
+        "name": "kl_scale_0_75",
+        "board_verified": false,
+        "accuracy_accepted": false,
+        "model_sha256": {
+          "best.ncnn.bin": "fcb99205a9d4fb3df65192391829ae12a6f47347698262983fd265b196944b1a",
+          "best.ncnn.param": "95ee80c8c74a4ca7375f49664fbdcda08ef44386f1585610c4ac5f24b2445211"
+        }
+      },
+      {
+        "classes": [
+          {
+            "class": 0,
+            "labels": 38,
+            "AP50": 0.8743825215057333,
+            "AP50_95": 0.39109021984850334,
+            "operating_TP": 13,
+            "operating_FP": 1,
+            "operating_FN": 25,
+            "operating_precision": 0.9285714285714286,
+            "operating_recall": 0.34210526315789475
+          },
+          {
+            "class": 1,
+            "labels": 38,
+            "AP50": 0.6466108618945959,
+            "AP50_95": 0.23554497322019147,
+            "operating_TP": 15,
+            "operating_FP": 3,
+            "operating_FN": 23,
+            "operating_precision": 0.8333333333333334,
+            "operating_recall": 0.39473684210526316
+          },
+          {
+            "class": 2,
+            "labels": 25,
+            "AP50": 0.7785464552106233,
+            "AP50_95": 0.3530341823843323,
+            "operating_TP": 6,
+            "operating_FP": 0,
+            "operating_FN": 19,
+            "operating_precision": 1.0,
+            "operating_recall": 0.24
+          },
+          {
+            "class": 3,
+            "labels": 13,
+            "AP50": 0.3496979591836735,
+            "AP50_95": 0.1601765518707483,
+            "operating_TP": 1,
+            "operating_FP": 2,
+            "operating_FN": 12,
+            "operating_precision": 0.3333333333333333,
+            "operating_recall": 0.07692307692307693
+          }
+        ],
+        "mAP50": 0.6623094494486566,
+        "mAP50_95": 0.2849614818309439,
+        "name": "kl_scale_1_25",
+        "board_verified": false,
+        "accuracy_accepted": false,
+        "model_sha256": {
+          "best.ncnn.bin": "bca70b73b48f727ade7fddc74b42543fb4b2b70d4f71fb435113f71e8ea4f93f",
+          "best.ncnn.param": "95ee80c8c74a4ca7375f49664fbdcda08ef44386f1585610c4ac5f24b2445211"
+        }
+      },
+      {
+        "classes": [
+          {
+            "class": 0,
+            "labels": 38,
+            "AP50": 0.9914832535885166,
+            "AP50_95": 0.584595100798176,
+            "operating_TP": 36,
+            "operating_FP": 0,
+            "operating_FN": 2,
+            "operating_precision": 1.0,
+            "operating_recall": 0.9473684210526315
+          },
+          {
+            "class": 1,
+            "labels": 38,
+            "AP50": 0.8391584906301122,
+            "AP50_95": 0.3107385207779677,
+            "operating_TP": 30,
+            "operating_FP": 9,
+            "operating_FN": 8,
+            "operating_precision": 0.7692307692307693,
+            "operating_recall": 0.7894736842105263
+          },
+          {
+            "class": 2,
+            "labels": 25,
+            "AP50": 0.7976986330106579,
+            "AP50_95": 0.2886524423246824,
+            "operating_TP": 20,
+            "operating_FP": 6,
+            "operating_FN": 5,
+            "operating_precision": 0.7692307692307693,
+            "operating_recall": 0.8
+          },
+          {
+            "class": 3,
+            "labels": 13,
+            "AP50": 0.3338614197530864,
+            "AP50_95": 0.17723879952300786,
+            "operating_TP": 4,
+            "operating_FP": 5,
+            "operating_FN": 9,
+            "operating_precision": 0.4444444444444444,
+            "operating_recall": 0.3076923076923077
+          }
+        ],
+        "mAP50": 0.7405504492455932,
+        "mAP50_95": 0.3403062158559585,
+        "name": "stem_head_fp32",
+        "fp32_convolutions": [
+          "conv_0",
+          "conv_57",
+          "conv_58",
+          "conv_59"
+        ],
+        "board_verified": false,
+        "model_sha256": {
+          "best.ncnn.bin": "aa2b5f16ddb02eb8868a9c84f7e85d59f63d8a9dcca99fecbae30641216a61a4",
+          "best.ncnn.param": "a22171376d0b95fb7bcb15d31a818bd6a25d101dcbbf0430831e36a8a1d0c230"
+        },
+        "note": "Same 37 development images; used for mixed precision selection, not blind accuracy"
+      }
+    ],
+    "candidate_selection_note": "KL all-convolution INT8 candidate retained for speed feasibility only; mixed precision and ACIQ did not recover the bare-head recall loss. No candidate accepted for deployment."
+  },
+  "error": "Functional verification failed: candidate; preserve output",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/xilinx/jupyter_notebooks/traffic_project/ncnn_candidate_20261019/int8_v1/run_compare.py\", line 108, in main\n    raise RuntimeError('Functional verification failed: ' + kind + '; preserve output')\nRuntimeError: Functional verification failed: candidate; preserve output\n"
+}

@@ -1,0 +1,30 @@
+{
+  "core_batches": 17,
+  "later_returned_batches": 22,
+  "camera_optimization_batches": 7,
+  "cloud_training_batches": 5,
+  "training_epochs_completed": [
+    11,
+    17,
+    14,
+    43,
+    150
+  ],
+  "training_epochs_total": 235,
+  "skill_validation_checks": 35,
+  "collaboration_excerpts": 13,
+  "images": 6,
+  "scope": "archived evidence audit; no board operated, no new training",
+  "clean_sd_reproduction_performed": false,
+  "final_pages": 24,
+  "tables": 16,
+  "figures": 6,
+  "rendered_in": "Microsoft Word PDF export then bundled Poppler PNG",
+  "visual_review": "All 24 pages reviewed at 110dpi. Final pagination edit changed 5 pages; all 5 re-reviewed, other 19 pixel-identical to reviewed render.",
+  "docx_editable": true,
+  "external_baseline_and_source_hashes_verified": true,
+  "revision": "Team-authored submission voice; 4 numbered references; project provenance in accompanying evidence index.",
+  "numeric_table_cells_preserved": 126,
+  "original_collaboration_files_preserved": true,
+  "bibliography_entries": 4
+}

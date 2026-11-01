@@ -1,0 +1,172 @@
+{
+  "status": "WHOLE_NETWORK_REAL_BOARD_ARRAYS_AND_TIMINGS_INDEPENDENT_AUDIT_PASS",
+  "incoming_zip_sha256": "6328bc65b03663c21c60e7170b159c1cf7c5e699d90b0a59924d593d8952da7d",
+  "release_zip_sha256": "173ad417345e9495b94555d77b87a35a4c53dde428b9bbe942a520918219a92f",
+  "arrays_sha_verified": 120,
+  "full_outputs_compared_to_each_cases_original_cpu": 96,
+  "fpga_cpu_boundary_pairs_bit_exact": 12,
+  "all_saved_full_outputs_bit_exact": true,
+  "all_12_cpu_outputs_bit_exact_to_prior_arm": true,
+  "decode_detection_counts": {
+    "case_01": 3,
+    "case_02": 4,
+    "case_03": 4,
+    "case_04": 3,
+    "case_05": 2,
+    "case_06": 4,
+    "case_07": 1,
+    "case_08": 4,
+    "case_09": 2,
+    "case_10": 2,
+    "case_11": 4,
+    "case_12": 3
+  },
+  "timings_recomputed": {
+    "baseline": {
+      "mean_ms": 214.5548589443125,
+      "median_ms": 208.2295254995188,
+      "min_ms": 207.61137200133817,
+      "max_ms": 414.4857100000081,
+      "p95_ms": 214.4979344998319,
+      "samples": 36
+    },
+    "candidate": {
+      "mean_ms": 185.508003111459,
+      "median_ms": 183.66474750109774,
+      "min_ms": 182.92051000025822,
+      "max_ms": 239.87814700012677,
+      "p95_ms": 188.126204251148,
+      "samples": 36
+    }
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "baseline": {
+        "mean_ms": 209.4247925832254,
+        "median_ms": 208.4201719999328,
+        "min_ms": 207.61137200133817,
+        "max_ms": 214.27215299991076,
+        "p95_ms": 213.26478345026771,
+        "samples": 12
+      },
+      "candidate": {
+        "mean_ms": 183.4980765002001,
+        "median_ms": 183.49744550050673,
+        "min_ms": 182.92051000025822,
+        "max_ms": 184.1678580003645,
+        "p95_ms": 183.95893224960673,
+        "samples": 12
+      }
+    },
+    {
+      "round": 2,
+      "baseline": {
+        "mean_ms": 225.37940108319768,
+        "median_ms": 208.2295254995188,
+        "min_ms": 207.74358100061363,
+        "max_ms": 414.4857100000081,
+        "p95_ms": 301.37598304936535,
+        "samples": 12
+      },
+      "candidate": {
+        "mean_ms": 188.67602541695305,
+        "median_ms": 183.6822490004124,
+        "min_ms": 183.26247400000284,
+        "max_ms": 239.87814700012677,
+        "p95_ms": 210.9184404006555,
+        "samples": 12
+      }
+    },
+    {
+      "round": 3,
+      "baseline": {
+        "mean_ms": 208.86038316651442,
+        "median_ms": 208.2550059994901,
+        "min_ms": 207.65643699996872,
+        "max_ms": 215.17527899959532,
+        "p95_ms": 211.93315989958137,
+        "samples": 12
+      },
+      "candidate": {
+        "mean_ms": 184.34990741722382,
+        "median_ms": 183.84650100051658,
+        "min_ms": 183.19987600079912,
+        "max_ms": 190.8324120013276,
+        "p95_ms": 187.1702447005191,
+        "samples": 12
+      }
+    }
+  ],
+  "candidate_components_ms": {
+    "input_pack_ms": {
+      "mean_ms": 16.509099500025414,
+      "median_ms": 16.492288499648566,
+      "min_ms": 16.28980299938121,
+      "max_ms": 16.999551000481006,
+      "p95_ms": 16.653758750180714,
+      "samples": 36
+    },
+    "dma_window_ms": {
+      "mean_ms": 7.698233889085612,
+      "median_ms": 7.689074001064,
+      "min_ms": 7.616603001224576,
+      "max_ms": 7.848708000892657,
+      "p95_ms": 7.80952500008425,
+      "samples": 36
+    },
+    "cache_dma_readback_guard_ms": {
+      "mean_ms": 9.2369539165702,
+      "median_ms": 9.215818499797024,
+      "min_ms": 9.132701999988058,
+      "max_ms": 9.602030000678496,
+      "p95_ms": 9.385364749505243,
+      "samples": 36
+    },
+    "owned_pack_and_suffix_ms": {
+      "mean_ms": 159.69336241677308,
+      "median_ms": 157.79105500041624,
+      "min_ms": 157.05188299943984,
+      "max_ms": 214.14644900141866,
+      "p95_ms": 162.38356400072007,
+      "samples": 36
+    }
+  },
+  "mean_saved_ms": 29.04685583285351,
+  "mean_latency_reduction_percent": 13.538195301553433,
+  "observed_mean_speedup": 1.1565800684911758,
+  "median_latency_reduction_percent": 11.796971605968443,
+  "paired_gain_mean_ms": 29.046855832853502,
+  "paired_gain_median_ms": 24.482101499415876,
+  "candidate_faster_pairs": 35,
+  "pairs": 36,
+  "all_outliers_retained": true,
+  "slow_samples_over_250_ms": [
+    {
+      "round": 2,
+      "id": "case_04",
+      "kind": "baseline",
+      "whole_forward_ms": 414.4857100000081,
+      "pair_order": [
+        "baseline",
+        "candidate"
+      ],
+      "measured": true,
+      "warmup": false,
+      "output_file": "r2_baseline_case_04.npy",
+      "output_sha256": "3f849e4fcb1de55b45bb7913f7610a069b0a991fbc948c04faeade7e1e3543c3"
+    }
+  ],
+  "mean_target_gap_ms": 35.508003111459004,
+  "target_additional_latency_reduction_percent": 19.140954846096147,
+  "original_identity_preserved_reported": true,
+  "old_hardware_restored_reported": true,
+  "accuracy_dataset_accepted": false,
+  "deployment_changed": false,
+  "evidence_limits": [
+    "Saved boundary/full arrays are independently rechecked, not just RESULT booleans.",
+    "Clock, hardware restore, original board-file hashes, input immutability and unsaved CPU adapter checks are runner-reported.",
+    "No camera/preprocessing/NMS/UI time in these whole-forward timings.",
+    "loaded.xclbin is a generated artifact, not needed or executed by this audit."
+  ]
+}

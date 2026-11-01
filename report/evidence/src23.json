@@ -1,0 +1,125 @@
+{
+  "status": "BOARD_FIXED_JPEG_REPLAY_AUDIT_PASS_NO_SOFTWARE_ACCELERATION_FOUND",
+  "source_zip": "C:\\Users\\zzyzz\\Desktop\\编译方案保存\\JPEG编解码与硬件方案首轮核验结果_20250505_100515_35984047.zip",
+  "source_zip_sha256": "1c8bac3edcc04e43232376343d11ff99e4ae81eb488c6794f7a3c32fd493f102",
+  "zip_members": 15,
+  "payload_hashes_checked": 14,
+  "input_package_manifest_matches": true,
+  "timed_calls": 160,
+  "real_saved_frames": 4,
+  "per_operation_implementation_calls": 40,
+  "validations": 16,
+  "summary_recomputed": [
+    {
+      "operation": "decode",
+      "implementation": "opencv_current",
+      "n": 40,
+      "mean_ms": 31.128515674481605,
+      "median_ms": 31.363363001219113,
+      "p95_ms": 32.142264297908696
+    },
+    {
+      "operation": "encode",
+      "implementation": "existing_Pillow_Q80_420",
+      "n": 40,
+      "mean_ms": 76.21750377511489,
+      "median_ms": 76.33522750074917,
+      "p95_ms": 76.71948630068073
+    },
+    {
+      "operation": "encode",
+      "implementation": "existing_Pillow_Q80_422_reference",
+      "n": 40,
+      "mean_ms": 82.30534767508288,
+      "median_ms": 82.61180850058736,
+      "p95_ms": 82.91765790181671
+    },
+    {
+      "operation": "encode",
+      "implementation": "opencv_current_Q80",
+      "n": 40,
+      "mean_ms": 28.56740855031603,
+      "median_ms": 28.56224900097004,
+      "p95_ms": 29.253759602033824
+    }
+  ],
+  "cases": [
+    {
+      "id": "frame_000001",
+      "current_bytes": 38209,
+      "Pillow420_byte_exact": true,
+      "reference422_bytes": 42881,
+      "reference422_size_increase_percent": 12.227485670915229,
+      "reference422_PSNR_vs_current": 35.0757269395326,
+      "mean_ms": {
+        "decode:opencv_current": 30.763454798579914,
+        "encode:opencv_current_Q80": 28.203747200313956,
+        "encode:existing_Pillow_Q80_420": 76.10808969984646,
+        "encode:existing_Pillow_Q80_422_reference": 82.23504919878906
+      }
+    },
+    {
+      "id": "frame_000020",
+      "current_bytes": 45277,
+      "Pillow420_byte_exact": true,
+      "reference422_bytes": 50753,
+      "reference422_size_increase_percent": 12.094440886101122,
+      "reference422_PSNR_vs_current": 38.34348283968922,
+      "mean_ms": {
+        "decode:opencv_current": 31.590800499907346,
+        "encode:opencv_current_Q80": 28.63843259983696,
+        "encode:existing_Pillow_Q80_420": 76.19018920049712,
+        "encode:existing_Pillow_Q80_422_reference": 81.90279310038022
+      }
+    },
+    {
+      "id": "frame_000045",
+      "current_bytes": 47457,
+      "Pillow420_byte_exact": true,
+      "reference422_bytes": 53596,
+      "reference422_size_increase_percent": 12.93592093895526,
+      "reference422_PSNR_vs_current": 34.688449252977236,
+      "mean_ms": {
+        "decode:opencv_current": 31.359833900205558,
+        "encode:opencv_current_Q80": 28.83288590091979,
+        "encode:existing_Pillow_Q80_420": 76.60578439972596,
+        "encode:existing_Pillow_Q80_422_reference": 82.56090380054957
+      }
+    },
+    {
+      "id": "frame_000070",
+      "current_bytes": 44768,
+      "Pillow420_byte_exact": true,
+      "reference422_bytes": 50960,
+      "reference422_size_increase_percent": 13.83130807719799,
+      "reference422_PSNR_vs_current": 33.79130642638887,
+      "mean_ms": {
+        "decode:opencv_current": 30.7999734992336,
+        "encode:opencv_current_Q80": 28.594568500193418,
+        "encode:existing_Pillow_Q80_420": 75.96595180039003,
+        "encode:existing_Pillow_Q80_422_reference": 82.5226446006127
+      }
+    }
+  ],
+  "Pillow420_vs_OpenCV_time_ratio": 2.6679880200149175,
+  "Pillow422_vs_OpenCV_time_ratio": 2.8810925404772973,
+  "turbojpeg_tested": false,
+  "turbojpeg_probe": "existing standalone libturbojpeg not discovered; codec implementation inside OpenCV not inferred",
+  "no_camera_or_model_or_FPGA_run": true,
+  "camera_FPS_improvement_established": false,
+  "retain_current_OpenCV": true,
+  "FPGA_JPEG_board_total_cost_test_pending": true,
+  "environment": {
+    "platform": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+    "machine": "armv7l",
+    "python": "3.10.4",
+    "opencv": "4.5.4",
+    "turbojpeg_discovery": null,
+    "opencv_threads": 2,
+    "cpu_count": 2
+  },
+  "availability": {
+    "turbojpeg": "UNAVAILABLE: FileNotFoundError('Existing libturbojpeg not found; no installation attempted')",
+    "Pillow": "EXISTING_LIBRARY_LOADED"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "status": "OFFLINE_INTEGRITY_NUMERIC_AND_TIMING_RECALCULATION_PASS_NOT_SPEEDUP_ACCEPTANCE",
+  "source": "C:\\Users\\zzyzz\\Desktop\\检测推理运算环节速度测试\\ARM续算优化对比结果.zip",
+  "sha256": "a48013dc73cbd7fc0e398e532e511e2dbe00970747edf76507b2c5e83ba7a78f",
+  "bytes": 6300802,
+  "entries": 74,
+  "manifest_hashes": 73,
+  "counters": {
+    "saved_output_arrays_independently_compared": 60,
+    "sample_hash_records_verified": 180,
+    "reported_startup_case_records": 60
+  },
+  "groups": [
+    {
+      "trial": "trial_01_baseline",
+      "profile": "baseline",
+      "mean_ms": 157.60131072177805,
+      "median_ms": 154.24256599908404,
+      "min_ms": 153.576067998074,
+      "max_ms": 241.42492199825938,
+      "p95_ms": 164.1261044997009,
+      "cpu_s_delta": 11.338669000000001,
+      "voluntary_switches_delta": 62,
+      "involuntary_switches_delta": 314,
+      "peak_rss_mib": 65.2578125
+    },
+    {
+      "trial": "trial_02_pool",
+      "profile": "pool",
+      "mean_ms": 156.94137888870804,
+      "median_ms": 155.67439350161294,
+      "min_ms": 153.4260059997905,
+      "max_ms": 170.10118699909071,
+      "p95_ms": 164.56501475022378,
+      "cpu_s_delta": 11.372644000000003,
+      "voluntary_switches_delta": 39,
+      "involuntary_switches_delta": 300,
+      "peak_rss_mib": 65.203125
+    },
+    {
+      "trial": "trial_03_pool_passive",
+      "profile": "pool_passive",
+      "mean_ms": 176.55861705558587,
+      "median_ms": 176.34015650037327,
+      "min_ms": 173.92971699882764,
+      "max_ms": 188.08373499996378,
+      "p95_ms": 179.45776025135274,
+      "cpu_s_delta": 11.228839,
+      "voluntary_switches_delta": 24662,
+      "involuntary_switches_delta": 104,
+      "peak_rss_mib": 65.25390625
+    },
+    {
+      "trial": "trial_04_pool_passive_1t",
+      "profile": "pool_passive_1t",
+      "mean_ms": 274.79859847183735,
+      "median_ms": 272.93152299898793,
+      "min_ms": 272.42060199932894,
+      "max_ms": 317.3261960000673,
+      "p95_ms": 281.569893500091,
+      "cpu_s_delta": 10.097111,
+      "voluntary_switches_delta": 0,
+      "involuntary_switches_delta": 51,
+      "peak_rss_mib": 62.65234375
+    },
+    {
+      "trial": "trial_05_baseline",
+      "profile": "baseline",
+      "mean_ms": 162.46923280525354,
+      "median_ms": 155.74370750255184,
+      "min_ms": 154.00676900026156,
+      "max_ms": 376.81004900150583,
+      "p95_ms": 162.25258449958346,
+      "cpu_s_delta": 11.542925,
+      "voluntary_switches_delta": 113,
+      "involuntary_switches_delta": 226,
+      "peak_rss_mib": 65.40625
+    }
+  ],
+  "pool_vs_first_baseline_time_reduction_percent": 0.4187349902406694,
+  "pool_median_vs_first_baseline_change_percent": 0.9282959559538284,
+  "end_baseline_vs_start_change_percent": 3.088757359428995,
+  "passive_vs_pool_time_increase_percent": 12.499723339877766,
+  "single_vs_passive_dual_time_increase_percent": 55.64156712063657,
+  "conclusion": "No meaningful explicit-pool gain established; passive and one-thread candidates slower in isolated suffix test. Retain original dual-thread default waiting.",
+  "limitations": [
+    "Native libraries not included in export; build identity is receipt/source/command evidence, not re-hashed ELF files.",
+    "180 timing output hashes reported; 60 actual last-round output arrays independently compared. Startup checks are report records, not separately archived arrays.",
+    "Frozen-boundary ARM-only test; not camera FPS, not full-model latency, not B validation or accuracy evaluation.",
+    "Single ordered run with 12 fixtures; no claim of broad statistical equivalence or all-camera-load behavior.",
+    "Current low isolated baseline does not prove why earlier live suffix reached 443ms."
+  ]
+}

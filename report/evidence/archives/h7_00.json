@@ -1,0 +1,155 @@
+{
+  "status": "RESET_REQUIRED_KEEP_CMA_SESSION_LOCK_NO_RESTORE",
+  "rows": [],
+  "sessions": [],
+  "ARM_BUILD": "PASS",
+  "camera_opened": false,
+  "CPU_fallback": false,
+  "deployment_allowed": false,
+  "whole_network_run": false,
+  "whole_network_speedup_proven": false,
+  "test_overlay_load_attempted": false,
+  "test_overlay_loaded": false,
+  "old_hardware_restored": false,
+  "FPGA_test_DSP": 18,
+  "restore_DSP": 178,
+  "concurrent_test_and_178": false,
+  "source_manifest_sha256": "a5db2e673d8af5580e32ac73618cb4070bcf469ef6bef70e32f31b08d29042fd",
+  "model_sha256": {
+    "best.ncnn.param": "3f4cb05109cc65a1563d557ca44b8a6542282acf7bc73c7f9fd570ac8a271b1d",
+    "best.ncnn.bin": "c07c5773535189d23bc0c9c94fc3377bc2e7713982735c7dced85ff8f49daa9f"
+  },
+  "master_idle": false,
+  "cleanup_pass": false,
+  "integer_reference": "Frozen real original ARM INT32 sums, actual current ARM quantize checked; ARM bn_run does not export internal sums",
+  "boundary": "same retained owned FP32 pack4 Mat -> owned FP32 pack4 SiLU Mat",
+  "timing_scope": "outer call includes original quantize, private compact CMA input copy, cold weights, cache/MMIO wait, whole output guard, owned INT32 pack4 copy, original dequant+bias+SiLU and ownership. Initialization/NPY/export/comparison excluded. Only warmups clone pre. Subtimers nest; do not sum them twice.",
+  "library_sha256": "a1da9f7726f7e7ed79173961b16d7676beb9837a153046ad32e9fcd5a4657e1d",
+  "ARM_checks": [
+    {
+      "id": "case_01_conv_2",
+      "byte_exact": true,
+      "q_file": "case_01_conv_2_ARM_quantize.npy",
+      "q_sha256": "061f563bb43a06bd6bcceea2afa1ee32e7ea179cf1c36752aade9bcb5ca6b7f5",
+      "input_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_01_conv_10",
+      "byte_exact": true,
+      "q_file": "case_01_conv_10_ARM_quantize.npy",
+      "q_sha256": "02104d9228740909d60c308ce1bed519dade5c24102f4843de7905acaffc78d9",
+      "input_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_01_conv_18",
+      "byte_exact": true,
+      "q_file": "case_01_conv_18_ARM_quantize.npy",
+      "q_sha256": "8730f6204cadd66226aca3c646f3fa2051dccc8252ee8ceb5e2a6274c8b96770",
+      "input_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_02_conv_2",
+      "byte_exact": true,
+      "q_file": "case_02_conv_2_ARM_quantize.npy",
+      "q_sha256": "afa2b60501260cc28a5fb69130406392fc99e8ea9944f78dc244464ff7d738d4",
+      "input_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_02_conv_10",
+      "byte_exact": true,
+      "q_file": "case_02_conv_10_ARM_quantize.npy",
+      "q_sha256": "ccb054236330e70a42e3901620c943b618437730402269005566becc235e1b5b",
+      "input_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_02_conv_18",
+      "byte_exact": true,
+      "q_file": "case_02_conv_18_ARM_quantize.npy",
+      "q_sha256": "39ada81aa07c8ef1f3176c6a9a5afc6d2b0ca58315b7db4e32b5d6e3758657cc",
+      "input_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    }
+  ],
+  "ARM_precheck": "PASS",
+  "PL_programming_state": "PRIOR_PL_UNVERIFIED_PRESERVE_STATE",
+  "PL_programming_uncertain": true,
+  "prior_PL": {
+    "bitfile": null,
+    "ip_names": [
+      "audio_codec_ctrl_0",
+      "btns_gpio",
+      "leds_gpio",
+      "ps7_0",
+      "rgbleds_gpio",
+      "switches_gpio",
+      "system_interrupts",
+      "trace_analyzer_pi/axi_dma_0",
+      "trace_analyzer_pi/trace_cntrl_64_0",
+      "trace_analyzer_pmodb/axi_dma_0",
+      "trace_analyzer_pmodb/trace_cntrl_32_0",
+      "video/axi_vdma",
+      "video/hdmi_in/color_convert",
+      "video/hdmi_in/frontend/axi_gpio_hdmiin",
+      "video/hdmi_in/frontend/vtc_in",
+      "video/hdmi_in/pixel_pack",
+      "video/hdmi_out/color_convert",
+      "video/hdmi_out/frontend/axi_dynclk",
+      "video/hdmi_out/frontend/hdmi_out_hpd_video",
+      "video/hdmi_out/frontend/vtc_out",
+      "video/hdmi_out/pixel_unpack"
+    ],
+    "checks": []
+  },
+  "error": "Traceback (most recent call last):\n  File \"/home/xilinx/jupyter_notebooks/traffic_project/whole_layer_stream_v3/run_full.py\", line 119, in experiment\n    board=Board(ROOT,spec,result);ip=board.load_test();collect(native,board,ip,directory,result);result['status']='COLLECTED_PENDING_RESTORE'\n  File \"/home/xilinx/jupyter_notebooks/traffic_project/whole_layer_stream_v3/overlay_guard.py\", line 64, in load_test\n    try:self.prior_idle()\n  File \"/home/xilinx/jupyter_notebooks/traffic_project/whole_layer_stream_v3/overlay_guard.py\", line 42, in prior_idle\n    if ips:raise RuntimeError('Prior PL identity missing but IP metadata present; no programming attempted')\nRuntimeError: Prior PL identity missing but IP metadata present; no programming attempted\n",
+  "failure_buffer_scope": "CPU view only; not guaranteed coherent or numerically accepted",
+  "failure_buffers": [],
+  "native_sessions_safe": true,
+  "PL_quiescence_confirmed": false
+}

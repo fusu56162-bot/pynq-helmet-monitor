@@ -1,0 +1,354 @@
+{
+  "status": "CPU_LAYER_REFERENCE_AND_FPGA_SUM_RECONSTRUCTION_PASS_NOT_FULL_MODEL",
+  "cases": [
+    {
+      "name": "case_01",
+      "modes": {
+        "reorg_and_conv0": {
+          "cpu_extract": {
+            "mean_ms": 30.738369,
+            "min_ms": 30.493501,
+            "max_ms": 30.979495,
+            "samples": [
+              30.626018,
+              30.493501,
+              30.703736,
+              30.979495,
+              30.820166,
+              30.807298
+            ]
+          },
+          "cpu_python_native_call": {
+            "mean_ms": 36.0318541667084,
+            "min_ms": 35.70018400000663,
+            "max_ms": 36.34834500007855,
+            "samples": [
+              35.91432000007444,
+              35.70018400000663,
+              35.858800000141855,
+              36.34834500007855,
+              36.1900059999698,
+              36.17946999997912
+            ]
+          },
+          "all_outputs_match_reconstructed_board_result": true,
+          "warmups": 2,
+          "timed_runs": 6,
+          "atol": 0.0001,
+          "rtol": 1e-05
+        },
+        "conv0_only": {
+          "cpu_extract": {
+            "mean_ms": 28.046998,
+            "min_ms": 27.874025,
+            "max_ms": 28.130449,
+            "samples": [
+              28.130449,
+              28.025606,
+              28.079729,
+              28.073896,
+              28.098283,
+              27.874025
+            ]
+          },
+          "cpu_python_native_call": {
+            "mean_ms": 33.43811483334017,
+            "min_ms": 33.36886700003561,
+            "max_ms": 33.49819700019907,
+            "samples": [
+              33.47267100002682,
+              33.36886700003561,
+              33.39710799991735,
+              33.40004899996529,
+              33.49819700019907,
+              33.491796999896906
+            ]
+          },
+          "all_outputs_match_reconstructed_board_result": true,
+          "warmups": 2,
+          "timed_runs": 6,
+          "atol": 0.0001,
+          "rtol": 1e-05
+        }
+      }
+    },
+    {
+      "name": "case_02",
+      "modes": {
+        "reorg_and_conv0": {
+          "cpu_extract": {
+            "mean_ms": 30.881680666666668,
+            "min_ms": 30.816424,
+            "max_ms": 30.986941,
+            "samples": [
+              30.816424,
+              30.986941,
+              30.85555,
+              30.917366,
+              30.875427,
+              30.838376
+            ]
+          },
+          "cpu_python_native_call": {
+            "mean_ms": 36.25565833328892,
+            "min_ms": 36.19598699992821,
+            "max_ms": 36.318651999863505,
+            "samples": [
+              36.27489199993761,
+              36.318301999926916,
+              36.318651999863505,
+              36.22447399993689,
+              36.19598699992821,
+              36.20164300014039
+            ]
+          },
+          "all_outputs_match_reconstructed_board_result": true,
+          "warmups": 2,
+          "timed_runs": 6,
+          "atol": 0.0001,
+          "rtol": 1e-05
+        },
+        "conv0_only": {
+          "cpu_extract": {
+            "mean_ms": 28.046938166666667,
+            "min_ms": 27.901489,
+            "max_ms": 28.194769,
+            "samples": [
+              27.901489,
+              28.194769,
+              28.094529,
+              28.055366,
+              27.969255,
+              28.066221
+            ]
+          },
+          "cpu_python_native_call": {
+            "mean_ms": 33.648835666667765,
+            "min_ms": 33.48349499992764,
+            "max_ms": 34.12953199995172,
+            "samples": [
+              33.55271999998877,
+              34.12953199995172,
+              33.52445500013346,
+              33.66914999992332,
+              33.53366200008168,
+              33.48349499992764
+            ]
+          },
+          "all_outputs_match_reconstructed_board_result": true,
+          "warmups": 2,
+          "timed_runs": 6,
+          "atol": 0.0001,
+          "rtol": 1e-05
+        }
+      }
+    }
+  ],
+  "fpga_changed": false,
+  "deployment_changed": false,
+  "whole_model_integrated": false,
+  "speedup_claim_valid": false,
+  "scope": "Same recover5 conv_0 CPU reference and floating reconstruction from exact board-tested FPGA sums; not full-model acceptance",
+  "known_fpga_raw_board_result": {
+    "board_test_passed": true,
+    "whole_model_integrated": false,
+    "old_hardware_restored": true,
+    "fclk0_mhz": 100.0,
+    "full_input_measured_samples": 10,
+    "dma_window_mean_ms": 22.42020860002185,
+    "staging_dma_readback_mean_ms": 30.899565599975176,
+    "all_values_checked_including_warmups": 2412752,
+    "source_result_sha256": "ca3b12143acd126707f2c499b2fd4cf2d3473326f5d8501fab61c56e09a31e13",
+    "source_cases": [
+      {
+        "name": "single",
+        "width": 1,
+        "height": 1,
+        "int32_values_per_run": 16,
+        "exact_match_all_runs": true,
+        "guard_region_unchanged": true,
+        "samples": [
+          {
+            "iteration": 0,
+            "warmup": false,
+            "dma_window_ms": 0.1555139999709354,
+            "staging_dma_readback_ms": 1.2730640000881976
+          }
+        ],
+        "dma_window_mean_ms": 0.1555139999709354,
+        "staging_dma_readback_mean_ms": 1.2730640000881976
+      },
+      {
+        "name": "edges",
+        "width": 7,
+        "height": 5,
+        "int32_values_per_run": 560,
+        "exact_match_all_runs": true,
+        "guard_region_unchanged": true,
+        "samples": [
+          {
+            "iteration": 0,
+            "warmup": false,
+            "dma_window_ms": 0.4138770000281511,
+            "staging_dma_readback_ms": 1.5709230000311436
+          }
+        ],
+        "dma_window_mean_ms": 0.4138770000281511,
+        "staging_dma_readback_mean_ms": 1.5709230000311436
+      },
+      {
+        "name": "one_row",
+        "width": 112,
+        "height": 1,
+        "int32_values_per_run": 1792,
+        "exact_match_all_runs": true,
+        "guard_region_unchanged": true,
+        "samples": [
+          {
+            "iteration": 0,
+            "warmup": false,
+            "dma_window_ms": 0.49351400002706214,
+            "staging_dma_readback_ms": 1.7716800000471267
+          }
+        ],
+        "dma_window_mean_ms": 0.49351400002706214,
+        "staging_dma_readback_mean_ms": 1.7716800000471267
+      },
+      {
+        "name": "one_column",
+        "width": 1,
+        "height": 112,
+        "int32_values_per_run": 1792,
+        "exact_match_all_runs": true,
+        "guard_region_unchanged": true,
+        "samples": [
+          {
+            "iteration": 0,
+            "warmup": false,
+            "dma_window_ms": 0.40953300003820914,
+            "staging_dma_readback_ms": 1.5975569999682193
+          }
+        ],
+        "dma_window_mean_ms": 0.40953300003820914,
+        "staging_dma_readback_mean_ms": 1.5975569999682193
+      },
+      {
+        "name": "signed_extremes",
+        "width": 3,
+        "height": 3,
+        "int32_values_per_run": 144,
+        "exact_match_all_runs": true,
+        "guard_region_unchanged": true,
+        "samples": [
+          {
+            "iteration": 0,
+            "warmup": false,
+            "dma_window_ms": 0.1573050000160947,
+            "staging_dma_readback_ms": 1.2912860000824367
+          }
+        ],
+        "dma_window_mean_ms": 0.1573050000160947,
+        "staging_dma_readback_mean_ms": 1.2912860000824367
+      },
+      {
+        "name": "case_01",
+        "width": 112,
+        "height": 112,
+        "int32_values_per_run": 200704,
+        "exact_match_all_runs": true,
+        "guard_region_unchanged": true,
+        "samples": [
+          {
+            "iteration": 0,
+            "warmup": true,
+            "dma_window_ms": 22.543470999949022,
+            "staging_dma_readback_ms": 30.874393999965832
+          },
+          {
+            "iteration": 1,
+            "warmup": false,
+            "dma_window_ms": 22.487889999979416,
+            "staging_dma_readback_ms": 31.103022000024794
+          },
+          {
+            "iteration": 2,
+            "warmup": false,
+            "dma_window_ms": 22.359883000035552,
+            "staging_dma_readback_ms": 30.55015400002503
+          },
+          {
+            "iteration": 3,
+            "warmup": false,
+            "dma_window_ms": 22.374480000053154,
+            "staging_dma_readback_ms": 30.743882999900052
+          },
+          {
+            "iteration": 4,
+            "warmup": false,
+            "dma_window_ms": 22.48985799997172,
+            "staging_dma_readback_ms": 30.896264000034535
+          },
+          {
+            "iteration": 5,
+            "warmup": false,
+            "dma_window_ms": 22.54259100004674,
+            "staging_dma_readback_ms": 30.71770499991544
+          }
+        ],
+        "dma_window_mean_ms": 22.450940400017316,
+        "staging_dma_readback_mean_ms": 30.80220559997997
+      },
+      {
+        "name": "case_02",
+        "width": 112,
+        "height": 112,
+        "int32_values_per_run": 200704,
+        "exact_match_all_runs": true,
+        "guard_region_unchanged": true,
+        "samples": [
+          {
+            "iteration": 0,
+            "warmup": true,
+            "dma_window_ms": 22.506953000061003,
+            "staging_dma_readback_ms": 31.171508000056747
+          },
+          {
+            "iteration": 1,
+            "warmup": false,
+            "dma_window_ms": 22.366806000036377,
+            "staging_dma_readback_ms": 30.81922499995926
+          },
+          {
+            "iteration": 2,
+            "warmup": false,
+            "dma_window_ms": 22.364823999964756,
+            "staging_dma_readback_ms": 30.842117000020153
+          },
+          {
+            "iteration": 3,
+            "warmup": false,
+            "dma_window_ms": 22.39246200008438,
+            "staging_dma_readback_ms": 30.63896699995894
+          },
+          {
+            "iteration": 4,
+            "warmup": false,
+            "dma_window_ms": 22.377514000027077,
+            "staging_dma_readback_ms": 31.93734699993911
+          },
+          {
+            "iteration": 5,
+            "warmup": false,
+            "dma_window_ms": 22.445778000019345,
+            "staging_dma_readback_ms": 30.74697199997445
+          }
+        ],
+        "dma_window_mean_ms": 22.389476800026387,
+        "staging_dma_readback_mean_ms": 30.996925599970382
+      }
+    ]
+  },
+  "comparison_note": "FPGA raw integer time excludes float quantization, dequantization and bias. Do not compare it as an equivalent floating layer speedup.",
+  "build_info": "conv0-cpu-check-v1;ncnn=1.0.20260526;threads=2;int8=on",
+  "original_libraries_unchanged": true
+}

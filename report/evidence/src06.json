@@ -1,0 +1,422 @@
+{
+  "zip_sha256": "21998373c55c6432c66a7af534a555dae7fec815d5949adb27944ef604453384",
+  "completed": true,
+  "package_and_bridge_match": true,
+  "original_library_unchanged": true,
+  "native_quality_recomputed": true,
+  "saved_raw_numeric_checks_recomputed": true,
+  "timings_recomputed": true,
+  "deployment_changed": false,
+  "accuracy_accepted": false,
+  "baseline": {
+    "strict_parity_passed": true,
+    "new_bridge_320_parity_passed": true,
+    "inference_ms": {
+      "mean": 603.2832551945578,
+      "p95": 614.6563907498148,
+      "samples": 36
+    },
+    "measured_ms": [
+      609.183321999808,
+      596.5116860006674,
+      593.3246880003935,
+      786.5694760002953,
+      609.5597029998316,
+      595.9136110004692,
+      594.6879309994983,
+      598.4805039997809,
+      597.3152430005939,
+      596.4366950001931,
+      595.9512180006641,
+      595.4370890003702,
+      596.3861529999122,
+      596.1629530002028,
+      595.2823130000979,
+      596.078270000362,
+      600.0546889999896,
+      595.078406000539,
+      604.3122760002007,
+      596.0710449999169,
+      595.2494450002632,
+      629.9464539997643,
+      596.9694450004681,
+      596.2099869993835,
+      597.2319440006686,
+      596.6034450002553,
+      594.9474819999523,
+      592.7308549998997,
+      593.3585769998899,
+      592.9711680000764,
+      599.319013999775,
+      595.6804180004838,
+      596.625973999835,
+      595.6348549998438,
+      596.2086389999968,
+      599.7122139997373
+    ],
+    "native_validation": {
+      "classes": [
+        {
+          "class": 0,
+          "labels": 38,
+          "AP50": 0.9861253753753755,
+          "AP50_95": 0.631007811885638,
+          "operating_TP": 36,
+          "operating_FP": 1,
+          "operating_FN": 2,
+          "operating_precision": 0.972972972972973,
+          "operating_recall": 0.9473684210526315
+        },
+        {
+          "class": 1,
+          "labels": 38,
+          "AP50": 0.8240099545073657,
+          "AP50_95": 0.3063560395683574,
+          "operating_TP": 29,
+          "operating_FP": 8,
+          "operating_FN": 9,
+          "operating_precision": 0.7837837837837838,
+          "operating_recall": 0.7631578947368421
+        },
+        {
+          "class": 2,
+          "labels": 25,
+          "AP50": 0.8638791413795545,
+          "AP50_95": 0.3651781344252788,
+          "operating_TP": 21,
+          "operating_FP": 4,
+          "operating_FN": 4,
+          "operating_precision": 0.84,
+          "operating_recall": 0.84
+        },
+        {
+          "class": 3,
+          "labels": 13,
+          "AP50": 0.4160204642166344,
+          "AP50_95": 0.19835278283595834,
+          "operating_TP": 7,
+          "operating_FP": 5,
+          "operating_FN": 6,
+          "operating_precision": 0.5833333333333334,
+          "operating_recall": 0.5384615384615384
+        }
+      ],
+      "mAP50": 0.7725087338697325,
+      "mAP50_95": 0.3752236921788082
+    }
+  },
+  "timings": {
+    "fp32_256": {
+      "mean_ms": 388.6844753611614,
+      "p95_ms": 396.8717458998526,
+      "samples": 108,
+      "round_means_ms": [
+        389.26721802782697,
+        388.54091441668163,
+        388.24529363897557
+      ],
+      "all_rounds_under_250ms": false,
+      "numeric_comparison_passed": true,
+      "numeric_pass_cases_out_of_36": 36,
+      "min_ms": 382.8190150006776,
+      "max_ms": 434.5276610001747
+    },
+    "int8_256": {
+      "mean_ms": 263.79566749074843,
+      "p95_ms": 271.86076130046786,
+      "samples": 108,
+      "round_means_ms": [
+        259.35761913898307,
+        265.07730897214464,
+        266.95207436111764
+      ],
+      "all_rounds_under_250ms": false,
+      "numeric_comparison_passed": false,
+      "numeric_pass_cases_out_of_36": 9,
+      "min_ms": 255.90305800051283,
+      "max_ms": 476.98354400017706
+    },
+    "fp32_224": {
+      "mean_ms": 311.6413658611287,
+      "p95_ms": 313.2790888496402,
+      "samples": 108,
+      "round_means_ms": [
+        315.3533865555447,
+        309.70800322228973,
+        309.8627078055516
+      ],
+      "all_rounds_under_250ms": false,
+      "numeric_comparison_passed": true,
+      "numeric_pass_cases_out_of_36": 36,
+      "min_ms": 300.57090999980574,
+      "max_ms": 513.5763989992483
+    },
+    "int8_224": {
+      "mean_ms": 201.09677271296243,
+      "p95_ms": 203.11720395029624,
+      "samples": 108,
+      "round_means_ms": [
+        199.16276255558944,
+        198.33888138883697,
+        205.78867419446092
+      ],
+      "all_rounds_under_250ms": true,
+      "numeric_comparison_passed": false,
+      "numeric_pass_cases_out_of_36": 12,
+      "min_ms": 195.36839299962594,
+      "max_ms": 391.57174699994357
+    }
+  },
+  "quality": {
+    "baseline_320": {
+      "classes": [
+        {
+          "class": 0,
+          "labels": 38,
+          "AP50": 0.9861253753753755,
+          "AP50_95": 0.631007811885638,
+          "operating_TP": 36,
+          "operating_FP": 1,
+          "operating_FN": 2,
+          "operating_precision": 0.972972972972973,
+          "operating_recall": 0.9473684210526315
+        },
+        {
+          "class": 1,
+          "labels": 38,
+          "AP50": 0.8240099545073657,
+          "AP50_95": 0.3063560395683574,
+          "operating_TP": 29,
+          "operating_FP": 8,
+          "operating_FN": 9,
+          "operating_precision": 0.7837837837837838,
+          "operating_recall": 0.7631578947368421
+        },
+        {
+          "class": 2,
+          "labels": 25,
+          "AP50": 0.8638791413795545,
+          "AP50_95": 0.3651781344252788,
+          "operating_TP": 21,
+          "operating_FP": 4,
+          "operating_FN": 4,
+          "operating_precision": 0.84,
+          "operating_recall": 0.84
+        },
+        {
+          "class": 3,
+          "labels": 13,
+          "AP50": 0.4160204642166344,
+          "AP50_95": 0.19835278283595834,
+          "operating_TP": 7,
+          "operating_FP": 5,
+          "operating_FN": 6,
+          "operating_precision": 0.5833333333333334,
+          "operating_recall": 0.5384615384615384
+        }
+      ],
+      "mAP50": 0.7725087338697325,
+      "mAP50_95": 0.3752236921788082
+    },
+    "fp32_256": {
+      "classes": [
+        {
+          "class": 0,
+          "labels": 38,
+          "AP50": 0.9911538461538463,
+          "AP50_95": 0.6171480695364655,
+          "operating_TP": 36,
+          "operating_FP": 1,
+          "operating_FN": 2,
+          "operating_precision": 0.972972972972973,
+          "operating_recall": 0.9473684210526315
+        },
+        {
+          "class": 1,
+          "labels": 38,
+          "AP50": 0.8507593183285723,
+          "AP50_95": 0.34685648610761,
+          "operating_TP": 28,
+          "operating_FP": 5,
+          "operating_FN": 10,
+          "operating_precision": 0.8484848484848485,
+          "operating_recall": 0.7368421052631579
+        },
+        {
+          "class": 2,
+          "labels": 25,
+          "AP50": 0.9253875014084884,
+          "AP50_95": 0.41028799488405293,
+          "operating_TP": 19,
+          "operating_FP": 1,
+          "operating_FN": 6,
+          "operating_precision": 0.95,
+          "operating_recall": 0.76
+        },
+        {
+          "class": 3,
+          "labels": 13,
+          "AP50": 0.4052510204081632,
+          "AP50_95": 0.21031037520614304,
+          "operating_TP": 5,
+          "operating_FP": 2,
+          "operating_FN": 8,
+          "operating_precision": 0.7142857142857143,
+          "operating_recall": 0.38461538461538464
+        }
+      ],
+      "mAP50": 0.7931379215747676,
+      "mAP50_95": 0.3961507314335679
+    },
+    "int8_256": {
+      "classes": [
+        {
+          "class": 0,
+          "labels": 38,
+          "AP50": 0.9924358974358976,
+          "AP50_95": 0.5970572248507579,
+          "operating_TP": 34,
+          "operating_FP": 0,
+          "operating_FN": 4,
+          "operating_precision": 1.0,
+          "operating_recall": 0.8947368421052632
+        },
+        {
+          "class": 1,
+          "labels": 38,
+          "AP50": 0.7629447756597971,
+          "AP50_95": 0.3270690263555101,
+          "operating_TP": 26,
+          "operating_FP": 10,
+          "operating_FN": 12,
+          "operating_precision": 0.7222222222222222,
+          "operating_recall": 0.6842105263157895
+        },
+        {
+          "class": 2,
+          "labels": 25,
+          "AP50": 0.9036757575757575,
+          "AP50_95": 0.389735853432282,
+          "operating_TP": 19,
+          "operating_FP": 2,
+          "operating_FN": 6,
+          "operating_precision": 0.9047619047619048,
+          "operating_recall": 0.76
+        },
+        {
+          "class": 3,
+          "labels": 13,
+          "AP50": 0.3798476190476192,
+          "AP50_95": 0.1284639574722971,
+          "operating_TP": 5,
+          "operating_FP": 2,
+          "operating_FN": 8,
+          "operating_precision": 0.7142857142857143,
+          "operating_recall": 0.38461538461538464
+        }
+      ],
+      "mAP50": 0.7597260124297678,
+      "mAP50_95": 0.3605815155277118
+    },
+    "fp32_224": {
+      "classes": [
+        {
+          "class": 0,
+          "labels": 38,
+          "AP50": 0.9932105263157893,
+          "AP50_95": 0.5720712345684413,
+          "operating_TP": 36,
+          "operating_FP": 1,
+          "operating_FN": 2,
+          "operating_precision": 0.972972972972973,
+          "operating_recall": 0.9473684210526315
+        },
+        {
+          "class": 1,
+          "labels": 38,
+          "AP50": 0.7775067068344349,
+          "AP50_95": 0.36452242010127783,
+          "operating_TP": 26,
+          "operating_FP": 10,
+          "operating_FN": 12,
+          "operating_precision": 0.7222222222222222,
+          "operating_recall": 0.6842105263157895
+        },
+        {
+          "class": 2,
+          "labels": 25,
+          "AP50": 0.9053889981363665,
+          "AP50_95": 0.3658784624044686,
+          "operating_TP": 19,
+          "operating_FP": 2,
+          "operating_FN": 6,
+          "operating_precision": 0.9047619047619048,
+          "operating_recall": 0.76
+        },
+        {
+          "class": 3,
+          "labels": 13,
+          "AP50": 0.4409089981447125,
+          "AP50_95": 0.23033787279684606,
+          "operating_TP": 5,
+          "operating_FP": 2,
+          "operating_FN": 8,
+          "operating_precision": 0.7142857142857143,
+          "operating_recall": 0.38461538461538464
+        }
+      ],
+      "mAP50": 0.7792538073578258,
+      "mAP50_95": 0.3832024974677585
+    },
+    "int8_224": {
+      "classes": [
+        {
+          "class": 0,
+          "labels": 38,
+          "AP50": 0.9881607581607581,
+          "AP50_95": 0.5649899378872844,
+          "operating_TP": 35,
+          "operating_FP": 0,
+          "operating_FN": 3,
+          "operating_precision": 1.0,
+          "operating_recall": 0.9210526315789473
+        },
+        {
+          "class": 1,
+          "labels": 38,
+          "AP50": 0.814428982560543,
+          "AP50_95": 0.34676839763911615,
+          "operating_TP": 26,
+          "operating_FP": 7,
+          "operating_FN": 12,
+          "operating_precision": 0.7878787878787878,
+          "operating_recall": 0.6842105263157895
+        },
+        {
+          "class": 2,
+          "labels": 25,
+          "AP50": 0.8678124442121995,
+          "AP50_95": 0.34967941474687386,
+          "operating_TP": 16,
+          "operating_FP": 2,
+          "operating_FN": 9,
+          "operating_precision": 0.8888888888888888,
+          "operating_recall": 0.64
+        },
+        {
+          "class": 3,
+          "labels": 13,
+          "AP50": 0.514414761904762,
+          "AP50_95": 0.24104565582010581,
+          "operating_TP": 5,
+          "operating_FP": 0,
+          "operating_FN": 8,
+          "operating_precision": 1.0,
+          "operating_recall": 0.38461538461538464
+        }
+      ],
+      "mAP50": 0.7962042367095656,
+      "mAP50_95": 0.375620851523345
+    }
+  }
+}

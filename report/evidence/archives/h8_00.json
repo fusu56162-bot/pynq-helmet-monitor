@@ -1,0 +1,4834 @@
+{
+  "status": "WHOLE_LAYER_V3_NUMERICS_AND_COSTS_COLLECTED_178_RESTORED_NOT_DEPLOYED",
+  "runner_revision": "startup-compat-r1",
+  "process_pid": 4223,
+  "rows": [
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_2_arm_before_-1_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_01_conv_2_arm_before_-1_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 4.507304000202566,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.325323000084609,
+        "silu_and_output_layout_ms": 1.740830000024289,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.4312490001320839,
+        "total_ms": 4.682854999828123,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.17555099962555687,
+        "native_other_ms": 0.009901999961584806
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_2_arm_before_0_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.7899139998480678,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.048780999612063,
+        "silu_and_output_layout_ms": 1.73393899993971,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 4.0164870001717645,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.22657300032369676,
+        "native_other_ms": 0.007194000296294689
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_2_arm_before_1_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 4.2406890001147985,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.015028000343591,
+        "silu_and_output_layout_ms": 2.216442999895662,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 4.464146999907825,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.22345799979302683,
+        "native_other_ms": 0.009217999875545502
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_2_arm_before_2_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 4.055778999812901,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.312485999893397,
+        "silu_and_output_layout_ms": 1.7359009999781847,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 4.282492000129423,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.22671300031652208,
+        "native_other_ms": 0.007391999941319227
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "v3_full_layer",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_2_v3_full_layer_-1_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_01_conv_2_v3_full_layer_-1_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_2_v3_full_layer_-1_sums.npy",
+          "sha256": "874205c5a62f848d4ff630d0ae100da670a4438d2aa7c7c5069b8647084ff89b",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_01_conv_2_v3_full_layer_-1_q.npy",
+          "sha256": "061f563bb43a06bd6bcceea2afa1ee32e7ea179cf1c36752aade9bcb5ca6b7f5",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 17.697176000103354,
+        "quantize_ms": 2.7895700000226498,
+        "dispatch_ms": 12.028813000302762,
+        "convolution_or_post_ms": 0.6080309995450079,
+        "silu_and_output_layout_ms": 1.7407880001701415,
+        "Q_copy_ms": 0.26534199994057417,
+        "cache_ms": 1.0919080004096031,
+        "MMIO_wait_ms": 1.2810769998468459,
+        "full_output_guard_ms": 8.56258499994874,
+        "pack4_ownership_copy_ms": 0.8062150003388524,
+        "commands": 1,
+        "output_rows": 56,
+        "polls": 707,
+        "diagnostic_pre_clone_ms": 0.5095999999903142,
+        "total_ms": 17.954923000161216,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.25774700005786144,
+        "native_other_ms": 0.020374000072479248
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "v3_full_layer",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_2_v3_full_layer_0_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_2_v3_full_layer_0_sums.npy",
+          "sha256": "874205c5a62f848d4ff630d0ae100da670a4438d2aa7c7c5069b8647084ff89b",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_01_conv_2_v3_full_layer_0_q.npy",
+          "sha256": "061f563bb43a06bd6bcceea2afa1ee32e7ea179cf1c36752aade9bcb5ca6b7f5",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 15.114800000097603,
+        "quantize_ms": 0.857962999958545,
+        "dispatch_ms": 11.910423999652267,
+        "convolution_or_post_ms": 0.5943879997357726,
+        "silu_and_output_layout_ms": 1.7339689997024834,
+        "Q_copy_ms": 0.14844899997115135,
+        "cache_ms": 1.1817779997363687,
+        "MMIO_wait_ms": 1.2827940001152456,
+        "full_output_guard_ms": 8.386068000458181,
+        "pack4_ownership_copy_ms": 0.8897599996998906,
+        "commands": 1,
+        "output_rows": 56,
+        "polls": 658,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 15.349667999998928,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23486799990132567,
+        "native_other_ms": 0.01805600104853511
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "v3_full_layer",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_2_v3_full_layer_1_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_2_v3_full_layer_1_sums.npy",
+          "sha256": "874205c5a62f848d4ff630d0ae100da670a4438d2aa7c7c5069b8647084ff89b",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_01_conv_2_v3_full_layer_1_q.npy",
+          "sha256": "061f563bb43a06bd6bcceea2afa1ee32e7ea179cf1c36752aade9bcb5ca6b7f5",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 15.099938999861479,
+        "quantize_ms": 0.8577539999969304,
+        "dispatch_ms": 11.867870999965817,
+        "convolution_or_post_ms": 0.6193409999832511,
+        "silu_and_output_layout_ms": 1.7352060000412166,
+        "Q_copy_ms": 0.14654799969866872,
+        "cache_ms": 1.1628000000491738,
+        "MMIO_wait_ms": 1.281785000115633,
+        "full_output_guard_ms": 8.451876999810338,
+        "pack4_ownership_copy_ms": 0.8032800001092255,
+        "commands": 1,
+        "output_rows": 56,
+        "polls": 710,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 15.332271000261244,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2323320003997651,
+        "native_other_ms": 0.019766999874264002
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "v3_full_layer",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_2_v3_full_layer_2_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_2_v3_full_layer_2_sums.npy",
+          "sha256": "874205c5a62f848d4ff630d0ae100da670a4438d2aa7c7c5069b8647084ff89b",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_01_conv_2_v3_full_layer_2_q.npy",
+          "sha256": "061f563bb43a06bd6bcceea2afa1ee32e7ea179cf1c36752aade9bcb5ca6b7f5",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 15.046792999841273,
+        "quantize_ms": 0.8347129998728633,
+        "dispatch_ms": 11.840567000210285,
+        "convolution_or_post_ms": 0.6176490001380444,
+        "silu_and_output_layout_ms": 1.7359929997473955,
+        "Q_copy_ms": 0.15343399997800589,
+        "cache_ms": 1.1109170001000166,
+        "MMIO_wait_ms": 1.2813230003230274,
+        "full_output_guard_ms": 8.468843000475317,
+        "pack4_ownership_copy_ms": 0.8052240000106394,
+        "commands": 1,
+        "output_rows": 56,
+        "polls": 708,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 15.372854999895935,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.32606200005466235,
+        "native_other_ms": 0.01787099987268448
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_2_arm_after_-1_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_01_conv_2_arm_after_-1_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 6.2869349997490644,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 4.0992489997297525,
+        "silu_and_output_layout_ms": 1.739403000101447,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.43881200021132827,
+        "total_ms": 6.559045999892987,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.27211100014392287,
+        "native_other_ms": 0.009470999706536531
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_2_arm_after_0_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 4.166529000271112,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.421194000169635,
+        "silu_and_output_layout_ms": 1.7376120002008975,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 4.405508000218106,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.238978999946994,
+        "native_other_ms": 0.0077229999005794525
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_2_arm_after_1_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 4.184491999913007,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.438467999920249,
+        "silu_and_output_layout_ms": 1.7390589998103678,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 4.420928999934404,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23643700002139667,
+        "native_other_ms": 0.006965000182390213
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_2_arm_after_2_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 4.173981999978423,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.4283020002767444,
+        "silu_and_output_layout_ms": 1.7383200000040233,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 4.412337999838201,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2383559998597775,
+        "native_other_ms": 0.007359999697655439
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_10_arm_before_-1_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_01_conv_10_arm_before_-1_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.073194000404328,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.055711000226438,
+        "silu_and_output_layout_ms": 0.8750519999302924,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.13361300015822053,
+        "total_ms": 3.2464000000800297,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.1732059996757016,
+        "native_other_ms": 0.008818000089377165
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_10_arm_before_0_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.6053720000199974,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.7247199998237193,
+        "silu_and_output_layout_ms": 0.874117000028491,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.8404000001719396,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23502800015194225,
+        "native_other_ms": 0.006535000167787075
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_10_arm_before_1_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.3708130000159144,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.4907509996555746,
+        "silu_and_output_layout_ms": 0.8729969998821616,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.604215999985172,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2334029999692575,
+        "native_other_ms": 0.007065000478178263
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_10_arm_before_2_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.4906889996491373,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.6059499997645617,
+        "silu_and_output_layout_ms": 0.8778580003418028,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.722903999914706,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23221500026556896,
+        "native_other_ms": 0.00688099954277277
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "v3_full_layer",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_10_v3_full_layer_-1_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_01_conv_10_v3_full_layer_-1_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_10_v3_full_layer_-1_sums.npy",
+          "sha256": "9d8df886b190d1ff6d198082d6e4cb3444f8a37b8d0599968c3995a0e7483930",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_01_conv_10_v3_full_layer_-1_q.npy",
+          "sha256": "02104d9228740909d60c308ce1bed519dade5c24102f4843de7905acaffc78d9",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 11.821851999964565,
+        "quantize_ms": 2.2474710000678897,
+        "dispatch_ms": 8.203950999770314,
+        "convolution_or_post_ms": 0.30934800021350384,
+        "silu_and_output_layout_ms": 0.8757360000163317,
+        "Q_copy_ms": 0.07803699979558587,
+        "cache_ms": 1.0723199998028576,
+        "MMIO_wait_ms": 2.7513850000686944,
+        "full_output_guard_ms": 3.87307700002566,
+        "pack4_ownership_copy_ms": 0.40782799990847707,
+        "commands": 1,
+        "output_rows": 28,
+        "polls": 1520,
+        "diagnostic_pre_clone_ms": 0.1675079995766282,
+        "total_ms": 12.081656000191288,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.25980400022672256,
+        "native_other_ms": 0.01783800031989813
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "v3_full_layer",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_10_v3_full_layer_0_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_10_v3_full_layer_0_sums.npy",
+          "sha256": "9d8df886b190d1ff6d198082d6e4cb3444f8a37b8d0599968c3995a0e7483930",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_01_conv_10_v3_full_layer_0_q.npy",
+          "sha256": "02104d9228740909d60c308ce1bed519dade5c24102f4843de7905acaffc78d9",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 9.643052000086755,
+        "quantize_ms": 0.29936600010842085,
+        "dispatch_ms": 8.025975000113249,
+        "convolution_or_post_ms": 0.3371140002273023,
+        "silu_and_output_layout_ms": 0.9650579998269677,
+        "Q_copy_ms": 0.0314520001411438,
+        "cache_ms": 1.1069729998707771,
+        "MMIO_wait_ms": 2.751440000254661,
+        "full_output_guard_ms": 3.7118340004235506,
+        "pack4_ownership_copy_ms": 0.40423400001600385,
+        "commands": 1,
+        "output_rows": 28,
+        "polls": 1518,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 9.86697800044567,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2239260003589152,
+        "native_other_ms": 0.015538999810814857
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "v3_full_layer",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_10_v3_full_layer_1_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_10_v3_full_layer_1_sums.npy",
+          "sha256": "9d8df886b190d1ff6d198082d6e4cb3444f8a37b8d0599968c3995a0e7483930",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_01_conv_10_v3_full_layer_1_q.npy",
+          "sha256": "02104d9228740909d60c308ce1bed519dade5c24102f4843de7905acaffc78d9",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 9.639845999889076,
+        "quantize_ms": 0.3078830000013113,
+        "dispatch_ms": 8.133064000401646,
+        "convolution_or_post_ms": 0.31044299993664026,
+        "silu_and_output_layout_ms": 0.8733419999480247,
+        "Q_copy_ms": 0.02993200020864606,
+        "cache_ms": 1.105329000391066,
+        "MMIO_wait_ms": 2.7531320000998676,
+        "full_output_guard_ms": 3.816196999978274,
+        "pack4_ownership_copy_ms": 0.40639400016516447,
+        "commands": 1,
+        "output_rows": 28,
+        "polls": 1519,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 9.85987700005353,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.22003100016445387,
+        "native_other_ms": 0.015113999601453543
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "v3_full_layer",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_10_v3_full_layer_2_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_10_v3_full_layer_2_sums.npy",
+          "sha256": "9d8df886b190d1ff6d198082d6e4cb3444f8a37b8d0599968c3995a0e7483930",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_01_conv_10_v3_full_layer_2_q.npy",
+          "sha256": "02104d9228740909d60c308ce1bed519dade5c24102f4843de7905acaffc78d9",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 9.640271000098437,
+        "quantize_ms": 0.28941599978134036,
+        "dispatch_ms": 8.018485999666154,
+        "convolution_or_post_ms": 0.44108300004154444,
+        "silu_and_output_layout_ms": 0.8752059997059405,
+        "Q_copy_ms": 0.030990999657660723,
+        "cache_ms": 1.0946340002119541,
+        "MMIO_wait_ms": 2.7512739999219775,
+        "full_output_guard_ms": 3.7110460000112653,
+        "pack4_ownership_copy_ms": 0.4100919999182224,
+        "commands": 1,
+        "output_rows": 28,
+        "polls": 1518,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 9.867877000033332,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2276059999348945,
+        "native_other_ms": 0.016080000903457403
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_10_arm_after_-1_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_01_conv_10_arm_after_-1_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 4.749218999873847,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 3.73286799993366,
+        "silu_and_output_layout_ms": 0.8734150002710521,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.1339200004003942,
+        "total_ms": 5.085816000246268,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.33659700037242146,
+        "native_other_ms": 0.009015999268740416
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_10_arm_after_0_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.5863260002806783,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.1736180000007153,
+        "silu_and_output_layout_ms": 1.4046460003592074,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.8255869999375136,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23926099965683534,
+        "native_other_ms": 0.008061999920755625
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_10_arm_after_1_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.470762999728322,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.1499329996295273,
+        "silu_and_output_layout_ms": 1.313291999977082,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.712017999987438,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.24125500025911606,
+        "native_other_ms": 0.007538000121712685
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_10_arm_after_2_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.3799069998785853,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.0657970001921058,
+        "silu_and_output_layout_ms": 1.305851999670267,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.6146519996691495,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23474499979056418,
+        "native_other_ms": 0.008258000016212463
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_18_arm_before_-1_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_01_conv_18_arm_before_-1_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.388073999900371,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.871735000051558,
+        "silu_and_output_layout_ms": 0.4421540000475943,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0660429997369647,
+        "total_ms": 2.552799999648414,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.16472599974804325,
+        "native_other_ms": 0.008142000064253807
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_18_arm_before_0_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.7797230002470315,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.9064060002565384,
+        "silu_and_output_layout_ms": 0.8662589997984469,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.011907999734831,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23218499948779936,
+        "native_other_ms": 0.0070580001920461655
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_18_arm_before_1_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.354277000296861,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.879520000424236,
+        "silu_and_output_layout_ms": 0.46825799997895956,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 2.5882210002237116,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23394399992685067,
+        "native_other_ms": 0.006498999893665314
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_18_arm_before_2_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.388345000334084,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.9105290002189577,
+        "silu_and_output_layout_ms": 0.4712120001204312,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 2.618640000036976,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2302949997028918,
+        "native_other_ms": 0.006603999994695187
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "v3_full_layer",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_18_v3_full_layer_-1_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_01_conv_18_v3_full_layer_-1_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_18_v3_full_layer_-1_sums.npy",
+          "sha256": "ab597481a7b710dbd628388cdcf291bc0eb82789a282036df3de3f18c94826f6",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_01_conv_18_v3_full_layer_-1_q.npy",
+          "sha256": "8730f6204cadd66226aca3c646f3fa2051dccc8252ee8ceb5e2a6274c8b96770",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 8.622074000071734,
+        "quantize_ms": 1.7934469999745488,
+        "dispatch_ms": 6.0968860001303256,
+        "convolution_or_post_ms": 0.2048919997178018,
+        "silu_and_output_layout_ms": 0.4421420004218817,
+        "Q_copy_ms": 0.05281800031661987,
+        "cache_ms": 1.1125910002738237,
+        "MMIO_wait_ms": 2.6208430002443492,
+        "full_output_guard_ms": 2.0860550003126264,
+        "pack4_ownership_copy_ms": 0.20255400007590652,
+        "commands": 1,
+        "output_rows": 14,
+        "polls": 1447,
+        "diagnostic_pre_clone_ms": 0.06630100030452013,
+        "total_ms": 8.876566999788338,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.25449299971660366,
+        "native_other_ms": 0.018405999522656202
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "v3_full_layer",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_18_v3_full_layer_0_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_18_v3_full_layer_0_sums.npy",
+          "sha256": "ab597481a7b710dbd628388cdcf291bc0eb82789a282036df3de3f18c94826f6",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_01_conv_18_v3_full_layer_0_q.npy",
+          "sha256": "8730f6204cadd66226aca3c646f3fa2051dccc8252ee8ceb5e2a6274c8b96770",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 6.802024999633431,
+        "quantize_ms": 0.21091699972748756,
+        "dispatch_ms": 5.91958099976182,
+        "convolution_or_post_ms": 0.21575400000438094,
+        "silu_and_output_layout_ms": 0.4418709999881685,
+        "Q_copy_ms": 0.015894999727606773,
+        "cache_ms": 1.1060740002430975,
+        "MMIO_wait_ms": 2.619593999814242,
+        "full_output_guard_ms": 1.9553900002501905,
+        "pack4_ownership_copy_ms": 0.20285500027239323,
+        "commands": 1,
+        "output_rows": 14,
+        "polls": 1451,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 7.02469599991673,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.22267100028329878,
+        "native_other_ms": 0.013902000151574612
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "v3_full_layer",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_18_v3_full_layer_1_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_18_v3_full_layer_1_sums.npy",
+          "sha256": "ab597481a7b710dbd628388cdcf291bc0eb82789a282036df3de3f18c94826f6",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_01_conv_18_v3_full_layer_1_q.npy",
+          "sha256": "8730f6204cadd66226aca3c646f3fa2051dccc8252ee8ceb5e2a6274c8b96770",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 6.769956999924034,
+        "quantize_ms": 0.1926400000229478,
+        "dispatch_ms": 5.910313999745995,
+        "convolution_or_post_ms": 0.21065800031647086,
+        "silu_and_output_layout_ms": 0.44123699981719255,
+        "Q_copy_ms": 0.017242999747395515,
+        "cache_ms": 1.0957789993844926,
+        "MMIO_wait_ms": 2.6188680003397167,
+        "full_output_guard_ms": 1.954793999902904,
+        "pack4_ownership_copy_ms": 0.20331700006499887,
+        "commands": 1,
+        "output_rows": 14,
+        "polls": 1452,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 6.995255000219913,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.22529800029587932,
+        "native_other_ms": 0.01510800002142787
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "v3_full_layer",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_18_v3_full_layer_2_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_18_v3_full_layer_2_sums.npy",
+          "sha256": "ab597481a7b710dbd628388cdcf291bc0eb82789a282036df3de3f18c94826f6",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_01_conv_18_v3_full_layer_2_q.npy",
+          "sha256": "8730f6204cadd66226aca3c646f3fa2051dccc8252ee8ceb5e2a6274c8b96770",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 6.787673000246286,
+        "quantize_ms": 0.20127300033345819,
+        "dispatch_ms": 5.917908000294119,
+        "convolution_or_post_ms": 0.2117050001397729,
+        "silu_and_output_layout_ms": 0.4412929997779429,
+        "Q_copy_ms": 0.016407000366598368,
+        "cache_ms": 1.1036860002204776,
+        "MMIO_wait_ms": 2.6198400002904236,
+        "full_output_guard_ms": 1.95577900018543,
+        "pack4_ownership_copy_ms": 0.20228299964219332,
+        "commands": 1,
+        "output_rows": 14,
+        "polls": 1446,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 7.005951000337518,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.21827800009123166,
+        "native_other_ms": 0.0154939997009933
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_18_arm_after_-1_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_01_conv_18_arm_after_-1_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 4.063532999716699,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 3.548461999744177,
+        "silu_and_output_layout_ms": 0.44174200017005205,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.06513800006359816,
+        "total_ms": 4.326517000208696,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.262984000491997,
+        "native_other_ms": 0.008190999738872051
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_18_arm_after_0_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.5236500003375113,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.0747390002943575,
+        "silu_and_output_layout_ms": 0.44240699987858534,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 2.758848999746988,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23519899940947653,
+        "native_other_ms": 0.006504000164568424
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_18_arm_after_1_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.353372000157833,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.9042400000616908,
+        "silu_and_output_layout_ms": 0.4422709997743368,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 2.5866650003081304,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2332930001502973,
+        "native_other_ms": 0.006861000321805477
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_01_conv_18_arm_after_2_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.4787820000201464,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.910221999976784,
+        "silu_and_output_layout_ms": 0.5606329999864101,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 2.71506400031285,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23628200029270374,
+        "native_other_ms": 0.007927000056952238
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_2_arm_before_-1_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_02_conv_2_arm_before_-1_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 4.161132000386715,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.9802149999886751,
+        "silu_and_output_layout_ms": 1.739508000202477,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.43147099995985627,
+        "total_ms": 4.343982000136748,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.18284999975003302,
+        "native_other_ms": 0.009938000235706568
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_2_arm_before_0_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.924972000066191,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.986591000109911,
+        "silu_and_output_layout_ms": 1.930788000114262,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 4.173791000084748,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.24881900001855684,
+        "native_other_ms": 0.007592999842017889
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_2_arm_before_1_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 4.255114000290632,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.9880989999510348,
+        "silu_and_output_layout_ms": 2.25844999961555,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 4.500855000060255,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.24574099976962316,
+        "native_other_ms": 0.008565000724047422
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_2_arm_before_2_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 4.275950999930501,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.99178500007838,
+        "silu_and_output_layout_ms": 2.2760489997453988,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 4.514726999786944,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23877599985644338,
+        "native_other_ms": 0.008117000106722116
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "v3_full_layer",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_2_v3_full_layer_-1_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_02_conv_2_v3_full_layer_-1_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_2_v3_full_layer_-1_sums.npy",
+          "sha256": "de359cd84faff8ecc92490c38092344ee6da2266355b6a8d3e48eefdb262e007",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_02_conv_2_v3_full_layer_-1_q.npy",
+          "sha256": "afa2b60501260cc28a5fb69130406392fc99e8ea9944f78dc244464ff7d738d4",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 17.53569300007075,
+        "quantize_ms": 2.5823139999993145,
+        "dispatch_ms": 12.143292999826372,
+        "convolution_or_post_ms": 0.5821730000898242,
+        "silu_and_output_layout_ms": 1.7393970000557601,
+        "Q_copy_ms": 0.2881359998136759,
+        "cache_ms": 1.1608799998648465,
+        "MMIO_wait_ms": 1.282769000157714,
+        "full_output_guard_ms": 8.58991299988702,
+        "pack4_ownership_copy_ms": 0.7985839997418225,
+        "commands": 1,
+        "output_rows": 56,
+        "polls": 708,
+        "diagnostic_pre_clone_ms": 0.46663999976590276,
+        "total_ms": 17.808522999985144,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.27282999991439283,
+        "native_other_ms": 0.021876000333577394
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "v3_full_layer",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_2_v3_full_layer_0_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_2_v3_full_layer_0_sums.npy",
+          "sha256": "de359cd84faff8ecc92490c38092344ee6da2266355b6a8d3e48eefdb262e007",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_02_conv_2_v3_full_layer_0_q.npy",
+          "sha256": "afa2b60501260cc28a5fb69130406392fc99e8ea9944f78dc244464ff7d738d4",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 15.991427999921143,
+        "quantize_ms": 0.8515510000288486,
+        "dispatch_ms": 12.072966000065207,
+        "convolution_or_post_ms": 0.8703449997119606,
+        "silu_and_output_layout_ms": 2.1774829998612404,
+        "Q_copy_ms": 0.1501230001449585,
+        "cache_ms": 1.1362579995766282,
+        "MMIO_wait_ms": 1.2812489997595549,
+        "full_output_guard_ms": 8.45375999994576,
+        "pack4_ownership_copy_ms": 1.0292799999006093,
+        "commands": 1,
+        "output_rows": 56,
+        "polls": 641,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 16.237526000168145,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.24609800024700235,
+        "native_other_ms": 0.019083000253885984
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "v3_full_layer",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_2_v3_full_layer_1_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_2_v3_full_layer_1_sums.npy",
+          "sha256": "de359cd84faff8ecc92490c38092344ee6da2266355b6a8d3e48eefdb262e007",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_02_conv_2_v3_full_layer_1_q.npy",
+          "sha256": "afa2b60501260cc28a5fb69130406392fc99e8ea9944f78dc244464ff7d738d4",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 15.523286000359803,
+        "quantize_ms": 0.873785000294447,
+        "dispatch_ms": 12.260622000321746,
+        "convolution_or_post_ms": 0.5825229999609292,
+        "silu_and_output_layout_ms": 1.7880609999410808,
+        "Q_copy_ms": 0.147964000236243,
+        "cache_ms": 1.137644000351429,
+        "MMIO_wait_ms": 1.2808680003508925,
+        "full_output_guard_ms": 8.858640000224113,
+        "pack4_ownership_copy_ms": 0.8122769999317825,
+        "commands": 1,
+        "output_rows": 56,
+        "polls": 707,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 16.332147999946756,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.8088619995869522,
+        "native_other_ms": 0.018294999841600657
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "v3_full_layer",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_2_v3_full_layer_2_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_2_v3_full_layer_2_sums.npy",
+          "sha256": "de359cd84faff8ecc92490c38092344ee6da2266355b6a8d3e48eefdb262e007",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_02_conv_2_v3_full_layer_2_q.npy",
+          "sha256": "afa2b60501260cc28a5fb69130406392fc99e8ea9944f78dc244464ff7d738d4",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 15.079279999714345,
+        "quantize_ms": 0.8534160000272095,
+        "dispatch_ms": 11.887907000258565,
+        "convolution_or_post_ms": 0.5823450000025332,
+        "silu_and_output_layout_ms": 1.736676000058651,
+        "Q_copy_ms": 0.15384000027552247,
+        "cache_ms": 1.095501999836415,
+        "MMIO_wait_ms": 1.281427999958396,
+        "full_output_guard_ms": 8.532215000130236,
+        "pack4_ownership_copy_ms": 0.8019570000469685,
+        "commands": 1,
+        "output_rows": 56,
+        "polls": 708,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 15.32235100012258,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2430710004082357,
+        "native_other_ms": 0.018935999367386103
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_2_arm_after_-1_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_02_conv_2_arm_after_-1_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 6.144011999946088,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 3.840030000079423,
+        "silu_and_output_layout_ms": 1.7437970000319183,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.5510589997284114,
+        "total_ms": 6.420578999950521,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.2765670000044338,
+        "native_other_ms": 0.009126000106334686
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_2_arm_after_0_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.8704490000382066,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.128177999984473,
+        "silu_and_output_layout_ms": 1.7345969998277724,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 4.121002999909251,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.25055399987104465,
+        "native_other_ms": 0.007674000225961208
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_2_arm_after_1_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.751329000107944,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.0074650002643466,
+        "silu_and_output_layout_ms": 1.735526000149548,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 4.00475100013864,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2534220000306959,
+        "native_other_ms": 0.008337999694049358
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_2_arm_after_2_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.7676119999960065,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.0239820000715554,
+        "silu_and_output_layout_ms": 1.7359019997529685,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 4.04129299977285,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.27368099977684324,
+        "native_other_ms": 0.007728000171482563
+      },
+      "output_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 16,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_10_arm_before_-1_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_02_conv_10_arm_before_-1_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.3124429997988045,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.087656000163406,
+        "silu_and_output_layout_ms": 1.0862950002774596,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.12872599996626377,
+        "total_ms": 3.4828430002562527,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.1704000004574482,
+        "native_other_ms": 0.009765999391674995
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_10_arm_before_0_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.97740999981761,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.095883999951184,
+        "silu_and_output_layout_ms": 0.873410000000149,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.220800000235613,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.24339000041800318,
+        "native_other_ms": 0.00811599986627698
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_10_arm_before_1_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.062301999889314,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.180000000167638,
+        "silu_and_output_layout_ms": 0.874936000443995,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.2989040000757086,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23660200018639443,
+        "native_other_ms": 0.007365999277681112
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_10_arm_before_2_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.9775139996781945,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.0978520000353456,
+        "silu_and_output_layout_ms": 0.8729480002075434,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.2209969999712484,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.24348300029305392,
+        "native_other_ms": 0.006713999435305595
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "v3_full_layer",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_10_v3_full_layer_-1_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_02_conv_10_v3_full_layer_-1_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_10_v3_full_layer_-1_sums.npy",
+          "sha256": "696adc65c16b3ab6c66e545c8b2ef7f9e67bbcf2840d78530c3f440ba4792c45",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_02_conv_10_v3_full_layer_-1_q.npy",
+          "sha256": "ccb054236330e70a42e3901620c943b618437730402269005566becc235e1b5b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 11.214259000029415,
+        "quantize_ms": 1.5833300002850592,
+        "dispatch_ms": 8.244491999968886,
+        "convolution_or_post_ms": 0.3172249998897314,
+        "silu_and_output_layout_ms": 0.8760560001246631,
+        "Q_copy_ms": 0.08256600005552173,
+        "cache_ms": 1.1274890000931919,
+        "MMIO_wait_ms": 2.752811999991536,
+        "full_output_guard_ms": 3.8559010000899434,
+        "pack4_ownership_copy_ms": 0.4041849998757243,
+        "commands": 1,
+        "output_rows": 28,
+        "polls": 1504,
+        "diagnostic_pre_clone_ms": 0.17482999991625547,
+        "total_ms": 11.474978000023839,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.26071899999442394,
+        "native_other_ms": 0.018325999844819307
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "v3_full_layer",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_10_v3_full_layer_0_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_10_v3_full_layer_0_sums.npy",
+          "sha256": "696adc65c16b3ab6c66e545c8b2ef7f9e67bbcf2840d78530c3f440ba4792c45",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_02_conv_10_v3_full_layer_0_q.npy",
+          "sha256": "ccb054236330e70a42e3901620c943b618437730402269005566becc235e1b5b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 9.626178999897093,
+        "quantize_ms": 0.299513999838382,
+        "dispatch_ms": 8.132276999764144,
+        "convolution_or_post_ms": 0.30385900009423494,
+        "silu_and_output_layout_ms": 0.8731140000745654,
+        "Q_copy_ms": 0.03246699972078204,
+        "cache_ms": 1.059335000347346,
+        "MMIO_wait_ms": 2.7517470000311732,
+        "full_output_guard_ms": 3.8577290000393987,
+        "pack4_ownership_copy_ms": 0.40929200034588575,
+        "commands": 1,
+        "output_rows": 28,
+        "polls": 1518,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 9.855975999926159,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2297970000290661,
+        "native_other_ms": 0.0174150001257658
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "v3_full_layer",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_10_v3_full_layer_1_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_10_v3_full_layer_1_sums.npy",
+          "sha256": "696adc65c16b3ab6c66e545c8b2ef7f9e67bbcf2840d78530c3f440ba4792c45",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_02_conv_10_v3_full_layer_1_q.npy",
+          "sha256": "ccb054236330e70a42e3901620c943b618437730402269005566becc235e1b5b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 9.64393200026825,
+        "quantize_ms": 0.3091820003464818,
+        "dispatch_ms": 8.14065199997276,
+        "convolution_or_post_ms": 0.30631399992853403,
+        "silu_and_output_layout_ms": 0.8726710001938045,
+        "Q_copy_ms": 0.031870000064373016,
+        "cache_ms": 1.0553420004434884,
+        "MMIO_wait_ms": 2.7517909999005497,
+        "full_output_guard_ms": 3.8701779996044934,
+        "pack4_ownership_copy_ms": 0.4090769998729229,
+        "commands": 1,
+        "output_rows": 28,
+        "polls": 1518,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 9.875249000288022,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2313170000197715,
+        "native_other_ms": 0.015112999826669693
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "v3_full_layer",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_10_v3_full_layer_2_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_10_v3_full_layer_2_sums.npy",
+          "sha256": "696adc65c16b3ab6c66e545c8b2ef7f9e67bbcf2840d78530c3f440ba4792c45",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_02_conv_10_v3_full_layer_2_q.npy",
+          "sha256": "ccb054236330e70a42e3901620c943b618437730402269005566becc235e1b5b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 9.65931099979207,
+        "quantize_ms": 0.3155749998986721,
+        "dispatch_ms": 8.137963000219315,
+        "convolution_or_post_ms": 0.31878199987113476,
+        "silu_and_output_layout_ms": 0.8721110001206398,
+        "Q_copy_ms": 0.032312999945133924,
+        "cache_ms": 1.0600429996848106,
+        "MMIO_wait_ms": 2.752098999917507,
+        "full_output_guard_ms": 3.8626769999973476,
+        "pack4_ownership_copy_ms": 0.4089850001037121,
+        "commands": 1,
+        "output_rows": 28,
+        "polls": 1525,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 9.890154000004259,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2308430002121895,
+        "native_other_ms": 0.014879999682307243
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_10_arm_after_-1_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_02_conv_10_arm_after_-1_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 4.931766000110656,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 3.8844059999100864,
+        "silu_and_output_layout_ms": 0.9100239998660982,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.12900299998000264,
+        "total_ms": 5.202694999752566,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.2709289996419102,
+        "native_other_ms": 0.008333000354468822
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_10_arm_after_0_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.042295000050217,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.161280000116676,
+        "silu_and_output_layout_ms": 0.8735319999977946,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.286480000042502,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.24418499999228516,
+        "native_other_ms": 0.007482999935746193
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_10_arm_after_1_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.142990999855101,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.262794000096619,
+        "silu_and_output_layout_ms": 0.8729049996472895,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.385987000001478,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2429960001463769,
+        "native_other_ms": 0.007292000111192465
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_10_arm_after_2_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.088172999676317,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.0611819997429848,
+        "silu_and_output_layout_ms": 1.018184000160545,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 3.3326590000797296,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.24448600040341262,
+        "native_other_ms": 0.008806999772787094
+      },
+      "output_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_18_arm_before_-1_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_02_conv_18_arm_before_-1_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.402892000041902,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.8886400000192225,
+        "silu_and_output_layout_ms": 0.4421540000475943,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.06404300034046173,
+        "total_ms": 2.56988299997829,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.1669909999363881,
+        "native_other_ms": 0.008054999634623528
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_18_arm_before_0_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.5238529997877777,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.0761909997090697,
+        "silu_and_output_layout_ms": 0.4410769999958575,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 2.76483100014957,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.2409780003617925,
+        "native_other_ms": 0.006585000082850456
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_18_arm_before_1_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.404639999847859,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.9554519997909665,
+        "silu_and_output_layout_ms": 0.4424730003811419,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 2.639699000155815,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.235059000307956,
+        "native_other_ms": 0.006714999675750732
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_18_arm_before_2_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 38.5467630000785,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 32.776419000234455,
+        "silu_and_output_layout_ms": 5.76174100022763,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 38.79591299983076,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.24914999975226237,
+        "native_other_ms": 0.008602999616414309
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "v3_full_layer",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_18_v3_full_layer_-1_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_02_conv_18_v3_full_layer_-1_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_18_v3_full_layer_-1_sums.npy",
+          "sha256": "79c23fa17cfa0334c31a794fa825769ca475e4c772ba91d285ed4a3831d88569",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_02_conv_18_v3_full_layer_-1_q.npy",
+          "sha256": "39ada81aa07c8ef1f3176c6a9a5afc6d2b0ca58315b7db4e32b5d6e3758657cc",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 22.013815000187606,
+        "quantize_ms": 4.597655000165105,
+        "dispatch_ms": 6.759494999889284,
+        "convolution_or_post_ms": 5.338714000303298,
+        "silu_and_output_layout_ms": 5.1134770000353456,
+        "Q_copy_ms": 0.07750199967995286,
+        "cache_ms": 1.4675750001333654,
+        "MMIO_wait_ms": 2.62211100012064,
+        "full_output_guard_ms": 2.2993169999681413,
+        "pack4_ownership_copy_ms": 0.2619260000064969,
+        "commands": 1,
+        "output_rows": 14,
+        "polls": 1318,
+        "diagnostic_pre_clone_ms": 0.1771319997496903,
+        "total_ms": 22.284872999989602,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.27105799980199663,
+        "native_other_ms": 0.027342000044882298
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "v3_full_layer",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_18_v3_full_layer_0_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_18_v3_full_layer_0_sums.npy",
+          "sha256": "79c23fa17cfa0334c31a794fa825769ca475e4c772ba91d285ed4a3831d88569",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_02_conv_18_v3_full_layer_0_q.npy",
+          "sha256": "39ada81aa07c8ef1f3176c6a9a5afc6d2b0ca58315b7db4e32b5d6e3758657cc",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 6.87079400010407,
+        "quantize_ms": 0.22007999988272786,
+        "dispatch_ms": 5.98258400009945,
+        "convolution_or_post_ms": 0.21121300011873245,
+        "silu_and_output_layout_ms": 0.4416189999319613,
+        "Q_copy_ms": 0.016485999803990126,
+        "cache_ms": 1.086596999783069,
+        "MMIO_wait_ms": 2.62104000011459,
+        "full_output_guard_ms": 2.0295389997772872,
+        "pack4_ownership_copy_ms": 0.2089470000937581,
+        "commands": 1,
+        "output_rows": 14,
+        "polls": 1394,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 7.092714000009437,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.22191999990536715,
+        "native_other_ms": 0.015298000071197748
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "v3_full_layer",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_18_v3_full_layer_1_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_18_v3_full_layer_1_sums.npy",
+          "sha256": "79c23fa17cfa0334c31a794fa825769ca475e4c772ba91d285ed4a3831d88569",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_02_conv_18_v3_full_layer_1_q.npy",
+          "sha256": "39ada81aa07c8ef1f3176c6a9a5afc6d2b0ca58315b7db4e32b5d6e3758657cc",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 6.964573000092059,
+        "quantize_ms": 0.21979700028896332,
+        "dispatch_ms": 6.01223999960348,
+        "convolution_or_post_ms": 0.27649200009182096,
+        "silu_and_output_layout_ms": 0.4414220000617206,
+        "Q_copy_ms": 0.015728999860584736,
+        "cache_ms": 1.0759569997899234,
+        "MMIO_wait_ms": 2.6206089998595417,
+        "full_output_guard_ms": 1.9700549999251962,
+        "pack4_ownership_copy_ms": 0.31054800003767014,
+        "commands": 1,
+        "output_rows": 14,
+        "polls": 1389,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 7.188836999830528,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.22426399973846856,
+        "native_other_ms": 0.01462200004607439
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "v3_full_layer",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_18_v3_full_layer_2_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_18_v3_full_layer_2_sums.npy",
+          "sha256": "79c23fa17cfa0334c31a794fa825769ca475e4c772ba91d285ed4a3831d88569",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        },
+        "q": {
+          "file": "case_02_conv_18_v3_full_layer_2_q.npy",
+          "sha256": "39ada81aa07c8ef1f3176c6a9a5afc6d2b0ca58315b7db4e32b5d6e3758657cc",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int8"
+        }
+      },
+      "timing": {
+        "native_total_ms": 6.809679999947548,
+        "quantize_ms": 0.20385299995541573,
+        "dispatch_ms": 5.945532000157982,
+        "convolution_or_post_ms": 0.2042519999668002,
+        "silu_and_output_layout_ms": 0.44070200016722083,
+        "Q_copy_ms": 0.01564900018274784,
+        "cache_ms": 1.0433659995906055,
+        "MMIO_wait_ms": 2.6200179997831583,
+        "full_output_guard_ms": 2.0365170002914965,
+        "pack4_ownership_copy_ms": 0.20967300003394485,
+        "commands": 1,
+        "output_rows": 14,
+        "polls": 1446,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 7.031107999864616,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.22142799991706852,
+        "native_other_ms": 0.015340999700129032
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": -1,
+      "warmup": true,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_18_arm_after_-1_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "pre": {
+          "file": "case_02_conv_18_arm_after_-1_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 3.9880979997105896,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 3.4726769998669624,
+        "silu_and_output_layout_ms": 0.44091099966317415,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.06635700026527047,
+        "total_ms": 4.253586999766412,
+        "diagnostic_pre_clone": true,
+        "outer_overhead_ms": 0.26548900005582254,
+        "native_other_ms": 0.00815299991518259
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": 0,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_18_arm_after_0_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.483502000104636,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.034450000151992,
+        "silu_and_output_layout_ms": 0.4417909998446703,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 2.722497999911866,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23899599980722996,
+        "native_other_ms": 0.007261000107973814
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": 1,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_18_arm_after_1_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.5038460004143417,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 1.9369170004501939,
+        "silu_and_output_layout_ms": 0.5585719998925924,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 2.742154000316077,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.23830799990173546,
+        "native_other_ms": 0.008357000071555376
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": 2,
+      "warmup": false,
+      "byte_exact": true,
+      "arrays": {
+        "act": {
+          "file": "case_02_conv_18_arm_after_2_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "timing": {
+        "native_total_ms": 2.4998030001297593,
+        "quantize_ms": 0.0,
+        "dispatch_ms": 0.0,
+        "convolution_or_post_ms": 2.050479999743402,
+        "silu_and_output_layout_ms": 0.442548000253737,
+        "Q_copy_ms": 0.0,
+        "cache_ms": 0.0,
+        "MMIO_wait_ms": 0.0,
+        "full_output_guard_ms": 0.0,
+        "pack4_ownership_copy_ms": 0.0,
+        "commands": 0,
+        "output_rows": 0,
+        "polls": 0,
+        "diagnostic_pre_clone_ms": 0.0,
+        "total_ms": 2.7278339998701995,
+        "diagnostic_pre_clone": false,
+        "outer_overhead_ms": 0.22803099974044017,
+        "native_other_ms": 0.006775000132620335
+      },
+      "output_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "input_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "same_owned_input_across_modes": true,
+      "input_blob": "6",
+      "pre_blob": "7",
+      "output_blob": "8",
+      "weight_policy": "force cold load once per whole-layer launch; reuse inside hardware layer",
+      "integer_reference": "frozen prior original ARM full sums; current ARM q checked before PL load"
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "input_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "same_owned_input_across_modes": true,
+      "input_blob": "30",
+      "pre_blob": "31",
+      "output_blob": "32",
+      "weight_policy": "force cold load once per whole-layer launch; reuse inside hardware layer",
+      "integer_reference": "frozen prior original ARM full sums; current ARM q checked before PL load"
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "input_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "same_owned_input_across_modes": true,
+      "input_blob": "57",
+      "pre_blob": "58",
+      "output_blob": "59",
+      "weight_policy": "force cold load once per whole-layer launch; reuse inside hardware layer",
+      "integer_reference": "frozen prior original ARM full sums; current ARM q checked before PL load"
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "input_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "same_owned_input_across_modes": true,
+      "input_blob": "6",
+      "pre_blob": "7",
+      "output_blob": "8",
+      "weight_policy": "force cold load once per whole-layer launch; reuse inside hardware layer",
+      "integer_reference": "frozen prior original ARM full sums; current ARM q checked before PL load"
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "input_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "same_owned_input_across_modes": true,
+      "input_blob": "30",
+      "pre_blob": "31",
+      "output_blob": "32",
+      "weight_policy": "force cold load once per whole-layer launch; reuse inside hardware layer",
+      "integer_reference": "frozen prior original ARM full sums; current ARM q checked before PL load"
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "input_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      },
+      "same_owned_input_across_modes": true,
+      "input_blob": "57",
+      "pre_blob": "58",
+      "output_blob": "59",
+      "weight_policy": "force cold load once per whole-layer launch; reuse inside hardware layer",
+      "integer_reference": "frozen prior original ARM full sums; current ARM q checked before PL load"
+    }
+  ],
+  "ARM_BUILD": "PASS",
+  "camera_opened": false,
+  "CPU_fallback": false,
+  "deployment_allowed": false,
+  "whole_network_run": false,
+  "whole_network_speedup_proven": false,
+  "test_overlay_load_attempted": true,
+  "test_overlay_loaded": true,
+  "old_hardware_restored": true,
+  "FPGA_test_DSP": 18,
+  "restore_DSP": 178,
+  "concurrent_test_and_178": false,
+  "source_manifest_sha256": "177ce0123928ca3050348296388f226f824ab1b11a8a289f5fba0bd837f7a3ca",
+  "model_sha256": {
+    "best.ncnn.param": "3f4cb05109cc65a1563d557ca44b8a6542282acf7bc73c7f9fd570ac8a271b1d",
+    "best.ncnn.bin": "c07c5773535189d23bc0c9c94fc3377bc2e7713982735c7dced85ff8f49daa9f"
+  },
+  "master_idle": true,
+  "cleanup_pass": true,
+  "integer_reference": "Frozen real original ARM INT32 sums, actual current ARM quantize checked; ARM bn_run does not export internal sums",
+  "boundary": "same retained owned FP32 pack4 Mat -> owned FP32 pack4 SiLU Mat",
+  "timing_scope": "outer call includes original quantize, private compact CMA input copy, cold weights, cache/MMIO wait, whole output guard, owned INT32 pack4 copy, original dequant+bias+SiLU and ownership. Initialization/NPY/export/comparison excluded. Only warmups clone pre. Subtimers nest; do not sum them twice.",
+  "library_sha256": "a1da9f7726f7e7ed79173961b16d7676beb9837a153046ad32e9fcd5a4657e1d",
+  "ARM_checks": [
+    {
+      "id": "case_01_conv_2",
+      "byte_exact": true,
+      "q_file": "case_01_conv_2_ARM_quantize.npy",
+      "q_sha256": "061f563bb43a06bd6bcceea2afa1ee32e7ea179cf1c36752aade9bcb5ca6b7f5",
+      "input_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_01_conv_10",
+      "byte_exact": true,
+      "q_file": "case_01_conv_10_ARM_quantize.npy",
+      "q_sha256": "02104d9228740909d60c308ce1bed519dade5c24102f4843de7905acaffc78d9",
+      "input_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_01_conv_18",
+      "byte_exact": true,
+      "q_file": "case_01_conv_18_ARM_quantize.npy",
+      "q_sha256": "8730f6204cadd66226aca3c646f3fa2051dccc8252ee8ceb5e2a6274c8b96770",
+      "input_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_02_conv_2",
+      "byte_exact": true,
+      "q_file": "case_02_conv_2_ARM_quantize.npy",
+      "q_sha256": "afa2b60501260cc28a5fb69130406392fc99e8ea9944f78dc244464ff7d738d4",
+      "input_meta": {
+        "w": 56,
+        "h": 56,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 3136,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_02_conv_10",
+      "byte_exact": true,
+      "q_file": "case_02_conv_10_ARM_quantize.npy",
+      "q_sha256": "ccb054236330e70a42e3901620c943b618437730402269005566becc235e1b5b",
+      "input_meta": {
+        "w": 28,
+        "h": 28,
+        "channels": 32,
+        "elempack": 4,
+        "cstep_packs": 784,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    },
+    {
+      "id": "case_02_conv_18",
+      "byte_exact": true,
+      "q_file": "case_02_conv_18_ARM_quantize.npy",
+      "q_sha256": "39ada81aa07c8ef1f3176c6a9a5afc6d2b0ca58315b7db4e32b5d6e3758657cc",
+      "input_meta": {
+        "w": 14,
+        "h": 14,
+        "channels": 64,
+        "elempack": 4,
+        "cstep_packs": 196,
+        "elemsize_bytes": 16,
+        "scalar_bits": 32
+      }
+    }
+  ],
+  "ARM_precheck": "PASS",
+  "PL_programming_state": "RESTORED_178_IDENTITY_CLOCK_AND_IDLE_CONFIRMED",
+  "PL_programming_uncertain": false,
+  "base_trace_stop_helper": {
+    "revision": "v1",
+    "source_sha256": {
+      "run.py": "3240958b6e473d776c441e37747349a713f064f3cab754ec688ececa194edbb7",
+      "stop_traces.py": "8cc8d8046365397f147f59c966a0c580dd5ecef90bd9b5ce0b6ce522282f3b8a"
+    }
+  },
+  "prior_PL": {
+    "bitfile": null,
+    "ip_names": [
+      "audio_codec_ctrl_0",
+      "btns_gpio",
+      "leds_gpio",
+      "ps7_0",
+      "rgbleds_gpio",
+      "switches_gpio",
+      "system_interrupts",
+      "trace_analyzer_pi/axi_dma_0",
+      "trace_analyzer_pi/trace_cntrl_64_0",
+      "trace_analyzer_pmodb/axi_dma_0",
+      "trace_analyzer_pmodb/trace_cntrl_32_0",
+      "video/axi_vdma",
+      "video/hdmi_in/color_convert",
+      "video/hdmi_in/frontend/axi_gpio_hdmiin",
+      "video/hdmi_in/frontend/vtc_in",
+      "video/hdmi_in/pixel_pack",
+      "video/hdmi_out/color_convert",
+      "video/hdmi_out/frontend/axi_dynclk",
+      "video/hdmi_out/frontend/hdmi_out_hpd_video",
+      "video/hdmi_out/frontend/vtc_out",
+      "video/hdmi_out/pixel_unpack"
+    ],
+    "checks": [],
+    "startup_guard_revision": "startup-compat-r3",
+    "base_hwh": "/usr/local/share/pynq-venv/lib/python3.10/site-packages/pynq/overlays/base/base.hwh",
+    "base_hwh_sha256": "222898ef2c0ccc4a0c47608e99d8dc7c9c6cdfed5130964884ff35005827ef3a",
+    "HWH_only_IPs": [
+      "iop_arduino/mb_bram_ctrl",
+      "iop_pmoda/mb_bram_ctrl",
+      "iop_pmodb/mb_bram_ctrl",
+      "iop_rpi/mb_bram_ctrl"
+    ],
+    "current_only_IPs": [],
+    "base_DMA_inventory": [
+      {
+        "ip": "trace_analyzer_pi/axi_dma_0",
+        "address": 2151874560,
+        "address_hex": "0x80430000",
+        "range_bytes": 65536,
+        "range_hex": "0x10000",
+        "type": "xilinx.com:ip:axi_dma:7.1",
+        "channels": {
+          "C_INCLUDE_MM2S": "0",
+          "C_INCLUDE_S2MM": "1"
+        }
+      },
+      {
+        "ip": "trace_analyzer_pmodb/axi_dma_0",
+        "address": 2151809024,
+        "address_hex": "0x80420000",
+        "range_bytes": 65536,
+        "range_hex": "0x10000",
+        "type": "xilinx.com:ip:axi_dma:7.1",
+        "channels": {
+          "C_INCLUDE_MM2S": "0",
+          "C_INCLUDE_S2MM": "1"
+        }
+      },
+      {
+        "ip": "video/axi_vdma",
+        "address": 1124073472,
+        "address_hex": "0x43000000",
+        "range_bytes": 65536,
+        "range_hex": "0x10000",
+        "type": "xilinx.com:ip:axi_vdma:6.3",
+        "channels": {
+          "C_INCLUDE_MM2S": "1",
+          "C_INCLUDE_S2MM": "1"
+        }
+      }
+    ],
+    "base_DMA_samples": [
+      {
+        "sample": 0,
+        "ip": "trace_analyzer_pi/axi_dma_0",
+        "channel": "C_INCLUDE_S2MM",
+        "control": 69634,
+        "status": 1
+      },
+      {
+        "sample": 0,
+        "ip": "trace_analyzer_pmodb/axi_dma_0",
+        "channel": "C_INCLUDE_S2MM",
+        "control": 69634,
+        "status": 1
+      },
+      {
+        "sample": 0,
+        "ip": "video/axi_vdma",
+        "channel": "C_INCLUDE_MM2S",
+        "control": 65666,
+        "status": 65537
+      },
+      {
+        "sample": 0,
+        "ip": "video/axi_vdma",
+        "channel": "C_INCLUDE_S2MM",
+        "control": 65538,
+        "status": 65537
+      },
+      {
+        "sample": 1,
+        "ip": "trace_analyzer_pi/axi_dma_0",
+        "channel": "C_INCLUDE_S2MM",
+        "control": 69634,
+        "status": 1
+      },
+      {
+        "sample": 1,
+        "ip": "trace_analyzer_pmodb/axi_dma_0",
+        "channel": "C_INCLUDE_S2MM",
+        "control": 69634,
+        "status": 1
+      },
+      {
+        "sample": 1,
+        "ip": "video/axi_vdma",
+        "channel": "C_INCLUDE_MM2S",
+        "control": 65666,
+        "status": 65537
+      },
+      {
+        "sample": 1,
+        "ip": "video/axi_vdma",
+        "channel": "C_INCLUDE_S2MM",
+        "control": 65538,
+        "status": 65537
+      }
+    ],
+    "role": "stock_base_metadata_and_halted_masters",
+    "identity_scope": "exact installed HWH metadata match, not physical bitstream readback",
+    "state": "STOCK_BASE_METADATA_MATCH_ALL_DMA_HALTED",
+    "read_only": true
+  },
+  "base_trace_stop": {
+    "before": {
+      "bitfile": null,
+      "ip_names": [
+        "audio_codec_ctrl_0",
+        "btns_gpio",
+        "leds_gpio",
+        "ps7_0",
+        "rgbleds_gpio",
+        "switches_gpio",
+        "system_interrupts",
+        "trace_analyzer_pi/axi_dma_0",
+        "trace_analyzer_pi/trace_cntrl_64_0",
+        "trace_analyzer_pmodb/axi_dma_0",
+        "trace_analyzer_pmodb/trace_cntrl_32_0",
+        "video/axi_vdma",
+        "video/hdmi_in/color_convert",
+        "video/hdmi_in/frontend/axi_gpio_hdmiin",
+        "video/hdmi_in/frontend/vtc_in",
+        "video/hdmi_in/pixel_pack",
+        "video/hdmi_out/color_convert",
+        "video/hdmi_out/frontend/axi_dynclk",
+        "video/hdmi_out/frontend/hdmi_out_hpd_video",
+        "video/hdmi_out/frontend/vtc_out",
+        "video/hdmi_out/pixel_unpack"
+      ],
+      "checks": [],
+      "startup_guard_revision": "startup-compat-r3",
+      "base_hwh": "/usr/local/share/pynq-venv/lib/python3.10/site-packages/pynq/overlays/base/base.hwh",
+      "base_hwh_sha256": "222898ef2c0ccc4a0c47608e99d8dc7c9c6cdfed5130964884ff35005827ef3a",
+      "HWH_only_IPs": [
+        "iop_arduino/mb_bram_ctrl",
+        "iop_pmoda/mb_bram_ctrl",
+        "iop_pmodb/mb_bram_ctrl",
+        "iop_rpi/mb_bram_ctrl"
+      ],
+      "current_only_IPs": [],
+      "base_DMA_inventory": [
+        {
+          "ip": "trace_analyzer_pi/axi_dma_0",
+          "address": 2151874560,
+          "address_hex": "0x80430000",
+          "range_bytes": 65536,
+          "range_hex": "0x10000",
+          "type": "xilinx.com:ip:axi_dma:7.1",
+          "channels": {
+            "C_INCLUDE_MM2S": "0",
+            "C_INCLUDE_S2MM": "1"
+          }
+        },
+        {
+          "ip": "trace_analyzer_pmodb/axi_dma_0",
+          "address": 2151809024,
+          "address_hex": "0x80420000",
+          "range_bytes": 65536,
+          "range_hex": "0x10000",
+          "type": "xilinx.com:ip:axi_dma:7.1",
+          "channels": {
+            "C_INCLUDE_MM2S": "0",
+            "C_INCLUDE_S2MM": "1"
+          }
+        },
+        {
+          "ip": "video/axi_vdma",
+          "address": 1124073472,
+          "address_hex": "0x43000000",
+          "range_bytes": 65536,
+          "range_hex": "0x10000",
+          "type": "xilinx.com:ip:axi_vdma:6.3",
+          "channels": {
+            "C_INCLUDE_MM2S": "1",
+            "C_INCLUDE_S2MM": "1"
+          }
+        }
+      ],
+      "base_DMA_samples": [
+        {
+          "sample": 0,
+          "ip": "trace_analyzer_pi/axi_dma_0",
+          "channel": "C_INCLUDE_S2MM",
+          "control": 69635,
+          "status": 0
+        },
+        {
+          "sample": 0,
+          "ip": "trace_analyzer_pmodb/axi_dma_0",
+          "channel": "C_INCLUDE_S2MM",
+          "control": 69635,
+          "status": 0
+        },
+        {
+          "sample": 0,
+          "ip": "video/axi_vdma",
+          "channel": "C_INCLUDE_MM2S",
+          "control": 65666,
+          "status": 65537
+        },
+        {
+          "sample": 0,
+          "ip": "video/axi_vdma",
+          "channel": "C_INCLUDE_S2MM",
+          "control": 65538,
+          "status": 65537
+        },
+        {
+          "sample": 1,
+          "ip": "trace_analyzer_pi/axi_dma_0",
+          "channel": "C_INCLUDE_S2MM",
+          "control": 69635,
+          "status": 0
+        },
+        {
+          "sample": 1,
+          "ip": "trace_analyzer_pmodb/axi_dma_0",
+          "channel": "C_INCLUDE_S2MM",
+          "control": 69635,
+          "status": 0
+        },
+        {
+          "sample": 1,
+          "ip": "video/axi_vdma",
+          "channel": "C_INCLUDE_MM2S",
+          "control": 65666,
+          "status": 65537
+        },
+        {
+          "sample": 1,
+          "ip": "video/axi_vdma",
+          "channel": "C_INCLUDE_S2MM",
+          "control": 65538,
+          "status": 65537
+        }
+      ]
+    },
+    "initial_error": "Stock base startup unverified: DMA not halted/reset/error: trace_analyzer_pi/axi_dma_0 C_INCLUDE_S2MM control=0x11003 status=0x0; trace_analyzer_pmodb/axi_dma_0 C_INCLUDE_S2MM control=0x11003 status=0x0; trace_analyzer_pi/axi_dma_0 C_INCLUDE_S2MM control=0x11003 status=0x0; trace_analyzer_pmodb/axi_dma_0 C_INCLUDE_S2MM control=0x11003 status=0x0",
+    "status": "HALTED_CONFIRMED",
+    "writes": [
+      {
+        "ip": "trace_analyzer_pi/axi_dma_0",
+        "address": 2151874560,
+        "offset": 48,
+        "before": 69635,
+        "value": 69634,
+        "attempted": true,
+        "completed": true
+      },
+      {
+        "ip": "trace_analyzer_pmodb/axi_dma_0",
+        "address": 2151809024,
+        "offset": 48,
+        "before": 69635,
+        "value": 69634,
+        "attempted": true,
+        "completed": true
+      }
+    ],
+    "samples": [
+      [
+        {
+          "ip": "trace_analyzer_pi/axi_dma_0",
+          "control": 69634,
+          "status": 1
+        },
+        {
+          "ip": "trace_analyzer_pmodb/axi_dma_0",
+          "control": 69634,
+          "status": 1
+        }
+      ],
+      [
+        {
+          "ip": "trace_analyzer_pi/axi_dma_0",
+          "control": 69634,
+          "status": 1
+        },
+        {
+          "ip": "trace_analyzer_pmodb/axi_dma_0",
+          "control": 69634,
+          "status": 1
+        }
+      ]
+    ],
+    "timeout_seconds": 3.0,
+    "partial_trace_capture_discarded": true,
+    "stable_samples": 2,
+    "resets_issued": 0,
+    "buffers_released": 0,
+    "strict_R3_recheck": "PASS"
+  },
+  "test_overlay_identity_confirmed": true,
+  "fclk0_mhz": 100.0,
+  "test_bit_sha256": "dea5373dc05e660b6a0d36c0c3b2561691423653c87e0215e848f432ee2bec6d",
+  "test_control_at_cleanup": 4,
+  "scores": {
+    "case_01_conv_2": {
+      "means_ms": {
+        "arm_before": 4.254375333403004,
+        "v3_full_layer": 15.351598000052036,
+        "arm_after": 4.412924999996903
+      },
+      "ARM_mean_ms": 4.333650166699954,
+      "V3_over_ARM": 3.542417456308472,
+      "speedup_ARM_over_V3": 0.28229309852207335
+    },
+    "case_01_conv_10": {
+      "means_ms": {
+        "arm_before": 3.722506666690606,
+        "v3_full_layer": 9.864910666844176,
+        "arm_after": 3.7174189998647003
+      },
+      "ARM_mean_ms": 3.719962833277653,
+      "V3_over_ARM": 2.65188420126021,
+      "speedup_ARM_over_V3": 0.37709037201729506
+    },
+    "case_01_conv_18": {
+      "means_ms": {
+        "arm_before": 2.739589666665173,
+        "v3_full_layer": 7.008634000158054,
+        "arm_after": 2.6868593334559896
+      },
+      "ARM_mean_ms": 2.7132245000605812,
+      "V3_over_ARM": 2.5831382548703816,
+      "speedup_ARM_over_V3": 0.38712600772124706
+    },
+    "case_02_conv_2": {
+      "means_ms": {
+        "arm_before": 4.3964576666439825,
+        "v3_full_layer": 15.964008333412494,
+        "arm_after": 4.05568233327358
+      },
+      "ARM_mean_ms": 4.226069999958781,
+      "V3_over_ARM": 3.777506840532267,
+      "speedup_ARM_over_V3": 0.26472486807174006
+    },
+    "case_02_conv_10": {
+      "means_ms": {
+        "arm_before": 3.2469003334275235,
+        "v3_full_layer": 9.873793000072814,
+        "arm_after": 3.3350420000412364
+      },
+      "ARM_mean_ms": 3.29097116673438,
+      "V3_over_ARM": 3.0002672463005946,
+      "speedup_ARM_over_V3": 0.33330364194490514
+    },
+    "case_02_conv_18": {
+      "means_ms": {
+        "arm_before": 14.733481000045382,
+        "v3_full_layer": 7.104219666568194,
+        "arm_after": 2.730828666699381
+      },
+      "ARM_mean_ms": 8.73215483337238,
+      "V3_over_ARM": 0.8135700525393142,
+      "speedup_ARM_over_V3": 1.2291504546889365
+    }
+  },
+  "native_sessions_safe": true,
+  "PL_quiescence_confirmed": true,
+  "stopped_before_any_PL_programming_or_CMA": false,
+  "restore_overlay_load_attempted": true,
+  "restored_bit_sha256": "77987ca9b7dd4e926df7c720745a242942f9542f729fa081e2ef36074a182f78",
+  "restored_fclk0_mhz": 100.0
+}

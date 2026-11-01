@@ -1,0 +1,207 @@
+{
+  "status": "INTEGER_CONV_BOARD_TEST_PASS_NOT_WHOLE_MODEL",
+  "stage": "FINISHED",
+  "cases": [
+    {
+      "name": "single",
+      "width": 1,
+      "height": 1,
+      "int32_values_per_run": 16,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.15663400017729145,
+          "staging_dma_readback_ms": 1.2761050002154661
+        }
+      ],
+      "dma_window_mean_ms": 0.15663400017729145,
+      "staging_dma_readback_mean_ms": 1.2761050002154661
+    },
+    {
+      "name": "edges",
+      "width": 7,
+      "height": 5,
+      "int32_values_per_run": 560,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.15748899977552355,
+          "staging_dma_readback_ms": 1.414005999777146
+        }
+      ],
+      "dma_window_mean_ms": 0.15748899977552355,
+      "staging_dma_readback_mean_ms": 1.414005999777146
+    },
+    {
+      "name": "one_row",
+      "width": 112,
+      "height": 1,
+      "int32_values_per_run": 1792,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.41360600016560056,
+          "staging_dma_readback_ms": 1.5929169999253645
+        }
+      ],
+      "dma_window_mean_ms": 0.41360600016560056,
+      "staging_dma_readback_mean_ms": 1.5929169999253645
+    },
+    {
+      "name": "one_column",
+      "width": 1,
+      "height": 112,
+      "int32_values_per_run": 1792,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.41201900012310944,
+          "staging_dma_readback_ms": 1.622062000024016
+        }
+      ],
+      "dma_window_mean_ms": 0.41201900012310944,
+      "staging_dma_readback_mean_ms": 1.622062000024016
+    },
+    {
+      "name": "signed_extremes",
+      "width": 3,
+      "height": 3,
+      "int32_values_per_run": 144,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.15700299991294742,
+          "staging_dma_readback_ms": 1.2872560000687372
+        }
+      ],
+      "dma_window_mean_ms": 0.15700299991294742,
+      "staging_dma_readback_mean_ms": 1.2872560000687372
+    },
+    {
+      "name": "case_01",
+      "width": 112,
+      "height": 112,
+      "int32_values_per_run": 200704,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": true,
+          "dma_window_ms": 10.385907999989286,
+          "staging_dma_readback_ms": 18.7024060001022
+        },
+        {
+          "iteration": 1,
+          "warmup": false,
+          "dma_window_ms": 10.389717000180099,
+          "staging_dma_readback_ms": 18.71364899989203
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "dma_window_ms": 11.557748000086576,
+          "staging_dma_readback_ms": 20.040092999806802
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "dma_window_ms": 10.271476999605511,
+          "staging_dma_readback_ms": 18.388585000138846
+        },
+        {
+          "iteration": 4,
+          "warmup": false,
+          "dma_window_ms": 10.286658000040916,
+          "staging_dma_readback_ms": 18.296468000244204
+        },
+        {
+          "iteration": 5,
+          "warmup": false,
+          "dma_window_ms": 10.26248600010149,
+          "staging_dma_readback_ms": 18.64933500019106
+        }
+      ],
+      "dma_window_mean_ms": 10.553617200002918,
+      "staging_dma_readback_mean_ms": 18.817626000054588
+    },
+    {
+      "name": "case_02",
+      "width": 112,
+      "height": 112,
+      "int32_values_per_run": 200704,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": true,
+          "dma_window_ms": 10.33839399997305,
+          "staging_dma_readback_ms": 19.10089800003334
+        },
+        {
+          "iteration": 1,
+          "warmup": false,
+          "dma_window_ms": 10.206222000306298,
+          "staging_dma_readback_ms": 18.327175000194984
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "dma_window_ms": 10.228037000160839,
+          "staging_dma_readback_ms": 18.35154499985947
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "dma_window_ms": 10.343329000079393,
+          "staging_dma_readback_ms": 18.52697900039857
+        },
+        {
+          "iteration": 4,
+          "warmup": false,
+          "dma_window_ms": 10.195304000262695,
+          "staging_dma_readback_ms": 18.313685999601148
+        },
+        {
+          "iteration": 5,
+          "warmup": false,
+          "dma_window_ms": 10.349494999900344,
+          "staging_dma_readback_ms": 18.342547999964154
+        }
+      ],
+      "dma_window_mean_ms": 10.264477400141914,
+      "staging_dma_readback_mean_ms": 18.372386600003665
+    }
+  ],
+  "package_verified_files": 43,
+  "backup_on_pc_confirmed_by_user": true,
+  "other_programs_stopped_confirmed_by_user": true,
+  "new_overlay_load_attempted": true,
+  "new_overlay_loaded": true,
+  "old_hardware_restored": true,
+  "board_test_passed": true,
+  "whole_model_integrated": false,
+  "whole_model_ms": null,
+  "implementation": "conv_v2: 16 output lanes x 6 input lanes; unchanged model weights and integer arithmetic",
+  "timing_scope": "Single fixed INT8-input/INT32-output convolution only. Excludes float quantization, bias, dequantization and model inference.",
+  "partial_report": "/home/xilinx/jupyter_notebooks/traffic_project/conv_board_test_v2/results/20250504_071909_b7ded5bd/RESULT.json",
+  "fclk0_mhz": 100.0,
+  "invalid_size_guards_passed": true,
+  "dma_quiesced": true
+}

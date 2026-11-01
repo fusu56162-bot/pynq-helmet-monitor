@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "archive_sha256": "67e57e2ad5b41cba7f172d86b5e73b4916c5b8bb493e67fbff0df62c26c1c8c5",
+  "all_report_statistics_recomputed": true,
+  "all_layer_choices_reproduced_from_native_logs": true,
+  "parameter_changes_match_exact_routes": true,
+  "three_rounds_all_12_cases_passed": true,
+  "samples_per_variant": 108,
+  "baseline_ms": {
+    "mean": 634.6867291296628,
+    "p95": 676.5326529000959,
+    "samples": 108
+  },
+  "candidate_ms": {
+    "mean": 617.4469446851886,
+    "p95": 646.4290230996992,
+    "samples": 108
+  },
+  "time_reduction_percent": 2.7162667270694163,
+  "faster_in_every_round": true,
+  "old_5percent_gate_not_met": true,
+  "status": "Keep 617ms as an output-verified development candidate; no deployment change",
+  "limitation": "Supplied report and logs audited; no ARM execution on this desktop"
+}

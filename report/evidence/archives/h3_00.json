@@ -1,0 +1,3442 @@
+{
+  "status": "FULL_LAYER_NUMERICS_AND_TIMING_COLLECTED_NOT_NETWORK_SPEED_ACCEPTANCE",
+  "rows": [
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 10.94379099959042
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_2_arm_before_0_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_arm_before_0_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 10.37082999937411
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_2_arm_before_1_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_arm_before_1_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 10.472431000380311
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_2_arm_before_2_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_arm_before_2_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "fpga_v2",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 42.45985899979132,
+        "quantize_ms": 4.862843001319561,
+        "pad_hwc_pack_ms": 2.4066890000540297,
+        "tile_dispatch_cache_and_assembly_ms": 29.70618499966804,
+        "native_dequant_bias_silu_copy_ms": 5.484141998749692,
+        "MMIO_wait_sum_ms": 5.116862999784644,
+        "tile_prep_and_control_ms": 14.253328003178467,
+        "output_invalidate_ms": 1.3323940002010204,
+        "output_redzone_check_ms": 2.4884729991754284,
+        "output_assembly_ms": 5.3963990012562135,
+        "started_commands": 7,
+        "tiles": 49
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_2_fpga_v2_0_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_fpga_v2_0_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_2_fpga_v2_0_sums.npy",
+          "sha256": "874205c5a62f848d4ff630d0ae100da670a4438d2aa7c7c5069b8647084ff89b",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "fpga_v2",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 41.50233899963496,
+        "quantize_ms": 3.7424370002554497,
+        "pad_hwc_pack_ms": 2.4667629986652173,
+        "tile_dispatch_cache_and_assembly_ms": 29.90480000153184,
+        "native_dequant_bias_silu_copy_ms": 5.3883389991824515,
+        "MMIO_wait_sum_ms": 5.1357640004425775,
+        "tile_prep_and_control_ms": 14.20813600270776,
+        "output_invalidate_ms": 1.3415200028248364,
+        "output_redzone_check_ms": 2.5625599973864155,
+        "output_assembly_ms": 5.531064001843333,
+        "started_commands": 7,
+        "tiles": 49
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_2_fpga_v2_1_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_fpga_v2_1_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_2_fpga_v2_1_sums.npy",
+          "sha256": "874205c5a62f848d4ff630d0ae100da670a4438d2aa7c7c5069b8647084ff89b",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "fpga_v2",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 41.34559399972204,
+        "quantize_ms": 3.776456000196049,
+        "pad_hwc_pack_ms": 2.4148550000973046,
+        "tile_dispatch_cache_and_assembly_ms": 29.762283000309253,
+        "native_dequant_bias_silu_copy_ms": 5.3919999991194345,
+        "MMIO_wait_sum_ms": 5.079700998976477,
+        "tile_prep_and_control_ms": 14.152185000057216,
+        "output_invalidate_ms": 1.3563270022132201,
+        "output_redzone_check_ms": 2.4826589979056735,
+        "output_assembly_ms": 5.480259002069943,
+        "started_commands": 7,
+        "tiles": 49
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_2_fpga_v2_2_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_fpga_v2_2_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_2_fpga_v2_2_sums.npy",
+          "sha256": "874205c5a62f848d4ff630d0ae100da670a4438d2aa7c7c5069b8647084ff89b",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 8.382825000808225
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_2_arm_after_0_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_arm_after_0_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 8.407957000599708
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_2_arm_after_1_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_arm_after_1_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 8.522251999238506
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_2_arm_after_2_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_arm_after_2_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 4.402271000799374
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_10_arm_before_0_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_arm_before_0_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 4.46164300046803
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_10_arm_before_1_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_arm_before_1_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 4.437323001184268
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_10_arm_before_2_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_arm_before_2_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "fpga_v2",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 30.169415000273148,
+        "quantize_ms": 1.259507000213489,
+        "pad_hwc_pack_ms": 1.4480990012089023,
+        "tile_dispatch_cache_and_assembly_ms": 24.820066999382107,
+        "native_dequant_bias_silu_copy_ms": 2.6417419994686497,
+        "MMIO_wait_sum_ms": 4.631626001355471,
+        "tile_prep_and_control_ms": 7.041318000119645,
+        "output_invalidate_ms": 0.9900450004352024,
+        "output_redzone_check_ms": 8.58514500396268,
+        "output_assembly_ms": 2.730066997173708,
+        "started_commands": 5,
+        "tiles": 16
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_10_fpga_v2_0_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_fpga_v2_0_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_10_fpga_v2_0_sums.npy",
+          "sha256": "9d8df886b190d1ff6d198082d6e4cb3444f8a37b8d0599968c3995a0e7483930",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "fpga_v2",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 30.386454998733825,
+        "quantize_ms": 1.2042889993608696,
+        "pad_hwc_pack_ms": 1.4344369992613792,
+        "tile_dispatch_cache_and_assembly_ms": 25.057815000764094,
+        "native_dequant_bias_silu_copy_ms": 2.689913999347482,
+        "MMIO_wait_sum_ms": 4.6450769987131935,
+        "tile_prep_and_control_ms": 7.199254996521631,
+        "output_invalidate_ms": 0.9638269984861836,
+        "output_redzone_check_ms": 8.668629001476802,
+        "output_assembly_ms": 2.7291189981042407,
+        "started_commands": 5,
+        "tiles": 16
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_10_fpga_v2_1_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_fpga_v2_1_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_10_fpga_v2_1_sums.npy",
+          "sha256": "9d8df886b190d1ff6d198082d6e4cb3444f8a37b8d0599968c3995a0e7483930",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "fpga_v2",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 30.356216000654968,
+        "quantize_ms": 1.198818999910145,
+        "pad_hwc_pack_ms": 1.4224429996829713,
+        "tile_dispatch_cache_and_assembly_ms": 24.954160000561387,
+        "native_dequant_bias_silu_copy_ms": 2.780794000500464,
+        "MMIO_wait_sum_ms": 4.640989998733858,
+        "tile_prep_and_control_ms": 7.172437000917853,
+        "output_invalidate_ms": 0.9591459984221729,
+        "output_redzone_check_ms": 8.515009001712315,
+        "output_assembly_ms": 2.820783001880045,
+        "started_commands": 5,
+        "tiles": 16
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_10_fpga_v2_2_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_fpga_v2_2_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_10_fpga_v2_2_sums.npy",
+          "sha256": "9d8df886b190d1ff6d198082d6e4cb3444f8a37b8d0599968c3995a0e7483930",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 4.569500999423326
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_10_arm_after_0_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_arm_after_0_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 4.891309999948135
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_10_arm_after_1_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_arm_after_1_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 4.870474000199465
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_10_arm_after_2_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_arm_after_2_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 3.2868060006876476
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_18_arm_before_0_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_arm_before_0_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 3.2955450005829334
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_18_arm_before_1_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_arm_before_1_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 3.380197000296903
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_18_arm_before_2_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_arm_before_2_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "fpga_v2",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 15.323785000873613,
+        "quantize_ms": 0.8087690002867021,
+        "pad_hwc_pack_ms": 1.2093909990653628,
+        "tile_dispatch_cache_and_assembly_ms": 11.689053000736749,
+        "native_dequant_bias_silu_copy_ms": 1.6165720007847995,
+        "MMIO_wait_sum_ms": 3.392450998944696,
+        "tile_prep_and_control_ms": 4.039057999762008,
+        "output_invalidate_ms": 0.7716919972153846,
+        "output_redzone_check_ms": 1.4153239972074516,
+        "output_assembly_ms": 1.3671930009877542,
+        "started_commands": 4,
+        "tiles": 4
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_18_fpga_v2_0_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_fpga_v2_0_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_18_fpga_v2_0_sums.npy",
+          "sha256": "ab597481a7b710dbd628388cdcf291bc0eb82789a282036df3de3f18c94826f6",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "fpga_v2",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 15.387187999294838,
+        "quantize_ms": 0.805759998911526,
+        "pad_hwc_pack_ms": 1.209440000820905,
+        "tile_dispatch_cache_and_assembly_ms": 11.724726000466035,
+        "native_dequant_bias_silu_copy_ms": 1.6472619990963722,
+        "MMIO_wait_sum_ms": 3.4232739999424666,
+        "tile_prep_and_control_ms": 4.03235100202437,
+        "output_invalidate_ms": 0.7837589982955251,
+        "output_redzone_check_ms": 1.4182569975673687,
+        "output_assembly_ms": 1.3710259991057683,
+        "started_commands": 4,
+        "tiles": 4
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_18_fpga_v2_1_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_fpga_v2_1_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_18_fpga_v2_1_sums.npy",
+          "sha256": "ab597481a7b710dbd628388cdcf291bc0eb82789a282036df3de3f18c94826f6",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "fpga_v2",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 15.511562998653972,
+        "quantize_ms": 0.8013229999050964,
+        "pad_hwc_pack_ms": 1.2143080002715578,
+        "tile_dispatch_cache_and_assembly_ms": 11.956897998970817,
+        "native_dequant_bias_silu_copy_ms": 1.5390339995065005,
+        "MMIO_wait_sum_ms": 3.490448998491047,
+        "tile_prep_and_control_ms": 4.065748002176406,
+        "output_invalidate_ms": 0.808733999292599,
+        "output_redzone_check_ms": 1.4293779986473965,
+        "output_assembly_ms": 1.4603880008507986,
+        "started_commands": 4,
+        "tiles": 4
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_18_fpga_v2_2_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_fpga_v2_2_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_18_fpga_v2_2_sums.npy",
+          "sha256": "ab597481a7b710dbd628388cdcf291bc0eb82789a282036df3de3f18c94826f6",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 3.38564899902849
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_18_arm_after_0_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_arm_after_0_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 3.187076999893179
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_18_arm_after_1_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_arm_after_1_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 3.259974999309634
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_18_arm_after_2_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_arm_after_2_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 8.046850000027916
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_2_arm_before_0_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_arm_before_0_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 7.877089999965392
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_2_arm_before_1_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_arm_before_1_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 8.00838099894463
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_2_arm_before_2_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_arm_before_2_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "fpga_v2",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 41.57357500116632,
+        "quantize_ms": 3.6360060003062245,
+        "pad_hwc_pack_ms": 2.498245999959181,
+        "tile_dispatch_cache_and_assembly_ms": 29.940874001113116,
+        "native_dequant_bias_silu_copy_ms": 5.498448999787797,
+        "MMIO_wait_sum_ms": 5.0464200030546635,
+        "tile_prep_and_control_ms": 14.283754000643967,
+        "output_invalidate_ms": 1.344109001365723,
+        "output_redzone_check_ms": 2.5663140004326124,
+        "output_assembly_ms": 5.564850000155275,
+        "started_commands": 7,
+        "tiles": 49
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_2_fpga_v2_0_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_fpga_v2_0_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_2_fpga_v2_0_sums.npy",
+          "sha256": "de359cd84faff8ecc92490c38092344ee6da2266355b6a8d3e48eefdb262e007",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "fpga_v2",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 42.222435999065056,
+        "quantize_ms": 4.454128998986562,
+        "pad_hwc_pack_ms": 2.302954000697355,
+        "tile_dispatch_cache_and_assembly_ms": 29.964252000354463,
+        "native_dequant_bias_silu_copy_ms": 5.501100999026676,
+        "MMIO_wait_sum_ms": 5.086475995994988,
+        "tile_prep_and_control_ms": 14.29336000001058,
+        "output_invalidate_ms": 1.4425599983951543,
+        "output_redzone_check_ms": 2.5028929994732607,
+        "output_assembly_ms": 5.516805998922791,
+        "started_commands": 7,
+        "tiles": 49
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_2_fpga_v2_1_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_fpga_v2_1_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_2_fpga_v2_1_sums.npy",
+          "sha256": "de359cd84faff8ecc92490c38092344ee6da2266355b6a8d3e48eefdb262e007",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "fpga_v2",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 44.445902000006754,
+        "quantize_ms": 4.412985001181369,
+        "pad_hwc_pack_ms": 2.465366000251379,
+        "tile_dispatch_cache_and_assembly_ms": 31.557993999740575,
+        "native_dequant_bias_silu_copy_ms": 6.009556998833432,
+        "MMIO_wait_sum_ms": 5.163309000636218,
+        "tile_prep_and_control_ms": 15.48814100351592,
+        "output_invalidate_ms": 1.39251700056775,
+        "output_redzone_check_ms": 2.624331998958951,
+        "output_assembly_ms": 5.741827000747435,
+        "started_commands": 7,
+        "tiles": 49
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_2_fpga_v2_2_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_fpga_v2_2_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_2_fpga_v2_2_sums.npy",
+          "sha256": "de359cd84faff8ecc92490c38092344ee6da2266355b6a8d3e48eefdb262e007",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 8.312062000186415
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_2_arm_after_0_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_arm_after_0_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 8.128997000312665
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_2_arm_after_1_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_arm_after_1_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 7.989962999999989
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_2_arm_after_2_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_arm_after_2_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 4.5658769995498005
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_10_arm_before_0_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_arm_before_0_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 4.867538998951204
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_10_arm_before_1_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_arm_before_1_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 4.729403000965249
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_10_arm_before_2_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_arm_before_2_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "fpga_v2",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 32.770628000434954,
+        "quantize_ms": 2.297883000210277,
+        "pad_hwc_pack_ms": 1.4904309991834452,
+        "tile_dispatch_cache_and_assembly_ms": 26.185537999481312,
+        "native_dequant_bias_silu_copy_ms": 2.7967760015599197,
+        "MMIO_wait_sum_ms": 4.620708001311868,
+        "tile_prep_and_control_ms": 7.477109000319615,
+        "output_invalidate_ms": 1.026607002131641,
+        "output_redzone_check_ms": 8.865734000210068,
+        "output_assembly_ms": 3.2978220006043557,
+        "started_commands": 5,
+        "tiles": 16
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_10_fpga_v2_0_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_fpga_v2_0_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_10_fpga_v2_0_sums.npy",
+          "sha256": "696adc65c16b3ab6c66e545c8b2ef7f9e67bbcf2840d78530c3f440ba4792c45",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "fpga_v2",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 31.78354499868874,
+        "quantize_ms": 1.3138470003468683,
+        "pad_hwc_pack_ms": 1.6087259991763858,
+        "tile_dispatch_cache_and_assembly_ms": 26.124023999727797,
+        "native_dequant_bias_silu_copy_ms": 2.736947999437689,
+        "MMIO_wait_sum_ms": 4.642720001356793,
+        "tile_prep_and_control_ms": 7.526855000833166,
+        "output_invalidate_ms": 1.1531509990163613,
+        "output_redzone_check_ms": 8.939777997511555,
+        "output_assembly_ms": 2.955193000161671,
+        "started_commands": 5,
+        "tiles": 16
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_10_fpga_v2_1_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_fpga_v2_1_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_10_fpga_v2_1_sums.npy",
+          "sha256": "696adc65c16b3ab6c66e545c8b2ef7f9e67bbcf2840d78530c3f440ba4792c45",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "fpga_v2",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 33.00849799961725,
+        "quantize_ms": 2.4914519999583717,
+        "pad_hwc_pack_ms": 1.4843570006632945,
+        "tile_dispatch_cache_and_assembly_ms": 26.320233999285847,
+        "native_dequant_bias_silu_copy_ms": 2.7124549997097347,
+        "MMIO_wait_sum_ms": 4.622022997864406,
+        "tile_prep_and_control_ms": 8.158620998074184,
+        "output_invalidate_ms": 1.0473370020918082,
+        "output_redzone_check_ms": 8.806246001768159,
+        "output_assembly_ms": 2.792152999973041,
+        "started_commands": 5,
+        "tiles": 16
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_10_fpga_v2_2_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_fpga_v2_2_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_10_fpga_v2_2_sums.npy",
+          "sha256": "696adc65c16b3ab6c66e545c8b2ef7f9e67bbcf2840d78530c3f440ba4792c45",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 4.816142001800472
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_10_arm_after_0_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_arm_after_0_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 4.7118399997998495
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_10_arm_after_1_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_arm_after_1_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 4.616952999640489
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_10_arm_after_2_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_arm_after_2_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 3.3034889984264737
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_18_arm_before_0_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_arm_before_0_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 3.411261999644921
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_18_arm_before_1_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_arm_before_1_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 3.312393999294727
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_18_arm_before_2_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_arm_before_2_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "fpga_v2",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 15.865895999013446,
+        "quantize_ms": 0.8254709991888376,
+        "pad_hwc_pack_ms": 1.2691330011875834,
+        "tile_dispatch_cache_and_assembly_ms": 12.157094999565743,
+        "native_dequant_bias_silu_copy_ms": 1.6141969990712823,
+        "MMIO_wait_sum_ms": 3.501440000036382,
+        "tile_prep_and_control_ms": 4.154663998633623,
+        "output_invalidate_ms": 0.8247270015999675,
+        "output_redzone_check_ms": 1.4773769999010256,
+        "output_assembly_ms": 1.4643030008301139,
+        "started_commands": 4,
+        "tiles": 4
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_18_fpga_v2_0_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_fpga_v2_0_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_18_fpga_v2_0_sums.npy",
+          "sha256": "79c23fa17cfa0334c31a794fa825769ca475e4c772ba91d285ed4a3831d88569",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "fpga_v2",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 15.911728998617036,
+        "quantize_ms": 0.8279689991468331,
+        "pad_hwc_pack_ms": 1.267415000256733,
+        "tile_dispatch_cache_and_assembly_ms": 12.234357000124874,
+        "native_dequant_bias_silu_copy_ms": 1.5819879990885966,
+        "MMIO_wait_sum_ms": 3.500973003610852,
+        "tile_prep_and_control_ms": 4.303907000576146,
+        "output_invalidate_ms": 0.8310050016007153,
+        "output_redzone_check_ms": 1.4728379992448026,
+        "output_assembly_ms": 1.392676998875686,
+        "started_commands": 4,
+        "tiles": 4
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_18_fpga_v2_1_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_fpga_v2_1_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_18_fpga_v2_1_sums.npy",
+          "sha256": "79c23fa17cfa0334c31a794fa825769ca475e4c772ba91d285ed4a3831d88569",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "fpga_v2",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 15.816356000868836,
+        "quantize_ms": 0.8247200003097532,
+        "pad_hwc_pack_ms": 1.376412001263816,
+        "tile_dispatch_cache_and_assembly_ms": 12.075377999281045,
+        "native_dequant_bias_silu_copy_ms": 1.5398460000142222,
+        "MMIO_wait_sum_ms": 3.4368789984000614,
+        "tile_prep_and_control_ms": 4.234049998558476,
+        "output_invalidate_ms": 0.8139630008372478,
+        "output_redzone_check_ms": 1.4682389992231037,
+        "output_assembly_ms": 1.3918770000600489,
+        "started_commands": 4,
+        "tiles": 4
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_18_fpga_v2_2_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_fpga_v2_2_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_18_fpga_v2_2_sums.npy",
+          "sha256": "79c23fa17cfa0334c31a794fa825769ca475e4c772ba91d285ed4a3831d88569",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": 0,
+      "timing": {
+        "total_ms": 3.5307870002725394
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_18_arm_after_0_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_arm_after_0_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": 1,
+      "timing": {
+        "total_ms": 3.3164489996124757
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_18_arm_after_1_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_arm_after_1_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "repeat": 2,
+      "timing": {
+        "total_ms": 3.370424999957322
+      },
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_18_arm_after_2_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_arm_after_2_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "byte_exact": true
+    }
+  ],
+  "references": [
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "shape": {
+        "name": "conv_2",
+        "side": 56,
+        "ci": 32,
+        "co": 16,
+        "k": 1,
+        "pad": 0
+      },
+      "arrays": {
+        "input": {
+          "file": "case_01_conv_2_input.npy",
+          "sha256": "aab00bc6c76e6a6bbfc0726b909adf3e54b90794a5e5a0f483f77e556fb334b8",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "weights": {
+          "file": "case_01_conv_2_weights.npy",
+          "sha256": "0630597e5f7fdf5bdca2e2c0df0a03bf86cb18a5cdb5c65a32b05ed80c183ad0",
+          "shape": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "dtype": "int8"
+        },
+        "scales": {
+          "file": "case_01_conv_2_scales.npy",
+          "sha256": "cd397e309b7e6b4c667f766e28fbe7b3f879b11aac02c0fea85d43f39c42723a",
+          "shape": [
+            33
+          ],
+          "dtype": "float32"
+        },
+        "q": {
+          "file": "case_01_conv_2_q.npy",
+          "sha256": "061f563bb43a06bd6bcceea2afa1ee32e7ea179cf1c36752aade9bcb5ca6b7f5",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8"
+        },
+        "sums": {
+          "file": "case_01_conv_2_sums.npy",
+          "sha256": "874205c5a62f848d4ff630d0ae100da670a4438d2aa7c7c5069b8647084ff89b",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        },
+        "pre": {
+          "file": "case_01_conv_2_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "standalone_arm_pre": {
+          "file": "case_01_conv_2_standalone_arm_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "standalone_arm_act": {
+          "file": "case_01_conv_2_standalone_arm_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "reference_post_pre": {
+          "file": "case_01_conv_2_reference_post_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "reference_post_act": {
+          "file": "case_01_conv_2_reference_post_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "checks_pass": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "shape": {
+        "name": "conv_10",
+        "side": 28,
+        "ci": 32,
+        "co": 32,
+        "k": 3,
+        "pad": 1
+      },
+      "arrays": {
+        "input": {
+          "file": "case_01_conv_10_input.npy",
+          "sha256": "ba3f2838fe75b4ec3d761fccc77a507046fc6d8a4ed30f187909990738d897c9",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "weights": {
+          "file": "case_01_conv_10_weights.npy",
+          "sha256": "21c749aec07be1ddd4e3023dc9311bae8c0a3f598e65d3b4e061590559c1f643",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "dtype": "int8"
+        },
+        "scales": {
+          "file": "case_01_conv_10_scales.npy",
+          "sha256": "f594573c0e8d802d27add3ede3fff5db17773a6e93bba99dd0454cbf146f0e35",
+          "shape": [
+            65
+          ],
+          "dtype": "float32"
+        },
+        "q": {
+          "file": "case_01_conv_10_q.npy",
+          "sha256": "02104d9228740909d60c308ce1bed519dade5c24102f4843de7905acaffc78d9",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int8"
+        },
+        "sums": {
+          "file": "case_01_conv_10_sums.npy",
+          "sha256": "9d8df886b190d1ff6d198082d6e4cb3444f8a37b8d0599968c3995a0e7483930",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        },
+        "pre": {
+          "file": "case_01_conv_10_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "standalone_arm_pre": {
+          "file": "case_01_conv_10_standalone_arm_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "standalone_arm_act": {
+          "file": "case_01_conv_10_standalone_arm_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "reference_post_pre": {
+          "file": "case_01_conv_10_reference_post_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "reference_post_act": {
+          "file": "case_01_conv_10_reference_post_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "checks_pass": true
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "shape": {
+        "name": "conv_18",
+        "side": 14,
+        "ci": 64,
+        "co": 64,
+        "k": 3,
+        "pad": 1
+      },
+      "arrays": {
+        "input": {
+          "file": "case_01_conv_18_input.npy",
+          "sha256": "1f520c7aea3218c62b388771e308e79095016a73085e12764c75fbea509ef5cc",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "weights": {
+          "file": "case_01_conv_18_weights.npy",
+          "sha256": "686c9dd58506df7b93460cd803c42d41bcf4d17190759ed031e6e78f5c0a854a",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "dtype": "int8"
+        },
+        "scales": {
+          "file": "case_01_conv_18_scales.npy",
+          "sha256": "864b4a7047d83485c337f8f4a8a13a5b1588e22e6a80c7ac3e95ce9a0cbd685c",
+          "shape": [
+            129
+          ],
+          "dtype": "float32"
+        },
+        "q": {
+          "file": "case_01_conv_18_q.npy",
+          "sha256": "8730f6204cadd66226aca3c646f3fa2051dccc8252ee8ceb5e2a6274c8b96770",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int8"
+        },
+        "sums": {
+          "file": "case_01_conv_18_sums.npy",
+          "sha256": "ab597481a7b710dbd628388cdcf291bc0eb82789a282036df3de3f18c94826f6",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        },
+        "pre": {
+          "file": "case_01_conv_18_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "standalone_arm_pre": {
+          "file": "case_01_conv_18_standalone_arm_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "standalone_arm_act": {
+          "file": "case_01_conv_18_standalone_arm_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "reference_post_pre": {
+          "file": "case_01_conv_18_reference_post_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "reference_post_act": {
+          "file": "case_01_conv_18_reference_post_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "checks_pass": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "shape": {
+        "name": "conv_2",
+        "side": 56,
+        "ci": 32,
+        "co": 16,
+        "k": 1,
+        "pad": 0
+      },
+      "arrays": {
+        "input": {
+          "file": "case_02_conv_2_input.npy",
+          "sha256": "b42f483851baf344416ab5b6edd7b55d233951e65d3de616d1cdf3887fa70526",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "weights": {
+          "file": "case_02_conv_2_weights.npy",
+          "sha256": "0630597e5f7fdf5bdca2e2c0df0a03bf86cb18a5cdb5c65a32b05ed80c183ad0",
+          "shape": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "dtype": "int8"
+        },
+        "scales": {
+          "file": "case_02_conv_2_scales.npy",
+          "sha256": "cd397e309b7e6b4c667f766e28fbe7b3f879b11aac02c0fea85d43f39c42723a",
+          "shape": [
+            33
+          ],
+          "dtype": "float32"
+        },
+        "q": {
+          "file": "case_02_conv_2_q.npy",
+          "sha256": "afa2b60501260cc28a5fb69130406392fc99e8ea9944f78dc244464ff7d738d4",
+          "shape": [
+            32,
+            56,
+            56
+          ],
+          "dtype": "int8"
+        },
+        "sums": {
+          "file": "case_02_conv_2_sums.npy",
+          "sha256": "de359cd84faff8ecc92490c38092344ee6da2266355b6a8d3e48eefdb262e007",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        },
+        "pre": {
+          "file": "case_02_conv_2_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "standalone_arm_pre": {
+          "file": "case_02_conv_2_standalone_arm_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "standalone_arm_act": {
+          "file": "case_02_conv_2_standalone_arm_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "reference_post_pre": {
+          "file": "case_02_conv_2_reference_post_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "reference_post_act": {
+          "file": "case_02_conv_2_reference_post_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      },
+      "checks_pass": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "shape": {
+        "name": "conv_10",
+        "side": 28,
+        "ci": 32,
+        "co": 32,
+        "k": 3,
+        "pad": 1
+      },
+      "arrays": {
+        "input": {
+          "file": "case_02_conv_10_input.npy",
+          "sha256": "936c7a0f135c9ca093eb29c41102e831ecf827ba61e6de7a738b4f06403d9ddb",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "weights": {
+          "file": "case_02_conv_10_weights.npy",
+          "sha256": "21c749aec07be1ddd4e3023dc9311bae8c0a3f598e65d3b4e061590559c1f643",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "dtype": "int8"
+        },
+        "scales": {
+          "file": "case_02_conv_10_scales.npy",
+          "sha256": "f594573c0e8d802d27add3ede3fff5db17773a6e93bba99dd0454cbf146f0e35",
+          "shape": [
+            65
+          ],
+          "dtype": "float32"
+        },
+        "q": {
+          "file": "case_02_conv_10_q.npy",
+          "sha256": "ccb054236330e70a42e3901620c943b618437730402269005566becc235e1b5b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int8"
+        },
+        "sums": {
+          "file": "case_02_conv_10_sums.npy",
+          "sha256": "696adc65c16b3ab6c66e545c8b2ef7f9e67bbcf2840d78530c3f440ba4792c45",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        },
+        "pre": {
+          "file": "case_02_conv_10_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "standalone_arm_pre": {
+          "file": "case_02_conv_10_standalone_arm_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "standalone_arm_act": {
+          "file": "case_02_conv_10_standalone_arm_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "reference_post_pre": {
+          "file": "case_02_conv_10_reference_post_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "reference_post_act": {
+          "file": "case_02_conv_10_reference_post_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      },
+      "checks_pass": true
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "shape": {
+        "name": "conv_18",
+        "side": 14,
+        "ci": 64,
+        "co": 64,
+        "k": 3,
+        "pad": 1
+      },
+      "arrays": {
+        "input": {
+          "file": "case_02_conv_18_input.npy",
+          "sha256": "0079e4eedf026a39db8b76a58bb43603cb4a31f5480bfc7a9be3bb53931ef834",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "weights": {
+          "file": "case_02_conv_18_weights.npy",
+          "sha256": "686c9dd58506df7b93460cd803c42d41bcf4d17190759ed031e6e78f5c0a854a",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "dtype": "int8"
+        },
+        "scales": {
+          "file": "case_02_conv_18_scales.npy",
+          "sha256": "864b4a7047d83485c337f8f4a8a13a5b1588e22e6a80c7ac3e95ce9a0cbd685c",
+          "shape": [
+            129
+          ],
+          "dtype": "float32"
+        },
+        "q": {
+          "file": "case_02_conv_18_q.npy",
+          "sha256": "39ada81aa07c8ef1f3176c6a9a5afc6d2b0ca58315b7db4e32b5d6e3758657cc",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int8"
+        },
+        "sums": {
+          "file": "case_02_conv_18_sums.npy",
+          "sha256": "79c23fa17cfa0334c31a794fa825769ca475e4c772ba91d285ed4a3831d88569",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        },
+        "pre": {
+          "file": "case_02_conv_18_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "standalone_arm_pre": {
+          "file": "case_02_conv_18_standalone_arm_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "standalone_arm_act": {
+          "file": "case_02_conv_18_standalone_arm_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "reference_post_pre": {
+          "file": "case_02_conv_18_reference_post_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "reference_post_act": {
+          "file": "case_02_conv_18_reference_post_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      },
+      "checks_pass": true
+    }
+  ],
+  "warmups": [
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_2_arm_before_warmup_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_arm_before_warmup_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "fpga_v2",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_2_fpga_v2_warmup_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_fpga_v2_warmup_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_2_fpga_v2_warmup_sums.npy",
+          "sha256": "874205c5a62f848d4ff630d0ae100da670a4438d2aa7c7c5069b8647084ff89b",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        }
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_2_arm_after_warmup_pre.npy",
+          "sha256": "45970271038f2d057d8e8192a7dc5013ba8af58cd282a96365376ae464132164",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_2_arm_after_warmup_act.npy",
+          "sha256": "4a2aba6ce85ee2acc17e15ceb6c80e2f0563ed0c15ab6ce6adb428bb55958198",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_10_arm_before_warmup_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_arm_before_warmup_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "fpga_v2",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_10_fpga_v2_warmup_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_fpga_v2_warmup_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_10_fpga_v2_warmup_sums.npy",
+          "sha256": "9d8df886b190d1ff6d198082d6e4cb3444f8a37b8d0599968c3995a0e7483930",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        }
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_10_arm_after_warmup_pre.npy",
+          "sha256": "e314ed61e817126b7db238148bf3a5721b30654e4dd1f1b911bc7b56b2935616",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_10_arm_after_warmup_act.npy",
+          "sha256": "bea62d226bad8b19fc4cb7d74dce1e9e9ed5fb85f6c057d7e90e4bd684f8644b",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_18_arm_before_warmup_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_arm_before_warmup_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "fpga_v2",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_18_fpga_v2_warmup_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_fpga_v2_warmup_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_01_conv_18_fpga_v2_warmup_sums.npy",
+          "sha256": "ab597481a7b710dbd628388cdcf291bc0eb82789a282036df3de3f18c94826f6",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        }
+      }
+    },
+    {
+      "case": "case_01",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_01_conv_18_arm_after_warmup_pre.npy",
+          "sha256": "4ac6248ced93937c7337c01e137a3f8c0156cc46c7a7b3574a85fb87f3003741",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_01_conv_18_arm_after_warmup_act.npy",
+          "sha256": "7cf5edf6c08f756d3bf120a968f43df0f8cdd43b690eab1b205d25b174a6518e",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_before",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_2_arm_before_warmup_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_arm_before_warmup_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "fpga_v2",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_2_fpga_v2_warmup_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_fpga_v2_warmup_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_2_fpga_v2_warmup_sums.npy",
+          "sha256": "de359cd84faff8ecc92490c38092344ee6da2266355b6a8d3e48eefdb262e007",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "int32"
+        }
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_2",
+      "mode": "arm_after",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_2_arm_after_warmup_pre.npy",
+          "sha256": "6d1ad0bced47e509ecfebbbe02f49b556a18bdabed26d53f13110c82098592d0",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_2_arm_after_warmup_act.npy",
+          "sha256": "624fb607e917a7a497aa865e7957920afc43dfe35099165344996186bd6b7a6c",
+          "shape": [
+            16,
+            56,
+            56
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_before",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_10_arm_before_warmup_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_arm_before_warmup_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "fpga_v2",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_10_fpga_v2_warmup_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_fpga_v2_warmup_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_10_fpga_v2_warmup_sums.npy",
+          "sha256": "696adc65c16b3ab6c66e545c8b2ef7f9e67bbcf2840d78530c3f440ba4792c45",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "int32"
+        }
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_10",
+      "mode": "arm_after",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_10_arm_after_warmup_pre.npy",
+          "sha256": "944d2b3da185bc7d6507f94f04374542dff67b3178231c5ef2603fb21ac1f6e8",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_10_arm_after_warmup_act.npy",
+          "sha256": "8914af7e2057fd0585decd22604ae17ed5cdadaeae7a4d0c1c17455861bf3381",
+          "shape": [
+            32,
+            28,
+            28
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_before",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_18_arm_before_warmup_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_arm_before_warmup_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "fpga_v2",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_18_fpga_v2_warmup_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_fpga_v2_warmup_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "sums": {
+          "file": "case_02_conv_18_fpga_v2_warmup_sums.npy",
+          "sha256": "79c23fa17cfa0334c31a794fa825769ca475e4c772ba91d285ed4a3831d88569",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "int32"
+        }
+      }
+    },
+    {
+      "case": "case_02",
+      "layer": "conv_18",
+      "mode": "arm_after",
+      "byte_exact": true,
+      "arrays": {
+        "pre": {
+          "file": "case_02_conv_18_arm_after_warmup_pre.npy",
+          "sha256": "178a2ee2fae3d416f73934bea26b6a817463a7fa32277c959b978634f22c0577",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        },
+        "act": {
+          "file": "case_02_conv_18_arm_after_warmup_act.npy",
+          "sha256": "730b78a56d9a8bccac5903506eae7217253154713f9c5a57c0c464e831f926a4",
+          "shape": [
+            64,
+            14,
+            14
+          ],
+          "dtype": "float32"
+        }
+      }
+    }
+  ],
+  "camera_opened": false,
+  "whole_network_run": false,
+  "CPU_fallback": false,
+  "old_hardware_restored": true,
+  "master_idle": true,
+  "manifest_sha256": "d2189333d269ae07d32800cddfc3f223aa9253bbc4b00567092c36dd7c5b4b92",
+  "model_sha256": {
+    "best.ncnn.param": "3f4cb05109cc65a1563d557ca44b8a6542282acf7bc73c7f9fd570ac8a271b1d",
+    "best.ncnn.bin": "c07c5773535189d23bc0c9c94fc3377bc2e7713982735c7dced85ff8f49daa9f"
+  },
+  "timing_scope": "Same captured FP32 CHW complete-layer input -> complete FP32 CHW pre/SiLU output. ARM includes copies/packing/original optimized convolution/dequant/bias/SiLU. FPGA candidate includes original quantization/pad/patch packing/all MMIO/cache/HLS/assembly/original dequant/bias/SiLU/copies and output redzone checks. Fixed weights preprocessing, memory allocation of reusable CMA, graph reference extraction, comparisons and saved evidence excluded.",
+  "caveats": [
+    "Python candidate orchestration is timed; this is not a C++ fused integrated-network implementation.",
+    "Model original weights retained for export; optimized ncnn convolution objects are unchanged.",
+    "Three selected remaining layers are coverage candidates, not a measured current-model hotspot ranking.",
+    "No multi-layer reuse, full-network speed or camera FPS is measured."
+  ],
+  "fclk0_mhz": 100.0,
+  "bit_sha256": "76a939c24c10d93da60c23894c3051bd682c75cc52e15469fc2700ee79ef6c4f"
+}

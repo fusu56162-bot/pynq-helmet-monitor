@@ -1,0 +1,19 @@
+{
+  "numeric_table_cells_unchanged": 126,
+  "tables": 16,
+  "figures": 6,
+  "collaboration_files_unchanged": 3,
+  "editorial_tone_scan": "pass",
+  "local_source_tags_removed_from_report": true,
+  "bibliography_entries": 4,
+  "pages": 24,
+  "pixel_identical_to_reviewed_pages": 19,
+  "changed_pages": [
+    "page-13.png",
+    "page-14.png",
+    "page-15.png",
+    "page-16.png",
+    "page-17.png"
+  ],
+  "training_table_on_one_page": true
+}

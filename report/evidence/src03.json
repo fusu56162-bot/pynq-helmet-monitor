@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "source_archive_sha256": "e970e4089377a8e49f98fde46089feb6c7900a6b817d563a3c7aef5d4170c489",
+  "six_phases_and_all_cases_passed": true,
+  "samples_per_variant": 108,
+  "all_reported_stats_recomputed": true,
+  "candidate_is_expected_exact_transformation": true,
+  "source_scripts_match_authored_addon": true,
+  "native_library_matches_previous_board_profile": true,
+  "baseline_ms": {
+    "mean": 765.0716841481518,
+    "p95": 907.1698450500433,
+    "samples": 108
+  },
+  "candidate_ms": {
+    "mean": 637.6269853055578,
+    "p95": 754.6438027000012,
+    "samples": 108
+  },
+  "observed_speedup": 1.1998734397690543,
+  "deployment_changed": false,
+  "limitation": "Audit validates supplied report consistency and artifact hashes; raw inference outputs were not archived"
+}

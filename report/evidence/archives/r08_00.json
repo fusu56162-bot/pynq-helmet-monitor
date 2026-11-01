@@ -1,0 +1,206 @@
+{
+  "status": "INTEGER_CONV_BOARD_TEST_PASS_NOT_WHOLE_MODEL",
+  "stage": "FINISHED",
+  "cases": [
+    {
+      "name": "single",
+      "width": 1,
+      "height": 1,
+      "int32_values_per_run": 16,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.1555139999709354,
+          "staging_dma_readback_ms": 1.2730640000881976
+        }
+      ],
+      "dma_window_mean_ms": 0.1555139999709354,
+      "staging_dma_readback_mean_ms": 1.2730640000881976
+    },
+    {
+      "name": "edges",
+      "width": 7,
+      "height": 5,
+      "int32_values_per_run": 560,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.4138770000281511,
+          "staging_dma_readback_ms": 1.5709230000311436
+        }
+      ],
+      "dma_window_mean_ms": 0.4138770000281511,
+      "staging_dma_readback_mean_ms": 1.5709230000311436
+    },
+    {
+      "name": "one_row",
+      "width": 112,
+      "height": 1,
+      "int32_values_per_run": 1792,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.49351400002706214,
+          "staging_dma_readback_ms": 1.7716800000471267
+        }
+      ],
+      "dma_window_mean_ms": 0.49351400002706214,
+      "staging_dma_readback_mean_ms": 1.7716800000471267
+    },
+    {
+      "name": "one_column",
+      "width": 1,
+      "height": 112,
+      "int32_values_per_run": 1792,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.40953300003820914,
+          "staging_dma_readback_ms": 1.5975569999682193
+        }
+      ],
+      "dma_window_mean_ms": 0.40953300003820914,
+      "staging_dma_readback_mean_ms": 1.5975569999682193
+    },
+    {
+      "name": "signed_extremes",
+      "width": 3,
+      "height": 3,
+      "int32_values_per_run": 144,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": false,
+          "dma_window_ms": 0.1573050000160947,
+          "staging_dma_readback_ms": 1.2912860000824367
+        }
+      ],
+      "dma_window_mean_ms": 0.1573050000160947,
+      "staging_dma_readback_mean_ms": 1.2912860000824367
+    },
+    {
+      "name": "case_01",
+      "width": 112,
+      "height": 112,
+      "int32_values_per_run": 200704,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": true,
+          "dma_window_ms": 22.543470999949022,
+          "staging_dma_readback_ms": 30.874393999965832
+        },
+        {
+          "iteration": 1,
+          "warmup": false,
+          "dma_window_ms": 22.487889999979416,
+          "staging_dma_readback_ms": 31.103022000024794
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "dma_window_ms": 22.359883000035552,
+          "staging_dma_readback_ms": 30.55015400002503
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "dma_window_ms": 22.374480000053154,
+          "staging_dma_readback_ms": 30.743882999900052
+        },
+        {
+          "iteration": 4,
+          "warmup": false,
+          "dma_window_ms": 22.48985799997172,
+          "staging_dma_readback_ms": 30.896264000034535
+        },
+        {
+          "iteration": 5,
+          "warmup": false,
+          "dma_window_ms": 22.54259100004674,
+          "staging_dma_readback_ms": 30.71770499991544
+        }
+      ],
+      "dma_window_mean_ms": 22.450940400017316,
+      "staging_dma_readback_mean_ms": 30.80220559997997
+    },
+    {
+      "name": "case_02",
+      "width": 112,
+      "height": 112,
+      "int32_values_per_run": 200704,
+      "exact_match_all_runs": true,
+      "guard_region_unchanged": true,
+      "samples": [
+        {
+          "iteration": 0,
+          "warmup": true,
+          "dma_window_ms": 22.506953000061003,
+          "staging_dma_readback_ms": 31.171508000056747
+        },
+        {
+          "iteration": 1,
+          "warmup": false,
+          "dma_window_ms": 22.366806000036377,
+          "staging_dma_readback_ms": 30.81922499995926
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "dma_window_ms": 22.364823999964756,
+          "staging_dma_readback_ms": 30.842117000020153
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "dma_window_ms": 22.39246200008438,
+          "staging_dma_readback_ms": 30.63896699995894
+        },
+        {
+          "iteration": 4,
+          "warmup": false,
+          "dma_window_ms": 22.377514000027077,
+          "staging_dma_readback_ms": 31.93734699993911
+        },
+        {
+          "iteration": 5,
+          "warmup": false,
+          "dma_window_ms": 22.445778000019345,
+          "staging_dma_readback_ms": 30.74697199997445
+        }
+      ],
+      "dma_window_mean_ms": 22.389476800026387,
+      "staging_dma_readback_mean_ms": 30.996925599970382
+    }
+  ],
+  "package_verified_files": 32,
+  "backup_on_pc_confirmed_by_user": true,
+  "other_programs_stopped_confirmed_by_user": true,
+  "new_overlay_load_attempted": true,
+  "new_overlay_loaded": true,
+  "old_hardware_restored": true,
+  "board_test_passed": true,
+  "whole_model_integrated": false,
+  "whole_model_ms": null,
+  "timing_scope": "Single fixed INT8-input/INT32-output convolution only. Not model inference.",
+  "partial_report": "/home/xilinx/jupyter_notebooks/traffic_project/conv_board_test_v1/results/20250504_063048_e93ee95d/RESULT.json",
+  "fclk0_mhz": 100.0,
+  "invalid_size_guards_passed": true,
+  "dma_quiesced": true
+}
