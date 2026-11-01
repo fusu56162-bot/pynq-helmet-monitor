@@ -1,0 +1,26 @@
+{
+  "skill": "helmet-release-rollback",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "release_id": null,
+    "archive_scope": null,
+    "archive_sha256": null,
+    "manifest_path": null,
+    "missing_files": [],
+    "changed_files": [],
+    "rollback_pair": {
+      "model": null,
+      "bit": null,
+      "hwh": null
+    },
+    "restore_result": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

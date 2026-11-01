@@ -1,0 +1,4 @@
+interface:
+  display_name: "1×1通道分块与可复用乘加阵列"
+  short_description: "围绕当前四类224头盔项目复用1×1通道分块与可复用乘加阵列的已验证经验"
+  default_prompt: "使用 $helmet-pointwise-mac，结合当前工程完成1×1通道分块与可复用乘加阵列，按README保留证据和失效条件。"

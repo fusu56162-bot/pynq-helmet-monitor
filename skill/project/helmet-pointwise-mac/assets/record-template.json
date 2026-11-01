@@ -1,0 +1,22 @@
+{
+  "skill": "helmet-pointwise-mac",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "layer_id": null,
+    "shape": null,
+    "Pi": null,
+    "Po": null,
+    "accumulator_bits": null,
+    "input_reuse": null,
+    "weight_reuse": null,
+    "whole_layer_timing_scope": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

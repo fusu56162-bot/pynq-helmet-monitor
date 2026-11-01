@@ -1,0 +1,22 @@
+{
+  "skill": "helmet-preview-regression",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "baseline_entry": null,
+    "candidate_entry": null,
+    "model_identity_same": null,
+    "new_preview_work": [],
+    "baseline_forward_ms": null,
+    "candidate_forward_ms": null,
+    "frequency_evidence": null,
+    "rollback_to_single_view": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

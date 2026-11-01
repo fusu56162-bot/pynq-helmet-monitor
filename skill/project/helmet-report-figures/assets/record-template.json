@@ -1,0 +1,22 @@
+{
+  "skill": "helmet-report-figures",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "claim": null,
+    "measured_value": null,
+    "measurement_scope": null,
+    "evidence_id": null,
+    "figure_type": null,
+    "model_revision": null,
+    "caption": null,
+    "capture_conditions": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

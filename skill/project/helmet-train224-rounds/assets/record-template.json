@@ -1,0 +1,23 @@
+{
+  "skill": "helmet-train224-rounds",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "image_size": 224,
+    "classes": 4,
+    "yolov5_source_revision": null,
+    "initial_weights_sha256": null,
+    "epochs_requested": null,
+    "early_stopping": null,
+    "dataset_manifest_sha256": null,
+    "best_checkpoint_sha256": null,
+    "per_class_metrics": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "双预览竞争退化的定位与回退"
+  short_description: "围绕当前四类224头盔项目复用双预览竞争退化的定位与回退的已验证经验"
+  default_prompt: "使用 $helmet-preview-regression，结合当前工程完成双预览竞争退化的定位与回退，按README保留证据和失效条件。"

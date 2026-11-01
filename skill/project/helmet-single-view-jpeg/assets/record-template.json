@@ -1,0 +1,22 @@
+{
+  "skill": "helmet-single-view-jpeg",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "inference_input_unchanged": null,
+    "jpeg_quality": null,
+    "display_width": null,
+    "mean_jpeg_bytes": null,
+    "encode_ms": null,
+    "resize_ms": null,
+    "publish_ms": null,
+    "inference_fps": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

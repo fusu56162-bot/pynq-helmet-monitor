@@ -1,0 +1,22 @@
+{
+  "skill": "helmet-spatial-streaming",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "window_rows": null,
+    "padding_schedule": null,
+    "tokens_per_stage": null,
+    "fifo_depths": null,
+    "dataflow_stalls": null,
+    "ARM_layer_ms": null,
+    "candidate_layer_ms": null,
+    "deploy_candidate": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "发布包身份、完整备份与回退"
+  short_description: "围绕当前四类224头盔项目复用发布包身份、完整备份与回退的已验证经验"
+  default_prompt: "使用 $helmet-release-rollback，结合当前工程完成发布包身份、完整备份与回退，按README保留证据和失效条件。"

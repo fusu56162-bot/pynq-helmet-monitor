@@ -1,0 +1,4 @@
+interface:
+  display_name: "411ms计时树与新旧模型同通路A/B"
+  short_description: "围绕当前四类224头盔项目复用411ms计时树与新旧模型同通路A/B的已验证经验"
+  default_prompt: "使用 $helmet-timing-ab-analysis，结合当前工程完成411ms计时树与新旧模型同通路A/B，按README保留证据和失效条件。"

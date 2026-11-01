@@ -1,0 +1,25 @@
+{
+  "skill": "helmet-vivado-evidence",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "project_or_checkpoint": null,
+    "design_state": null,
+    "bit_sha256": null,
+    "dsp_used": null,
+    "bram_tiles": null,
+    "lut": null,
+    "ff": null,
+    "WNS_ns": null,
+    "WHS_ns": null,
+    "WPWS_ns": null,
+    "unconstrained_checks": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vivado资源、时序与截图取证"
+  short_description: "围绕当前四类224头盔项目复用Vivado资源、时序与截图取证的已验证经验"
+  default_prompt: "使用 $helmet-vivado-evidence，结合当前工程完成Vivado资源、时序与截图取证，按README保留证据和失效条件。"

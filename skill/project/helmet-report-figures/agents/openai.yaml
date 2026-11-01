@@ -1,0 +1,4 @@
+interface:
+  display_name: "报告结论、白底流程图与图片归因"
+  short_description: "围绕当前四类224头盔项目复用报告结论、白底流程图与图片归因的已验证经验"
+  default_prompt: "使用 $helmet-report-figures，结合当前工程完成报告结论、白底流程图与图片归因，按README保留证据和失效条件。"

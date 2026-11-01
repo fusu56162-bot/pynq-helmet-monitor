@@ -1,0 +1,28 @@
+{
+  "skill": "helmet-two-layer-fusion",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "first_conv": {
+      "Cin": 12,
+      "Cout": 16,
+      "stride": 1
+    },
+    "second_conv": {
+      "Cin": 16,
+      "Cout": 32,
+      "stride": 2
+    },
+    "activation_mapping_sha256": null,
+    "output_layout": "HWC56x56x32_float32",
+    "resource_report": null,
+    "board_numeric_result": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

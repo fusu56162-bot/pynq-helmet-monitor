@@ -1,0 +1,4 @@
+interface:
+  display_name: "固定224四类训练与轮次归档"
+  short_description: "围绕当前四类224头盔项目复用固定224四类训练与轮次归档的已验证经验"
+  default_prompt: "使用 $helmet-train224-rounds，结合当前工程完成固定224四类训练与轮次归档，按README保留证据和失效条件。"

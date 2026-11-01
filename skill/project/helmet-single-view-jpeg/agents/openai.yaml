@@ -1,0 +1,4 @@
+interface:
+  display_name: "单画面JPEG一次编码与板端画质A/B"
+  short_description: "围绕当前四类224头盔项目复用单画面JPEG一次编码与板端画质A/B的已验证经验"
+  default_prompt: "使用 $helmet-single-view-jpeg，结合当前工程完成单画面JPEG一次编码与板端画质A/B，按README保留证据和失效条件。"

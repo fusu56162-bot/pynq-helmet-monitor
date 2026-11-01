@@ -1,0 +1,22 @@
+{
+  "skill": "helmet-timing-ab-analysis",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "timing_scope": null,
+    "parent_child_intervals": null,
+    "parallel_stages": null,
+    "warmups": null,
+    "AB_order": null,
+    "all_samples_kept": null,
+    "median_p95": null,
+    "estimated_upper_bound": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

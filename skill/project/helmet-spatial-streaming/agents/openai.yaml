@@ -1,0 +1,4 @@
+interface:
+  display_name: "3×3紧凑输入、行缓存与整层启动"
+  short_description: "围绕当前四类224头盔项目复用3×3紧凑输入、行缓存与整层启动的已验证经验"
+  default_prompt: "使用 $helmet-spatial-streaming，结合当前工程完成3×3紧凑输入、行缓存与整层启动，按README保留证据和失效条件。"

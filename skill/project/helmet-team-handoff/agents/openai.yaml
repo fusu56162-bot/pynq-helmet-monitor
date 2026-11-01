@@ -1,0 +1,4 @@
+interface:
+  display_name: "B/C协作任务与候选交付验收"
+  short_description: "围绕当前四类224头盔项目复用B/C协作任务与候选交付验收的已验证经验"
+  default_prompt: "使用 $helmet-team-handoff，结合当前工程完成B/C协作任务与候选交付验收，按README保留证据和失效条件。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "源码归档、许可证与技能包复现"
+  short_description: "围绕当前四类224头盔项目复用源码归档、许可证与技能包复现的已验证经验"
+  default_prompt: "使用 $helmet-source-reproducibility，结合当前工程完成源码归档、许可证与技能包复现，按README保留证据和失效条件。"

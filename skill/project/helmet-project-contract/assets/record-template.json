@@ -1,0 +1,35 @@
+{
+  "skill": "helmet-project-contract",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "input_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "output_shape": [
+      1,
+      3087,
+      9
+    ],
+    "class_order": [
+      "ebike",
+      "rider",
+      "helmet_head",
+      "bare_head"
+    ],
+    "preprocess_source": null,
+    "decoder_source": null,
+    "changed_fields": [],
+    "functional_scope": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

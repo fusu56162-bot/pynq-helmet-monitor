@@ -1,0 +1,22 @@
+{
+  "skill": "helmet-source-reproducibility",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "source_root": null,
+    "protected_baseline_manifest": null,
+    "third_party_licenses": [],
+    "required_runtime_dependencies": [],
+    "skills_catalog": null,
+    "crc_pass": null,
+    "sha256_pass": null,
+    "original_payload_unchanged": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

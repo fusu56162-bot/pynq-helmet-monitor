@@ -1,0 +1,4 @@
+interface:
+  display_name: "四类224输入与功能边界冻结"
+  short_description: "围绕当前四类224头盔项目复用四类224输入与功能边界冻结的已验证经验"
+  default_prompt: "使用 $helmet-project-contract，结合当前工程完成四类224输入与功能边界冻结，按README保留证据和失效条件。"

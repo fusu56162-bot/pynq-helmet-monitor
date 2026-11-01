@@ -1,0 +1,4 @@
+interface:
+  display_name: "178-DSP双层连续卷积与片上衔接"
+  short_description: "围绕当前四类224头盔项目复用178-DSP双层连续卷积与片上衔接的已验证经验"
+  default_prompt: "使用 $helmet-two-layer-fusion，结合当前工程完成178-DSP双层连续卷积与片上衔接，按README保留证据和失效条件。"

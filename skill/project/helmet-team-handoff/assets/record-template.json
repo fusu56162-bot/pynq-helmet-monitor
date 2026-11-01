@@ -1,0 +1,24 @@
+{
+  "skill": "helmet-team-handoff",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "task_revision": null,
+    "owner_role": null,
+    "goal_metric": null,
+    "interface_contract": null,
+    "allowed_changes": null,
+    "input_materials": [],
+    "acceptance_host": null,
+    "acceptance_ARM": null,
+    "acceptance_board": null,
+    "forbidden_overwrite": []
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}
