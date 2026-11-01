@@ -1,0 +1,5 @@
+# 上板材料
+
+overlay保存原成对bit/HWH，notebooks保存原演示Notebook，environment保存原ARM固定库，config保存原受保护清单和SPEC，guides保存原操作文档的英文包路径副本。它们均按payload_map恢复原运行文件名后使用。
+
+从仓库根执行build/scripts/install_board.py安装；不要直接复制零散文件到旧工程。程序不会在安装阶段访问设备。

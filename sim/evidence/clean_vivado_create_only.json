@@ -1,0 +1,20 @@
+{
+  "status": "VIVADO_CREATE_ONLY_PASS_NOT_IMPLEMENTED_NOT_BOARD_TESTED",
+  "tool": "Vivado 2026.1",
+  "commands": [
+    "validate_bd_design -force",
+    "generate_target all",
+    "make_wrapper",
+    "update_compile_order"
+  ],
+  "top_level_modules": 9,
+  "synthesis_run": false,
+  "implementation_run": false,
+  "board_accessed": false,
+  "validation_bd_sha256": "f745e51f40f63986bba314cdbc01d6833def6738be5024a9a46a30ee67538e7d",
+  "source_tcl_sha256": "dbbc539d7f40a25d122e1dcc20a46fa781fdc298f42a4f344088f4b26c3f500d",
+  "warnings_retained": [
+    "PS and DMA SmartConnect interface configuration",
+    "board audio_clock metadata"
+  ]
+}

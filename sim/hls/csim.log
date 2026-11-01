@@ -1,0 +1,21 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../sim/tb_chain_float.cpp in debug mode
+   Compiling ../../../../src/chain_float.cpp in debug mode
+   Generating csim.exe
+FULL_SEGMENT_FLOAT_BYTE_EXACT_PASS random_0 values=32
+FULL_SEGMENT_FLOAT_BYTE_EXACT_PASS random_1 values=64
+FULL_SEGMENT_FLOAT_BYTE_EXACT_PASS random_2 values=64
+FULL_SEGMENT_FLOAT_BYTE_EXACT_PASS random_3 values=384
+FULL_SEGMENT_FLOAT_BYTE_EXACT_PASS random_4 values=512
+FULL_SEGMENT_FLOAT_BYTE_EXACT_PASS random_5 values=512
+FULL_SEGMENT_FLOAT_BYTE_EXACT_PASS random_6 values=512
+FULL_SEGMENT_FLOAT_BYTE_EXACT_PASS constant_0 values=288
+FULL_SEGMENT_FLOAT_BYTE_EXACT_PASS constant_255 values=288
+FULL_SEGMENT_FLOAT_BYTE_EXACT_PASS case_01 values=100352
+FULL_SEGMENT_FLOAT_BYTE_EXACT_PASS case_02 values=100352
+FULL_SEGMENT_FLOAT_BYTE_EXACT_PASS full_random values=100352
+EXHAUSTIVE_NEW_ARM_MAPPING_PASS values=1486551
+FLOAT_CHAIN_PASS_NOT_BOARD_OR_WHOLE_MODEL_SPEED_ACCEPTANCE cases=12
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 100352
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

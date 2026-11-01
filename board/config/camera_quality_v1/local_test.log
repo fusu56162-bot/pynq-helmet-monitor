@@ -1,0 +1,15 @@
+JPEG_QUALITY_PACKAGE_AND_BASELINE_HASH_PASS; model input 224; devices untouched
+MATCHED_OLD_NEW_PACKAGE_HASH_PASS 98 files; devices untouched
+MATCHED_OLD_NEW_PACKAGE_HASH_PASS 98 files; devices untouched
+test_bad_baseline_file_rejected_before_import (__main__.QualityTests.test_bad_baseline_file_rejected_before_import) ... ok
+test_failure_restores_exact_original_functions (__main__.QualityTests.test_failure_restores_exact_original_functions) ... ok
+test_real_frames_baseline_bytes_and_input_unchanged (__main__.QualityTests.test_real_frames_baseline_bytes_and_input_unchanged) ... ok
+test_reject_bad_parameters (__main__.QualityTests.test_reject_bad_parameters) ... ok
+test_report_failure_keeps_configuration_and_marks_submission_limit (__main__.QualityTests.test_report_failure_keeps_configuration_and_marks_submission_limit) ... ok
+SINGLE ANNOTATED VIEW | latest model | 178-DSP + ARM | JPEG {'jpeg_quality': 60, 'output_width': 640, 'output_height': 480}
+test_run_uses_new_model_fixed_path_and_restores_on_run_error (__main__.QualityTests.test_run_uses_new_model_fixed_path_and_restores_on_run_error) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.693s
+
+OK

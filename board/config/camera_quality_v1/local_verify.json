@@ -1,0 +1,132 @@
+{
+  "status": "HOST_JPEG_AND_CONTROL_CHECKS_ONLY_NOT_BOARD_FPS",
+  "source": "15 saved real full-resolution BGR frames, original boxes and overlay text",
+  "source_frames": 15,
+  "q80_full_size_byte_exact_with_original_encoder": true,
+  "input_bgr_unchanged": true,
+  "baseline_protected_files_unchanged": true,
+  "input224_preprocess_infer_native_and_bitstream_not_replaced": true,
+  "local_opencv": "4.10.0",
+  "mean_jpeg_bytes": {
+    "q80_w640": 46965.933333333334,
+    "q60_w640": 29189.466666666667,
+    "q40_w640": 22165.333333333332,
+    "q60_w480": 17792.4
+  },
+  "per_frame": [
+    {
+      "frame": "frame_000001",
+      "q80_w640": 38209,
+      "q60_w640": 27634,
+      "q40_w640": 19396,
+      "q60_w480": 15410
+    },
+    {
+      "frame": "frame_000007",
+      "q80_w640": 47706,
+      "q60_w640": 29043,
+      "q40_w640": 22012,
+      "q60_w480": 17772
+    },
+    {
+      "frame": "frame_000010",
+      "q80_w640": 49907,
+      "q60_w640": 31189,
+      "q40_w640": 23765,
+      "q60_w480": 19170
+    },
+    {
+      "frame": "frame_000016",
+      "q80_w640": 47386,
+      "q60_w640": 28931,
+      "q40_w640": 21957,
+      "q60_w480": 17978
+    },
+    {
+      "frame": "frame_000020",
+      "q80_w640": 45277,
+      "q60_w640": 27614,
+      "q40_w640": 21037,
+      "q60_w480": 17284
+    },
+    {
+      "frame": "frame_000026",
+      "q80_w640": 49706,
+      "q60_w640": 30911,
+      "q40_w640": 23704,
+      "q60_w480": 18847
+    },
+    {
+      "frame": "frame_000030",
+      "q80_w640": 45963,
+      "q60_w640": 28590,
+      "q40_w640": 22022,
+      "q60_w480": 17634
+    },
+    {
+      "frame": "frame_000036",
+      "q80_w640": 45325,
+      "q60_w640": 27179,
+      "q40_w640": 20789,
+      "q60_w480": 17036
+    },
+    {
+      "frame": "frame_000040",
+      "q80_w640": 50283,
+      "q60_w640": 31391,
+      "q40_w640": 23960,
+      "q60_w480": 18640
+    },
+    {
+      "frame": "frame_000045",
+      "q80_w640": 47457,
+      "q60_w640": 28928,
+      "q40_w640": 22121,
+      "q60_w480": 17683
+    },
+    {
+      "frame": "frame_000050",
+      "q80_w640": 46648,
+      "q60_w640": 28508,
+      "q40_w640": 21775,
+      "q60_w480": 17389
+    },
+    {
+      "frame": "frame_000055",
+      "q80_w640": 49734,
+      "q60_w640": 31002,
+      "q40_w640": 23618,
+      "q60_w480": 18721
+    },
+    {
+      "frame": "frame_000060",
+      "q80_w640": 47640,
+      "q60_w640": 29291,
+      "q40_w640": 22224,
+      "q60_w480": 18382
+    },
+    {
+      "frame": "frame_000065",
+      "q80_w640": 48480,
+      "q60_w640": 30035,
+      "q40_w640": 22993,
+      "q60_w480": 18189
+    },
+    {
+      "frame": "frame_000070",
+      "q80_w640": 44768,
+      "q60_w640": 27596,
+      "q40_w640": 21107,
+      "q60_w480": 16751
+    }
+  ],
+  "mean_byte_reduction_vs_q80": {
+    "q80_w640": 0.0,
+    "q60_w640": 0.3784970382788092,
+    "q40_w640": 0.5280550867366276,
+    "q60_w480": 0.6211637087307254
+  },
+  "board_fps_validated": false,
+  "true_network_transit_time_measured": false,
+  "environment_unchanged_by_addon": true
+}

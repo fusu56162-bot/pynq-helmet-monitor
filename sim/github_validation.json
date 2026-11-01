@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-31",
+  "status": "GITHUB_INTEGRATION_OFFLINE_PASS",
+  "skills": 32,
+  "project_skills": 26,
+  "generic_skills": 6,
+  "skill_structure_passed": 32,
+  "tool_behavior_checks": 34,
+  "internal_links_checked": 396,
+  "immutable_payload_mappings": 4435,
+  "baseline_98_files_pass": true,
+  "addon_6_files_pass": true,
+  "published_to_github": false,
+  "board_accessed": false,
+  "new_training": false,
+  "new_board_acceptance": false,
+  "structure": [
+    "src",
+    "sim",
+    "build",
+    "board",
+    "data",
+    "skill",
+    "report"
+  ],
+  "hardware_scope": "Historical paired 178-DSP bit/HWH unchanged; detection-only BD create_only previously passed, not reimplemented or board-tested.",
+  "report": "Latest project report Markdown integrated with all 32 skills and current reproduction paths."
+}

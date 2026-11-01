@@ -1,0 +1,58 @@
+{
+  "status": "ROUTED_BITSTREAM_OFFLINE_VERIFIED_NOT_BOARD_TESTED",
+  "implementation": "New final224 matched constants, same original-operator five-step two-layer PL core and ARM suffix ABI",
+  "resources": {
+    "Slice LUTs": 23463.0,
+    "Slice Registers": 24221.0,
+    "Block RAM Tile": 30.5,
+    "DSPs": 178.0
+  },
+  "core_dsp": {
+    "first_convolution_U0": 84.0,
+    "second_convolution_U0": 94.0,
+    "serialize_U0": 0.0
+  },
+  "clock_mhz": 100,
+  "wns_ns": 0.949,
+  "whs_ns": 0.015,
+  "wpws_ns": 3.75,
+  "fully_routed_nets": 46430,
+  "routing_errors": 0,
+  "bit_bytes": 4045776,
+  "sha256": {
+    "bit": "77987ca9b7dd4e926df7c720745a242942f9542f729fa081e2ef36074a182f78",
+    "hwh": "713425cbfe40189cef4fcb0ea999a6bad636b2acf2f4368df8e1a5c2472aa8ed"
+  },
+  "board_tested": false,
+  "whole_model_integrated": false,
+  "whole_model_speedup_proven": false,
+  "accuracy_accepted": false,
+  "deployment_changed": false,
+  "drc_rows": [
+    "| DPIP-1   | Warning  | Input pipelining       | 19     |",
+    "| DPOP-1   | Warning  | PREG Output pipelining | 1      |",
+    "| DPOP-2   | Warning  | MREG Output pipelining | 75     |",
+    "| REQP-181 | Advisory | writefirst             | 4      |"
+  ],
+  "caveat": "Original LED output-delay / PS metadata / DDR preset warnings are retained, not suppressed; not zero-warning or production acceptance.",
+  "files_sha256": {
+    "vivado/rider_monitor.runs/impl_1/rider_monitor_wrapper.bit": "77987ca9b7dd4e926df7c720745a242942f9542f729fa081e2ef36074a182f78",
+    "vivado/rider_monitor.gen/sources_1/bd/rider_monitor/hw_handoff/rider_monitor.hwh": "713425cbfe40189cef4fcb0ea999a6bad636b2acf2f4368df8e1a5c2472aa8ed",
+    "validation/STAGED.json": "8708f9784cd9f810fb8f8b6c6304acd4d63f79be3f0107c0317355fadd3c5a72",
+    "validation/GRAPH_AUDIT.json": "83495a1fce7125ee57e4f79892956d1d49e874e275667db7c7c0112e3e71ea34",
+    "validation/BUILD_PHASE_COMPLETE.txt": "0dc230f57eecbb16190ba68440d8ac61597b34b72bd2a2e9802208a1efb942f2",
+    "validation/timing_summary.rpt": "00062fa40cc0cc97df752de31d3fb1ae049cb7e00cefe4e42b9d0c9d0103cdbb",
+    "validation/route_status.rpt": "ed278a29327aa6e587e9c41009b9c409edda5eb53f5ee6e33429d55cbc31a103",
+    "validation/routed_utilization.rpt": "25af754874b7a1a2aeaadcd5cec8bd12625046a43e03fd277495da2b899e0918",
+    "validation/drc.rpt": "ddf6504f00473c0ea50616dbed90279b7a2d19c02c2b2050c84e7af38be8d83f",
+    "validation/methodology.rpt": "c5fafe5d6dc5bc092f75afd7f6242d35a25db63a440d8480010bf9214634bf21"
+  },
+  "model_sha256": {
+    "best.ncnn.param": "3f4cb05109cc65a1563d557ca44b8a6542282acf7bc73c7f9fd570ac8a271b1d",
+    "best.ncnn.bin": "c07c5773535189d23bc0c9c94fc3377bc2e7713982735c7dced85ff8f49daa9f"
+  },
+  "reference_audit_sha256": "3f605a71315c2db1c438e9d12c59e2273458c8680c9019b81380e9662029c674",
+  "compute_source_identical_to_proven_old": true,
+  "free_dsp": 42.0,
+  "dsp_percent": 80.9090909090909
+}

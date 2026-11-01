@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-30",
+  "status": "OFFLINE_PACKAGE_AND_VIVADO_CREATE_ONLY_PASS",
+  "board_accessed": false,
+  "board_rerun": false,
+  "protected_baseline_files": 98,
+  "protected_addon_files": 6,
+  "exact_six_original_dependencies": true,
+  "immutable_model_bit_hwh_unchanged": true,
+  "english_lowercase_repository_paths": true,
+  "payload_materialization_verified": true,
+  "vivado_version": "2026.1",
+  "vivado_create_only_pass": true,
+  "vivado_commands": [
+    "validate_bd_design -force",
+    "generate_target all",
+    "make_wrapper",
+    "update_compile_order"
+  ],
+  "detection_only_bd_sha256": "f745e51f40f63986bba314cdbc01d6833def6738be5024a9a46a30ee67538e7d",
+  "detection_only_wrapper_sha256": "a2adfc474edcd5c111264d1e98782a6bf311cb2e4a7eee6c2365ce04fc2a205b",
+  "detection_only_reimplemented": false,
+  "detection_only_board_tested": false,
+  "warnings": [
+    "PYNQ board audio_clock metadata",
+    "DMA/PS SmartConnect interface auto-configuration"
+  ],
+  "source_scan_annotation": {
+    "file": "src/ps/traffic_project/final224_speed_v1/camera_io.py",
+    "annotation": "no_red_light_or_helmet_event_validation=True",
+    "meaning": "Historical negative metadata only; no corresponding event or signal-control implementation. Immutable runtime bytes retained."
+  },
+  "parsed_files": {
+    "json": 26,
+    "notebook": 1,
+    "python": 39,
+    "npy": 60
+  }
+}

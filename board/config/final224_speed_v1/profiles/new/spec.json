@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "model": "final224_150epoch_best_deploy_mixed",
+  "input_side": 224,
+  "threads": 2,
+  "rounds": 3,
+  "cases": [
+    "case_01",
+    "case_02",
+    "case_03",
+    "case_04",
+    "case_05",
+    "case_06",
+    "case_07",
+    "case_08",
+    "case_09",
+    "case_10",
+    "case_11",
+    "case_12"
+  ],
+  "model_sha256": {
+    "best.ncnn.param": "3f4cb05109cc65a1563d557ca44b8a6542282acf7bc73c7f9fd570ac8a271b1d",
+    "best.ncnn.bin": "c07c5773535189d23bc0c9c94fc3377bc2e7713982735c7dced85ff8f49daa9f"
+  },
+  "upstream_sources_sha256": {
+    "net.cpp": "066e644a2fbb834843a5936a7c455601fc5f733c45c915d93a2868f090e2b993",
+    "benchmark.cpp": "4391417111ec7cc997c46305a838f5582b856095f357a724495d5e564f6a9acd",
+    "benchmark.h": "c560cede63698e4d481cb05f4d286e24913bfc6163219c2d68913622284c3a7b",
+    "net.h": "f3ee74bcbe951b3e0a268f04be4b389669b3868694aafc79a37099b4eeb128f9",
+    "layer.h": "45beab115d1c62530161e1ca7c53b350faf53ba83cd62e05a0fedf59485769c9",
+    "mat.h": "7f0a81e8a6e74eca8e190e9c3092c875bc918bf303b7a60faf720afeeaca1bdf",
+    "layer/arm/convolution_arm.h": "dd1412ff4f5e32200642296adfa6f0b712d4c986c1c20e4fc9b20b42f4ac6a50",
+    "layer/convolution.h": "a5a4bd02d12009d92ef82fa83becc5d96c100909acdc546ed2f088810e333507",
+    "layer/arm/swish_arm.cpp": "1baca4ec05ca5403ea06d11f47ad02b16f7b4a7041439e50c756482124ed95b5",
+    "layer/arm/dequantize_arm.cpp": "e30d73d7236b5b54926cce491ca0c90afd979d890e226176e9ffe8c961025824",
+    "layer/arm/quantize_arm.cpp": "7bdfe0001c91e8b38ce50ef7d5daded34cbe36c15b6fb533719579a9aa573d9a",
+    "layer/arm/arm_usability.h": "fb75361c9f2b677f9ef52099dbe4019cdfd78ef8bb3dffe4f420185fee19b33b",
+    "mat.cpp": "fffe7bd490118a2442b62ae64c58a7fd13cdead890730f339f5faec2e62e84d3"
+  },
+  "originals_sha256": {
+    "build/librider_ncnn.so": "24f823324d12d117e6822b6ae47e20751e4c2c45df6ee78d72acde1b9c1a5f85",
+    "int8_v1/build/librider_ncnn_int8.so": "8352754002a11bd17ef6d17ec09cb7c1f8e1e6956338f7d95853ed5846464d7e",
+    "small_v1/build/libsmall.so": "ecb16392e468d1579cb2febd96c4854685740bf80c60b0771aeff2f1f6a1aa06",
+    "int8_v1/build/ncnn/src/libncnn.a": "38d75b2b8a28c3bcaaa881b287a2ab3377de7bae342247e6ad400d03f6ba2a46",
+    "mixed_v1/models/recover5/best.ncnn.param": "a84e451f9c00085e67b2be3b3aaa08db238ed55c3ed36c01b31bb607348a312d",
+    "mixed_v1/models/recover5/best.ncnn.bin": "e7129641c5bba679f0881c392d18e748b6a86026e2b84da084fd0f6d2c0d8be4"
+  },
+  "segment_board_result_zip_sha256": "74210a7045eb06eb8dfac9d9860b95787fc53493e64080ded33af47b920b7f5c",
+  "historical_arm_parity_tolerances_unchanged": true,
+  "fpga_current_cpu_requires_bit_exact": true,
+  "common_inputs_sha256": {
+    "case_01": "6ad438d4df254ddcd2a7f05d5c55ab4fba8445a4964d663e305ca73541b358eb",
+    "case_02": "2c294e0718bbb285078e8bd484d19f4eb877bcb8a76e21fcfa15d5f6f85c6d1a",
+    "case_03": "6143da486c92573f721d95b13afa7d3fd989be28495e905456d07ad85a6ef90f",
+    "case_04": "0c99cbaadcd760466a480f0354185517ac24c13073199d878fed6527059c0678",
+    "case_05": "c2a704b1f3bdd38d38bc6fbcb8d79516a034ed084df87f6e73c5c79251f4720b",
+    "case_06": "a0b0f03223180909a57d848530e89692726c4483cd431de55bcd26414738c63b",
+    "case_07": "7c94d5a0e4de9113e325fe267ba9d4c1a15de8f93f54dbf4ac075d19607a3a99",
+    "case_08": "e01a4d5606b13e66440f3e0d5f1a3871929be7bd34d6f3d8cd8a35b18af02482",
+    "case_09": "39e264d0488373d6abe891c41ec323db19d970eb6375c47766d04c208d79b38e",
+    "case_10": "029df53dd00043a40499b945dc6ccbe948964f0e2d56b4bce4f85e5a0fd86aab",
+    "case_11": "b27c5608ed4a5db4ace242d6c47439246cbb2afb6898c6335950bc9c060b318c",
+    "case_12": "0aa6fa915250fe2d8bb2a04b10e7418ff439bcf8b574db86b029ccf696275c79"
+  },
+  "routed_hardware_report": {
+    "status": "ROUTED_BITSTREAM_OFFLINE_VERIFIED_NOT_BOARD_TESTED",
+    "implementation": "New final224 matched constants, same original-operator five-step two-layer PL core and ARM suffix ABI",
+    "resources": {
+      "Slice LUTs": 23463.0,
+      "Slice Registers": 24221.0,
+      "Block RAM Tile": 30.5,
+      "DSPs": 178.0
+    },
+    "core_dsp": {
+      "first_convolution_U0": 84.0,
+      "second_convolution_U0": 94.0,
+      "serialize_U0": 0.0
+    },
+    "clock_mhz": 100,
+    "wns_ns": 0.949,
+    "whs_ns": 0.015,
+    "wpws_ns": 3.75,
+    "fully_routed_nets": 46430,
+    "routing_errors": 0,
+    "bit_bytes": 4045776,
+    "sha256": {
+      "bit": "77987ca9b7dd4e926df7c720745a242942f9542f729fa081e2ef36074a182f78",
+      "hwh": "713425cbfe40189cef4fcb0ea999a6bad636b2acf2f4368df8e1a5c2472aa8ed"
+    },
+    "board_tested": false,
+    "whole_model_integrated": false,
+    "whole_model_speedup_proven": false,
+    "accuracy_accepted": false,
+    "deployment_changed": false,
+    "drc_rows": [
+      "| DPIP-1   | Warning  | Input pipelining       | 19     |",
+      "| DPOP-1   | Warning  | PREG Output pipelining | 1      |",
+      "| DPOP-2   | Warning  | MREG Output pipelining | 75     |",
+      "| REQP-181 | Advisory | writefirst             | 4      |"
+    ],
+    "caveat": "Original LED output-delay / PS metadata / DDR preset warnings are retained, not suppressed; not zero-warning or production acceptance.",
+    "files_sha256": {
+      "vivado/rider_monitor.runs/impl_1/rider_monitor_wrapper.bit": "77987ca9b7dd4e926df7c720745a242942f9542f729fa081e2ef36074a182f78",
+      "vivado/rider_monitor.gen/sources_1/bd/rider_monitor/hw_handoff/rider_monitor.hwh": "713425cbfe40189cef4fcb0ea999a6bad636b2acf2f4368df8e1a5c2472aa8ed",
+      "validation/STAGED.json": "8708f9784cd9f810fb8f8b6c6304acd4d63f79be3f0107c0317355fadd3c5a72",
+      "validation/GRAPH_AUDIT.json": "83495a1fce7125ee57e4f79892956d1d49e874e275667db7c7c0112e3e71ea34",
+      "validation/BUILD_PHASE_COMPLETE.txt": "0dc230f57eecbb16190ba68440d8ac61597b34b72bd2a2e9802208a1efb942f2",
+      "validation/timing_summary.rpt": "00062fa40cc0cc97df752de31d3fb1ae049cb7e00cefe4e42b9d0c9d0103cdbb",
+      "validation/route_status.rpt": "ed278a29327aa6e587e9c41009b9c409edda5eb53f5ee6e33429d55cbc31a103",
+      "validation/routed_utilization.rpt": "25af754874b7a1a2aeaadcd5cec8bd12625046a43e03fd277495da2b899e0918",
+      "validation/drc.rpt": "ddf6504f00473c0ea50616dbed90279b7a2d19c02c2b2050c84e7af38be8d83f",
+      "validation/methodology.rpt": "c5fafe5d6dc5bc092f75afd7f6242d35a25db63a440d8480010bf9214634bf21"
+    },
+    "model_sha256": {
+      "best.ncnn.param": "3f4cb05109cc65a1563d557ca44b8a6542282acf7bc73c7f9fd570ac8a271b1d",
+      "best.ncnn.bin": "c07c5773535189d23bc0c9c94fc3377bc2e7713982735c7dced85ff8f49daa9f"
+    },
+    "reference_audit_sha256": "3f605a71315c2db1c438e9d12c59e2273458c8680c9019b81380e9662029c674",
+    "compute_source_identical_to_proven_old": true,
+    "free_dsp": 42.0,
+    "dsp_percent": 80.9090909090909
+  }
+}
