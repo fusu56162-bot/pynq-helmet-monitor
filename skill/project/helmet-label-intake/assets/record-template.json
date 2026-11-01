@@ -1,0 +1,26 @@
+{
+  "skill": "helmet-label-intake",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "class_order": [
+      "ebike",
+      "rider",
+      "helmet_head",
+      "bare_head"
+    ],
+    "images_dir": null,
+    "labels_dir": null,
+    "confirmed_empty_list": null,
+    "partial_annotation_scope": null,
+    "split_by_session": true,
+    "excluded_unresolved": []
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

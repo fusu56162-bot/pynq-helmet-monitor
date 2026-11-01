@@ -1,0 +1,21 @@
+{
+  "skill": "helmet-arm-suffix-pack4",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "baseline_num_threads": 2,
+    "neon_observed": null,
+    "forward_parent_ms": null,
+    "pack_and_suffix_child_ms": null,
+    "operator_profile": null,
+    "changed_factor": null,
+    "AB_result": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

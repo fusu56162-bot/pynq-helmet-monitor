@@ -1,0 +1,22 @@
+{
+  "skill": "helmet-cpu-fpga-parity",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "reference_file": null,
+    "candidate_file": null,
+    "input_sha256": null,
+    "comparison_mode": "exact",
+    "atol": null,
+    "rtol": null,
+    "numeric_pass": null,
+    "accuracy_evaluated": false
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

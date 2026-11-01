@@ -1,0 +1,4 @@
+interface:
+  display_name: "ARM切分点与续算参考采集"
+  short_description: "围绕当前四类224头盔项目复用ARM切分点与续算参考采集的已验证经验"
+  default_prompt: "使用 $helmet-arm-cutpoint-reference，结合当前工程完成ARM切分点与续算参考采集，按README保留证据和失效条件。"

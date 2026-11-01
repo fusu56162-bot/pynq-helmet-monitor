@@ -1,0 +1,4 @@
+interface:
+  display_name: "有界后台存证与同帧追溯"
+  short_description: "围绕当前四类224头盔项目复用有界后台存证与同帧追溯的已验证经验"
+  default_prompt: "使用 $helmet-async-evidence，结合当前工程完成有界后台存证与同帧追溯，按README保留证据和失效条件。"

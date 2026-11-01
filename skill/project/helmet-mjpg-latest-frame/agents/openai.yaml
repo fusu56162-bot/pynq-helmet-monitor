@@ -1,0 +1,4 @@
+interface:
+  display_name: "MJPG压缩帧槽与选择性解码"
+  short_description: "围绕当前四类224头盔项目复用MJPG压缩帧槽与选择性解码的已验证经验"
+  default_prompt: "使用 $helmet-mjpg-latest-frame，结合当前工程完成MJPG压缩帧槽与选择性解码，按README保留证据和失效条件。"

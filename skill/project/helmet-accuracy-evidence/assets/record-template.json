@@ -1,0 +1,22 @@
+{
+  "skill": "helmet-accuracy-evidence",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "evaluation_scope": null,
+    "annotation_complete_for_classes": null,
+    "thresholds": null,
+    "iou_matching_rule": null,
+    "per_class_counts": null,
+    "empty_scene_false_positives": null,
+    "example_source_type": null,
+    "model_identity": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

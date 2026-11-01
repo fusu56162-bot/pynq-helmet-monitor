@@ -1,0 +1,22 @@
+{
+  "skill": "helmet-native-layer-scheduling",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "abi_input": null,
+    "abi_output": null,
+    "batch_command_format": null,
+    "host_numeric": null,
+    "host_faults": null,
+    "arm_build": null,
+    "arm_fp32_parity": null,
+    "board_AB": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

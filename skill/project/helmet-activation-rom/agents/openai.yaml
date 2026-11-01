@@ -1,0 +1,4 @@
+interface:
+  display_name: "精确激活与再量化ROM生成"
+  short_description: "围绕当前四类224头盔项目复用精确激活与再量化ROM生成的已验证经验"
+  default_prompt: "使用 $helmet-activation-rom，结合当前工程完成精确激活与再量化ROM生成，按README保留证据和失效条件。"

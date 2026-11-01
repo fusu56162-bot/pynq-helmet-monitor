@@ -1,0 +1,4 @@
+interface:
+  display_name: "ARM续算、NEON与pack4边界成本"
+  short_description: "围绕当前四类224头盔项目复用ARM续算、NEON与pack4边界成本的已验证经验"
+  default_prompt: "使用 $helmet-arm-suffix-pack4，结合当前工程完成ARM续算、NEON与pack4边界成本，按README保留证据和失效条件。"

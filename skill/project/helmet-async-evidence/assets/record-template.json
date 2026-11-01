@@ -1,0 +1,21 @@
+{
+  "skill": "helmet-async-evidence",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "save_policy": "sampled_evidence",
+    "queue_capacity": 2,
+    "snapshot_ownership": null,
+    "saved_groups": null,
+    "dropped_groups": null,
+    "writer_stopped": null,
+    "same_frame_files": []
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

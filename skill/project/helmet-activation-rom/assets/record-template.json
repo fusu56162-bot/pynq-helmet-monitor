@@ -1,0 +1,21 @@
+{
+  "skill": "helmet-activation-rom",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "mapping_domain_per_channel": null,
+    "rounding_semantics": null,
+    "rom_words": null,
+    "rom_bytes": null,
+    "domain_coverage": null,
+    "rom_sha256": null,
+    "boundary_equivalence": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

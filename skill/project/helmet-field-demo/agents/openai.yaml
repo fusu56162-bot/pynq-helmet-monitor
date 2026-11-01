@@ -1,0 +1,4 @@
+interface:
+  display_name: "新模型178-DSP单画面演示与安全收尾"
+  short_description: "围绕当前四类224头盔项目复用新模型178-DSP单画面演示与安全收尾的已验证经验"
+  default_prompt: "使用 $helmet-field-demo，结合当前工程完成新模型178-DSP单画面演示与安全收尾，按README保留证据和失效条件。"

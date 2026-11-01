@@ -1,0 +1,21 @@
+{
+  "skill": "helmet-arm-cutpoint-reference",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "full_reference": null,
+    "bridge_full": null,
+    "boundary_tensor": null,
+    "resumed_raw": null,
+    "layouts": null,
+    "device_accessed": false,
+    "numeric_result": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

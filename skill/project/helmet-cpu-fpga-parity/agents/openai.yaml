@@ -1,0 +1,4 @@
+interface:
+  display_name: "同输入CPU/FPGA逐位一致性验收"
+  short_description: "围绕当前四类224头盔项目复用同输入CPU/FPGA逐位一致性验收的已验证经验"
+  default_prompt: "使用 $helmet-cpu-fpga-parity，结合当前工程完成同输入CPU/FPGA逐位一致性验收，按README保留证据和失效条件。"

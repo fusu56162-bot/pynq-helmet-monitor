@@ -1,0 +1,4 @@
+interface:
+  display_name: "ONNX/ncnn导出与算子兼容"
+  short_description: "围绕当前四类224头盔项目复用ONNX/ncnn导出与算子兼容的已验证经验"
+  default_prompt: "使用 $helmet-export-ncnn-compat，结合当前工程完成ONNX/ncnn导出与算子兼容，按README保留证据和失效条件。"

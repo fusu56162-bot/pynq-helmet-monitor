@@ -1,0 +1,4 @@
+interface:
+  display_name: "完整层C++批量调度与接口对齐"
+  short_description: "围绕当前四类224头盔项目复用完整层C++批量调度与接口对齐的已验证经验"
+  default_prompt: "使用 $helmet-native-layer-scheduling，结合当前工程完成完整层C++批量调度与接口对齐，按README保留证据和失效条件。"

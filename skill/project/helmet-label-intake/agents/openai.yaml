@@ -1,0 +1,4 @@
+interface:
+  display_name: "四类标注接收与空场甄别"
+  short_description: "围绕当前四类224头盔项目复用四类标注接收与空场甄别的已验证经验"
+  default_prompt: "使用 $helmet-label-intake，结合当前工程完成四类标注接收与空场甄别，按README保留证据和失效条件。"

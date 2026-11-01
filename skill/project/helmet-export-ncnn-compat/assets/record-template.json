@@ -1,0 +1,26 @@
+{
+  "skill": "helmet-export-ncnn-compat",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "export_shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "converter_version": null,
+    "unsupported_nodes": [],
+    "alias_semantics_review": null,
+    "reference_raw": null,
+    "candidate_raw": null,
+    "equivalence_result": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

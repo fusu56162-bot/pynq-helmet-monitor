@@ -1,0 +1,22 @@
+{
+  "skill": "helmet-mjpg-latest-frame",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "requested_fourcc": "MJPG",
+    "reported_fourcc": null,
+    "requested_fps": 15,
+    "actual_read_rate": null,
+    "latest_slot_capacity": 1,
+    "decoded_selected_frames": null,
+    "skipped_frames": null,
+    "frame_age_ms": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

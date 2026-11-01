@@ -1,0 +1,21 @@
+{
+  "skill": "helmet-overlay-startup",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "bit_hwh_sha256": null,
+    "observed_pynq_version": null,
+    "ip_dict_diff": null,
+    "dma_owner": null,
+    "startup_stage": null,
+    "restore_attempted": null,
+    "restore_succeeded": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

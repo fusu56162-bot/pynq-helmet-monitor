@@ -1,0 +1,27 @@
+{
+  "skill": "helmet-mixed-precision-migrate",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "calibration_manifest": null,
+    "fp32_layers": [
+      6,
+      11,
+      57,
+      58,
+      59
+    ],
+    "int8_conv_count": 55,
+    "fp32_conv_count": 5,
+    "quantization_scales_sha256": null,
+    "accuracy_delta": null,
+    "requires_new_hardware": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}

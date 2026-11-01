@@ -1,0 +1,24 @@
+{
+  "skill": "helmet-field-demo",
+  "status": "NOT_EXECUTED_TEMPLATE",
+  "record_id": null,
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "input_materials": [],
+  "fields": {
+    "notebook_entry": null,
+    "camera_index": 0,
+    "scene": null,
+    "seconds": 30,
+    "jpeg_quality": 80,
+    "output_width": 640,
+    "other_programs_actually_stopped": null,
+    "saved_session": null,
+    "phone_video_path": null,
+    "cleanup": null
+  },
+  "evidence_files": [],
+  "failed_conditions": [],
+  "validation_scope": null,
+  "board_executed": null,
+  "next_action": null
+}
