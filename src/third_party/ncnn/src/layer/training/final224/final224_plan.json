@@ -1,0 +1,53 @@
+{
+  "status": "FINAL_FULL_LENGTH_TRAINING_CANDIDATE_TARGET80_NOT_BOARD_ACCEPTANCE",
+  "input": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "output": [
+    1,
+    3087,
+    9
+  ],
+  "names": [
+    "ebike",
+    "rider",
+    "helmet_head",
+    "bare_head"
+  ],
+  "train": 3289,
+  "original_image_entries": 3029,
+  "training_derivatives": 260,
+  "validation579": true,
+  "epochs": 150,
+  "patience": 0,
+  "early_stopping_disabled": true,
+  "periodic_checkpoint_every": 25,
+  "target_precision": 0.8,
+  "target_recall": 0.8,
+  "target_positive_image_exact": 0.8,
+  "initial_checkpoint_sha256": "9ba8144a1ad0d332bbc8d11fa0b29b734541c7355caed97ee893ac02585f880d",
+  "no_new_camera_collection_available": true,
+  "existing_B_full_and_partial_training_data_used": true,
+  "partial_obj_weight": 0.03,
+  "previous_partial_obj_weight": 0.15,
+  "small_head_obj_floor": 0.25,
+  "lr0": 0.0001,
+  "lrf": 0.05,
+  "cos_lr": true,
+  "export": [
+    "exact_fp32_best_checkpoint",
+    "torchscript_fixed224",
+    "ncnn_param_and_bin_FP32_reference",
+    "calibration128",
+    "first_two_fused_weights_and_layer_reference"
+  ],
+  "final_precision_target": "INT8/mixed + matching FPGA constants/bit/hwh after returned checkpoint is calibrated and checked",
+  "cloud_export_does_not_claim_INT8_or_new_FPGA_complete": true,
+  "targets_not_guaranteed_by_epoch_count": true,
+  "weights_of_best_epoch_are_exact_fp32_not_half_rounded": true,
+  "board_changed": false,
+  "pointwise_1x1_still_paused": true
+}
