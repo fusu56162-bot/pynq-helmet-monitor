@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ 卷积硬件加速"
+  short_description: "设计并验证并行乘加、行缓存和通道复用，评估资源与整层真实收益"
+  default_prompt: "使用 $pynq-conv-acceleration，基于当前模型和资源约束设计可验证的卷积硬件加速方案。"

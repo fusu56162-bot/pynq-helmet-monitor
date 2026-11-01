@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ 板卡调试与性能验证"
+  short_description: "复用 PYNQ 项目的板卡排障、DMA与模型核验、摄像头联调和分项测速经验"
+  default_prompt: "使用 $pynq-board-lab，结合当前工程和实测结果，定位 PYNQ 板卡问题并完成相应验证。"

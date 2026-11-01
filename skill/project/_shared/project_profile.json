@@ -1,0 +1,83 @@
+{
+  "profile_id": "helmet-final224-178dsp-single-view",
+  "scope": "Current project baseline, not a generic PYNQ default.",
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "output_shape": [
+    1,
+    3087,
+    9
+  ],
+  "classes": [
+    "ebike",
+    "rider",
+    "helmet_head",
+    "bare_head"
+  ],
+  "preprocess": {
+    "source_bgr_size": [
+      640,
+      480
+    ],
+    "resize_size": [
+      224,
+      168
+    ],
+    "interpolation": "nearest",
+    "to_rgb": true,
+    "padding_top_bottom": [
+      28,
+      28
+    ],
+    "padding_value": 114,
+    "normalization": "float32 / 255",
+    "layout": "NCHW"
+  },
+  "thresholds": [
+    0.35,
+    0.25,
+    0.5,
+    0.2
+  ],
+  "classwise_nms_iou": 0.45,
+  "outputs_already_decoded": true,
+  "hardware": {
+    "part": "xc7z020clg400-1",
+    "clock_mhz": 100,
+    "DSP": 178,
+    "BRAM_tiles": 30.5,
+    "LUT": 23463,
+    "FF": 24221,
+    "IP_addresses": {
+      "conv_accel_0": "0x40010000",
+      "axi_dma_conv": "0x41E10000"
+    },
+    "front_end": "two continuous 3x3 conv stages",
+    "ARM_suffix": true
+  },
+  "release_artifacts": {
+    "data/runtime/final224_speed_v1/profiles/new/model/best.ncnn.param": "3f4cb05109cc65a1563d557ca44b8a6542282acf7bc73c7f9fd570ac8a271b1d",
+    "data/runtime/final224_speed_v1/profiles/new/model/best.ncnn.bin": "c07c5773535189d23bc0c9c94fc3377bc2e7713982735c7dced85ff8f49daa9f",
+    "board/overlay/final224_speed_v1/profiles/new/overlay/rider_monitor_chain_float.bit": "77987ca9b7dd4e926df7c720745a242942f9542f729fa081e2ef36074a182f78",
+    "board/overlay/final224_speed_v1/profiles/new/overlay/rider_monitor_chain_float.hwh": "713425cbfe40189cef4fcb0ea999a6bad636b2acf2f4368df8e1a5c2472aa8ed"
+  },
+  "board_project_root_example": "/home/xilinx/jupyter_notebooks/traffic_project",
+  "demo_entry": "01_board_verified/traffic_project/camera_quality_v1/打开我_现场演示_已验证178DSP.ipynb",
+  "constraints": [
+    "single annotated view",
+    "no line-crossing or traffic-light feature",
+    "no full-YOLO-in-PL claim",
+    "do not treat dataset confidence as accuracy"
+  ],
+  "adaptation_fields": [
+    "model artifacts",
+    "input/output contract",
+    "classes/thresholds",
+    "board part/clock/IP addresses",
+    "runtime paths"
+  ]
+}

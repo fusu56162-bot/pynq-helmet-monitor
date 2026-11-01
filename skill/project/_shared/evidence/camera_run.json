@@ -1,0 +1,192 @@
+{
+  "evidence_id": "camera_run",
+  "source_repository_relative_path": "fpga_work/final224_chain_v1/camera_results/20250505_035328_029145c7/AUDIT.json",
+  "original_source_sha256": "7ffb43f4e6564dcf7efce6f80eabfef02015b861d4075e288ed98af063dea123",
+  "extraction": "Selected original fields; not the complete original file.",
+  "observed": {
+    "status": "NEW_MODEL_SINGLE_VIEW_CAMERA_SHORT_TEST_NUMERIC_AUDIT_PASS_ACCURACY_NOT_ACCEPTED",
+    "source_zip_sha256": "19c1e7d6e541cb6249fe5f7bfda863e2841334da3c2d3c3a875e1773597b85cb",
+    "zip_files": 125,
+    "files_sha_verified": 124,
+    "counts": {
+      "frozen_full": 12,
+      "frozen_boundary_against_AB": 12,
+      "live_preprocess_byte_exact": 15,
+      "live_decode_byte_exact": 15,
+      "live_CPU_FPGA_byte_exact": 8,
+      "camera_jpeg_pixels_equal": 15,
+      "annotated_jpegs_decodable": 15,
+      "arrays_valid": 92
+    },
+    "local_opencv": "4.10.0",
+    "camera_jpeg_cross_decoder_differences": [],
+    "inference_frames": 73,
+    "loop_seconds": 30.011365770999873,
+    "inference_fps": 2.4324117921530997,
+    "display_submissions_fps": 2.4324117921530997,
+    "capture_read_returns_fps": 9.56651667822311,
+    "cpu_checked": 8,
+    "unchecked": 65,
+    "skipped_capture_before_inference": 212,
+    "unselected_tail": 4,
+    "saved_groups": 15,
+    "saved_bytes": 27048061,
+    "save_queue_drops": 0,
+    "originals_and_clean_shutdown_reported_pass": true,
+    "real_matched_FPGA_loaded": true,
+    "CPU_fallback_enabled": false,
+    "primary_stats_drop_no_samples": true,
+    "main_recomputed": {
+      "main.fpga_arm_forward_ms": {
+        "count": 73,
+        "mean_ms": 215.19749947947275,
+        "median_ms": 207.6606890000221,
+        "min_ms": 202.02171600021757,
+        "max_ms": 388.2488790000025,
+        "p95_ms": 241.37921700012154
+      },
+      "main.preprocess_ms": {
+        "count": 73,
+        "mean_ms": 17.5055469726306,
+        "median_ms": 16.427992999979324,
+        "min_ms": 14.348350000091159,
+        "max_ms": 45.46941000035076,
+        "p95_ms": 25.323580199983535
+      },
+      "main.decode_ms": {
+        "count": 73,
+        "mean_ms": 21.139792301336495,
+        "median_ms": 20.59724999980972,
+        "min_ms": 18.687944000248535,
+        "max_ms": 50.53690500017183,
+        "p95_ms": 22.776077599974084
+      },
+      "main.draw_ms": {
+        "count": 73,
+        "mean_ms": 9.02739197258535,
+        "median_ms": 9.005938999962382,
+        "min_ms": 5.164892999800941,
+        "max_ms": 19.647021000309906,
+        "p95_ms": 10.996666000119149
+      },
+      "main.iteration_wall_ms": {
+        "count": 73,
+        "mean_ms": 410.99597567127194,
+        "median_ms": 374.26666399960595,
+        "min_ms": 326.7345529998238,
+        "max_ms": 794.7390509998513,
+        "p95_ms": 639.4436589999713
+      }
+    },
+    "forward_components": {
+      "input_pack_ms": {
+        "count": 73,
+        "mean_ms": 18.62447709586439,
+        "median_ms": 17.98130499992112,
+        "min_ms": 16.897685999992973,
+        "max_ms": 38.18266400003267,
+        "p95_ms": 21.37346440013061
+      },
+      "dma_window_ms": {
+        "count": 73,
+        "mean_ms": 7.816818164428696,
+        "median_ms": 7.732701999884739,
+        "min_ms": 7.621354000093561,
+        "max_ms": 12.932571999954234,
+        "p95_ms": 7.989904199985176
+      },
+      "cache_dma_readback_guard_ms": {
+        "count": 73,
+        "mean_ms": 9.61421798633201,
+        "median_ms": 9.445833999961906,
+        "min_ms": 9.17265900034181,
+        "max_ms": 14.649544000349124,
+        "p95_ms": 10.1082770001085
+      },
+      "owned_pack_and_suffix_ms": {
+        "count": 73,
+        "mean_ms": 186.86489757530506,
+        "median_ms": 179.68872599976748,
+        "min_ms": 174.03511299971797,
+        "max_ms": 359.3036479996954,
+        "p95_ms": 208.23393420005226
+      }
+    },
+    "CPU_reference_stats": {
+      "count": 8,
+      "mean_ms": 238.68118887497758,
+      "median_ms": 237.74231950005742,
+      "min_ms": 234.97991299973364,
+      "max_ms": 243.8360549999743,
+      "p95_ms": 243.74713994996
+    },
+    "main_costs_amortized_ms_per_inferred_frame": {
+      "main.acquire_wait_ms": 0.06511198628449825,
+      "main.camera_decode_ms": 41.101380561628986,
+      "main.preprocess_ms": 17.5055469726306,
+      "main.fpga_arm_forward_ms": 215.19749947947275,
+      "main.cpu_reference_ms": 26.1568426164359,
+      "main.exact_compare_ms": 0.11915591781024426,
+      "main.decode_ms": 21.139792301336495,
+      "main.draw_ms": 9.02739197258535,
+      "main.jpeg_encode_once_ms": 31.76609998628346,
+      "main.evidence_snapshot_ms": 0.6518103972454922,
+      "main.display_publish_ms": 30.173060315045817,
+      "main.report_json_ms": 9.041405178073571,
+      "main.report_write_close_ms": 4.8879414383706825
+    },
+    "main_costs_accounted_ms_per_frame": 406.83303912320383,
+    "cpu_process_seconds": 44.400000000000006,
+    "cpu_single_core_percent": 147.94395009807897,
+    "long_forward_frames_over_300ms": [
+      {
+        "id": "frame_000013",
+        "forward_ms": 388.2488790000025,
+        "components": {
+          "input_pack_ms": 19.14908300022944,
+          "dma_window_ms": 7.6702149999619,
+          "cache_dma_readback_guard_ms": 9.710283999993408,
+          "owned_pack_and_suffix_ms": 359.3036479996954
+        },
+        "cpu_checked": false
+      },
+      {
+        "id": "frame_000044",
+        "forward_ms": 333.43292900008237,
+        "components": {
+          "input_pack_ms": 21.811845999764046,
+          "dma_window_ms": 7.698337999954674,
+          "cache_dma_readback_guard_ms": 9.624935000374535,
+          "owned_pack_and_suffix_ms": 301.13092299961863
+        },
+        "cpu_checked": false
+      }
+    ],
+    "declared_scene_is_not_ground_truth": true,
+    "box_counts_by_class": [
+      7,
+      46,
+      18,
+      88
+    ],
+    "frames_with_class": [
+      7,
+      46,
+      18,
+      72
+    ],
+    "frames_emitting_both_helmet_and_bare": 18,
+    "frames_with_cross_class_head_IoU_at_least_05": 3,
+    "qualitative_image_review": [
+      "frame_000001_view.jpg: indoor visible bare head receives both helmet_head and bare_head; CPU checked exact",
+      "frame_000036_view.jpg: indoor close-up bare_head output; CPU not checked",
+      "frame_000070_view.jpg: overlapping helmet_head/bare_head and rider region; CPU checked exact"
+    ],
+    "precision_recall_not_computable_without_ground_truth": true,
+    "accuracy_not_accepted": true,
+    "browser_render_FPS_not_measured": true,
+    "long_term_stability_not_accepted": true,
+    "parallel_MAC_prototype_not_enabled": true
+  },
+  "new_board_execution": false
+}

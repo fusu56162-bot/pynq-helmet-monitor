@@ -1,0 +1,17 @@
+{
+  "evidence_id": "source_package",
+  "source_repository_relative_path": "submission_20261028/source/骑行头盔检测_提交源码/PACKAGE_CHECK.json",
+  "original_source_sha256": "137aab77a5c14cb3b90065e95849bfb027b818f620d1e878480eb6a7ff599983",
+  "extraction": "Selected original fields; not the complete original file.",
+  "observed": {
+    "baseline_manifest_files": 98,
+    "quality_manifest_files": 6,
+    "python_syntax_checked": 30,
+    "executable_scope_scan": "PASS_NO_EXCLUDED_FEATURES",
+    "board_accessed": false,
+    "clean_vivado_bd_validated": true,
+    "clean_vivado_integration_implemented": false,
+    "original_release_hashes_preserved": true
+  },
+  "new_board_execution": false
+}

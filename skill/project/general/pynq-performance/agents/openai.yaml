@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ 分项性能分析"
+  short_description: "区分采集帧率与推理帧率，避免重复计时并用同通路对照定位实际瓶颈"
+  default_prompt: "使用 $pynq-performance，分析当前实测结果并确定下一项最值得验证的优化。"

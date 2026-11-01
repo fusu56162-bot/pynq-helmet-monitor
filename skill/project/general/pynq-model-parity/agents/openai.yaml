@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ 模型与数值核验"
+  short_description: "核对预处理和模型接口，比较同输入CPU与FPGA结果并保留数值证据"
+  default_prompt: "使用 $pynq-model-parity，核对当前模型契约并验证 CPU 与 FPGA 的同输入数值一致性。"

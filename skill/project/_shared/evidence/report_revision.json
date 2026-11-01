@@ -1,0 +1,19 @@
+{
+  "evidence_id": "report_revision",
+  "source_repository_relative_path": "submission_20261028/work/r3/EDIT_AUDIT.json",
+  "original_source_sha256": "e4dbee002083aede32eb645a4656509edae05d51449ea65700f819921ce09826",
+  "extraction": "Selected original fields; not the complete original file.",
+  "observed": {
+    "output": "作品报告_正式表述修订_R3.docx",
+    "paragraphs_edited": 13,
+    "tables_and_measurements_unchanged": true,
+    "diagrams_unchanged": true,
+    "photo_prompts_unchanged": true,
+    "changed_parts": [
+      "word/document.xml"
+    ],
+    "rendered_pages": 13,
+    "all_pages_visually_verified": true
+  },
+  "new_board_execution": false
+}

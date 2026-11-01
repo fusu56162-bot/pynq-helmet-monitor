@@ -1,0 +1,145 @@
+{
+  "evidence_id": "ab_run",
+  "source_repository_relative_path": "fpga_work/final224_chain_v1/board_results/20250505_034243_1f73a42f/AUDIT.json",
+  "original_source_sha256": "42496904d5ea908a6085c2c547595396bebc96faecca7a098be22d1c40f926f0",
+  "extraction": "Selected original fields; not the complete original file.",
+  "observed": {
+    "status": "FUNCTIONAL_BIT_EXACT_AUDIT_PASS_SHORT_RUN_NO_LARGE_FPGA_STALL",
+    "independent_array_checks": {
+      "frozen_full_output_arrays": 48,
+      "known_boundary_arrays": 8,
+      "saved_arrays_validated": 96,
+      "repeated_arrays_byte_exact": 48
+    },
+    "models_overlay_hashes_match_delivered_package": true,
+    "same_compiled_bridge_SHA_all_4": true,
+    "full_timing_samples": 192,
+    "fpga_timing_samples_per_model": 48,
+    "input_side": 224,
+    "threads": 2,
+    "clock_mhz": 100,
+    "summary": {
+      "old": {
+        "cpu": {
+          "count": 48,
+          "mean_ms": 207.08264072915483,
+          "median_ms": 207.2587409999187,
+          "min_ms": 205.36712000011903,
+          "max_ms": 211.07441799995286,
+          "p95_ms": 209.74213159995543,
+          "p99_ms": 210.6283983399544
+        },
+        "fpga_arm": {
+          "count": 48,
+          "mean_ms": 183.59280135416137,
+          "median_ms": 183.54762449996542,
+          "min_ms": 182.37233800005015,
+          "max_ms": 187.99003600020114,
+          "p95_ms": 186.62108900005023,
+          "p99_ms": 187.54558379008358
+        },
+        "fpga_components": {
+          "input_pack_ms": {
+            "count": 48,
+            "mean_ms": 16.420973479180628,
+            "median_ms": 16.409387000067,
+            "min_ms": 16.295200000058685,
+            "max_ms": 16.840066999975534,
+            "p95_ms": 16.590436050023527,
+            "p99_ms": 16.787580689979222
+          },
+          "dma_window_ms": {
+            "count": 48,
+            "mean_ms": 7.738811916671769,
+            "median_ms": 7.7668005000077756,
+            "min_ms": 7.605495000007068,
+            "max_ms": 7.8902769998876465,
+            "p95_ms": 7.823186950020045,
+            "p99_ms": 7.861434509914034
+          },
+          "cache_dma_readback_guard_ms": {
+            "count": 48,
+            "mean_ms": 9.275469083329805,
+            "median_ms": 9.299218000023757,
+            "min_ms": 9.127833999855284,
+            "max_ms": 9.483378000140874,
+            "p95_ms": 9.367451949981387,
+            "p99_ms": 9.452219350082487
+          },
+          "owned_pack_and_suffix_ms": {
+            "count": 48,
+            "mean_ms": 157.80972414582095,
+            "median_ms": 157.77637799988042,
+            "min_ms": 156.69270099988353,
+            "max_ms": 162.0716850000008,
+            "p95_ms": 160.664680699972,
+            "p99_ms": 161.68818286003216
+          }
+        }
+      },
+      "new": {
+        "cpu": {
+          "count": 48,
+          "mean_ms": 204.26908827083423,
+          "median_ms": 202.7025559999629,
+          "min_ms": 202.33672600011232,
+          "max_ms": 259.9139940000441,
+          "p95_ms": 206.84512575001008,
+          "p99_ms": 237.1520820000615
+        },
+        "fpga_arm": {
+          "count": 48,
+          "mean_ms": 180.30940737501547,
+          "median_ms": 179.96873849995154,
+          "min_ms": 179.44654099983381,
+          "max_ms": 184.7708860000239,
+          "p95_ms": 182.634946650046,
+          "p99_ms": 184.4680729900574
+        },
+        "fpga_components": {
+          "input_pack_ms": {
+            "count": 48,
+            "mean_ms": 16.412553979179734,
+            "median_ms": 16.405190499995115,
+            "min_ms": 16.300713000191536,
+            "max_ms": 16.67495400010921,
+            "p95_ms": 16.575873250110362,
+            "p99_ms": 16.648084570108495
+          },
+          "dma_window_ms": {
+            "count": 48,
+            "mean_ms": 7.7332319375026755,
+            "median_ms": 7.758916999932808,
+            "min_ms": 7.6110340000923316,
+            "max_ms": 7.869766000112577,
+            "p95_ms": 7.813990000011017,
+            "p99_ms": 7.861288609997246
+          },
+          "cache_dma_readback_guard_ms": {
+            "count": 48,
+            "mean_ms": 9.2840212083208,
+            "median_ms": 9.298941499991997,
+            "min_ms": 9.144793999894318,
+            "max_ms": 9.446479999951407,
+            "p95_ms": 9.409109299906504,
+            "p99_ms": 9.435567539940166
+          },
+          "owned_pack_and_suffix_ms": {
+            "count": 48,
+            "mean_ms": 154.52158931248997,
+            "median_ms": 154.21547350001674,
+            "min_ms": 153.77420300001177,
+            "max_ms": 159.2001540000183,
+            "p95_ms": 156.81493470004852,
+            "p99_ms": 158.66251113002136
+          }
+        }
+      }
+    },
+    "all_4_cleanup_and_original_identity_checks_reported_pass": true,
+    "camera_opened": false,
+    "camera_fps_not_measured": true,
+    "accuracy_not_retested": true
+  },
+  "new_board_execution": false
+}

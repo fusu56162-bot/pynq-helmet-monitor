@@ -1,0 +1,460 @@
+{
+  "project_skills": [
+    {
+      "number": 1,
+      "id": "helmet-project-contract",
+      "title": "四类224输入与功能边界冻结",
+      "type": "提示词工作流＋契约模板",
+      "scope": "接入模型、改预处理或写报告前，固定本项目四类检测及PS/PL分工。",
+      "path": "project/helmet-project-contract",
+      "evidence": [
+        "release_identity",
+        "camera_run"
+      ],
+      "tools": [
+        "verify_release.py"
+      ],
+      "historically_verified": "当前发布包固定输入[1,3,224,224]、输出[1,3087,9]；真实CPU/FPGA同输入核验已有记录。"
+    },
+    {
+      "number": 2,
+      "id": "helmet-release-rollback",
+      "title": "发布包身份、完整备份与回退",
+      "type": "校验脚本＋踩坑清单",
+      "scope": "整理交付、恢复误删文件、检查完整备份及候选版本隔离。",
+      "path": "project/helmet-release-rollback",
+      "evidence": [
+        "release_identity"
+      ],
+      "tools": [
+        "verify_manifest.py",
+        "verify_release.py"
+      ],
+      "historically_verified": "已整理源码的原1034项清单可离线核验；误删文档原字节哈希已找到并保留。"
+    },
+    {
+      "number": 3,
+      "id": "helmet-label-intake",
+      "title": "四类标注接收与空场甄别",
+      "type": "校验脚本＋数据接收模板",
+      "scope": "接收Make Sense/YOLO标签，检查中文类别映射、缺标签和真实空场。",
+      "path": "project/helmet-label-intake",
+      "evidence": [
+        "labels_intake",
+        "training"
+      ],
+      "tools": [
+        "audit_yolo_labels.py"
+      ],
+      "historically_verified": "项目已执行标签映射与样本筛选；本包另带缺标签、越界和类别错误的主机fixture测试。"
+    },
+    {
+      "number": 4,
+      "id": "helmet-train224-rounds",
+      "title": "固定224四类训练与轮次归档",
+      "type": "提示词工作流＋实验计划模板",
+      "scope": "继续训练当前轻量模型，保持单次整图四类能力与可比验证，不接管云账户。",
+      "path": "project/helmet-train224-rounds",
+      "evidence": [
+        "training"
+      ],
+      "tools": [],
+      "historically_verified": "最终150epoch已完成并独立复核579张回放；所有目标同时通过的epoch数为0，best来自第30个人类计数epoch。"
+    },
+    {
+      "number": 5,
+      "id": "helmet-export-ncnn-compat",
+      "title": "ONNX/ncnn导出与算子兼容",
+      "type": "提示词工作流＋接口检查模板",
+      "scope": "固定224导出候选并处理当前ARM ncnn不支持的图算子。",
+      "path": "project/helmet-export-ncnn-compat",
+      "evidence": [
+        "training",
+        "arm_reference"
+      ],
+      "tools": [
+        "compare_arrays.py"
+      ],
+      "historically_verified": "最终导出12组局部等价检查与真实ARM兼容后参考采集已有档案。"
+    },
+    {
+      "number": 6,
+      "id": "helmet-mixed-precision-migrate",
+      "title": "FP32到混合精度发布迁移",
+      "type": "案例模板＋校验工作流",
+      "scope": "保留224四类模型能力并生成当前55 INT8＋5 FP32路径，不把FP32评估直接当板端结果。",
+      "path": "project/helmet-mixed-precision-migrate",
+      "evidence": [
+        "release_identity",
+        "arm_reference",
+        "camera_run"
+      ],
+      "tools": [
+        "verify_release.py",
+        "compare_arrays.py"
+      ],
+      "historically_verified": "当前发布混合模型与匹配178-DSP图已完成真实板端数值对照；校园未戴盔召回仍不足。"
+    },
+    {
+      "number": 7,
+      "id": "helmet-arm-cutpoint-reference",
+      "title": "ARM切分点与续算参考采集",
+      "type": "提示词工作流＋数值校验模板",
+      "scope": "在前两层硬件化前确定ncnn边界与可恢复的原ARM输出。",
+      "path": "project/helmet-arm-cutpoint-reference",
+      "evidence": [
+        "arm_reference"
+      ],
+      "tools": [
+        "compare_arrays.py"
+      ],
+      "historically_verified": "修复后的真实ARM记录含原full、新bridge与切分续算等价检查；没有把该阶段当新FPGA实测。"
+    },
+    {
+      "number": 8,
+      "id": "helmet-activation-rom",
+      "title": "精确激活与再量化ROM生成",
+      "type": "硬件案例模板＋域覆盖核验清单",
+      "scope": "将本项目受限量化域的ARM数值行为转为匹配新权重的片上查表。",
+      "path": "project/helmet-activation-rom",
+      "evidence": [
+        "arm_reference"
+      ],
+      "tools": [
+        "compare_arrays.py"
+      ],
+      "historically_verified": "真实ARM参考档案审计1486551个映射值，生成4936字/19744字节ROM；该统计不等于整网精度验收。"
+    },
+    {
+      "number": 9,
+      "id": "helmet-overlay-startup",
+      "title": "178-DSP发布图接入与启动故障定位",
+      "type": "踩坑清单＋身份检查脚本",
+      "scope": "当前发布图加载前核对bit/HWH、IP、时钟、所有权和历史base元数据差异。",
+      "path": "project/helmet-overlay-startup",
+      "evidence": [
+        "release_identity",
+        "v3"
+      ],
+      "tools": [
+        "verify_release.py"
+      ],
+      "historically_verified": "后续V3返回记录确认trace DMA停止复查和匹配178恢复成功；生产身份另由发布与摄像头记录确认。"
+    },
+    {
+      "number": 10,
+      "id": "helmet-cpu-fpga-parity",
+      "title": "同输入CPU/FPGA逐位一致性验收",
+      "type": "校验脚本＋黄金数组样例",
+      "scope": "区分同输入实现正确与识别精度，验证当前178前段加ARM续算。",
+      "path": "project/helmet-cpu-fpga-parity",
+      "evidence": [
+        "camera_run",
+        "ab_run",
+        "parity_pair"
+      ],
+      "tools": [
+        "compare_arrays.py"
+      ],
+      "historically_verified": "包内提供一对来自真实CPU与FPGA档案的case_01 raw数组，可离线逐位复验；本次不重开板卡。"
+    },
+    {
+      "number": 11,
+      "id": "helmet-pointwise-mac",
+      "title": "1×1通道分块与可复用乘加阵列",
+      "type": "硬件提示词工作流＋设计模板",
+      "scope": "基于当前模型热点评估1×1卷积的输入/输出通道并行与权重复用。",
+      "path": "project/helmet-pointwise-mac",
+      "evidence": [
+        "pointwise",
+        "mac_tile"
+      ],
+      "tools": [],
+      "historically_verified": "真实1×1档案状态是ARM_REFERENCE_PASS_NOT_HARDWARE_ACCEPTANCE；独立tile上板状态不含整网/激活时间。"
+    },
+    {
+      "number": 12,
+      "id": "helmet-spatial-streaming",
+      "title": "3×3紧凑输入、行缓存与整层启动",
+      "type": "案例模板＋负结果复盘",
+      "scope": "避免ARM重复复制邻域，设计3×3滑窗、输入/计算/输出流水与完整层测试。",
+      "path": "project/helmet-spatial-streaming",
+      "evidence": [
+        "v3"
+      ],
+      "tools": [
+        "compare_arrays.py"
+      ],
+      "historically_verified": "V3真实上板144数组、4716544值通过；18-DSP图整层仍比ARM慢约2.58–3.54倍，没有部署到摄像头。"
+    },
+    {
+      "number": 13,
+      "id": "helmet-two-layer-fusion",
+      "title": "178-DSP双层连续卷积与片上衔接",
+      "type": "已验证案例模板＋硬件工作流",
+      "scope": "理解和复现当前两层3×3前段，在不改变模型语义的条件下评估进一步融合。",
+      "path": "project/helmet-two-layer-fusion",
+      "evidence": [
+        "hardware",
+        "ab_run",
+        "camera_run"
+      ],
+      "tools": [
+        "check_vivado_reports.py",
+        "verify_release.py"
+      ],
+      "historically_verified": "匹配发布图实现178DSP、30.5BRAM、WNS0.949ns；后续真实摄像头与同输入记录核对其身份和输出。"
+    },
+    {
+      "number": 14,
+      "id": "helmet-native-layer-scheduling",
+      "title": "完整层C++批量调度与接口对齐",
+      "type": "提示词工作流＋交付接口模板",
+      "scope": "把逐tile Python调度迁到原生层调度，审查B修订候选而不改变现场主入口。",
+      "path": "project/helmet-native-layer-scheduling",
+      "evidence": [
+        "b_native",
+        "b_arm"
+      ],
+      "tools": [
+        "compare_arrays.py"
+      ],
+      "historically_verified": "独立审查重算6组整数卷积、36数值与66故障/停止组；该审查阶段明确ARM和板端性能仍待验。"
+    },
+    {
+      "number": 15,
+      "id": "helmet-arm-suffix-pack4",
+      "title": "ARM续算、NEON与pack4边界成本",
+      "type": "分析工作流＋优化取舍模板",
+      "scope": "在前段已由FPGA处理后，定位ncnn续算和布局/所有权转换的真实成本。",
+      "path": "project/helmet-arm-suffix-pack4",
+      "evidence": [
+        "ab_run",
+        "quality"
+      ],
+      "tools": [
+        "summarize_run.py"
+      ],
+      "historically_verified": "新模型同输入forward约180.31ms，嵌套owned_pack_and_suffix约154.52ms；摄像头负载下可增至约187ms。"
+    },
+    {
+      "number": 16,
+      "id": "helmet-mjpg-latest-frame",
+      "title": "MJPG压缩帧槽与选择性解码",
+      "type": "已验证工作流＋流水线模板",
+      "scope": "保留相机连续采集，减少USB与ARM不必要的每帧解码/PNG负担。",
+      "path": "project/helmet-mjpg-latest-frame",
+      "evidence": [
+        "mjpg",
+        "camera_run"
+      ],
+      "tools": [
+        "summarize_run.py"
+      ],
+      "historically_verified": "真实返回包核验172项payload哈希、原始输入重算与框重解码；相机API返回率和识别率分开记录。"
+    },
+    {
+      "number": 17,
+      "id": "helmet-async-evidence",
+      "title": "有界后台存证与同帧追溯",
+      "type": "案例模板＋所有权检查清单",
+      "scope": "在保留原始帧、输入、raw输出、框和图像的同时控制存储对主循环影响。",
+      "path": "project/helmet-async-evidence",
+      "evidence": [
+        "quality",
+        "camera_run"
+      ],
+      "tools": [
+        "verify_manifest.py"
+      ],
+      "historically_verified": "单画面现场记录保留原MJPG、输入、输出、框及抽查；画质审计核验280项payload和16组已保存CPU/FPGA同帧对。"
+    },
+    {
+      "number": 18,
+      "id": "helmet-single-view-jpeg",
+      "title": "单画面JPEG一次编码与板端画质A/B",
+      "type": "已验证案例＋参数实验模板",
+      "scope": "在保持推理输入不变时比较出板JPEG质量、宽度、字节及显示开销。",
+      "path": "project/helmet-single-view-jpeg",
+      "evidence": [
+        "quality"
+      ],
+      "tools": [
+        "summarize_run.py"
+      ],
+      "historically_verified": "Q60字节约减48.6%，整机FPS仅单轮小幅变化；缩至480新增约47ms缩放且未更快。"
+    },
+    {
+      "number": 19,
+      "id": "helmet-preview-regression",
+      "title": "双预览竞争退化的定位与回退",
+      "type": "负结果技能＋受控A/B清单",
+      "scope": "解释原始预览与识别分离后ARM续算变慢，避免将双线程等同自动提速。",
+      "path": "project/helmet-preview-regression",
+      "evidence": [
+        "preview_split"
+      ],
+      "tools": [
+        "summarize_run.py"
+      ],
+      "historically_verified": "返回档案双预览识别约1.142FPS、原单画面约2.408FPS；forward约476ms对224ms，已据此保留单画面发布路线。"
+    },
+    {
+      "number": 20,
+      "id": "helmet-timing-ab-analysis",
+      "title": "411ms计时树与新旧模型同通路A/B",
+      "type": "校验脚本＋性能复盘模板",
+      "scope": "解释整机2.4FPS、forward180/216ms、ARM续算154/187ms为何同时成立，并选下一步优化。",
+      "path": "project/helmet-timing-ab-analysis",
+      "evidence": [
+        "ab_run",
+        "camera_run",
+        "quality"
+      ],
+      "tools": [
+        "summarize_run.py"
+      ],
+      "historically_verified": "归档新模型CPU204.27ms对FPGA+ARM180.31ms；单画面摄像头约2.43FPS。脚本可离线重算已归档窗口与抽查摊销。"
+    },
+    {
+      "number": 21,
+      "id": "helmet-accuracy-evidence",
+      "title": "四类检测指标与成功示例追溯",
+      "type": "校验脚本＋指标/图像证据模板",
+      "scope": "从固定测试记录提取每类P/R、TP/FP/FN及可用于报告的真实预测图。",
+      "path": "project/helmet-accuracy-evidence",
+      "evidence": [
+        "accuracy",
+        "training",
+        "arm_reference"
+      ],
+      "tools": [
+        "metrics_from_counts.py",
+        "find_examples.py"
+      ],
+      "historically_verified": "已核对校园开发集23张中14空场、9有目标；新混合模型三类TP/FP/FN分别9/2/0、7/2/1、2/2/5；成功案例不能代表整体达标。"
+    },
+    {
+      "number": 22,
+      "id": "helmet-field-demo",
+      "title": "新模型178-DSP单画面演示与安全收尾",
+      "type": "操作工作流＋实测记录模板",
+      "scope": "用当前已验证Notebook手动演示四类检测，手机拍整机过程并保留必要证据。",
+      "path": "project/helmet-field-demo",
+      "evidence": [
+        "release_identity",
+        "camera_run",
+        "quality"
+      ],
+      "tools": [
+        "verify_release.py",
+        "summarize_run.py"
+      ],
+      "historically_verified": "现行quality_camera入口明确选择profiles/new，真实运行结果记录模型/位流身份；单画面现场已有返回档案。"
+    },
+    {
+      "number": 23,
+      "id": "helmet-team-handoff",
+      "title": "B/C协作任务与候选交付验收",
+      "type": "完整提示词模板＋验收矩阵",
+      "scope": "把硬件/调度/摄像头任务分给协作者，同时保持当前发布入口和公共接口稳定。",
+      "path": "project/helmet-team-handoff",
+      "evidence": [
+        "b_native",
+        "b_arm"
+      ],
+      "tools": [
+        "verify_manifest.py"
+      ],
+      "historically_verified": "B修订候选完成176文件身份审查、整数重算和故障测试；验收记录明确区分未完成ARM/板端阶段。"
+    },
+    {
+      "number": 24,
+      "id": "helmet-vivado-evidence",
+      "title": "Vivado资源、时序与截图取证",
+      "type": "校验脚本＋操作清单",
+      "scope": "从匹配已实现工程提取DSP/BRAM/LUT/FF与时序，并指导报告截图。",
+      "path": "project/helmet-vivado-evidence",
+      "evidence": [
+        "hardware",
+        "vivado_reports"
+      ],
+      "tools": [
+        "check_vivado_reports.py"
+      ],
+      "historically_verified": "原已布线报告顶层DSP178、LUT23463、FF24221、BRAM30.5；WNS0.949/WHS0.015/WPWS3.750ns，摘要失败端点0。"
+    },
+    {
+      "number": 25,
+      "id": "helmet-report-figures",
+      "title": "报告结论、白底流程图与图片归因",
+      "type": "报告模板＋踩坑清单",
+      "scope": "把当前四类检测与硬件加速写成正式报告，正确选择示例图和性能口径。",
+      "path": "project/helmet-report-figures",
+      "evidence": [
+        "report_revision",
+        "accuracy",
+        "hardware"
+      ],
+      "tools": [],
+      "historically_verified": "当前报告已完成白底黑框流程图与13页渲染检查；历史数据与图注来源有独立说明，不将新模板声称为新实验。"
+    },
+    {
+      "number": 26,
+      "id": "helmet-source-reproducibility",
+      "title": "源码归档、许可证与技能包复现",
+      "type": "工程骨架＋清单校验脚本",
+      "scope": "交付可复现的当前检测源码与skill目录，保留原发布身份并隔离候选。",
+      "path": "project/helmet-source-reproducibility",
+      "evidence": [
+        "source_package",
+        "release_identity"
+      ],
+      "tools": [
+        "verify_manifest.py"
+      ],
+      "historically_verified": "上一版提交源码1034项清单已核验；本次新增技能在新交付版本中单独列清单并复验原文件字节。"
+    }
+  ],
+  "generic_skills": [
+    {
+      "id": "pynq-board-lab",
+      "scope": "排查 PYNQ 板卡的上电、SD 启动、网络/Jupyter 连接、存储容量与残留进程问题；适用于板卡准备和环境诊断，不替代具体 IP 的 DMA 驱动或模型数值验证。",
+      "path": "general/pynq-board-lab",
+      "newly_created_this_round": false
+    },
+    {
+      "id": "pynq-overlay-dma",
+      "scope": "接入或排查 PYNQ 自定义 Overlay、AXI DMA/VDMA 与 PS/PL 缓冲区通路，核对 bit/HWH、IP 地址、时钟、协议与内存所有权；用于硬件接口及传输问题，不把软件模拟视为上板通过。",
+      "path": "general/pynq-overlay-dma",
+      "newly_created_this_round": false
+    },
+    {
+      "id": "pynq-model-parity",
+      "scope": "更换或接入 PYNQ 推理模型时核对预处理、张量布局、量化和解码契约，逐段比较 CPU/FPGA 同输入结果；适用于 ONNX/ncnn 等模型转换与板端数值验收，不把数值一致当作识别精度。",
+      "path": "general/pynq-model-parity",
+      "newly_created_this_round": false
+    },
+    {
+      "id": "pynq-camera-pipeline",
+      "scope": "诊断和优化 PYNQ 摄像头从 UVC/MJPG 采集、解码、推理到 JPEG/Jupyter 显示与后台存储的流水线；用于卡顿、模糊、积压和预览争抢问题，不自动改模型或宣称网络提速。",
+      "path": "general/pynq-camera-pipeline",
+      "newly_created_this_round": false
+    },
+    {
+      "id": "pynq-performance",
+      "scope": "分析 PYNQ 实测日志/JSON，区分采集、完整推理、ARM续算、显示和后台保存计时，设计同通路 A/B 并判断收益；用于低帧率与加速效果争议，不代替精度或 DMA 安全核验。",
+      "path": "general/pynq-performance",
+      "newly_created_this_round": false
+    },
+    {
+      "id": "pynq-conv-acceleration",
+      "scope": "为 PYNQ/Zynq 的 CNN 热点设计并验证卷积加速，覆盖并行乘加、3×3行缓存、1×1通道/权重复用、层间流水和输出布局，评估 HLS/RTL 资源与整层收益；不把已有位流当作通用加速器。",
+      "path": "general/pynq-conv-acceleration",
+      "newly_created_this_round": false
+    }
+  ],
+  "project_skill_count": 26,
+  "generic_skill_count": 6,
+  "total": 32
+}

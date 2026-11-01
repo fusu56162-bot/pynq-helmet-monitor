@@ -1,0 +1,1798 @@
+{
+  "status": "FPGA_MEASUREMENT_COMPLETE_NOT_FULL_SYSTEM_ACCEPTANCE",
+  "metrics": {
+    "setup_or_cleanup.report_json_ms": {
+      "count": 33,
+      "total_ms": 92.98590199978207,
+      "mean_ms": 2.8177546060540024,
+      "min_ms": 0.5720500003008056,
+      "max_ms": 39.6914029997788,
+      "p50_ms": 0.9136560001934413,
+      "p95_ms": 10.842766799760252,
+      "percentile_samples": 33
+    },
+    "setup_or_cleanup.report_write_close_ms": {
+      "count": 33,
+      "total_ms": 129.72694100335502,
+      "mean_ms": 3.9311194243440917,
+      "min_ms": 1.5707749998910003,
+      "max_ms": 13.178060999962327,
+      "p50_ms": 3.027822000149172,
+      "p95_ms": 7.379009600299466,
+      "percentile_samples": 33
+    },
+    "setup.camera_warmup_ms": {
+      "count": 1,
+      "total_ms": 1459.6932340000421,
+      "mean_ms": 1459.6932340000421,
+      "min_ms": 1459.6932340000421,
+      "max_ms": 1459.6932340000421,
+      "p50_ms": 1459.6932340000421,
+      "p95_ms": 1459.6932340000421,
+      "percentile_samples": 1
+    },
+    "capture.read_api_ms": {
+      "count": 188,
+      "total_ms": 20096.437934003006,
+      "mean_ms": 106.8959464574628,
+      "min_ms": 3.401340999516833,
+      "max_ms": 149.4515999993382,
+      "p50_ms": 129.83933500026978,
+      "p95_ms": 134.7031245996277,
+      "percentile_samples": 188
+    },
+    "capture.payload_copy_ms": {
+      "count": 188,
+      "total_ms": 77.26546600133588,
+      "mean_ms": 0.4109865212837015,
+      "min_ms": 0.28975399982300587,
+      "max_ms": 2.0836619996771333,
+      "p50_ms": 0.3636310002548271,
+      "p95_ms": 0.626764649996403,
+      "percentile_samples": 188
+    },
+    "main.acquire_wait_ms": {
+      "count": 48,
+      "total_ms": 3.7474090022442397,
+      "mean_ms": 0.07807102088008833,
+      "min_ms": 0.048615000196150504,
+      "max_ms": 0.7182030003605178,
+      "p50_ms": 0.05916350028201123,
+      "p95_ms": 0.09425650014236452,
+      "percentile_samples": 48
+    },
+    "main.frame_age_before_decode_ms": {
+      "count": 48,
+      "total_ms": 2871.3498880006373,
+      "mean_ms": 59.81978933334661,
+      "min_ms": 1.4086710000410676,
+      "max_ms": 130.3519440004602,
+      "p50_ms": 58.371944499667734,
+      "p95_ms": 123.87376945000142,
+      "percentile_samples": 48
+    },
+    "main.camera_decode_ms": {
+      "count": 48,
+      "total_ms": 2301.0772789957628,
+      "mean_ms": 47.93910997907839,
+      "min_ms": 33.864184999401914,
+      "max_ms": 159.3651929997577,
+      "p50_ms": 42.80536299938831,
+      "p95_ms": 67.59765234969564,
+      "percentile_samples": 48
+    },
+    "main.preprocess_ms": {
+      "count": 48,
+      "total_ms": 948.5802810022506,
+      "mean_ms": 19.762089187546888,
+      "min_ms": 15.589415000249573,
+      "max_ms": 30.027908000192838,
+      "p50_ms": 19.070156999987375,
+      "p95_ms": 28.051397650506257,
+      "percentile_samples": 48
+    },
+    "main.fpga_arm_forward_ms": {
+      "count": 48,
+      "total_ms": 10358.174858003622,
+      "mean_ms": 215.7953095417421,
+      "min_ms": 203.69234400004643,
+      "max_ms": 394.9615249994167,
+      "p50_ms": 207.88956500018685,
+      "p95_ms": 249.51955549968258,
+      "percentile_samples": 48
+    },
+    "main.cpu_reference_ms": {
+      "count": 5,
+      "total_ms": 1195.5460300005143,
+      "mean_ms": 239.10920600010286,
+      "min_ms": 236.4815439996164,
+      "max_ms": 244.4246770000973,
+      "p50_ms": 237.91289200016763,
+      "p95_ms": 243.48059940020903,
+      "percentile_samples": 5
+    },
+    "main.exact_compare_ms": {
+      "count": 5,
+      "total_ms": 6.825065001066832,
+      "mean_ms": 1.3650130002133665,
+      "min_ms": 0.9915259997796966,
+      "max_ms": 2.199642999585194,
+      "p50_ms": 1.0349720005251584,
+      "p95_ms": 2.080100999774004,
+      "percentile_samples": 5
+    },
+    "main.decode_ms": {
+      "count": 48,
+      "total_ms": 1018.6347859998932,
+      "mean_ms": 21.22155804166444,
+      "min_ms": 18.633728999702726,
+      "max_ms": 36.41513799993845,
+      "p50_ms": 20.86687000019083,
+      "p95_ms": 23.22496584970395,
+      "percentile_samples": 48
+    },
+    "main.draw_ms": {
+      "count": 48,
+      "total_ms": 430.4331289995389,
+      "mean_ms": 8.96735685415706,
+      "min_ms": 5.88492299993959,
+      "max_ms": 20.358239999950456,
+      "p50_ms": 8.880547999979171,
+      "p95_ms": 11.30991015015752,
+      "percentile_samples": 48
+    },
+    "main.jpeg_encode_once_ms": {
+      "count": 48,
+      "total_ms": 1683.0963810061803,
+      "mean_ms": 35.064507937628754,
+      "min_ms": 32.909533000747615,
+      "max_ms": 43.863746999704745,
+      "p50_ms": 34.952160000102594,
+      "p95_ms": 37.477892599872575,
+      "percentile_samples": 48
+    },
+    "main.evidence_snapshot_ms": {
+      "count": 10,
+      "total_ms": 39.89857699980348,
+      "mean_ms": 3.989857699980348,
+      "min_ms": 2.6328430003559333,
+      "max_ms": 5.194153000047663,
+      "p50_ms": 4.208790499887982,
+      "p95_ms": 5.134406950173798,
+      "percentile_samples": 10
+    },
+    "writer.queue_wait_ms": {
+      "count": 10,
+      "total_ms": 66.29976500062185,
+      "mean_ms": 6.629976500062185,
+      "min_ms": 6.068449000849796,
+      "max_ms": 7.480030999431619,
+      "p50_ms": 6.538772499879997,
+      "p95_ms": 7.316757049602529,
+      "percentile_samples": 10
+    },
+    "writer.serialize_ms": {
+      "count": 10,
+      "total_ms": 350.81066399925476,
+      "mean_ms": 35.081066399925476,
+      "min_ms": 28.297279999605962,
+      "max_ms": 55.79114499960269,
+      "p50_ms": 31.309064499964734,
+      "p95_ms": 49.773952449913835,
+      "percentile_samples": 10
+    },
+    "main.display_publish_ms": {
+      "count": 48,
+      "total_ms": 1506.3012049986355,
+      "mean_ms": 31.38127510413824,
+      "min_ms": 21.25713899931725,
+      "max_ms": 151.9477410001855,
+      "p50_ms": 23.004532499726338,
+      "p95_ms": 55.13605234955321,
+      "percentile_samples": 48
+    },
+    "main.read_return_to_display_submit_ms": {
+      "count": 48,
+      "total_ms": 22480.3965730099,
+      "mean_ms": 468.3415952710396,
+      "min_ms": 354.1890340000391,
+      "max_ms": 789.4003440011293,
+      "p50_ms": 445.6295625003986,
+      "p95_ms": 692.6690531004685,
+      "percentile_samples": 48
+    },
+    "main.report_json_ms": {
+      "count": 17,
+      "total_ms": 294.409109001208,
+      "mean_ms": 17.318182882423997,
+      "min_ms": 1.5866399999140413,
+      "max_ms": 36.451267999837,
+      "p50_ms": 17.912860999786062,
+      "p95_ms": 34.802637600114394,
+      "percentile_samples": 17
+    },
+    "main.report_write_close_ms": {
+      "count": 17,
+      "total_ms": 103.59412400248402,
+      "mean_ms": 6.093772000146119,
+      "min_ms": 2.577686999757134,
+      "max_ms": 19.23411700045108,
+      "p50_ms": 4.354092000539822,
+      "p95_ms": 14.054252200730838,
+      "percentile_samples": 17
+    },
+    "main.iteration_wall_ms": {
+      "count": 48,
+      "total_ms": 20105.165295997722,
+      "mean_ms": 418.8576103332859,
+      "min_ms": 342.31924199957575,
+      "max_ms": 790.1424170004248,
+      "p50_ms": 383.32017799984897,
+      "p95_ms": 648.7414283502403,
+      "percentile_samples": 48
+    },
+    "writer.file_write_close_ms": {
+      "count": 10,
+      "total_ms": 416.9785190051698,
+      "mean_ms": 41.69785190051698,
+      "min_ms": 28.313619000982726,
+      "max_ms": 62.91179100117006,
+      "p50_ms": 40.822356999797194,
+      "p95_ms": 56.64351825057564,
+      "percentile_samples": 10
+    },
+    "writer.hash_readback_ms": {
+      "count": 10,
+      "total_ms": 1196.6208629964967,
+      "mean_ms": 119.66208629964967,
+      "min_ms": 99.60097699968173,
+      "max_ms": 169.33156199866062,
+      "p50_ms": 110.40237250063001,
+      "p95_ms": 159.8523223487973,
+      "percentile_samples": 10
+    },
+    "writer.service_ms": {
+      "count": 10,
+      "total_ms": 1995.4893580006683,
+      "mean_ms": 199.54893580006683,
+      "min_ms": 167.06660299951182,
+      "max_ms": 264.0530150001723,
+      "p50_ms": 183.33841850017052,
+      "p95_ms": 262.96538614988094,
+      "percentile_samples": 10
+    },
+    "cleanup.writer_drain_ms": {
+      "count": 1,
+      "total_ms": 49.62414800047554,
+      "mean_ms": 49.62414800047554,
+      "min_ms": 49.62414800047554,
+      "max_ms": 49.62414800047554,
+      "p50_ms": 49.62414800047554,
+      "p95_ms": 49.62414800047554,
+      "percentile_samples": 1
+    },
+    "cleanup.deferred_write_ms": {
+      "count": 1,
+      "total_ms": 0.01150699972640723,
+      "mean_ms": 0.01150699972640723,
+      "min_ms": 0.01150699972640723,
+      "max_ms": 0.01150699972640723,
+      "p50_ms": 0.01150699972640723,
+      "p95_ms": 0.01150699972640723,
+      "percentile_samples": 1
+    }
+  },
+  "loop_seconds": 20.111555360999773,
+  "live_fpga_forward_count": 48,
+  "inference_fps": 2.3866876101030634,
+  "capture_read_returns_per_second": 9.240949907050924,
+  "checked_count": 5,
+  "unchecked_count": 43,
+  "checked_frames_all_bit_exact": true,
+  "cpu_fallback_enabled": false,
+  "capture_worker_stopped": true,
+  "writer_worker_stopped": true,
+  "dma_quiesced": true,
+  "old_hardware_restored": true,
+  "model_identity": {
+    "best.ncnn.param": "3f4cb05109cc65a1563d557ca44b8a6542282acf7bc73c7f9fd570ac8a271b1d",
+    "best.ncnn.bin": "c07c5773535189d23bc0c9c94fc3377bc2e7713982735c7dced85ff8f49daa9f"
+  },
+  "overlay_sha256": {
+    "overlay/rider_monitor_chain_float.bit": "77987ca9b7dd4e926df7c720745a242942f9542f729fa081e2ef36074a182f78",
+    "overlay/rider_monitor_chain_float.hwh": "713425cbfe40189cef4fcb0ea999a6bad636b2acf2f4368df8e1a5c2472aa8ed"
+  },
+  "saved_frames_count": 10,
+  "save_queue_dropped": 0,
+  "browser_render_latency_measured": false,
+  "frames": [
+    {
+      "id": "frame_000001",
+      "timing": {
+        "preprocess_ms": 30.027908000192838,
+        "fpga_arm_forward_ms": 205.94352599982813,
+        "cpu_reference_ms": 244.4246770000973,
+        "decode_ms": 36.41513799993845,
+        "components_ms": {
+          "input_pack_ms": 17.322480000075302,
+          "dma_window_ms": 7.621065000421368,
+          "cache_dma_readback_guard_ms": 9.321925999756786,
+          "owned_pack_and_suffix_ms": 179.2180490001556
+        }
+      },
+      "iteration_wall_ms": 790.1424170004248,
+      "proof": {
+        "cpu_checked": true,
+        "same_frame_cpu_bit_exact": true,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000002",
+      "timing": {
+        "preprocess_ms": 26.574246000564017,
+        "fpga_arm_forward_ms": 220.3612430002977,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 23.001489999842306,
+        "components_ms": {
+          "input_pack_ms": 28.974492000088503,
+          "dma_window_ms": 7.651015000192274,
+          "cache_dma_readback_guard_ms": 9.726653000143415,
+          "owned_pack_and_suffix_ms": 181.57562999931542
+        }
+      },
+      "iteration_wall_ms": 382.0683989997633,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000003",
+      "timing": {
+        "preprocess_ms": 16.522775999874284,
+        "fpga_arm_forward_ms": 208.51743399998668,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.048485999926925,
+        "components_ms": {
+          "input_pack_ms": 17.13526100047602,
+          "dma_window_ms": 7.7148489999672165,
+          "cache_dma_readback_guard_ms": 9.709914000268327,
+          "owned_pack_and_suffix_ms": 181.58339699948556
+        }
+      },
+      "iteration_wall_ms": 360.2111499994862,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000004",
+      "timing": {
+        "preprocess_ms": 19.739790999665274,
+        "fpga_arm_forward_ms": 206.86132300033933,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 23.34529899962945,
+        "components_ms": {
+          "input_pack_ms": 18.53740899969125,
+          "dma_window_ms": 7.791963000272517,
+          "cache_dma_readback_guard_ms": 9.871976000795257,
+          "owned_pack_and_suffix_ms": 178.37113199948362
+        }
+      },
+      "iteration_wall_ms": 387.41323100020963,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000005",
+      "timing": {
+        "preprocess_ms": 17.200191000483755,
+        "fpga_arm_forward_ms": 208.18483000039123,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 18.65744599945174,
+        "components_ms": {
+          "input_pack_ms": 17.290245999902254,
+          "dma_window_ms": 7.710424999459065,
+          "cache_dma_readback_guard_ms": 9.265716999834694,
+          "owned_pack_and_suffix_ms": 181.54369900003076
+        }
+      },
+      "iteration_wall_ms": 342.31924199957575,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000006",
+      "timing": {
+        "preprocess_ms": 19.61240699984046,
+        "fpga_arm_forward_ms": 212.92879399970843,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 19.36336000017036,
+        "components_ms": {
+          "input_pack_ms": 17.707853000501927,
+          "dma_window_ms": 7.768940999994811,
+          "cache_dma_readback_guard_ms": 9.674449000158347,
+          "owned_pack_and_suffix_ms": 185.46425199929217
+        }
+      },
+      "iteration_wall_ms": 357.74511299950973,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000007",
+      "timing": {
+        "preprocess_ms": 17.337740999209927,
+        "fpga_arm_forward_ms": 207.41323699985514,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.86139000039111,
+        "components_ms": {
+          "input_pack_ms": 17.054930000085733,
+          "dma_window_ms": 7.693280000239611,
+          "cache_dma_readback_guard_ms": 9.25278700015042,
+          "owned_pack_and_suffix_ms": 181.02155699943978
+        }
+      },
+      "iteration_wall_ms": 394.6867069998916,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000008",
+      "timing": {
+        "preprocess_ms": 19.004196999958367,
+        "fpga_arm_forward_ms": 224.77872600029514,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.053563999885228,
+        "components_ms": {
+          "input_pack_ms": 18.810886000210303,
+          "dma_window_ms": 7.810228000380448,
+          "cache_dma_readback_guard_ms": 9.705396999379445,
+          "owned_pack_and_suffix_ms": 196.1577660003968
+        }
+      },
+      "iteration_wall_ms": 467.2183929997118,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000009",
+      "timing": {
+        "preprocess_ms": 15.589415000249573,
+        "fpga_arm_forward_ms": 203.69234400004643,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.57087399973534,
+        "components_ms": {
+          "input_pack_ms": 17.773950999981025,
+          "dma_window_ms": 7.719470999290934,
+          "cache_dma_readback_guard_ms": 9.352011999908427,
+          "owned_pack_and_suffix_ms": 176.48350799936452
+        }
+      },
+      "iteration_wall_ms": 347.74730400022236,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000010",
+      "timing": {
+        "preprocess_ms": 18.13313200000266,
+        "fpga_arm_forward_ms": 204.96345199990174,
+        "cpu_reference_ms": 239.704289000656,
+        "decode_ms": 19.554301999960444,
+        "components_ms": {
+          "input_pack_ms": 18.293760000233306,
+          "dma_window_ms": 7.71900400013692,
+          "cache_dma_readback_guard_ms": 9.867716999906406,
+          "owned_pack_and_suffix_ms": 176.72023399973114
+        }
+      },
+      "iteration_wall_ms": 656.7193350001617,
+      "proof": {
+        "cpu_checked": true,
+        "same_frame_cpu_bit_exact": true,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000011",
+      "timing": {
+        "preprocess_ms": 20.247927000127675,
+        "fpga_arm_forward_ms": 213.0469350004205,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.252000000255066,
+        "components_ms": {
+          "input_pack_ms": 22.019186999386875,
+          "dma_window_ms": 7.619913999405981,
+          "cache_dma_readback_guard_ms": 9.96201900034066,
+          "owned_pack_and_suffix_ms": 180.98511900006997
+        }
+      },
+      "iteration_wall_ms": 374.0659189998041,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000012",
+      "timing": {
+        "preprocess_ms": 17.245071000616008,
+        "fpga_arm_forward_ms": 203.73276300051657,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.464849000745744,
+        "components_ms": {
+          "input_pack_ms": 18.160153000280843,
+          "dma_window_ms": 7.762565999655635,
+          "cache_dma_readback_guard_ms": 9.32029599971429,
+          "owned_pack_and_suffix_ms": 176.16750700017292
+        }
+      },
+      "iteration_wall_ms": 356.62417200001073,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000013",
+      "timing": {
+        "preprocess_ms": 20.030454999869107,
+        "fpga_arm_forward_ms": 208.02732199990714,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.75301600052626,
+        "components_ms": {
+          "input_pack_ms": 18.199962999460695,
+          "dma_window_ms": 7.687532000090869,
+          "cache_dma_readback_guard_ms": 9.260000000722357,
+          "owned_pack_and_suffix_ms": 180.48249799994664
+        }
+      },
+      "iteration_wall_ms": 384.5719569999346,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000014",
+      "timing": {
+        "preprocess_ms": 17.21358099985082,
+        "fpga_arm_forward_ms": 210.22688600078254,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.627391000038187,
+        "components_ms": {
+          "input_pack_ms": 18.20027099984145,
+          "dma_window_ms": 7.811783999386535,
+          "cache_dma_readback_guard_ms": 9.373199999572535,
+          "owned_pack_and_suffix_ms": 182.56021500019415
+        }
+      },
+      "iteration_wall_ms": 359.6300669996708,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000015",
+      "timing": {
+        "preprocess_ms": 20.90649799993116,
+        "fpga_arm_forward_ms": 208.74889799961238,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.808074000342458,
+        "components_ms": {
+          "input_pack_ms": 18.5683390000122,
+          "dma_window_ms": 7.653939000192622,
+          "cache_dma_readback_guard_ms": 9.973408999940148,
+          "owned_pack_and_suffix_ms": 180.12307100070757
+        }
+      },
+      "iteration_wall_ms": 372.0182819997717,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000016",
+      "timing": {
+        "preprocess_ms": 17.25652999994054,
+        "fpga_arm_forward_ms": 205.0734949998514,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.4427880000585,
+        "components_ms": {
+          "input_pack_ms": 18.250540999360965,
+          "dma_window_ms": 7.794922999892151,
+          "cache_dma_readback_guard_ms": 9.349612000733032,
+          "owned_pack_and_suffix_ms": 177.390116999959
+        }
+      },
+      "iteration_wall_ms": 415.3940979995241,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000017",
+      "timing": {
+        "preprocess_ms": 19.75862200015399,
+        "fpga_arm_forward_ms": 207.75180800046655,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.988745000067865,
+        "components_ms": {
+          "input_pack_ms": 18.527981999795884,
+          "dma_window_ms": 9.652011999605747,
+          "cache_dma_readback_guard_ms": 12.203279999994265,
+          "owned_pack_and_suffix_ms": 176.9270270006018
+        }
+      },
+      "iteration_wall_ms": 379.40222099950915,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000018",
+      "timing": {
+        "preprocess_ms": 15.799280000464933,
+        "fpga_arm_forward_ms": 211.1059569997451,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 18.633728999702726,
+        "components_ms": {
+          "input_pack_ms": 17.14011700005358,
+          "dma_window_ms": 7.770356000037282,
+          "cache_dma_readback_guard_ms": 9.35458500043751,
+          "owned_pack_and_suffix_ms": 184.5180860000255
+        }
+      },
+      "iteration_wall_ms": 350.8065040005022,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000019",
+      "timing": {
+        "preprocess_ms": 16.976898000393703,
+        "fpga_arm_forward_ms": 205.6177469994509,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.83969200066349,
+        "components_ms": {
+          "input_pack_ms": 16.92559999992227,
+          "dma_window_ms": 7.68814100047166,
+          "cache_dma_readback_guard_ms": 9.290899000006902,
+          "owned_pack_and_suffix_ms": 179.318892000083
+        }
+      },
+      "iteration_wall_ms": 373.0745900002148,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000020",
+      "timing": {
+        "preprocess_ms": 16.583268000431417,
+        "fpga_arm_forward_ms": 204.15976000003866,
+        "cpu_reference_ms": 236.4815439996164,
+        "decode_ms": 22.24628899966774,
+        "components_ms": {
+          "input_pack_ms": 17.38727999963885,
+          "dma_window_ms": 8.10392600033083,
+          "cache_dma_readback_guard_ms": 9.672166000200377,
+          "owned_pack_and_suffix_ms": 177.0213039999362
+        }
+      },
+      "iteration_wall_ms": 632.6741039993067,
+      "proof": {
+        "cpu_checked": true,
+        "same_frame_cpu_bit_exact": true,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000021",
+      "timing": {
+        "preprocess_ms": 25.921310999365232,
+        "fpga_arm_forward_ms": 239.12534699957178,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.022105000156444,
+        "components_ms": {
+          "input_pack_ms": 30.160584000441304,
+          "dma_window_ms": 8.16302800012636,
+          "cache_dma_readback_guard_ms": 10.010627999690769,
+          "owned_pack_and_suffix_ms": 198.86685500023304
+        }
+      },
+      "iteration_wall_ms": 415.80558700024994,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000022",
+      "timing": {
+        "preprocess_ms": 24.22063399990293,
+        "fpga_arm_forward_ms": 394.9615249994167,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.75721799974417,
+        "components_ms": {
+          "input_pack_ms": 20.491192999543273,
+          "dma_window_ms": 7.6122400005260715,
+          "cache_dma_readback_guard_ms": 9.415699000783206,
+          "owned_pack_and_suffix_ms": 364.9662019997777
+        }
+      },
+      "iteration_wall_ms": 553.4302510004636,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000023",
+      "timing": {
+        "preprocess_ms": 17.59148900055152,
+        "fpga_arm_forward_ms": 207.34001199980412,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.68550099920685,
+        "components_ms": {
+          "input_pack_ms": 17.241452000234858,
+          "dma_window_ms": 7.769132999783324,
+          "cache_dma_readback_guard_ms": 9.354996999718423,
+          "owned_pack_and_suffix_ms": 180.66045500017935
+        }
+      },
+      "iteration_wall_ms": 349.06391899949085,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000024",
+      "timing": {
+        "preprocess_ms": 19.459488999928,
+        "fpga_arm_forward_ms": 206.43038700018224,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 22.43161800015514,
+        "components_ms": {
+          "input_pack_ms": 17.055070999958843,
+          "dma_window_ms": 7.667679999940447,
+          "cache_dma_readback_guard_ms": 9.318522999819834,
+          "owned_pack_and_suffix_ms": 179.97431399999186
+        }
+      },
+      "iteration_wall_ms": 384.6387990006406,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000025",
+      "timing": {
+        "preprocess_ms": 18.43512599953101,
+        "fpga_arm_forward_ms": 209.92727300017577,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.563575000072888,
+        "components_ms": {
+          "input_pack_ms": 18.600085999423754,
+          "dma_window_ms": 7.78833799995482,
+          "cache_dma_readback_guard_ms": 9.364325999740686,
+          "owned_pack_and_suffix_ms": 181.88207399998646
+        }
+      },
+      "iteration_wall_ms": 399.2878090002705,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000026",
+      "timing": {
+        "preprocess_ms": 28.84678700047516,
+        "fpga_arm_forward_ms": 221.71993800020573,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 19.773291999626963,
+        "components_ms": {
+          "input_pack_ms": 19.0753480001149,
+          "dma_window_ms": 7.6748680003220215,
+          "cache_dma_readback_guard_ms": 9.988978000365023,
+          "owned_pack_and_suffix_ms": 192.57028899937723
+        }
+      },
+      "iteration_wall_ms": 403.74710699961724,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000027",
+      "timing": {
+        "preprocess_ms": 16.209063999667706,
+        "fpga_arm_forward_ms": 205.14873800038913,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 19.270652000159316,
+        "components_ms": {
+          "input_pack_ms": 17.0600369992826,
+          "dma_window_ms": 7.826880000720848,
+          "cache_dma_readback_guard_ms": 9.570344000167097,
+          "owned_pack_and_suffix_ms": 178.43354500018904
+        }
+      },
+      "iteration_wall_ms": 375.5617839997285,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000028",
+      "timing": {
+        "preprocess_ms": 18.828683000720048,
+        "fpga_arm_forward_ms": 204.9865420003698,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 22.33152600001631,
+        "components_ms": {
+          "input_pack_ms": 18.04723700024624,
+          "dma_window_ms": 7.62321799993515,
+          "cache_dma_readback_guard_ms": 9.714431000247714,
+          "owned_pack_and_suffix_ms": 177.14157499995054
+        }
+      },
+      "iteration_wall_ms": 354.9580730004891,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000029",
+      "timing": {
+        "preprocess_ms": 16.926837000028172,
+        "fpga_arm_forward_ms": 274.8501969999779,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.04410999982065,
+        "components_ms": {
+          "input_pack_ms": 18.971661000250606,
+          "dma_window_ms": 7.688023999435245,
+          "cache_dma_readback_guard_ms": 9.233058999598143,
+          "owned_pack_and_suffix_ms": 246.56559899995045
+        }
+      },
+      "iteration_wall_ms": 429.55233799966663,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000030",
+      "timing": {
+        "preprocess_ms": 16.359655000087514,
+        "fpga_arm_forward_ms": 207.74955700017017,
+        "cpu_reference_ms": 237.91289200016763,
+        "decode_ms": 21.42636299959122,
+        "components_ms": {
+          "input_pack_ms": 18.627120000019204,
+          "dma_window_ms": 7.816110999556258,
+          "cache_dma_readback_guard_ms": 9.379649999573303,
+          "owned_pack_and_suffix_ms": 179.6576790002291
+        }
+      },
+      "iteration_wall_ms": 678.6386390003827,
+      "proof": {
+        "cpu_checked": true,
+        "same_frame_cpu_bit_exact": true,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000031",
+      "timing": {
+        "preprocess_ms": 23.69559399994614,
+        "fpga_arm_forward_ms": 208.44815899999958,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.519667999200465,
+        "components_ms": {
+          "input_pack_ms": 17.91599399984989,
+          "dma_window_ms": 7.783285999721556,
+          "cache_dma_readback_guard_ms": 9.835986999860324,
+          "owned_pack_and_suffix_ms": 180.6170709996877
+        }
+      },
+      "iteration_wall_ms": 372.0316239996464,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000032",
+      "timing": {
+        "preprocess_ms": 20.516720000159694,
+        "fpga_arm_forward_ms": 209.62064000013925,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 22.04825799981336,
+        "components_ms": {
+          "input_pack_ms": 20.614369999748305,
+          "dma_window_ms": 7.778480000524723,
+          "cache_dma_readback_guard_ms": 9.362886000417348,
+          "owned_pack_and_suffix_ms": 179.5602329993926
+        }
+      },
+      "iteration_wall_ms": 371.2662949992591,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000033",
+      "timing": {
+        "preprocess_ms": 19.931427000301483,
+        "fpga_arm_forward_ms": 206.57743400079198,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.577526000124635,
+        "components_ms": {
+          "input_pack_ms": 17.09433199994237,
+          "dma_window_ms": 7.635736000338511,
+          "cache_dma_readback_guard_ms": 9.533864999866637,
+          "owned_pack_and_suffix_ms": 179.86054699940723
+        }
+      },
+      "iteration_wall_ms": 393.7749770002483,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000034",
+      "timing": {
+        "preprocess_ms": 21.858160000192584,
+        "fpga_arm_forward_ms": 204.60213500064128,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.741145000101824,
+        "components_ms": {
+          "input_pack_ms": 18.28698500048631,
+          "dma_window_ms": 8.034258000407135,
+          "cache_dma_readback_guard_ms": 9.587667000232614,
+          "owned_pack_and_suffix_ms": 176.64675099968008
+        }
+      },
+      "iteration_wall_ms": 357.84173400043073,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000035",
+      "timing": {
+        "preprocess_ms": 17.07891100068082,
+        "fpga_arm_forward_ms": 204.8100179999892,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.26428300016414,
+        "components_ms": {
+          "input_pack_ms": 17.911439999807044,
+          "dma_window_ms": 7.65633799983334,
+          "cache_dma_readback_guard_ms": 9.225888999935705,
+          "owned_pack_and_suffix_ms": 177.59109500002523
+        }
+      },
+      "iteration_wall_ms": 355.59748299965577,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000036",
+      "timing": {
+        "preprocess_ms": 20.19298399955005,
+        "fpga_arm_forward_ms": 204.54184600021108,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.67003100000875,
+        "components_ms": {
+          "input_pack_ms": 18.624289000399585,
+          "dma_window_ms": 7.697107999774744,
+          "cache_dma_readback_guard_ms": 9.248978999494284,
+          "owned_pack_and_suffix_ms": 176.58726700028637
+        }
+      },
+      "iteration_wall_ms": 428.0322519998663,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000037",
+      "timing": {
+        "preprocess_ms": 29.492917000425223,
+        "fpga_arm_forward_ms": 228.7090950003403,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 23.579618999974628,
+        "components_ms": {
+          "input_pack_ms": 22.02134799972555,
+          "dma_window_ms": 7.826080000086222,
+          "cache_dma_readback_guard_ms": 9.479070999987016,
+          "owned_pack_and_suffix_ms": 197.1303500004069
+        }
+      },
+      "iteration_wall_ms": 511.82359300037206,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000038",
+      "timing": {
+        "preprocess_ms": 19.0630710003461,
+        "fpga_arm_forward_ms": 206.6240980002476,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 19.253858999945805,
+        "components_ms": {
+          "input_pack_ms": 17.54044300014357,
+          "dma_window_ms": 7.718202999967616,
+          "cache_dma_readback_guard_ms": 9.2921479999859,
+          "owned_pack_and_suffix_ms": 179.70656599936774
+        }
+      },
+      "iteration_wall_ms": 352.9701600000408,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000039",
+      "timing": {
+        "preprocess_ms": 20.146363000094425,
+        "fpga_arm_forward_ms": 206.36312600072415,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.00532300028135,
+        "components_ms": {
+          "input_pack_ms": 17.03976600038004,
+          "dma_window_ms": 7.71764900036942,
+          "cache_dma_readback_guard_ms": 9.289034000175889,
+          "owned_pack_and_suffix_ms": 179.94966100013698
+        }
+      },
+      "iteration_wall_ms": 390.3024920000462,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000040",
+      "timing": {
+        "preprocess_ms": 20.616799999515933,
+        "fpga_arm_forward_ms": 203.89505200000713,
+        "cpu_reference_ms": 237.02262799997698,
+        "decode_ms": 20.663920000515645,
+        "components_ms": {
+          "input_pack_ms": 18.926806000308716,
+          "dma_window_ms": 7.755926000754698,
+          "cache_dma_readback_guard_ms": 9.305999999924097,
+          "owned_pack_and_suffix_ms": 175.58236300010321
+        }
+      },
+      "iteration_wall_ms": 633.9253160003864,
+      "proof": {
+        "cpu_checked": true,
+        "same_frame_cpu_bit_exact": true,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000041",
+      "timing": {
+        "preprocess_ms": 17.49066499996843,
+        "fpga_arm_forward_ms": 255.1164369997423,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 19.964965999861306,
+        "components_ms": {
+          "input_pack_ms": 17.83721899937518,
+          "dma_window_ms": 7.848098999602371,
+          "cache_dma_readback_guard_ms": 9.829624000303738,
+          "owned_pack_and_suffix_ms": 227.3629780002011
+        }
+      },
+      "iteration_wall_ms": 432.06462699981785,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000042",
+      "timing": {
+        "preprocess_ms": 19.077242999628652,
+        "fpga_arm_forward_ms": 209.8575019999771,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.872349999990547,
+        "components_ms": {
+          "input_pack_ms": 19.668141999318323,
+          "dma_window_ms": 7.694732000345539,
+          "cache_dma_readback_guard_ms": 9.242449000339548,
+          "owned_pack_and_suffix_ms": 180.86360599954787
+        }
+      },
+      "iteration_wall_ms": 359.1525720003119,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000043",
+      "timing": {
+        "preprocess_ms": 16.748136000387603,
+        "fpga_arm_forward_ms": 209.13318099974276,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.37408000069263,
+        "components_ms": {
+          "input_pack_ms": 17.225851999683073,
+          "dma_window_ms": 7.728474000032293,
+          "cache_dma_readback_guard_ms": 9.558560000186844,
+          "owned_pack_and_suffix_ms": 182.24977199952264
+        }
+      },
+      "iteration_wall_ms": 351.5392489998703,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000044",
+      "timing": {
+        "preprocess_ms": 19.883064000168815,
+        "fpga_arm_forward_ms": 209.52607300023374,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.667740999873786,
+        "components_ms": {
+          "input_pack_ms": 19.553348000044934,
+          "dma_window_ms": 7.692252000197186,
+          "cache_dma_readback_guard_ms": 9.974565999982588,
+          "owned_pack_and_suffix_ms": 179.9155199996676
+        }
+      },
+      "iteration_wall_ms": 421.31341399999656,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000045",
+      "timing": {
+        "preprocess_ms": 17.047088999788684,
+        "fpga_arm_forward_ms": 204.6317779995661,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 21.851488999345747,
+        "components_ms": {
+          "input_pack_ms": 17.657057999713288,
+          "dma_window_ms": 7.735488999969675,
+          "cache_dma_readback_guard_ms": 9.298850000050152,
+          "owned_pack_and_suffix_ms": 177.59167300027912
+        }
+      },
+      "iteration_wall_ms": 352.0768299995325,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000046",
+      "timing": {
+        "preprocess_ms": 22.429919999922276,
+        "fpga_arm_forward_ms": 204.59228799973062,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 20.23617800023203,
+        "components_ms": {
+          "input_pack_ms": 18.333753999286273,
+          "dma_window_ms": 7.645359999514767,
+          "cache_dma_readback_guard_ms": 9.855710000010731,
+          "owned_pack_and_suffix_ms": 176.31859700031782
+        }
+      },
+      "iteration_wall_ms": 399.3067069995959,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000047",
+      "timing": {
+        "preprocess_ms": 20.072835999599192,
+        "fpga_arm_forward_ms": 218.3627759995943,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 19.950031000007584,
+        "components_ms": {
+          "input_pack_ms": 17.192240000440506,
+          "dma_window_ms": 7.743150999885984,
+          "cache_dma_readback_guard_ms": 9.779150999747799,
+          "owned_pack_and_suffix_ms": 191.31470100001025
+        }
+      },
+      "iteration_wall_ms": 436.9216300001426,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    },
+    {
+      "id": "frame_000048",
+      "timing": {
+        "preprocess_ms": 18.679371999496652,
+        "fpga_arm_forward_ms": 209.38722400023835,
+        "cpu_reference_ms": 0.0,
+        "decode_ms": 19.16043700020964,
+        "components_ms": {
+          "input_pack_ms": 18.08874400012428,
+          "dma_window_ms": 7.69068900081038,
+          "cache_dma_readback_guard_ms": 9.268259000236867,
+          "owned_pack_and_suffix_ms": 181.9477230001212
+        }
+      },
+      "iteration_wall_ms": 356.00683000029676,
+      "proof": {
+        "cpu_checked": false,
+        "same_frame_cpu_bit_exact": null,
+        "fpga_forward_completed": true,
+        "dma_registers_after_completed_forward": {
+          "0x0": "0x10003",
+          "0x4": "0x1002",
+          "0x18": "0x15880000",
+          "0x28": "0x24c00",
+          "0x30": "0x10003",
+          "0x34": "0x1002",
+          "0x48": "0x15900000",
+          "0x58": "0x62000"
+        }
+      }
+    }
+  ]
+}

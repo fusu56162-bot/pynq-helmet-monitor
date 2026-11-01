@@ -1,0 +1,17 @@
+{
+  "evidence_id": "b_arm",
+  "source_repository_relative_path": "fpga_work/review_B_native_20261026/board_results/20250505_120451_96b894c5/AUDIT.json",
+  "original_source_sha256": "a9681965e75bb769ea542585645c67f6f691ac951f5a32d470b4e21cc4850a41",
+  "extraction": "Selected original fields; not the complete original file.",
+  "observed": {
+    "status": "ACTUAL_ARM_BUILD_AND_PACKED_NUMERICS_AUDITED_FPGA_SPEED_PENDING",
+    "groups": 6,
+    "raw_arrays": 54,
+    "bit_exact": true,
+    "FPGA_board_performance_measured": false,
+    "deployment_accepted": false,
+    "old_17_tests_invalidated": false,
+    "source_zip_sha256": "d5331ee7ded7d27cdcd54585fab77122c092f1eed8c62e0e7c876aa3743da165"
+  },
+  "new_board_execution": false
+}

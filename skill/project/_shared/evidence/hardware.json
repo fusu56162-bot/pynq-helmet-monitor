@@ -1,0 +1,19 @@
+{
+  "evidence_id": "hardware",
+  "source_repository_relative_path": "fpga_work/final224_chain_v1/hardware/validation/HARDWARE_VERIFIED.json",
+  "original_source_sha256": "b2c54ffe1fb2e9ec5980c80d00c62f4f6e47b13932c8e8ed41ed81a28ada34e6",
+  "extraction": "Selected original fields; not the complete original file.",
+  "observed": {
+    "status": "ROUTED_BITSTREAM_OFFLINE_VERIFIED_NOT_BOARD_TESTED",
+    "clock_mhz": 100,
+    "wns_ns": 0.949,
+    "whs_ns": 0.015,
+    "wpws_ns": 3.75,
+    "board_tested": false,
+    "whole_model_integrated": false,
+    "whole_model_speedup_proven": false,
+    "free_dsp": 42.0,
+    "dsp_percent": 80.9090909090909
+  },
+  "new_board_execution": false
+}

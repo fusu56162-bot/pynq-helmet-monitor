@@ -1,0 +1,15 @@
+{
+  "evidence_id": "pointwise",
+  "source_repository_relative_path": "fpga_work/pointwise_v1/validation/board_20250504_224348_9cf3e658/RESULT.json",
+  "original_source_sha256": "5a2fd3f243718b293197f27c136f18cdc158c5147c97a457b8f18cb191e463ce",
+  "extraction": "Selected original fields; not the complete original file.",
+  "observed": {
+    "status": "ARM_REFERENCE_PASS_NOT_HARDWARE_ACCEPTANCE",
+    "camera_accessed": false,
+    "fpga_accessed": false,
+    "whole_network_speedup_proven": false,
+    "hardware_accepted": false,
+    "scope": "Actual ARM reference for 1x1 conv_2/conv_5, not a camera FPS benchmark"
+  },
+  "new_board_execution": false
+}

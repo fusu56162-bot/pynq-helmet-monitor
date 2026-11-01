@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ 摄像头流水线"
+  short_description: "诊断MJPG取帧、解码、单画面显示和后台存储之间的流水与缓冲问题"
+  default_prompt: "使用 $pynq-camera-pipeline，检查当前摄像头取帧、推理、显示和保存流程。"

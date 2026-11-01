@@ -1,0 +1,8 @@
+{
+  "evidence_id": "vivado_reports",
+  "source_files": {
+    "04_validation/hardware_utilization.rpt": "25af754874b7a1a2aeaadcd5cec8bd12625046a43e03fd277495da2b899e0918",
+    "04_validation/hardware_timing.rpt": "00062fa40cc0cc97df752de31d3fb1ae049cb7e00cefe4e42b9d0c9d0103cdbb"
+  },
+  "scope": "Original routed design reports; fixture files are verbatim copies; no new Vivado build."
+}

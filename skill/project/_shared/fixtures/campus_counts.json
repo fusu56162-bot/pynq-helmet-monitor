@@ -1,0 +1,25 @@
+{
+  "scope": "Repeatedly inspected campus development set, not blind test",
+  "matching_rule": "Fixed thresholds, per-class IoU 0.5; use original audit for assignment details",
+  "classes": {
+    "ebike": {
+      "tp": 9,
+      "fp": 2,
+      "fn": 0
+    },
+    "rider": {
+      "tp": 7,
+      "fp": 2,
+      "fn": 1
+    },
+    "bare_head": {
+      "tp": 2,
+      "fp": 2,
+      "fn": 5
+    }
+  },
+  "empty_scenes": {
+    "images": 14,
+    "included_in_object_recall_denominator": false
+  }
+}

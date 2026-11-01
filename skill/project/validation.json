@@ -1,0 +1,450 @@
+{
+  "status": "OFFLINE_PACKAGE_VALIDATION_PASS",
+  "project_skills": 26,
+  "generic_skills": 6,
+  "skills": [
+    {
+      "id": "helmet-project-contract",
+      "path": "project/helmet-project-contract",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-release-rollback",
+      "path": "project/helmet-release-rollback",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-label-intake",
+      "path": "project/helmet-label-intake",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-train224-rounds",
+      "path": "project/helmet-train224-rounds",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-export-ncnn-compat",
+      "path": "project/helmet-export-ncnn-compat",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-mixed-precision-migrate",
+      "path": "project/helmet-mixed-precision-migrate",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-arm-cutpoint-reference",
+      "path": "project/helmet-arm-cutpoint-reference",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-activation-rom",
+      "path": "project/helmet-activation-rom",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-overlay-startup",
+      "path": "project/helmet-overlay-startup",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-cpu-fpga-parity",
+      "path": "project/helmet-cpu-fpga-parity",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-pointwise-mac",
+      "path": "project/helmet-pointwise-mac",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-spatial-streaming",
+      "path": "project/helmet-spatial-streaming",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-two-layer-fusion",
+      "path": "project/helmet-two-layer-fusion",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-native-layer-scheduling",
+      "path": "project/helmet-native-layer-scheduling",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-arm-suffix-pack4",
+      "path": "project/helmet-arm-suffix-pack4",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-mjpg-latest-frame",
+      "path": "project/helmet-mjpg-latest-frame",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-async-evidence",
+      "path": "project/helmet-async-evidence",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-single-view-jpeg",
+      "path": "project/helmet-single-view-jpeg",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-preview-regression",
+      "path": "project/helmet-preview-regression",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-timing-ab-analysis",
+      "path": "project/helmet-timing-ab-analysis",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-accuracy-evidence",
+      "path": "project/helmet-accuracy-evidence",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-field-demo",
+      "path": "project/helmet-field-demo",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-team-handoff",
+      "path": "project/helmet-team-handoff",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-vivado-evidence",
+      "path": "project/helmet-vivado-evidence",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-report-figures",
+      "path": "project/helmet-report-figures",
+      "structure_validated": true
+    },
+    {
+      "id": "helmet-source-reproducibility",
+      "path": "project/helmet-source-reproducibility",
+      "structure_validated": true
+    },
+    {
+      "id": "pynq-board-lab",
+      "path": "general/pynq-board-lab",
+      "structure_validated": true
+    },
+    {
+      "id": "pynq-overlay-dma",
+      "path": "general/pynq-overlay-dma",
+      "structure_validated": true
+    },
+    {
+      "id": "pynq-model-parity",
+      "path": "general/pynq-model-parity",
+      "structure_validated": true
+    },
+    {
+      "id": "pynq-camera-pipeline",
+      "path": "general/pynq-camera-pipeline",
+      "structure_validated": true
+    },
+    {
+      "id": "pynq-performance",
+      "path": "general/pynq-performance",
+      "structure_validated": true
+    },
+    {
+      "id": "pynq-conv-acceleration",
+      "path": "general/pynq-conv-acceleration",
+      "structure_validated": true
+    }
+  ],
+  "behavior_tests": {
+    "status": "OFFLINE_TOOL_CHECKS_PASS",
+    "checks_passed": 34,
+    "checks": [
+      "historical_cpu_fpga_pair_exact",
+      "real_48_frames_fps",
+      "real_nested_suffix",
+      "sparse_cpu_check_amortized",
+      "frame_age_not_summed_as_work",
+      "missing_cleanup_stays_unknown",
+      "empty_scenes_not_object_denominator",
+      "no_positive_recall_is_unknown",
+      "real_resource_DSP178",
+      "real_resource_bram30p5",
+      "real_slacks_and_failing_endpoints",
+      "inventory_meminfo_units",
+      "manifest_good",
+      "manifest_tamper_detected",
+      "manifest_missing_detected",
+      "manifest_traversal_refused",
+      "signed_zero_exact_rejected",
+      "explicit_zero_numeric_tolerance",
+      "matching_nan_refused",
+      "dtype_mismatch_refused",
+      "shape_mismatch_refused",
+      "implicit_tolerance_refused",
+      "missing_label_not_automatic_empty",
+      "explicit_confirmed_empty_allowed",
+      "wrong_class_id_rejected",
+      "out_of_image_box_rejected",
+      "nonfinite_label_rejected",
+      "three_classes_same_frame_indexed",
+      "finding_does_not_modify_image",
+      "missing_bare_head_not_fabricated",
+      "manual_truth_is_not_prediction",
+      "bad_Nx6_shape_not_reshaped",
+      "zip_prediction_indexed_without_extract",
+      "missing_timing_not_pass"
+    ],
+    "board_contacted": false,
+    "camera_started": false,
+    "PL_programmed": false,
+    "scope": "Archived values and synthetic negative fixtures; no cross-team transfer or new board test."
+  },
+  "release_identity_check": {
+    "status": "FILES_VERIFIED",
+    "root": "D:\\Codex\\submission_20261028\\source\\骑行头盔检测_提交源码",
+    "manifest": "inline_mapping",
+    "verified_files": 4,
+    "listed_files": 4,
+    "problems": [],
+    "hardware_accessed": false,
+    "scope": "Four pinned new-model/bit/HWH files only; no board or full-package acceptance.",
+    "profile_id": "helmet-final224-178dsp-single-view"
+  },
+  "errors": [],
+  "board_contacted": false,
+  "camera_started": false,
+  "new_training_started": false,
+  "cross_team_transfer_test_performed": false,
+  "scope": "Metadata/templates/scripts and archived evidence only; historical board results are separately cited.",
+  "integration_20261031": {
+    "structure": [
+      {
+        "id": "helmet-project-contract",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-release-rollback",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-label-intake",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-train224-rounds",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-export-ncnn-compat",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-mixed-precision-migrate",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-arm-cutpoint-reference",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-activation-rom",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-overlay-startup",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-cpu-fpga-parity",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-pointwise-mac",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-spatial-streaming",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-two-layer-fusion",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-native-layer-scheduling",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-arm-suffix-pack4",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-mjpg-latest-frame",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-async-evidence",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-single-view-jpeg",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-preview-regression",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-timing-ab-analysis",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-accuracy-evidence",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-field-demo",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-team-handoff",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-vivado-evidence",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-report-figures",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "helmet-source-reproducibility",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "pynq-board-lab",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "pynq-overlay-dma",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "pynq-model-parity",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "pynq-camera-pipeline",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "pynq-performance",
+        "structure_pass": true,
+        "rubric_pass": true
+      },
+      {
+        "id": "pynq-conv-acceleration",
+        "structure_pass": true,
+        "rubric_pass": true
+      }
+    ],
+    "behavior_checks": {
+      "status": "OFFLINE_TOOL_CHECKS_PASS",
+      "checks_passed": 34,
+      "checks": [
+        "historical_cpu_fpga_pair_exact",
+        "real_48_frames_fps",
+        "real_nested_suffix",
+        "sparse_cpu_check_amortized",
+        "frame_age_not_summed_as_work",
+        "missing_cleanup_stays_unknown",
+        "empty_scenes_not_object_denominator",
+        "no_positive_recall_is_unknown",
+        "real_resource_DSP178",
+        "real_resource_bram30p5",
+        "real_slacks_and_failing_endpoints",
+        "inventory_meminfo_units",
+        "manifest_good",
+        "manifest_tamper_detected",
+        "manifest_missing_detected",
+        "manifest_traversal_refused",
+        "signed_zero_exact_rejected",
+        "explicit_zero_numeric_tolerance",
+        "matching_nan_refused",
+        "dtype_mismatch_refused",
+        "shape_mismatch_refused",
+        "implicit_tolerance_refused",
+        "missing_label_not_automatic_empty",
+        "explicit_confirmed_empty_allowed",
+        "wrong_class_id_rejected",
+        "out_of_image_box_rejected",
+        "nonfinite_label_rejected",
+        "three_classes_same_frame_indexed",
+        "finding_does_not_modify_image",
+        "missing_bare_head_not_fabricated",
+        "manual_truth_is_not_prediction",
+        "bad_Nx6_shape_not_reshaped",
+        "zip_prediction_indexed_without_extract",
+        "missing_timing_not_pass"
+      ],
+      "board_contacted": false,
+      "camera_started": false,
+      "PL_programmed": false,
+      "scope": "Archived values and synthetic negative fixtures; no cross-team transfer or new board test."
+    },
+    "current_repository_artifacts": {
+      "status": "FILES_VERIFIED",
+      "root": "D:\\Codex\\output\\helmet_github_20261031\\pynq_helmet_monitor",
+      "manifest": "inline_mapping",
+      "verified_files": 4,
+      "listed_files": 4,
+      "problems": [],
+      "hardware_accessed": false,
+      "scope": "Four pinned new-model/bit/HWH files only; no board or full-package acceptance.",
+      "profile_id": "helmet-final224-178dsp-single-view"
+    },
+    "internal_links_checked": 396,
+    "board_accessed": false,
+    "skill_count": 32
+  }
+}

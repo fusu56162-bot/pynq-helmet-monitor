@@ -1,0 +1,16 @@
+{
+  "evidence_id": "mac_tile",
+  "source_repository_relative_path": "fpga_work/parallel_mac_plan_v1/board_results/20250505_035833_ebcab34c/RESULT.json",
+  "original_source_sha256": "9ba7af000d15acb091eed73f71009c548c8086d653ce246e50322bcb11c311b8",
+  "extraction": "Selected original fields; not the complete original file.",
+  "observed": {
+    "status": "STANDALONE_INTEGER_TILE_BOARD_PASS_NOT_NETWORK_SPEED_ACCEPTANCE",
+    "whole_model_run": false,
+    "swish_run": false,
+    "timing_scope": "Prepared packed tile buffers -> HLS integer tile -> cache invalidated output; includes poisoning/cache/MMIO dispatch/poll, excludes Python input packing, model activation and inter-layer scheduling; NOT YOLO forward or camera FPS",
+    "old_hardware_restored": true,
+    "master_idle": true,
+    "fclk0_mhz": 100.0
+  },
+  "new_board_execution": false
+}

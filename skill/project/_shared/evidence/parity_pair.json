@@ -1,0 +1,12 @@
+{
+  "evidence_id": "parity_pair",
+  "source_files": {
+    "cpu": "submission_20261028/source/骑行头盔检测_提交源码/01_board_verified/traffic_project/final224_speed_v1/profiles/new/previous_arm/case_01.npy",
+    "fpga": "fpga_work/final224_chain_v1/camera_results/20250505_035328_029145c7/returned/profiles/new/results/fpga_MJPG_raw_sampled_20250505_035211_fd39e679/case_01_fpga_raw.npy"
+  },
+  "observed": {
+    "sha256": "6e478491a1693dddbeedeb41350332df500d45af0ff140f4c7266b2d52d2f5d1",
+    "historical_raw_pair_same_bytes": true
+  },
+  "new_board_execution": false
+}

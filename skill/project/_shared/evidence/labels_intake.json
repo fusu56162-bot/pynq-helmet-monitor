@@ -1,0 +1,34 @@
+{
+  "evidence_id": "labels_intake",
+  "source_repository_relative_path": "fpga_work/joint_model_training_v1/round2_field_final_20261025/SELECTION_AUDIT.json",
+  "original_source_sha256": "96dfad1a2c52d62ecaf305344d41090f5bc6bf1dad943a13235e1a91b293e284",
+  "extraction": "Selected original fields; not the complete original file.",
+  "observed": {
+    "status": "FIELD_SELECTION_PREPARED_NEGATIVE_VISUAL_REVIEW_PENDING_NOT_TRAINING",
+    "stats": {
+      "train": 65,
+      "train_labeled": 52,
+      "train_empty": 13,
+      "val": 23,
+      "val_empty": 14,
+      "val_labeled": 9
+    },
+    "selected_frames": 88,
+    "box_counts": {
+      "0": 61,
+      "1": 60,
+      "3": 45
+    },
+    "original_label_files_retained": 61,
+    "user_explicitly_excluded_labeled_frames": 13,
+    "supplied_empties": 28,
+    "candidate_empties": 27,
+    "one_edge_wheel_candidate_excluded": true,
+    "other_missing_unconfirmed_frames_not_used": 20,
+    "user_files_deleted_or_modified": false,
+    "training_started": false,
+    "fixed_session_split_preserved": true,
+    "independent_field_test_available": false
+  },
+  "new_board_execution": false
+}

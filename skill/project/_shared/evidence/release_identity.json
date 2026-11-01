@@ -1,0 +1,14 @@
+{
+  "evidence_id": "release_identity",
+  "source": "Original staged verified release files",
+  "observed": {
+    "sha256": {
+      "01_board_verified/traffic_project/final224_speed_v1/profiles/new/model/best.ncnn.param": "3f4cb05109cc65a1563d557ca44b8a6542282acf7bc73c7f9fd570ac8a271b1d",
+      "01_board_verified/traffic_project/final224_speed_v1/profiles/new/model/best.ncnn.bin": "c07c5773535189d23bc0c9c94fc3377bc2e7713982735c7dced85ff8f49daa9f",
+      "01_board_verified/traffic_project/final224_speed_v1/profiles/new/overlay/rider_monitor_chain_float.bit": "77987ca9b7dd4e926df7c720745a242942f9542f729fa081e2ef36074a182f78",
+      "01_board_verified/traffic_project/final224_speed_v1/profiles/new/overlay/rider_monitor_chain_float.hwh": "713425cbfe40189cef4fcb0ea999a6bad636b2acf2f4368df8e1a5c2472aa8ed"
+    },
+    "four_files_rehashed": true
+  },
+  "new_board_execution": false
+}

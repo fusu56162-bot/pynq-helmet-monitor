@@ -1,0 +1,1239 @@
+{
+  "evidence_id": "mjpg",
+  "source_repository_relative_path": "fpga_work/camera_mjpg_v2/validation/board_20250504_172029/AUDIT.json",
+  "original_source_sha256": "03e19f2172b07ada2c757448b224d075d32613e4a5bd700d3e0a78831d362259",
+  "extraction": "Selected original fields; not the complete original file.",
+  "observed": {
+    "status": "REAL_RETURNED_PAYLOAD_AND_SAVED_NUMERICS_AUDITED_NOT_FULL_SYSTEM_ACCEPTANCE",
+    "payload_hashes_verified": 172,
+    "counters": {
+      "frozen_full_arrays": 24,
+      "frozen_boundary_arrays": 24,
+      "checked_live_pairs": 10,
+      "unchecked_saved_raw": 5,
+      "saved_live_inputs_recomputed": 15,
+      "saved_live_boxes_redecoded": 15,
+      "decoded_jpegs": 34,
+      "capture_sample_pairs": 8,
+      "live_dma_samples": 97
+    },
+    "modes": [
+      {
+        "kind": "capture_probe",
+        "format": "YUYV",
+        "status": "CAPTURE_PROBE_COMPLETE_NOT_DETECTION_ACCEPTANCE",
+        "requested_fps": 15,
+        "metrics": {
+          "capture.read_api_ms": {
+            "count": 94,
+            "total_ms": 7569.023583001581,
+            "mean_ms": 80.52152747874023,
+            "min_ms": 6.356288999995741,
+            "max_ms": 127.2236430004341,
+            "p50_ms": 60.98103100021035,
+            "p95_ms": 127.16088650026904,
+            "percentile_samples": 94
+          },
+          "capture.payload_copy_ms": {
+            "count": 94,
+            "total_ms": 370.95658399994136,
+            "mean_ms": 3.9463466382972485,
+            "min_ms": 3.6273050000090734,
+            "max_ms": 14.643692999925406,
+            "p50_ms": 3.8396365002881794,
+            "p95_ms": 4.053013049951915,
+            "percentile_samples": 94
+          }
+        },
+        "camera": {
+          "requested_format": "YUYV",
+          "requested_fps": 15,
+          "set_returned": {
+            "FRAME_WIDTH": true,
+            "FRAME_HEIGHT": true,
+            "FOURCC": true,
+            "FPS": true,
+            "BUFFERSIZE": true,
+            "CONVERT_RGB": true
+          },
+          "reported": {
+            "FRAME_WIDTH": 640.0,
+            "FRAME_HEIGHT": 480.0,
+            "FOURCC": 1448695129.0,
+            "FPS": 15.0,
+            "BUFFERSIZE": 1.0,
+            "CONVERT_RGB": 0.0
+          },
+          "actual_fourcc": "YUYV",
+          "raw_undecoded_requested": true,
+          "opencv_version": "4.5.4",
+          "opencv_threads": 2
+        },
+        "preview": false,
+        "loop_seconds": 8.07105158200011,
+        "frames": 94,
+        "read_returns_fps": 11.646561671051247,
+        "display_submit_fps": 0.0,
+        "process_cpu_percent_one_core": 14.496252292691445,
+        "mean_payload_bytes": 614400.0,
+        "capture_sample_decode_comparisons": [
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          }
+        ]
+      },
+      {
+        "kind": "capture_probe",
+        "format": "MJPG",
+        "status": "CAPTURE_PROBE_COMPLETE_NOT_DETECTION_ACCEPTANCE",
+        "requested_fps": 15,
+        "metrics": {
+          "capture.read_api_ms": {
+            "count": 81,
+            "total_ms": 8026.677142999688,
+            "mean_ms": 99.09477954320603,
+            "min_ms": 0.926116999835358,
+            "max_ms": 131.4777289999256,
+            "p50_ms": 130.09044299997186,
+            "p95_ms": 131.46358099947975,
+            "percentile_samples": 81
+          },
+          "capture.payload_copy_ms": {
+            "count": 81,
+            "total_ms": 33.62958199977584,
+            "mean_ms": 0.4151800246885906,
+            "min_ms": 0.3736990001925733,
+            "max_ms": 1.0051139997813152,
+            "p50_ms": 0.3988919997937046,
+            "p95_ms": 0.42470799962757155,
+            "percentile_samples": 81
+          }
+        },
+        "camera": {
+          "requested_format": "MJPG",
+          "requested_fps": 15,
+          "set_returned": {
+            "FRAME_WIDTH": true,
+            "FRAME_HEIGHT": true,
+            "FOURCC": true,
+            "FPS": true,
+            "BUFFERSIZE": true,
+            "CONVERT_RGB": true
+          },
+          "reported": {
+            "FRAME_WIDTH": 640.0,
+            "FRAME_HEIGHT": 480.0,
+            "FOURCC": 1196444237.0,
+            "FPS": 15.0,
+            "BUFFERSIZE": 1.0,
+            "CONVERT_RGB": 0.0
+          },
+          "actual_fourcc": "MJPG",
+          "raw_undecoded_requested": true,
+          "opencv_version": "4.5.4",
+          "opencv_threads": 2
+        },
+        "preview": false,
+        "loop_seconds": 8.079296320999674,
+        "frames": 81,
+        "read_returns_fps": 10.025625596806634,
+        "display_submit_fps": 0.0,
+        "process_cpu_percent_one_core": 1.7328241772258615,
+        "mean_payload_bytes": 126568.0,
+        "capture_sample_decode_comparisons": [
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          }
+        ]
+      },
+      {
+        "kind": "capture_probe",
+        "format": "YUYV",
+        "status": "CAPTURE_PROBE_COMPLETE_NOT_DETECTION_ACCEPTANCE",
+        "requested_fps": 15,
+        "metrics": {
+          "capture.read_api_ms": {
+            "count": 70,
+            "total_ms": 2035.0793459992929,
+            "mean_ms": 29.072562085704185,
+            "min_ms": 5.429496000033396,
+            "max_ms": 60.78544000047259,
+            "p50_ms": 26.512808999996196,
+            "p95_ms": 57.0345721002468,
+            "percentile_samples": 70
+          },
+          "capture.payload_copy_ms": {
+            "count": 70,
+            "total_ms": 355.9488239998245,
+            "mean_ms": 5.0849831999974935,
+            "min_ms": 2.4595269997007563,
+            "max_ms": 25.46772899950156,
+            "p50_ms": 4.519120499935525,
+            "p95_ms": 8.080064200566989,
+            "percentile_samples": 70
+          },
+          "main.camera_decode_ms": {
+            "count": 70,
+            "total_ms": 1110.4165019987704,
+            "mean_ms": 15.86309288569672,
+            "min_ms": 9.85270099954505,
+            "max_ms": 36.40375400027551,
+            "p50_ms": 13.463150999996287,
+            "p95_ms": 28.191478300777813,
+            "percentile_samples": 70
+          },
+          "main.jpeg_encode_once_ms": {
+            "count": 70,
+            "total_ms": 2598.805915997218,
+            "mean_ms": 37.12579879996026,
+            "min_ms": 33.22820899938961,
+            "max_ms": 51.81817199991201,
+            "p50_ms": 35.813631000110036,
+            "p95_ms": 45.14124974962215,
+            "percentile_samples": 70
+          },
+          "main.display_publish_ms": {
+            "count": 70,
+            "total_ms": 1749.1596419968118,
+            "mean_ms": 24.98799488566874,
+            "min_ms": 21.93358700060344,
+            "max_ms": 108.34242399960203,
+            "p50_ms": 23.048528999879636,
+            "p95_ms": 29.655762450329345,
+            "percentile_samples": 70
+          }
+        },
+        "camera": {
+          "requested_format": "YUYV",
+          "requested_fps": 15,
+          "set_returned": {
+            "FRAME_WIDTH": true,
+            "FRAME_HEIGHT": true,
+            "FOURCC": true,
+            "FPS": true,
+            "BUFFERSIZE": true,
+            "CONVERT_RGB": true
+          },
+          "reported": {
+            "FRAME_WIDTH": 640.0,
+            "FRAME_HEIGHT": 480.0,
+            "FOURCC": 1448695129.0,
+            "FPS": 15.0,
+            "BUFFERSIZE": 1.0,
+            "CONVERT_RGB": 0.0
+          },
+          "actual_fourcc": "YUYV",
+          "raw_undecoded_requested": true,
+          "opencv_version": "4.5.4",
+          "opencv_threads": 2
+        },
+        "preview": true,
+        "loop_seconds": 8.027274604000013,
+        "frames": 70,
+        "read_returns_fps": 8.720269761933746,
+        "display_submit_fps": 8.720269761933746,
+        "process_cpu_percent_one_core": 89.19590213635092,
+        "mean_payload_bytes": 614400.0,
+        "capture_sample_decode_comparisons": [
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          }
+        ]
+      },
+      {
+        "kind": "capture_probe",
+        "format": "MJPG",
+        "status": "CAPTURE_PROBE_COMPLETE_NOT_DETECTION_ACCEPTANCE",
+        "requested_fps": 15,
+        "metrics": {
+          "capture.read_api_ms": {
+            "count": 81,
+            "total_ms": 5212.371526000425,
+            "mean_ms": 64.35026575309166,
+            "min_ms": 17.706388000078732,
+            "max_ms": 107.11543999968853,
+            "p50_ms": 48.10315000031551,
+            "p95_ms": 102.1202900001299,
+            "percentile_samples": 81
+          },
+          "capture.payload_copy_ms": {
+            "count": 81,
+            "total_ms": 60.32687299466488,
+            "mean_ms": 0.7447762098106776,
+            "min_ms": 0.2625600000101258,
+            "max_ms": 4.986768999515334,
+            "p50_ms": 0.5469540001286077,
+            "p95_ms": 1.948762999745668,
+            "percentile_samples": 81
+          },
+          "main.display_publish_ms": {
+            "count": 81,
+            "total_ms": 2743.6208429971884,
+            "mean_ms": 33.87186225922455,
+            "min_ms": 23.449434000212932,
+            "max_ms": 54.39798699990206,
+            "p50_ms": 31.691022000813973,
+            "p95_ms": 45.09145799966063,
+            "percentile_samples": 81
+          }
+        },
+        "camera": {
+          "requested_format": "MJPG",
+          "requested_fps": 15,
+          "set_returned": {
+            "FRAME_WIDTH": true,
+            "FRAME_HEIGHT": true,
+            "FOURCC": true,
+            "FPS": true,
+            "BUFFERSIZE": true,
+            "CONVERT_RGB": true
+          },
+          "reported": {
+            "FRAME_WIDTH": 640.0,
+            "FRAME_HEIGHT": 480.0,
+            "FOURCC": 1196444237.0,
+            "FPS": 15.0,
+            "BUFFERSIZE": 1.0,
+            "CONVERT_RGB": 0.0
+          },
+          "actual_fourcc": "MJPG",
+          "raw_undecoded_requested": true,
+          "opencv_version": "4.5.4",
+          "opencv_threads": 2
+        },
+        "preview": true,
+        "loop_seconds": 8.061030990999825,
+        "frames": 81,
+        "read_returns_fps": 10.048342462699479,
+        "display_submit_fps": 10.048342462699479,
+        "process_cpu_percent_one_core": 41.930120399906464,
+        "mean_payload_bytes": 125177.97530864198,
+        "capture_sample_decode_comparisons": [
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          }
+        ]
+      },
+      {
+        "kind": "fpga_probe",
+        "format": "MJPG",
+        "status": "FPGA_MEASUREMENT_COMPLETE_NOT_FULL_SYSTEM_ACCEPTANCE",
+        "requested_fps": 15,
+        "metrics": {
+          "setup_or_cleanup.report_json_ms": {
+            "count": 33,
+            "total_ms": 66.39552900014678,
+            "mean_ms": 2.011985727277175,
+            "min_ms": 0.4948189998685848,
+            "max_ms": 24.725981000301545,
+            "p50_ms": 0.8493600007568602,
+            "p95_ms": 7.020155399550255,
+            "percentile_samples": 33
+          },
+          "setup_or_cleanup.report_write_close_ms": {
+            "count": 33,
+            "total_ms": 117.74552399856475,
+            "mean_ms": 3.5680461817746894,
+            "min_ms": 2.1348179998312844,
+            "max_ms": 10.07273199957126,
+            "p50_ms": 2.8199999997013947,
+            "p95_ms": 6.221188599738523,
+            "percentile_samples": 33
+          },
+          "setup.camera_warmup_ms": {
+            "count": 1,
+            "total_ms": 1196.1144349997994,
+            "mean_ms": 1196.1144349997994,
+            "min_ms": 1196.1144349997994,
+            "max_ms": 1196.1144349997994,
+            "p50_ms": 1196.1144349997994,
+            "p95_ms": 1196.1144349997994,
+            "percentile_samples": 1
+          },
+          "capture.read_api_ms": {
+            "count": 193,
+            "total_ms": 19942.10236899289,
+            "mean_ms": 103.32695527975592,
+            "min_ms": 54.38047400002688,
+            "max_ms": 140.2860430007422,
+            "p50_ms": 125.04079999962414,
+            "p95_ms": 136.18508920026215,
+            "percentile_samples": 193
+          },
+          "capture.payload_copy_ms": {
+            "count": 193,
+            "total_ms": 94.82212200055073,
+            "mean_ms": 0.49130633160907117,
+            "min_ms": 0.2900560002672137,
+            "max_ms": 2.0072799998160917,
+            "p50_ms": 0.4350580002210336,
+            "p95_ms": 0.7458410002072922,
+            "percentile_samples": 193
+          },
+          "main.acquire_wait_ms": {
+            "count": 48,
+            "total_ms": 87.5392580010157,
+            "mean_ms": 1.823734541687827,
+            "min_ms": 0.047137999899860006,
+            "max_ms": 84.81669499997224,
+            "p50_ms": 0.055695500122965313,
+            "p95_ms": 0.07895284961705328,
+            "percentile_samples": 48
+          },
+          "main.frame_age_before_decode_ms": {
+            "count": 48,
+            "total_ms": 2722.715380000882,
+            "mean_ms": 56.723237083351705,
+            "min_ms": 1.000411999411881,
+            "max_ms": 120.94280599988997,
+            "p50_ms": 57.85682100011036,
+            "p95_ms": 109.3844118496403,
+            "percentile_samples": 48
+          },
+          "main.camera_decode_ms": {
+            "count": 48,
+            "total_ms": 2502.323233002244,
+            "mean_ms": 52.13173402088008,
+            "min_ms": 38.20855399953871,
+            "max_ms": 85.03553900027327,
+            "p50_ms": 51.55549900018741,
+            "p95_ms": 67.23177685003066,
+            "percentile_samples": 48
+          },
+          "main.preprocess_ms": {
+            "count": 48,
+            "total_ms": 1029.4023639971783,
+            "mean_ms": 21.44588258327455,
+            "min_ms": 16.261550999843166,
+            "max_ms": 38.734271000066656,
+            "p50_ms": 19.535285999609187,
+            "p95_ms": 31.74060379974435,
+            "percentile_samples": 48
+          },
+          "main.fpga_arm_forward_ms": {
+            "count": 48,
+            "total_ms": 10625.766258000112,
+            "mean_ms": 221.37013037500233,
+            "min_ms": 204.3369969997002,
+            "max_ms": 453.1118270006118,
+            "p50_ms": 210.26507350006796,
+            "p95_ms": 241.1268482502237,
+            "percentile_samples": 48
+          },
+          "main.cpu_reference_ms": {
+            "count": 5,
+            "total_ms": 1198.0640349993337,
+            "mean_ms": 239.61280699986673,
+            "min_ms": 234.73668299993733,
+            "max_ms": 246.47009799991793,
+            "p50_ms": 238.3040049999181,
+            "p95_ms": 245.87825799990242,
+            "percentile_samples": 5
+          },
+          "main.exact_compare_ms": {
+            "count": 5,
+            "total_ms": 5.792352001662948,
+            "mean_ms": 1.1584704003325896,
+            "min_ms": 0.9163200002149097,
+            "max_ms": 1.493219000622048,
+            "p50_ms": 1.033477000419225,
+            "p95_ms": 1.4696116004415671,
+            "percentile_samples": 5
+          },
+          "main.decode_ms": {
+            "count": 48,
+            "total_ms": 753.3679069993013,
+            "mean_ms": 15.695164729152111,
+            "min_ms": 14.683033999972395,
+            "max_ms": 17.83211099973414,
+            "p50_ms": 15.582159499899717,
+            "p95_ms": 17.528618399637708,
+            "percentile_samples": 48
+          },
+          "main.draw_ms": {
+            "count": 48,
+            "total_ms": 376.97249900429597,
+            "mean_ms": 7.853593729256166,
+            "min_ms": 5.09364900062792,
+            "max_ms": 25.289901999713038,
+            "p50_ms": 7.624237000072753,
+            "p95_ms": 9.082211799704965,
+            "percentile_samples": 48
+          },
+          "main.jpeg_encode_once_ms": {
+            "count": 48,
+            "total_ms": 1739.2764989999705,
+            "mean_ms": 36.23492706249939,
+            "min_ms": 34.143502000006265,
+            "max_ms": 42.49875700043049,
+            "p50_ms": 36.13151400031711,
+            "p95_ms": 38.66059910028525,
+            "percentile_samples": 48
+          },
+          "main.evidence_snapshot_ms": {
+            "count": 5,
+            "total_ms": 23.918979000882246,
+            "mean_ms": 4.783795800176449,
+            "min_ms": 3.6328860005596653,
+            "max_ms": 5.296276999615657,
+            "p50_ms": 4.879120000623516,
+            "p95_ms": 5.292699199708295,
+            "percentile_samples": 5
+          },
+          "main.display_publish_ms": {
+            "count": 48,
+            "total_ms": 1209.4588919981106,
+            "mean_ms": 25.19706024996064,
+            "min_ms": 23.08347700000013,
+            "max_ms": 42.16764299962961,
+            "p50_ms": 24.527122999643325,
+            "p95_ms": 26.972911300163105,
+            "percentile_samples": 48
+          },
+          "main.read_return_to_display_submit_ms": {
+            "count": 48,
+            "total_ms": 22310.359823000617,
+            "mean_ms": 464.7991629791795,
+            "min_ms": 370.90932199917734,
+            "max_ms": 710.205672999844,
+            "p50_ms": 440.2073160004802,
+            "p95_ms": 685.5852902501821,
+            "percentile_samples": 48
+          },
+          "main.report_json_ms": {
+            "count": 17,
+            "total_ms": 191.87249599872302,
+            "mean_ms": 11.28661741168959,
+            "min_ms": 2.73500899947976,
+            "max_ms": 32.16177800004516,
+            "p50_ms": 9.390460999384231,
+            "p95_ms": 23.453391600378374,
+            "percentile_samples": 17
+          },
+          "main.report_write_close_ms": {
+            "count": 17,
+            "total_ms": 98.28852399641619,
+            "mean_ms": 5.781677882142128,
+            "min_ms": 2.5123759996859008,
+            "max_ms": 12.775219000104698,
+            "p50_ms": 4.326455999944301,
+            "p95_ms": 11.784916599935968,
+            "percentile_samples": 17
+          },
+          "main.iteration_wall_ms": {
+            "count": 48,
+            "total_ms": 20075.53141400058,
+            "mean_ms": 418.24023779167874,
+            "min_ms": 354.1731440000149,
+            "max_ms": 735.2710939994722,
+            "p50_ms": 381.4439869997841,
+            "p95_ms": 634.5769381502123,
+            "percentile_samples": 48
+          },
+          "cleanup.writer_drain_ms": {
+            "count": 1,
+            "total_ms": 0.07516900041082408,
+            "mean_ms": 0.07516900041082408,
+            "min_ms": 0.07516900041082408,
+            "max_ms": 0.07516900041082408,
+            "p50_ms": 0.07516900041082408,
+            "p95_ms": 0.07516900041082408,
+            "percentile_samples": 1
+          },
+          "writer.queue_wait_ms": {
+            "count": 5,
+            "total_ms": 77584.59410100021,
+            "mean_ms": 15516.918820200042,
+            "min_ms": 7534.662943000512,
+            "max_ms": 23349.099430000024,
+            "p50_ms": 15593.89181700044,
+            "p95_ms": 22572.96866199995,
+            "percentile_samples": 5
+          },
+          "writer.serialize_ms": {
+            "count": 5,
+            "total_ms": 84.55649799725506,
+            "mean_ms": 16.911299599451013,
+            "min_ms": 16.258676999314048,
+            "max_ms": 19.098682999356242,
+            "p50_ms": 16.402596999796515,
+            "p95_ms": 18.58578699939244,
+            "percentile_samples": 5
+          },
+          "writer.file_write_close_ms": {
+            "count": 5,
+            "total_ms": 124.29505699947185,
+            "mean_ms": 24.85901139989437,
+            "min_ms": 24.492097999427642,
+            "max_ms": 25.136995000138995,
+            "p50_ms": 24.842826000167406,
+            "p95_ms": 25.128552600108378,
+            "percentile_samples": 5
+          },
+          "writer.hash_readback_ms": {
+            "count": 5,
+            "total_ms": 350.94877099709265,
+            "mean_ms": 70.18975419941853,
+            "min_ms": 69.22158099951048,
+            "max_ms": 70.71704199825035,
+            "p50_ms": 70.35773400002654,
+            "p95_ms": 70.64562039849989,
+            "percentile_samples": 5
+          },
+          "writer.service_ms": {
+            "count": 5,
+            "total_ms": 563.6675609985105,
+            "mean_ms": 112.73351219970209,
+            "min_ms": 112.46970399952261,
+            "max_ms": 113.57932899954903,
+            "p50_ms": 112.51367299973936,
+            "p95_ms": 113.38931779955601,
+            "percentile_samples": 5
+          },
+          "cleanup.deferred_write_ms": {
+            "count": 1,
+            "total_ms": 566.9360299998516,
+            "mean_ms": 566.9360299998516,
+            "min_ms": 566.9360299998516,
+            "max_ms": 566.9360299998516,
+            "p50_ms": 566.9360299998516,
+            "p95_ms": 566.9360299998516,
+            "percentile_samples": 1
+          }
+        },
+        "camera": {
+          "requested_format": "MJPG",
+          "requested_fps": 15,
+          "set_returned": {
+            "FRAME_WIDTH": true,
+            "FRAME_HEIGHT": true,
+            "FOURCC": true,
+            "FPS": true,
+            "BUFFERSIZE": true,
+            "CONVERT_RGB": true
+          },
+          "reported": {
+            "FRAME_WIDTH": 640.0,
+            "FRAME_HEIGHT": 480.0,
+            "FOURCC": 1196444237.0,
+            "FPS": 15.0,
+            "BUFFERSIZE": 1.0,
+            "CONVERT_RGB": 0.0
+          },
+          "actual_fourcc": "MJPG",
+          "raw_undecoded_requested": true,
+          "opencv_version": "4.5.4",
+          "opencv_threads": 2
+        },
+        "save_mode": "deferred_checks",
+        "frames": 48,
+        "loop_seconds": 20.08221782199962,
+        "inference_fps": 2.390174253932107,
+        "display_submit_fps": 2.390174253932107,
+        "capture_read_fps": 9.595912261805296,
+        "captured": 193,
+        "saved": 5,
+        "checked": 5,
+        "unchecked": 43,
+        "dropped_saves": 0,
+        "skipped_before_inference": 141,
+        "unselected_tail": 4,
+        "process_cpu_percent_one_core": 142.26516340591726,
+        "max_reported_rss_kib": 166344,
+        "reported_process_threads": [
+          18
+        ],
+        "reported_clock_mhz": 100.0,
+        "reported_originals_unchanged": true,
+        "reported_safe_cleanup": true,
+        "detection_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "camera_jpeg_vs_lossless_bgr": [
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          }
+        ],
+        "forward_components": {
+          "input_pack_ms": {
+            "mean_ms": 18.106182833359224,
+            "p95_ms": 20.72860455018599
+          },
+          "dma_window_ms": {
+            "mean_ms": 7.768323062445385,
+            "p95_ms": 8.223107299500043
+          },
+          "cache_dma_readback_guard_ms": {
+            "mean_ms": 9.858911687426067,
+            "p95_ms": 11.04186635006954
+          },
+          "owned_pack_and_suffix_ms": {
+            "mean_ms": 193.3147832708831,
+            "p95_ms": 210.0057151996225
+          }
+        },
+        "exclusive_main_ms_per_frame": 413.3759019999843,
+        "unattributed_main_ms_per_frame": 5.003635958341117
+      },
+      {
+        "kind": "fpga_probe",
+        "format": "MJPG",
+        "status": "FPGA_MEASUREMENT_COMPLETE_NOT_FULL_SYSTEM_ACCEPTANCE",
+        "requested_fps": 15,
+        "metrics": {
+          "setup_or_cleanup.report_json_ms": {
+            "count": 33,
+            "total_ms": 67.76182999965386,
+            "mean_ms": 2.0533887878682986,
+            "min_ms": 0.5103929997858359,
+            "max_ms": 24.11742799995409,
+            "p50_ms": 0.8468490004815976,
+            "p95_ms": 7.952845799991312,
+            "percentile_samples": 33
+          },
+          "setup_or_cleanup.report_write_close_ms": {
+            "count": 33,
+            "total_ms": 125.95968000186986,
+            "mean_ms": 3.816960000056662,
+            "min_ms": 1.9349419999343809,
+            "max_ms": 9.242449000339548,
+            "p50_ms": 2.907951000452158,
+            "p95_ms": 8.284566000111226,
+            "percentile_samples": 33
+          },
+          "setup.camera_warmup_ms": {
+            "count": 1,
+            "total_ms": 1063.1326499997158,
+            "mean_ms": 1063.1326499997158,
+            "min_ms": 1063.1326499997158,
+            "max_ms": 1063.1326499997158,
+            "p50_ms": 1063.1326499997158,
+            "p95_ms": 1063.1326499997158,
+            "percentile_samples": 1
+          },
+          "capture.read_api_ms": {
+            "count": 192,
+            "total_ms": 20312.56489700172,
+            "mean_ms": 105.79460883855063,
+            "min_ms": 51.3218340001913,
+            "max_ms": 140.95403699957387,
+            "p50_ms": 124.37797549955576,
+            "p95_ms": 138.20371414990404,
+            "percentile_samples": 192
+          },
+          "capture.payload_copy_ms": {
+            "count": 192,
+            "total_ms": 100.52052099945286,
+            "mean_ms": 0.5235443802054837,
+            "min_ms": 0.3080059996136697,
+            "max_ms": 3.0273039992607664,
+            "p50_ms": 0.4381970002214075,
+            "p95_ms": 0.9883933998025893,
+            "percentile_samples": 192
+          },
+          "main.acquire_wait_ms": {
+            "count": 49,
+            "total_ms": 88.5660240010111,
+            "mean_ms": 1.8074698775716551,
+            "min_ms": 0.05042999964643968,
+            "max_ms": 85.05411700025434,
+            "p50_ms": 0.057981000281870365,
+            "p95_ms": 0.2030955998634443,
+            "percentile_samples": 49
+          },
+          "main.frame_age_before_decode_ms": {
+            "count": 49,
+            "total_ms": 3089.360648006201,
+            "mean_ms": 63.04817648992247,
+            "min_ms": 0.9457539999857545,
+            "max_ms": 129.80301500018686,
+            "p50_ms": 60.76666500046849,
+            "p95_ms": 128.4891609992832,
+            "percentile_samples": 49
+          },
+          "main.camera_decode_ms": {
+            "count": 49,
+            "total_ms": 2231.8785700035733,
+            "mean_ms": 45.54854224497088,
+            "min_ms": 27.943084000071394,
+            "max_ms": 85.948744000234,
+            "p50_ms": 41.69400000046153,
+            "p95_ms": 67.15693979967908,
+            "percentile_samples": 49
+          },
+          "main.preprocess_ms": {
+            "count": 49,
+            "total_ms": 831.4312699976654,
+            "mean_ms": 16.967985101993172,
+            "min_ms": 14.393112999641744,
+            "max_ms": 25.86245600014081,
+            "p50_ms": 16.184566000447376,
+            "p95_ms": 23.052451199691852,
+            "percentile_samples": 49
+          },
+          "main.fpga_arm_forward_ms": {
+            "count": 49,
+            "total_ms": 10987.633140004618,
+            "mean_ms": 224.2374110205024,
+            "min_ms": 204.32455999980448,
+            "max_ms": 406.8728980000742,
+            "p50_ms": 214.2796609996367,
+            "p95_ms": 271.852700400268,
+            "percentile_samples": 49
+          },
+          "main.cpu_reference_ms": {
+            "count": 5,
+            "total_ms": 1327.3508450001827,
+            "mean_ms": 265.47016900003655,
+            "min_ms": 236.90676800015353,
+            "max_ms": 357.50743900007365,
+            "p50_ms": 246.12223299936886,
+            "p95_ms": 335.9255548000874,
+            "percentile_samples": 5
+          },
+          "main.exact_compare_ms": {
+            "count": 5,
+            "total_ms": 5.985255001178302,
+            "mean_ms": 1.1970510002356605,
+            "min_ms": 0.8599810007581254,
+            "max_ms": 1.7661479996604612,
+            "p50_ms": 1.1409290000301553,
+            "p95_ms": 1.6593293998084846,
+            "percentile_samples": 5
+          },
+          "main.decode_ms": {
+            "count": 49,
+            "total_ms": 781.7379880016233,
+            "mean_ms": 15.953836489829047,
+            "min_ms": 14.869999999973516,
+            "max_ms": 21.243619000415492,
+            "p50_ms": 15.65483700051118,
+            "p95_ms": 17.395963200215192,
+            "percentile_samples": 49
+          },
+          "main.draw_ms": {
+            "count": 49,
+            "total_ms": 240.5206850007744,
+            "mean_ms": 4.90858540817907,
+            "min_ms": 3.797243000008166,
+            "max_ms": 7.884431000093173,
+            "p50_ms": 4.783254999892961,
+            "p95_ms": 6.539922599949929,
+            "percentile_samples": 49
+          },
+          "main.jpeg_encode_once_ms": {
+            "count": 49,
+            "total_ms": 1756.6583210027602,
+            "mean_ms": 35.85016981638286,
+            "min_ms": 34.26931100057118,
+            "max_ms": 39.633248999962234,
+            "p50_ms": 35.672312999849964,
+            "p95_ms": 37.84185919957962,
+            "percentile_samples": 49
+          },
+          "main.evidence_snapshot_ms": {
+            "count": 10,
+            "total_ms": 31.079784000212385,
+            "mean_ms": 3.1079784000212385,
+            "min_ms": 2.277514000525116,
+            "max_ms": 3.863938999529637,
+            "p50_ms": 3.1864924999354116,
+            "p95_ms": 3.7508989998968896,
+            "percentile_samples": 10
+          },
+          "writer.queue_wait_ms": {
+            "count": 10,
+            "total_ms": 68.36597500205244,
+            "mean_ms": 6.836597500205244,
+            "min_ms": 1.611194000361138,
+            "max_ms": 9.733255000355712,
+            "p50_ms": 6.456317000356648,
+            "p95_ms": 9.670698249919951,
+            "percentile_samples": 10
+          },
+          "writer.serialize_ms": {
+            "count": 10,
+            "total_ms": 296.5845850003461,
+            "mean_ms": 29.658458500034612,
+            "min_ms": 26.711298000009265,
+            "max_ms": 36.06388899970625,
+            "p50_ms": 28.779070999917167,
+            "p95_ms": 34.15262154999254,
+            "percentile_samples": 10
+          },
+          "main.display_publish_ms": {
+            "count": 49,
+            "total_ms": 1521.462978003001,
+            "mean_ms": 31.0502648572041,
+            "min_ms": 23.721562999526213,
+            "max_ms": 58.71581500014145,
+            "p50_ms": 24.864535000233445,
+            "p95_ms": 55.825200399885944,
+            "percentile_samples": 49
+          },
+          "main.read_return_to_display_submit_ms": {
+            "count": 49,
+            "total_ms": 22907.24771200493,
+            "mean_ms": 467.49485126540674,
+            "min_ms": 349.43257800024,
+            "max_ms": 857.4789710007608,
+            "p50_ms": 441.5499990005046,
+            "p95_ms": 740.3531529996542,
+            "percentile_samples": 49
+          },
+          "main.report_json_ms": {
+            "count": 17,
+            "total_ms": 223.17718200247327,
+            "mean_ms": 13.128069529557251,
+            "min_ms": 1.6388180001740693,
+            "max_ms": 42.48264600028051,
+            "p50_ms": 10.342548000153329,
+            "p95_ms": 27.4785747998976,
+            "percentile_samples": 17
+          },
+          "main.report_write_close_ms": {
+            "count": 17,
+            "total_ms": 119.21428399909928,
+            "mean_ms": 7.012604941123487,
+            "min_ms": 3.1056669995450648,
+            "max_ms": 23.605753999618173,
+            "p50_ms": 4.910775000098511,
+            "p95_ms": 14.508069999465071,
+            "percentile_samples": 17
+          },
+          "main.iteration_wall_ms": {
+            "count": 49,
+            "total_ms": 20346.567487002176,
+            "mean_ms": 415.2360711633097,
+            "min_ms": 341.20714999971824,
+            "max_ms": 858.386423000411,
+            "p50_ms": 375.040042999899,
+            "p95_ms": 700.5816689996205,
+            "percentile_samples": 49
+          },
+          "writer.file_write_close_ms": {
+            "count": 10,
+            "total_ms": 411.81072700055665,
+            "mean_ms": 41.181072700055665,
+            "min_ms": 33.52449299836735,
+            "max_ms": 56.048165999527555,
+            "p50_ms": 39.779887999429775,
+            "p95_ms": 52.49884544959968,
+            "percentile_samples": 10
+          },
+          "writer.hash_readback_ms": {
+            "count": 10,
+            "total_ms": 1055.106025999521,
+            "mean_ms": 105.51060259995211,
+            "min_ms": 74.79048000095645,
+            "max_ms": 148.56447500005743,
+            "p50_ms": 103.62938000025679,
+            "p95_ms": 135.90187819931995,
+            "percentile_samples": 10
+          },
+          "writer.service_ms": {
+            "count": 10,
+            "total_ms": 1789.336193998679,
+            "mean_ms": 178.9336193998679,
+            "min_ms": 142.58916299968405,
+            "max_ms": 211.9361349996325,
+            "p50_ms": 176.54427050001686,
+            "p95_ms": 207.77300634949825,
+            "percentile_samples": 10
+          },
+          "cleanup.writer_drain_ms": {
+            "count": 1,
+            "total_ms": 1.0213720006504445,
+            "mean_ms": 1.0213720006504445,
+            "min_ms": 1.0213720006504445,
+            "max_ms": 1.0213720006504445,
+            "p50_ms": 1.0213720006504445,
+            "p95_ms": 1.0213720006504445,
+            "percentile_samples": 1
+          },
+          "cleanup.deferred_write_ms": {
+            "count": 1,
+            "total_ms": 0.010959999599435832,
+            "mean_ms": 0.010959999599435832,
+            "min_ms": 0.010959999599435832,
+            "max_ms": 0.010959999599435832,
+            "p50_ms": 0.010959999599435832,
+            "p95_ms": 0.010959999599435832,
+            "percentile_samples": 1
+          }
+        },
+        "camera": {
+          "requested_format": "MJPG",
+          "requested_fps": 15,
+          "set_returned": {
+            "FRAME_WIDTH": true,
+            "FRAME_HEIGHT": true,
+            "FOURCC": true,
+            "FPS": true,
+            "BUFFERSIZE": true,
+            "CONVERT_RGB": true
+          },
+          "reported": {
+            "FRAME_WIDTH": 640.0,
+            "FRAME_HEIGHT": 480.0,
+            "FOURCC": 1196444237.0,
+            "FPS": 15.0,
+            "BUFFERSIZE": 1.0,
+            "CONVERT_RGB": 0.0
+          },
+          "actual_fourcc": "MJPG",
+          "raw_undecoded_requested": true,
+          "opencv_version": "4.5.4",
+          "opencv_threads": 2
+        },
+        "save_mode": "raw_sampled",
+        "frames": 49,
+        "loop_seconds": 20.352766350999445,
+        "inference_fps": 2.407535130849365,
+        "display_submit_fps": 2.407535130849365,
+        "capture_read_fps": 9.360616462653685,
+        "captured": 192,
+        "saved": 10,
+        "checked": 5,
+        "unchecked": 44,
+        "dropped_saves": 0,
+        "skipped_before_inference": 137,
+        "unselected_tail": 6,
+        "process_cpu_percent_one_core": 147.94057712219262,
+        "max_reported_rss_kib": 154084,
+        "reported_process_threads": [
+          19
+        ],
+        "reported_clock_mhz": 100.0,
+        "reported_originals_unchanged": true,
+        "reported_safe_cleanup": true,
+        "detection_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "camera_jpeg_vs_lossless_bgr": [
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          },
+          {
+            "bit_exact": true,
+            "max_abs": 0,
+            "mean_abs": 0.0
+          }
+        ],
+        "forward_components": {
+          "input_pack_ms": {
+            "mean_ms": 19.496457367253875,
+            "p95_ms": 26.55773900023632
+          },
+          "dma_window_ms": {
+            "mean_ms": 7.938487408252086,
+            "p95_ms": 8.145810400128537
+          },
+          "cache_dma_readback_guard_ms": {
+            "mean_ms": 9.902500163346359,
+            "p95_ms": 12.358417999894293
+          },
+          "owned_pack_and_suffix_ms": {
+            "mean_ms": 194.75529248981672,
+            "p95_ms": 232.42380780029634
+          }
+        },
+        "exclusive_main_ms_per_frame": 411.1570678779219,
+        "unattributed_main_ms_per_frame": 4.205510713903522
+      }
+    ],
+    "descriptive_comparison": {
+      "v2_sampled_vs_v1_serial_fps_ratio": 3.3082084205790805,
+      "v2_sampled_vs_v1_light_fps_ratio": 2.015803501495949
+    },
+    "causal_single_factor_or_long_duration_acceptance": false
+  },
+  "new_board_execution": false
+}

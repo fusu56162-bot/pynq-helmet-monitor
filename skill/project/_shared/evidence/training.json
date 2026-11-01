@@ -1,0 +1,257 @@
+{
+  "evidence_id": "training",
+  "source_repository_relative_path": "fpga_work/joint_model_training_v1/final_result_20261025/INDEPENDENT_AUDIT.json",
+  "original_source_sha256": "ad9d42ae4e620aa9706372f2343e041fb8b2ac6d50a64030f790ea276c447e32",
+  "extraction": "Selected original fields; not the complete original file.",
+  "observed": {
+    "status": "FINAL150_RESULT_AND_EXPORT_AUDIT_PASS_ACCURACY80_FAIL",
+    "epochs_completed": 150,
+    "selected_zero_based_epoch": 29,
+    "selected_human_epoch": 30,
+    "all_targets_passed_epoch_count": 0,
+    "cloud_scores_independently_recomputed": true,
+    "cpu_replay_images": 579,
+    "local12_export_parity": [
+      {
+        "id": "empty_scene_20250504_150737_b76484b6__frame_000011",
+        "torchscript": {
+          "max_coordinate_error": 0.002197265625,
+          "max_score_error": 5.304813385009766e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        },
+        "ncnn": {
+          "max_coordinate_error": 0.00189208984375,
+          "max_score_error": 4.649162292480469e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        }
+      },
+      {
+        "id": "empty_scene_20250504_145342_2452e624__frame_000007",
+        "torchscript": {
+          "max_coordinate_error": 0.0008544921875,
+          "max_score_error": 3.933906555175781e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        },
+        "ncnn": {
+          "max_coordinate_error": 0.00091552734375,
+          "max_score_error": 4.082918167114258e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        }
+      },
+      {
+        "id": "empty_scene_20250504_145342_2452e624__frame_000008",
+        "torchscript": {
+          "max_coordinate_error": 0.00103759765625,
+          "max_score_error": 3.933906555175781e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        },
+        "ncnn": {
+          "max_coordinate_error": 0.002197265625,
+          "max_score_error": 5.155801773071289e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        }
+      },
+      {
+        "id": "empty_scene_20250504_145342_2452e624__frame_000006",
+        "torchscript": {
+          "max_coordinate_error": 0.0010986328125,
+          "max_score_error": 4.5299530029296875e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        },
+        "ncnn": {
+          "max_coordinate_error": 0.001678466796875,
+          "max_score_error": 5.841255187988281e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        }
+      },
+      {
+        "id": "full_domestic_recheck_eb9d01798e33ebd12523",
+        "torchscript": {
+          "max_coordinate_error": 0.00103759765625,
+          "max_score_error": 3.993511199951172e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        },
+        "ncnn": {
+          "max_coordinate_error": 0.00360107421875,
+          "max_score_error": 7.68899917602539e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        }
+      },
+      {
+        "id": "full_dhaka_d03d91c7e18652bc58e9",
+        "torchscript": {
+          "max_coordinate_error": 0.00189208984375,
+          "max_score_error": 4.649162292480469e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        },
+        "ncnn": {
+          "max_coordinate_error": 0.00164794921875,
+          "max_score_error": 6.020069122314453e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        }
+      },
+      {
+        "id": "full_dhaka_4a20907484487e037306",
+        "torchscript": {
+          "max_coordinate_error": 0.001556396484375,
+          "max_score_error": 4.1425228118896484e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        },
+        "ncnn": {
+          "max_coordinate_error": 0.0020751953125,
+          "max_score_error": 5.125999450683594e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        }
+      },
+      {
+        "id": "full_dhaka_452259446d63fc7922a8",
+        "torchscript": {
+          "max_coordinate_error": 0.00189208984375,
+          "max_score_error": 3.2186508178710938e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        },
+        "ncnn": {
+          "max_coordinate_error": 0.0025634765625,
+          "max_score_error": 5.245208740234375e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        }
+      },
+      {
+        "id": "partial_eeebike_0cb6d9801556dd3d74",
+        "torchscript": {
+          "max_coordinate_error": 0.00152587890625,
+          "max_score_error": 5.066394805908203e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        },
+        "ncnn": {
+          "max_coordinate_error": 0.001708984375,
+          "max_score_error": 6.794929504394531e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        }
+      },
+      {
+        "id": "partial_eb_data_new_28e3460aff84691cf1",
+        "torchscript": {
+          "max_coordinate_error": 0.0008544921875,
+          "max_score_error": 4.827976226806641e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        },
+        "ncnn": {
+          "max_coordinate_error": 0.00115966796875,
+          "max_score_error": 6.854534149169922e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        }
+      },
+      {
+        "id": "partial_eeebike_1d5a719d0e9f9fc836",
+        "torchscript": {
+          "max_coordinate_error": 0.0028076171875,
+          "max_score_error": 4.351139068603516e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        },
+        "ncnn": {
+          "max_coordinate_error": 0.001739501953125,
+          "max_score_error": 4.9173831939697266e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        }
+      },
+      {
+        "id": "partial_eeebike_28bbd250b375e1d3a6",
+        "torchscript": {
+          "max_coordinate_error": 0.00048828125,
+          "max_score_error": 6.645917892456055e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        },
+        "ncnn": {
+          "max_coordinate_error": 0.0006103515625,
+          "max_score_error": 7.092952728271484e-06,
+          "coordinates_pass": true,
+          "scores_pass": true,
+          "detections_pass": true
+        }
+      }
+    ],
+    "calibration128_training_only_verified": true,
+    "returned_interface": {
+      "input": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "output": [
+        1,
+        3087,
+        9
+      ],
+      "names": [
+        "ebike",
+        "rider",
+        "helmet_head",
+        "bare_head"
+      ],
+      "source_checkpoint_sha256": "0f806c075f60955d8dc8ac91166edd1f8f0f57fbd3bbbb3f212ca4f7d609a451",
+      "torchscript_sha256": "01eb309e6c54ceee9e62c84daf248040d1ff61b154d42b6f5275b4be045e1b0d",
+      "ncnn_input": "in0",
+      "ncnn_output": "out0",
+      "ncnn_param_sha256": "152ce363b4c711d8b606e7c47ca184888fb379d14068d15e335a455836515f07",
+      "ncnn_bin_sha256": "62c31f64a355bcd10f7e6e3ead177ae835692ec8f4494cba406d11fae7e56ea4",
+      "raw_output": "decoded cx,cy,w,h,objectness,4 class probabilities; no extra sigmoid",
+      "precision": "FP32 floating reference for subsequent INT8/mixed calibration",
+      "preprocessing": "already frozen nearest224x168 pad28 at114, RGB NCHW float32 /255 once",
+      "int8_calibration_completed": false,
+      "new_fpga_bit_hwh_generated": false,
+      "new_embedded_constants_generated": false,
+      "old_bitstream_not_assumed_compatible_with_new_weights": true,
+      "board_performance_not_measured": true
+    },
+    "accuracy80_accepted": false
+  },
+  "new_board_execution": false
+}

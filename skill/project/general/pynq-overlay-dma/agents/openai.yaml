@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ Overlay 与 DMA 接入"
+  short_description: "检查位流与HWH配对、地址时钟、缓存同步及DMA缓冲区生命周期"
+  default_prompt: "使用 $pynq-overlay-dma，检查当前 PYNQ 工程的位流接口与 DMA 数据通路。"

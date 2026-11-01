@@ -1,0 +1,47 @@
+{
+  "evidence_id": "b_native",
+  "source_repository_relative_path": "fpga_work/review_B_native_20261026/A_INDEPENDENT_AUDIT.json",
+  "original_source_sha256": "bdf98e0284ee558fce950a1af3388618ad71fadbe0374e2d1577cda41770cf7c",
+  "extraction": "Selected original fields; not the complete original file.",
+  "observed": {
+    "status": "B_NATIVE_REVISION_STATIC_AND_FRESH_HOST_CHECKS_PASS_ARM_AND_BOARD_PENDING",
+    "checks": [
+      "176 protected B payload hashes",
+      "board Python AST parsed",
+      "42 arrays match A original real ARM/FPGA result archive",
+      "current model param/bin unchanged",
+      "V2 bit/hwh unchanged from A tested standalone 43-DSP package",
+      "original operator bridge byte-identical to A source",
+      "6 integer convolution references independently recomputed",
+      "fresh source build: 36 packed numeric cases and 66 injected fault/stop cases pass",
+      "7 ownership tests and 1 unsafe storage-failure quarantine test independently rerun"
+    ],
+    "source_zip_sha256": "0a91d8ab9f1f3ddfb6da815774f2e1284068cc1c7f00d527be7c15a968715b60",
+    "payload_files": 176,
+    "reference_arrays": 42,
+    "independent_integer_groups": [
+      "case_01_conv_2",
+      "case_01_conv_10",
+      "case_01_conv_18",
+      "case_02_conv_2",
+      "case_02_conv_10",
+      "case_02_conv_18"
+    ],
+    "numeric_host_outputs": 36,
+    "host_fault_groups": 66,
+    "actual_ARM_bridge_build": false,
+    "actual_ARM_FP32_bit_exact": false,
+    "FPGA_board_performance_measured": false,
+    "deployment_accepted": false,
+    "whole_network_or_camera_accepted": false,
+    "model_and_camera_unchanged": true,
+    "used_overlay_DSP": 43,
+    "merged_with_178": false,
+    "new_hardware_fusion_implemented": false,
+    "engine_executable_sha256": "ecdb40cf53d51b3e676e056e899efb07ab58ee5ec525bcf0430abf2d03c8bdc3",
+    "engine_source_sha256": "d7264660769d3cdacdb737b0183492ca00f15270d7ea2fcab8cddb9bc0fe958c",
+    "boundary": "owned FP32 pack4 Mat to owned FP32 pack4 SiLU Mat; old CHW-export timings cannot be the new speedup denominator",
+    "next": "Actual ARMv7 build and packed ARM float-reference checks before any PL change, then controlled full-layer A/B with restore"
+  },
+  "new_board_execution": false
+}
