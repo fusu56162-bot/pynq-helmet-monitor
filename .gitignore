@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.xil/
+.Xil/
+work_*/
+restore_preview/
+ncnn_rebuild/
+bridge_rebuild/
+*.jou
+*.log.tmp
