@@ -1,0 +1,90 @@
+{
+  "status": "ROUND4_TARGETED_TRAINING_CANDIDATE_NOT_DEPLOYED",
+  "input": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "output": [
+    1,
+    3087,
+    9
+  ],
+  "names": [
+    "ebike",
+    "rider",
+    "helmet_head",
+    "bare_head"
+  ],
+  "initialization": "round3 validation-selected best epoch1",
+  "initial_sha256": "df33a492aab3fb2c8170ca73dc66797e3c7d7257dfa5b5fae5b27144cabf5036",
+  "train": 2531,
+  "original_image_entries": 2271,
+  "training_derivatives": 260,
+  "added_manual_head_scope_train": 606,
+  "full_val": 60,
+  "head_val": 519,
+  "validation_total": 579,
+  "epochs_max": 80,
+  "patience": 20,
+  "optimizer": "AdamW",
+  "lr0": 0.0002,
+  "target_campus": {
+    "classes": [
+      "ebike",
+      "rider",
+      "bare_head"
+    ],
+    "precision_min": 0.9,
+    "recall_min": 0.9,
+    "positive_image_exact_min": 0.9
+  },
+  "target_helmet": {
+    "classes": [
+      "helmet_head"
+    ],
+    "precision_min": 0.85,
+    "recall_min": 0.85,
+    "development_scopes": [
+      "legacy_full37",
+      "heads519"
+    ]
+  },
+  "epoch_selection": "fixed224 target bottleneck (0.8 minimum +0.2 mean target ratios), not standard pooled mAP",
+  "localization_and_classification_training_focus": "head weight1.5; min-side<=12px head weight3, normalized within layer",
+  "hyperparameter_changes_vs_round3": {
+    "lr0": [
+      3e-05,
+      0.0002
+    ],
+    "warmup_epochs": [
+      1,
+      3
+    ],
+    "box": [
+      0.05,
+      0.075
+    ],
+    "cls": [
+      0.5,
+      0.75
+    ]
+  },
+  "unknown_partial_label_objectness_mask_retained": true,
+  "thresholds_unchanged": [
+    0.35,
+    0.25,
+    0.5,
+    0.2
+  ],
+  "matching_iou": 0.5,
+  "nms_iou": 0.45,
+  "no_inference_graph_change": true,
+  "no_roi_or_multiscale_inference": true,
+  "original_files_deleted": false,
+  "no_guarantee_targets_reached_in_one_round": true,
+  "development_target_not_independent_generalization_claim": true,
+  "board_changed": false,
+  "pointwise_still_paused": true
+}

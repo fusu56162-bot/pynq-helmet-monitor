@@ -1,0 +1,220 @@
+{
+  "epoch": 29,
+  "fitness": 0.5991615947577806,
+  "model_state_sha256": "ca463eccc4e7acfa8ba0d33d08c8aa5156cd5594ffafd24734b456910bbbeb3c",
+  "exact_fp32_checkpoint_sha256": "0f806c075f60955d8dc8ac91166edd1f8f0f57fbd3bbbb3f212ca4f7d609a451",
+  "selection": "fixed224 target80 bottleneck",
+  "assessment": {
+    "fitness": 0.5991615947577806,
+    "fitness_formula": "0.8*minimum(target-normalized P/R and positive-image exact rate)+0.2*mean; cap each at1",
+    "all_requested_development_targets_passed": false,
+    "objectives": [
+      {
+        "scope": "field23",
+        "cls": "ebike",
+        "metric": "precision",
+        "value": 0.9,
+        "target": 0.8,
+        "passed": true
+      },
+      {
+        "scope": "field23",
+        "cls": "ebike",
+        "metric": "recall",
+        "value": 1.0,
+        "target": 0.8,
+        "passed": true
+      },
+      {
+        "scope": "field23",
+        "cls": "rider",
+        "metric": "precision",
+        "value": 0.8888888888888888,
+        "target": 0.8,
+        "passed": true
+      },
+      {
+        "scope": "field23",
+        "cls": "rider",
+        "metric": "recall",
+        "value": 1.0,
+        "target": 0.8,
+        "passed": true
+      },
+      {
+        "scope": "field23",
+        "cls": "bare_head",
+        "metric": "precision",
+        "value": 0.75,
+        "target": 0.8,
+        "passed": false
+      },
+      {
+        "scope": "field23",
+        "cls": "bare_head",
+        "metric": "recall",
+        "value": 0.42857142857142855,
+        "target": 0.8,
+        "passed": false
+      },
+      {
+        "scope": "legacy_full37",
+        "cls": "helmet_head",
+        "metric": "precision",
+        "value": 0.65625,
+        "target": 0.8,
+        "passed": false
+      },
+      {
+        "scope": "legacy_full37",
+        "cls": "helmet_head",
+        "metric": "recall",
+        "value": 0.84,
+        "target": 0.8,
+        "passed": true
+      },
+      {
+        "scope": "heads519",
+        "cls": "helmet_head",
+        "metric": "precision",
+        "value": 0.6166666666666667,
+        "target": 0.8,
+        "passed": false
+      },
+      {
+        "scope": "heads519",
+        "cls": "helmet_head",
+        "metric": "recall",
+        "value": 0.4923954372623574,
+        "target": 0.8,
+        "passed": false
+      },
+      {
+        "scope": "field23",
+        "metric": "all_given_targets_correct_no_extra_boxes_on_positive_image",
+        "value": 0.4444444444444444,
+        "target": 0.8,
+        "passed": false
+      },
+      {
+        "scope": "field23",
+        "metric": "empty_image_no_false_alarm_rate",
+        "value": 1.0,
+        "target": 0.8,
+        "passed": true
+      }
+    ],
+    "per_class": {
+      "legacy_full37/ebike": {
+        "tp": 32,
+        "fp": 1,
+        "fn": 6,
+        "precision": 0.9696969696969697,
+        "recall": 0.8421052631578947
+      },
+      "legacy_full37/rider": {
+        "tp": 19,
+        "fp": 3,
+        "fn": 19,
+        "precision": 0.8636363636363636,
+        "recall": 0.5
+      },
+      "legacy_full37/helmet_head": {
+        "tp": 21,
+        "fp": 11,
+        "fn": 4,
+        "precision": 0.65625,
+        "recall": 0.84
+      },
+      "legacy_full37/bare_head": {
+        "tp": 9,
+        "fp": 37,
+        "fn": 4,
+        "precision": 0.1956521739130435,
+        "recall": 0.6923076923076923
+      },
+      "field23/ebike": {
+        "tp": 9,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.9,
+        "recall": 1.0
+      },
+      "field23/rider": {
+        "tp": 8,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.8888888888888888,
+        "recall": 1.0
+      },
+      "field23/helmet_head": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": null,
+        "recall": null
+      },
+      "field23/bare_head": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 4,
+        "precision": 0.75,
+        "recall": 0.42857142857142855
+      },
+      "heads519/helmet_head": {
+        "tp": 259,
+        "fp": 161,
+        "fn": 267,
+        "precision": 0.6166666666666667,
+        "recall": 0.4923954372623574
+      },
+      "heads519/bare_head": {
+        "tp": 121,
+        "fp": 302,
+        "fn": 203,
+        "precision": 0.2860520094562648,
+        "recall": 0.3734567901234568
+      }
+    },
+    "counts": {
+      "legacy_full37": {
+        "images": 37,
+        "tp": 81,
+        "fp": 52,
+        "fn": 33,
+        "positive_images": 37,
+        "exact_positive_images": 10
+      },
+      "field23": {
+        "images": 23,
+        "tp": 20,
+        "fp": 3,
+        "fn": 4,
+        "empty_images": 14,
+        "empty_with_predictions": 0,
+        "positive_images": 9,
+        "exact_positive_images": 4
+      },
+      "heads519": {
+        "images": 519,
+        "tp": 380,
+        "fp": 463,
+        "fn": 470,
+        "positive_images": 519,
+        "exact_positive_images": 161
+      }
+    },
+    "field_positive_image_exact_rate": 0.4444444444444444,
+    "thresholds": [
+      0.35,
+      0.25,
+      0.5,
+      0.2
+    ],
+    "nms_iou": 0.45,
+    "matching_iou": 0.5,
+    "validation_used_for_selection": true,
+    "independent_test_accuracy_not_certified": true,
+    "weights_or_gradients_not_updated_from_validation": true
+  }
+}

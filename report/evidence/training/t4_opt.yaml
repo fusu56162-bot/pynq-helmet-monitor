@@ -1,0 +1,70 @@
+weights: /root/autodl-tmp/joint_round4/weights/round3_best.pt
+cfg: ''
+data: /root/autodl-tmp/joint_round4/work/dataset.yaml
+hyp:
+  lr0: 0.0002
+  lrf: 0.1
+  momentum: 0.9
+  weight_decay: 0.0005
+  warmup_epochs: 3.0
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.0
+  box: 0.075
+  cls: 0.75
+  cls_pw: 1.0
+  obj: 1.0
+  obj_pw: 1.0
+  iou_t: 0.2
+  anchor_t: 4.0
+  fl_gamma: 0.0
+  hsv_h: 0.01
+  hsv_s: 0.25
+  hsv_v: 0.2
+  degrees: 0.0
+  translate: 0.05
+  scale: 0.1
+  shear: 0.0
+  perspective: 0.0
+  flipud: 0.0
+  fliplr: 0.5
+  mosaic: 0.0
+  mixup: 0.0
+  copy_paste: 0.0
+  small_head_weight: 3.0
+  head_weight: 1.5
+epochs: 80
+batch_size: 32
+imgsz: 224
+rect: false
+resume: false
+nosave: false
+noval: false
+noautoanchor: true
+noplots: true
+evolve: null
+bucket: ''
+cache: ram
+image_weights: false
+device: '0'
+multi_scale: false
+single_cls: false
+optimizer: AdamW
+sync_bn: false
+workers: 4
+project: /root/autodl-tmp/joint_round4/work/runs
+name: train_20261025_211137_969403
+exist_ok: false
+quad: false
+cos_lr: false
+label_smoothing: 0.0
+patience: 20
+freeze:
+- 0
+save_period: -1
+seed: 42
+local_rank: -1
+entity: null
+upload_dataset: false
+bbox_interval: -1
+artifact_alias: latest
+save_dir: /root/autodl-tmp/joint_round4/work/runs/train_20261025_211137_969403

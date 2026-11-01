@@ -1,0 +1,10 @@
+{
+  "status": "DATA_MATERIALIZED_NOT_TRAINED",
+  "train": 1065,
+  "train_legacy": 1000,
+  "train_field": 65,
+  "early_stop_val_full": 60,
+  "diagnostic_head_val": 60,
+  "old_package_not_overwritten": true,
+  "no_test_data_materialized": true
+}

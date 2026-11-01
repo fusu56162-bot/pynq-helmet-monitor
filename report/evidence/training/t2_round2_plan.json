@@ -1,0 +1,63 @@
+{
+  "status": "ROUND2_CANDIDATE_TRAINING_ADDON_NOT_FINAL_MODEL_OR_BOARD_PACKAGE",
+  "class_names": [
+    "ebike",
+    "rider",
+    "helmet_head",
+    "bare_head"
+  ],
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "output_shape": [
+    1,
+    3087,
+    9
+  ],
+  "initialization": "round1 best.pt selected by first-round validation; not last.pt",
+  "original_best_sha256": "a3b918dcf3bb93ec17cf8d205b9395ea93373a8b009705ac425eac0c453b1886",
+  "legacy_train_images": 1000,
+  "legacy_full_train": 800,
+  "legacy_partial_heads_train": 200,
+  "field_train_images": 65,
+  "field_train_labeled": 52,
+  "field_train_empty": 13,
+  "total_train": 1065,
+  "early_stop_validation": {
+    "scope": "full_four_class_reference_only",
+    "legacy_full": 37,
+    "field": 23,
+    "field_labeled": 9,
+    "field_empty": 14,
+    "total": 60,
+    "selection": "pinned YOLOv5 v6.2 fitness on this full-scope validation; no test tuning"
+  },
+  "separate_diagnostic_validation": {
+    "legacy_full37": 37,
+    "legacy_partial_heads60": 60,
+    "field23": 23
+  },
+  "no_partial_head_val_pooled_into_early_stop": true,
+  "epochs_max": 40,
+  "patience": 12,
+  "batch": 32,
+  "optimizer": "AdamW",
+  "lr0": 3e-05,
+  "warmup_epochs": 1.0,
+  "warmup_bias_lr": 0.0,
+  "seed": 42,
+  "augmentation_changes_vs_round1": false,
+  "expanded_B2964_not_silently_used": true,
+  "test324_and964_not_used_for_training_selection_or_calibration": true,
+  "field_split_by_original_sessions": true,
+  "field_generalization_independence_not_certified": true,
+  "exclusions_based_on_annotation_quality_before_second_round_model_predictions": true,
+  "no_new_model_accuracy_or_speed_guarantee": true,
+  "requested_final_precision": "INT8/mixed with matching FPGA after acceptance",
+  "board_camera_saving_unchanged": true,
+  "pointwise_1x1_still_paused": true,
+  "cloud_training_started": false
+}

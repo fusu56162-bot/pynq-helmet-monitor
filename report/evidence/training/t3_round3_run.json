@@ -1,0 +1,27 @@
+{
+  "stage": "train",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "input_side": 224,
+  "names": [
+    "ebike",
+    "rider",
+    "helmet_head",
+    "bare_head"
+  ],
+  "train_images": 1769,
+  "epochs_max": 40,
+  "patience": 12,
+  "initialization": "round2 validation-selected best epoch4; smoke never replaces formal initialization",
+  "initial_sha256": "0487cde1d0e1253838e38161a3633b6bc68ff765bef9064596614d64ed9e8f7a",
+  "old_base": "/root/autodl-tmp/joint_round1",
+  "not_final_board_deployment": true,
+  "training_finished": true,
+  "post_validation_completed": true,
+  "recovery_validation_only": false,
+  "saved_best_sha256": "df33a492aab3fb2c8170ca73dc66797e3c7d7257dfa5b5fae5b27144cabf5036",
+  "accuracy_accepted": false,
+  "board_modified": false,
+  "fixed224_result": "FIXED224"
+}

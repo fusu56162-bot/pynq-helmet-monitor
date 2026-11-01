@@ -1,0 +1,232 @@
+{
+  "status": "FIXED224_DEVELOPMENT_VALIDATION_NOT_85_CERTIFICATION",
+  "images": 120,
+  "model_image_pairs": 240,
+  "weights_sha256": {
+    "round2_initial": "0487cde1d0e1253838e38161a3633b6bc68ff765bef9064596614d64ed9e8f7a",
+    "round3_best": "df33a492aab3fb2c8170ca73dc66797e3c7d7257dfa5b5fae5b27144cabf5036"
+  },
+  "input": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "output": [
+    1,
+    3087,
+    9
+  ],
+  "names": [
+    "ebike",
+    "rider",
+    "helmet_head",
+    "bare_head"
+  ],
+  "thresholds": [
+    0.35,
+    0.25,
+    0.5,
+    0.2
+  ],
+  "nms_iou": 0.45,
+  "matching_iou": 0.5,
+  "per_class": {
+    "legacy_full37/round2_initial/ebike": {
+      "tp": 37,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.9736842105263158,
+      "recall": 0.9736842105263158
+    },
+    "legacy_full37/round2_initial/rider": {
+      "tp": 27,
+      "fp": 18,
+      "fn": 11,
+      "precision": 0.6,
+      "recall": 0.7105263157894737
+    },
+    "legacy_full37/round2_initial/helmet_head": {
+      "tp": 19,
+      "fp": 4,
+      "fn": 6,
+      "precision": 0.8260869565217391,
+      "recall": 0.76
+    },
+    "legacy_full37/round2_initial/bare_head": {
+      "tp": 10,
+      "fp": 19,
+      "fn": 3,
+      "precision": 0.3448275862068966,
+      "recall": 0.7692307692307693
+    },
+    "legacy_full37/round3_best/ebike": {
+      "tp": 36,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.9473684210526315
+    },
+    "legacy_full37/round3_best/rider": {
+      "tp": 27,
+      "fp": 17,
+      "fn": 11,
+      "precision": 0.6136363636363636,
+      "recall": 0.7105263157894737
+    },
+    "legacy_full37/round3_best/helmet_head": {
+      "tp": 21,
+      "fp": 4,
+      "fn": 4,
+      "precision": 0.84,
+      "recall": 0.84
+    },
+    "legacy_full37/round3_best/bare_head": {
+      "tp": 10,
+      "fp": 21,
+      "fn": 3,
+      "precision": 0.3225806451612903,
+      "recall": 0.7692307692307693
+    },
+    "legacy_heads60/round2_initial/helmet_head": {
+      "tp": 17,
+      "fp": 5,
+      "fn": 46,
+      "precision": 0.7727272727272727,
+      "recall": 0.2698412698412698
+    },
+    "legacy_heads60/round2_initial/bare_head": {
+      "tp": 11,
+      "fp": 20,
+      "fn": 26,
+      "precision": 0.3548387096774194,
+      "recall": 0.2972972972972973
+    },
+    "legacy_heads60/round3_best/helmet_head": {
+      "tp": 21,
+      "fp": 9,
+      "fn": 42,
+      "precision": 0.7,
+      "recall": 0.3333333333333333
+    },
+    "legacy_heads60/round3_best/bare_head": {
+      "tp": 13,
+      "fp": 19,
+      "fn": 24,
+      "precision": 0.40625,
+      "recall": 0.35135135135135137
+    },
+    "field23/round2_initial/ebike": {
+      "tp": 7,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.875,
+      "recall": 0.7777777777777778
+    },
+    "field23/round2_initial/rider": {
+      "tp": 4,
+      "fp": 3,
+      "fn": 4,
+      "precision": 0.5714285714285714,
+      "recall": 0.5
+    },
+    "field23/round2_initial/helmet_head": {
+      "tp": 0,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null
+    },
+    "field23/round2_initial/bare_head": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 6,
+      "precision": 1.0,
+      "recall": 0.14285714285714285
+    },
+    "field23/round3_best/ebike": {
+      "tp": 9,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9,
+      "recall": 1.0
+    },
+    "field23/round3_best/rider": {
+      "tp": 6,
+      "fp": 4,
+      "fn": 2,
+      "precision": 0.6,
+      "recall": 0.75
+    },
+    "field23/round3_best/helmet_head": {
+      "tp": 0,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null
+    },
+    "field23/round3_best/bare_head": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 6,
+      "precision": 1.0,
+      "recall": 0.14285714285714285
+    }
+  },
+  "counts": {
+    "legacy_full37/round2_initial": {
+      "images": 37,
+      "tp": 93,
+      "fp": 42,
+      "fn": 21,
+      "empty_images": 0,
+      "empty_with_predictions": 0
+    },
+    "legacy_full37/round3_best": {
+      "images": 37,
+      "tp": 94,
+      "fp": 42,
+      "fn": 20,
+      "empty_images": 0,
+      "empty_with_predictions": 0
+    },
+    "legacy_heads60/round2_initial": {
+      "images": 60,
+      "tp": 28,
+      "fp": 25,
+      "fn": 72,
+      "empty_images": 0,
+      "empty_with_predictions": 0
+    },
+    "legacy_heads60/round3_best": {
+      "images": 60,
+      "tp": 34,
+      "fp": 28,
+      "fn": 66,
+      "empty_images": 0,
+      "empty_with_predictions": 0
+    },
+    "field23/round2_initial": {
+      "images": 23,
+      "tp": 12,
+      "fp": 6,
+      "fn": 12,
+      "empty_images": 14,
+      "empty_with_predictions": 0
+    },
+    "field23/round3_best": {
+      "images": 23,
+      "tp": 16,
+      "fp": 7,
+      "fn": 8,
+      "empty_images": 14,
+      "empty_with_predictions": 0
+    }
+  },
+  "unfused_fp32": true,
+  "roi": false,
+  "multiscale": false,
+  "validation_is_development_not_blind_test": true,
+  "speed_not_measured": true,
+  "board_changed": false
+}

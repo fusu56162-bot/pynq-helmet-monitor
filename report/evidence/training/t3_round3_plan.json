@@ -1,0 +1,80 @@
+{
+  "status": "ROUND3_TRAINING_CANDIDATE_NOT_BOARD_DEPLOYMENT",
+  "names": [
+    "ebike",
+    "rider",
+    "helmet_head",
+    "bare_head"
+  ],
+  "input": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "output": [
+    1,
+    3087,
+    9
+  ],
+  "initialization": "round2 validation-selected best epoch4; never test-selected last",
+  "initial_sha256": "0487cde1d0e1253838e38161a3633b6bc68ff765bef9064596614d64ed9e8f7a",
+  "train_images": 1769,
+  "train_original_image_entries": 1665,
+  "training_derivatives": 104,
+  "train_legacy_full": 800,
+  "train_legacy_partial": 200,
+  "train_field_original": 65,
+  "train_extra_B_full": 400,
+  "train_extra_B_partial": 200,
+  "early_stop_full_val": 60,
+  "diagnostic_head_val": 60,
+  "epochs_max": 40,
+  "patience": 12,
+  "batch": 32,
+  "optimizer": "AdamW",
+  "lr0": 3e-05,
+  "seed": 42,
+  "noautoanchor": true,
+  "multiscale": false,
+  "mosaic": false,
+  "roi_inference": false,
+  "inference_graph_and_class_order_unchanged": true,
+  "four_class_85_not_guaranteed": true,
+  "hyperparameters_unchanged_from_round2": true,
+  "field_split_unchanged": true,
+  "original_files_deleted": false,
+  "quantization_started": false,
+  "board_changed": false,
+  "pointwise_1x1_still_paused": true,
+  "validation_used_for_development_not_blind_certification": true,
+  "source_reference": "https://docs.ultralytics.com/yolov5/tutorials/tips-for-best-training-results/",
+  "head_box_counts_by_origin": {
+    "legacy": {
+      "boxes_ebike": 970,
+      "boxes_rider": 1354,
+      "boxes_bare_head": 810,
+      "heads_min4to12": 1009,
+      "boxes_helmet_head": 939
+    },
+    "field": {
+      "boxes_ebike": 52,
+      "boxes_rider": 52,
+      "boxes_bare_head": 38,
+      "heads_min4to12": 1
+    },
+    "B_unused_train": {
+      "boxes_ebike": 464,
+      "boxes_rider": 763,
+      "boxes_helmet_head": 734,
+      "heads_min4to12": 1010,
+      "boxes_bare_head": 522
+    },
+    "field_scaled_training_only": {
+      "boxes_ebike": 104,
+      "boxes_rider": 104,
+      "boxes_bare_head": 76,
+      "heads_min4to12": 61
+    }
+  }
+}

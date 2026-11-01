@@ -1,0 +1,2084 @@
+{
+  "status": "ROUND1_FIXED224_FLOAT_COMPARISON_COMPLETED_NOT_FINAL_ACCEPTANCE",
+  "output": "D:\\Codex\\fpga_work\\joint_model_training_v1\\round1_result_20261025\\fixed224_20261025_043418_911241",
+  "evaluated_images": 1288,
+  "evaluated_photos": 9,
+  "old_control_scores_reproduced": 1288,
+  "old_photo_outputs_reproduced": 9,
+  "input": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "output_shape": [
+    1,
+    3087,
+    9
+  ],
+  "names": [
+    "ebike",
+    "rider",
+    "helmet_head",
+    "bare_head"
+  ],
+  "confidence": [
+    0.35,
+    0.25,
+    0.5,
+    0.2
+  ],
+  "nms_iou": 0.45,
+  "match_iou": 0.5,
+  "single_whole_frame": true,
+  "crops": 0,
+  "multiscale": false,
+  "thresholds_retuned": false,
+  "counts": {
+    "old_test/old": {
+      "images": 324,
+      "tp": 657,
+      "fp": 288,
+      "fn": 505,
+      "head_wrong_class": 128
+    },
+    "old_test/best": {
+      "images": 324,
+      "tp": 761,
+      "fp": 407,
+      "fn": 401,
+      "head_wrong_class": 169
+    },
+    "old_test/last": {
+      "images": 324,
+      "tp": 850,
+      "fp": 159,
+      "fn": 312,
+      "head_wrong_class": 60
+    },
+    "test/old": {
+      "images": 964,
+      "tp": 389,
+      "fp": 171,
+      "fn": 1848,
+      "head_wrong_class": 50
+    },
+    "test/best": {
+      "images": 964,
+      "tp": 646,
+      "fp": 919,
+      "fn": 1591,
+      "head_wrong_class": 187
+    },
+    "test/last": {
+      "images": 964,
+      "tp": 778,
+      "fp": 1804,
+      "fn": 1459,
+      "head_wrong_class": 161
+    }
+  },
+  "per_class": {
+    "old_test/old/ebike": {
+      "tp": 307,
+      "fp": 19,
+      "fn": 41,
+      "precision": 0.941717791411043,
+      "recall": 0.882183908045977
+    },
+    "old_test/old/rider": {
+      "tp": 322,
+      "fp": 112,
+      "fn": 85,
+      "precision": 0.7419354838709677,
+      "recall": 0.7911547911547911
+    },
+    "old_test/old/helmet_head": {
+      "tp": 6,
+      "fp": 151,
+      "fn": 21,
+      "precision": 0.03821656050955414,
+      "recall": 0.2222222222222222
+    },
+    "old_test/old/bare_head": {
+      "tp": 22,
+      "fp": 6,
+      "fn": 358,
+      "precision": 0.7857142857142857,
+      "recall": 0.05789473684210526
+    },
+    "old_test/best/ebike": {
+      "tp": 327,
+      "fp": 18,
+      "fn": 21,
+      "precision": 0.9478260869565217,
+      "recall": 0.9396551724137931
+    },
+    "old_test/best/rider": {
+      "tp": 362,
+      "fp": 162,
+      "fn": 45,
+      "precision": 0.6908396946564885,
+      "recall": 0.8894348894348895
+    },
+    "old_test/best/helmet_head": {
+      "tp": 10,
+      "fp": 205,
+      "fn": 17,
+      "precision": 0.046511627906976744,
+      "recall": 0.37037037037037035
+    },
+    "old_test/best/bare_head": {
+      "tp": 62,
+      "fp": 22,
+      "fn": 318,
+      "precision": 0.7380952380952381,
+      "recall": 0.1631578947368421
+    },
+    "old_test/last/ebike": {
+      "tp": 341,
+      "fp": 12,
+      "fn": 7,
+      "precision": 0.9660056657223796,
+      "recall": 0.9798850574712644
+    },
+    "old_test/last/rider": {
+      "tp": 365,
+      "fp": 52,
+      "fn": 42,
+      "precision": 0.8752997601918465,
+      "recall": 0.8968058968058968
+    },
+    "old_test/last/helmet_head": {
+      "tp": 7,
+      "fp": 71,
+      "fn": 20,
+      "precision": 0.08974358974358974,
+      "recall": 0.25925925925925924
+    },
+    "old_test/last/bare_head": {
+      "tp": 137,
+      "fp": 24,
+      "fn": 243,
+      "precision": 0.8509316770186336,
+      "recall": 0.3605263157894737
+    },
+    "test/old/helmet_head": {
+      "tp": 248,
+      "fp": 46,
+      "fn": 966,
+      "precision": 0.8435374149659864,
+      "recall": 0.2042833607907743
+    },
+    "test/old/bare_head": {
+      "tp": 141,
+      "fp": 125,
+      "fn": 882,
+      "precision": 0.5300751879699248,
+      "recall": 0.1378299120234604
+    },
+    "test/best/helmet_head": {
+      "tp": 357,
+      "fp": 128,
+      "fn": 857,
+      "precision": 0.7360824742268042,
+      "recall": 0.2940691927512356
+    },
+    "test/best/bare_head": {
+      "tp": 289,
+      "fp": 791,
+      "fn": 734,
+      "precision": 0.2675925925925926,
+      "recall": 0.2825024437927664
+    },
+    "test/last/helmet_head": {
+      "tp": 528,
+      "fp": 692,
+      "fn": 686,
+      "precision": 0.43278688524590164,
+      "recall": 0.43492586490939045
+    },
+    "test/last/bare_head": {
+      "tp": 250,
+      "fp": 1112,
+      "fn": 773,
+      "precision": 0.18355359765051396,
+      "recall": 0.24437927663734116
+    }
+  },
+  "best_old324_regressions": [
+    "rider",
+    "bare_head"
+  ],
+  "conservative_nonregression_gate_passed": false,
+  "accuracy_certified": false,
+  "quantization_started": false,
+  "board_modified": false,
+  "protected_baseline_files_unchanged": 48,
+  "checkpoint_files_unchanged": true,
+  "test_exact_ids_and_source_file_hashes_not_in_train": true,
+  "scoring_scope": "old324 model-assisted four-class; test964 head-only supplied labels, not complete full-image expert truth",
+  "candidate_selection": "best.pt selected by training validation before held-out testing; last.pt diagnostic only",
+  "runtime": {
+    "inference_backend": "same PyTorch FP32 CPU for old, best and last",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.5.1+cpu",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0",
+    "onnx": "1.19.1",
+    "cpu_threads": 2
+  },
+  "evaluation_wall_seconds": 87.0323051000014,
+  "pc_time_is_not_pynq_camera_time": true,
+  "graphs": {
+    "old": {
+      "kind": "pytorch_fp32_fixed224",
+      "input": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "output": [
+        1,
+        3087,
+        9
+      ],
+      "convolutions": [
+        {
+          "name": "model.0.conv",
+          "shape": [
+            16,
+            3,
+            6,
+            6
+          ],
+          "weight_sha256": "0032f4049d0504c7d85071b69184c37f2368bb96d994bc32be362a859e78c842"
+        },
+        {
+          "name": "model.1.conv",
+          "shape": [
+            32,
+            16,
+            3,
+            3
+          ],
+          "weight_sha256": "1a8cd50a9957dfc99712c52887b8e5ad0e74c9a2918957eba4f3ee159bded374"
+        },
+        {
+          "name": "model.2.cv1.conv",
+          "shape": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "3e81bac1e3c2a940a28777d089ce6e20c08396addceddf3b4995444e51c8f004"
+        },
+        {
+          "name": "model.2.cv2.conv",
+          "shape": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "05b5e3320e653fd29e3708c61950acb1be182acade8325dc4292882a6e0d3bbb"
+        },
+        {
+          "name": "model.2.cv3.conv",
+          "shape": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "820c5333dda581e71483c5c7867e1a318d1e4a19bcbd3dc0105ee25497512c2a"
+        },
+        {
+          "name": "model.2.m.0.cv1.conv",
+          "shape": [
+            16,
+            16,
+            1,
+            1
+          ],
+          "weight_sha256": "398719cb36f99bbbef3d3d1852cb0770e40003418d4891f9bf030fd150ad811b"
+        },
+        {
+          "name": "model.2.m.0.cv2.conv",
+          "shape": [
+            16,
+            16,
+            3,
+            3
+          ],
+          "weight_sha256": "42f7fbd57c04da466d027d2c76a087aeaea2f74392005790dc7cc8b9fe3c9274"
+        },
+        {
+          "name": "model.3.conv",
+          "shape": [
+            64,
+            32,
+            3,
+            3
+          ],
+          "weight_sha256": "0131b6f8790d8e9314346e9b6997660115a6843bc764658ab0c551a5b7718f0e"
+        },
+        {
+          "name": "model.4.cv1.conv",
+          "shape": [
+            32,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "75916786d099e1136b0b14380e6d521023124b9f00d5ffeed98bab8e1080900a"
+        },
+        {
+          "name": "model.4.cv2.conv",
+          "shape": [
+            32,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "a5a56a940e78761acde184568047264bfd546ec04b6fc648e4b0d65623083689"
+        },
+        {
+          "name": "model.4.cv3.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "427009a0c8d1a7646c7134d4c92348bc9ffbe8637a9e87bd0b4be00a21eac135"
+        },
+        {
+          "name": "model.4.m.0.cv1.conv",
+          "shape": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "512734eb0344dee9d40d561bf86be40eee89d30439449c5ee2abadc6a710540a"
+        },
+        {
+          "name": "model.4.m.0.cv2.conv",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "weight_sha256": "71f7e6815be8edbf1142bb6c349cb8a5f87ac92c8f21e498bdc7aef87d3b02e3"
+        },
+        {
+          "name": "model.4.m.1.cv1.conv",
+          "shape": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "14cd3b055a74a7683a6077fea31e353c960e711c620cd49ca685aebe64e2aedc"
+        },
+        {
+          "name": "model.4.m.1.cv2.conv",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "weight_sha256": "c73a6c0e005afee8f721b8325bd5f79c36f27506ee0a32a47df2746374da2e4e"
+        },
+        {
+          "name": "model.5.conv",
+          "shape": [
+            128,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "fe580a7184eadc00b9901ab1c0f05cffccc9c12c0c2e20dd9212883d8faf484f"
+        },
+        {
+          "name": "model.6.cv1.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "3a3ca5b32c1a624b219b74492fe0133cf913286e60af943ad0db81e00d0b74b4"
+        },
+        {
+          "name": "model.6.cv2.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "bfde8d4e2e0f19be048f79509c506837579902ef8ec18384c6e6afb494a91f98"
+        },
+        {
+          "name": "model.6.cv3.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "d4a8a7319b561fb0471a87136af2638dbd242bf5432767b3b309cb64fa2220bc"
+        },
+        {
+          "name": "model.6.m.0.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "b001257fcb19666ffcaf1231f448c2f12b5f75bcdde83faef697cb41f45c992d"
+        },
+        {
+          "name": "model.6.m.0.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "74e5bc7cb4796dc8fc1c1de0eaab28c49093a7fae402b73b3f8228e895e67572"
+        },
+        {
+          "name": "model.6.m.1.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "aec29839ec7e34b649c827321ef038d1d1e3efd8b5ed8ed6c6b249d6c347bee3"
+        },
+        {
+          "name": "model.6.m.1.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "bc48ed86737a6443cacb73c237230947c4e89cc2a737fca52cd9247af5a85a15"
+        },
+        {
+          "name": "model.6.m.2.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "902977a8af58687cc461224f66964d224a5174c53967591249d58f35e000bf73"
+        },
+        {
+          "name": "model.6.m.2.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "5f18286016e3684aa22b88348cd7def969f6290e5639ba2046a00c5402e479be"
+        },
+        {
+          "name": "model.7.conv",
+          "shape": [
+            256,
+            128,
+            3,
+            3
+          ],
+          "weight_sha256": "6682c030c25e37b7b742c9d45e1b4e3fbfe35cc245c7a371acb5b3eae742e546"
+        },
+        {
+          "name": "model.8.cv1.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "cd263115cf6b0b8e860ea0a01fbc9e9bc0b450522edfd9469c47197b5dd20fac"
+        },
+        {
+          "name": "model.8.cv2.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "7cab1ac9a3fc7be744a1c6bf7ce4c1fb0e5575c01023023408e085777b0cc8cd"
+        },
+        {
+          "name": "model.8.cv3.conv",
+          "shape": [
+            256,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "ac3d8d106a6a7726f4aba5cb3014c2666bc970cdc1852dac164e5efea617bb65"
+        },
+        {
+          "name": "model.8.m.0.cv1.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "8a3dbbd0736fe6827fa5a5336b8d1e167068ad451518e0c8f7e66f5a99782379"
+        },
+        {
+          "name": "model.8.m.0.cv2.conv",
+          "shape": [
+            128,
+            128,
+            3,
+            3
+          ],
+          "weight_sha256": "ce1ed04d7fc79124dea2ba0d4ff935ec9c20af64985c635270e6d6453e587966"
+        },
+        {
+          "name": "model.9.cv1.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "b0b8d893e994ba63845be0d69bed9311a886820e12ee4d63e328fdbcf987169a"
+        },
+        {
+          "name": "model.9.cv2.conv",
+          "shape": [
+            256,
+            512,
+            1,
+            1
+          ],
+          "weight_sha256": "fff9382633e3b6b6800540b7638d21482ed92d40e03adecc0368ae4ceeda605d"
+        },
+        {
+          "name": "model.10.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "35036d975e43a517fee99f9f94874d12dd44f648751cea8702aa9ed6b1d0a8eb"
+        },
+        {
+          "name": "model.13.cv1.conv",
+          "shape": [
+            64,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "440f4984b7cd85a55e06b8206c6f71d76f1aa983003c1307da67ed506caba295"
+        },
+        {
+          "name": "model.13.cv2.conv",
+          "shape": [
+            64,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "6172e37e9676fc824906a08cfb27a7279adfc095be18d6501181025d2e1b67a4"
+        },
+        {
+          "name": "model.13.cv3.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "71c7b223231337a5b15cb33fb69f3b29d07e18e39898e293afcf7a0b3e7bdabd"
+        },
+        {
+          "name": "model.13.m.0.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "e7cd50fa5eea55d93ab66900662cfa4430459ad0aa49f5b825b344883ce9f2a0"
+        },
+        {
+          "name": "model.13.m.0.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "17a0f093cfdd043d558014ef0f3b53218f3c39dd367f865cf9de7c14c62f0667"
+        },
+        {
+          "name": "model.14.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "477a10d594f6ce49d5a6d4094d92f80326a2ff75d1bebd7c47a65c609aa256b3"
+        },
+        {
+          "name": "model.17.cv1.conv",
+          "shape": [
+            32,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "e9323968eb6ebd5c4a06874f44ec661cb3d1568c13751a908441ca9469b8b132"
+        },
+        {
+          "name": "model.17.cv2.conv",
+          "shape": [
+            32,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "e7133aeab5673ab9ee00b25aa397b75a381e0c095d45d7201199a80e6caafa17"
+        },
+        {
+          "name": "model.17.cv3.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "d78bc1ee10fbce48708e6eeaddcb2bb8139550e469f0dc785cd48e57c80f54ea"
+        },
+        {
+          "name": "model.17.m.0.cv1.conv",
+          "shape": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "b7f795f7b532bb0572acd3a1e730fe74fccd282e3f7bfe01aa52a7fcf6412ce8"
+        },
+        {
+          "name": "model.17.m.0.cv2.conv",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "weight_sha256": "a554c7a3717326c2691f147444d9e22dea64ea4431c9190995027a7e0a8acf18"
+        },
+        {
+          "name": "model.18.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "b73fecf5d5f9bd39f7d08836c09ec1b1d0725c62982610c9a734a23f35e16cff"
+        },
+        {
+          "name": "model.20.cv1.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "c4937e8369e1dee73ed5ecdef2e855b99e97add7c6b16f9720b8d099f60b28bf"
+        },
+        {
+          "name": "model.20.cv2.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "0229043cea8dd89f996cfadcc23f9f56674ffa365594f833697451809201f3e8"
+        },
+        {
+          "name": "model.20.cv3.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "a0ba935cf4cb3333e220c625bc1c5cf5f3b7e9d805480decb078003cddfdecfb"
+        },
+        {
+          "name": "model.20.m.0.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "b1d7138ab3b184b7ff289c0db81bc8539440c5b7fba8e327c056449a3b15ed9d"
+        },
+        {
+          "name": "model.20.m.0.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "95aaf00f9abe098817b958d12355d1f5960d4c0693c91616e052ebab49aa70a1"
+        },
+        {
+          "name": "model.21.conv",
+          "shape": [
+            128,
+            128,
+            3,
+            3
+          ],
+          "weight_sha256": "19da45bfcff57e35f0a9a0a5b6e8e3f18ee317cb9328ef069d096f96e59f66b5"
+        },
+        {
+          "name": "model.23.cv1.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "8a9b6e501a97b24a461000b5b6d9387bd21229c6cfc37d6c23fa1a11962f3a88"
+        },
+        {
+          "name": "model.23.cv2.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "cb185e7e85d5c05b0fd92bfae3113edd6d41f6ad8670736060e2db9aa0e698b4"
+        },
+        {
+          "name": "model.23.cv3.conv",
+          "shape": [
+            256,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "02b730220ac5fb450e85e5b7135e79d5ce43ce45dde3ae95823ebfb2396690e8"
+        },
+        {
+          "name": "model.23.m.0.cv1.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "19fecb0e20c3618aef61dc1954c13df83928102227f5eda6065330ee883662ed"
+        },
+        {
+          "name": "model.23.m.0.cv2.conv",
+          "shape": [
+            128,
+            128,
+            3,
+            3
+          ],
+          "weight_sha256": "0148b42453638f01e5f47d5bb005eb100f53fac341254fb7eb18a9a8177fc620"
+        },
+        {
+          "name": "model.24.m.0",
+          "shape": [
+            27,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "c6751c9afe465728a91a7eb2c6961bd7564da48865e0fc695046b4f7c1982e1d"
+        },
+        {
+          "name": "model.24.m.1",
+          "shape": [
+            27,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "eabd3b8be51499cca852e93d0f7318eaf674921b14c175fd479a63c51cf462fe"
+        },
+        {
+          "name": "model.24.m.2",
+          "shape": [
+            27,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "36c869fbcc669a1d0e29fbd746ade0925b63d7e84aa58eec99a0b86c8fac23b9"
+        }
+      ]
+    },
+    "best": {
+      "kind": "pytorch_fp32_fixed224",
+      "input": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "output": [
+        1,
+        3087,
+        9
+      ],
+      "convolutions": [
+        {
+          "name": "model.0.conv",
+          "shape": [
+            16,
+            3,
+            6,
+            6
+          ],
+          "weight_sha256": "dd758a3010cc386469e98deba0a25367072d6dfc95d297f7883465c13e8fa28e"
+        },
+        {
+          "name": "model.1.conv",
+          "shape": [
+            32,
+            16,
+            3,
+            3
+          ],
+          "weight_sha256": "9beac8ca9e25beb3c45d2046760c0fcd768dc15f8c00cdfac74928c0c657cffa"
+        },
+        {
+          "name": "model.2.cv1.conv",
+          "shape": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "89cba43a42fbaac1cd6f4e02c81ab5ead0c1cd9661da4eb4267b23f77d9653dc"
+        },
+        {
+          "name": "model.2.cv2.conv",
+          "shape": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "61c0863a01944e9ad358544835dded7515915cc6c141fabe7568029d3f06d91e"
+        },
+        {
+          "name": "model.2.cv3.conv",
+          "shape": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "7c042770cea10cabf465547f834a9dbd06639fa379c239b8c29456212abb4b45"
+        },
+        {
+          "name": "model.2.m.0.cv1.conv",
+          "shape": [
+            16,
+            16,
+            1,
+            1
+          ],
+          "weight_sha256": "b3739bcef06122e317cf56fdf0ecf5ca40f66ef717633155ff3f604a1d4847ce"
+        },
+        {
+          "name": "model.2.m.0.cv2.conv",
+          "shape": [
+            16,
+            16,
+            3,
+            3
+          ],
+          "weight_sha256": "3eaf85a72dfc5c1ba3a8f626ce99992cd1fd21388f7601cee60a2105f5ddb8af"
+        },
+        {
+          "name": "model.3.conv",
+          "shape": [
+            64,
+            32,
+            3,
+            3
+          ],
+          "weight_sha256": "47fedf4fe4f6d750e00542e06b85cfaf24abfe10d700675adc02c7086a0a1e4d"
+        },
+        {
+          "name": "model.4.cv1.conv",
+          "shape": [
+            32,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "8bb2b44fd785b3bfbad37219beb36b1e029a5044b272a1d966dfe93c19a06b2e"
+        },
+        {
+          "name": "model.4.cv2.conv",
+          "shape": [
+            32,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "474b5ef5c92dc7fa02a08899dd8e698bf0ef2a79e2c12bdef1de7bf26b4c9168"
+        },
+        {
+          "name": "model.4.cv3.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "6d9a12f72355b3b9a8d8576a58c307982e1b3eb8556a6444a1c8f5dd84c07f46"
+        },
+        {
+          "name": "model.4.m.0.cv1.conv",
+          "shape": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "ec2abd56e702daa50f6813cbdbcc4cf5c06522abae02eb49956b00126fab74ed"
+        },
+        {
+          "name": "model.4.m.0.cv2.conv",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "weight_sha256": "8c1dcf2e322ecac37d3eb346eb306298079703277c68dd9fac3023c017134413"
+        },
+        {
+          "name": "model.4.m.1.cv1.conv",
+          "shape": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "044230139216fb678be2ffeffe068bd79a733dd743ef0a720b41ec7ed1cd21f6"
+        },
+        {
+          "name": "model.4.m.1.cv2.conv",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "weight_sha256": "e062df780faed8fd213ad230b532c99e33852196997713507150b2a46e7495fa"
+        },
+        {
+          "name": "model.5.conv",
+          "shape": [
+            128,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "0ba57ecb285c9ae4f4b6ac205daddea0707b548a1c310f1e28e3185f694d1b95"
+        },
+        {
+          "name": "model.6.cv1.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "db1c4e37637fd999cf58fcbba6f5ef38b3fa3ed875021d6f801bd7177b939fb5"
+        },
+        {
+          "name": "model.6.cv2.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "e6ab8cc26a0fa4f36c140889a2230ca0fbc8f97ce529b384096eadaa5cae1d81"
+        },
+        {
+          "name": "model.6.cv3.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "c1995a2fd286a392efac5656a026def1efaf9b40f13297844964eaf245c81f83"
+        },
+        {
+          "name": "model.6.m.0.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "3fb76ccdb0ecc75edaff643e482e419f5ad73164e3519ec1b9d20bb64632970f"
+        },
+        {
+          "name": "model.6.m.0.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "63bb9e4c5df5f22bd0453103b8face1dce34481c86e87e4bae61ca8b31574f8b"
+        },
+        {
+          "name": "model.6.m.1.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "9801cac2d12af2e889d272cf7770b80f393d445bbe74b38efcd1919655d0995d"
+        },
+        {
+          "name": "model.6.m.1.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "52a9854721cf0f99e475640fc0d1cc43f6eefdc09a95e76e441da961f3361c25"
+        },
+        {
+          "name": "model.6.m.2.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "4b742ccfe3c4e1c767c0bb95002aa62415992d51a703921b59b8dd0831a86860"
+        },
+        {
+          "name": "model.6.m.2.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "aec93c920cac51b5e0b08ee876c8433d1fad060725e02a9fa22dcfbcbb66af05"
+        },
+        {
+          "name": "model.7.conv",
+          "shape": [
+            256,
+            128,
+            3,
+            3
+          ],
+          "weight_sha256": "ee2915a80e7d7e857541cc575abd40d560e7bd3b3f950c25e61c500c6493edd7"
+        },
+        {
+          "name": "model.8.cv1.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "2b4c7598b560e0100459d2dfc496436d9826eb728ddd199081fb8467488a4eee"
+        },
+        {
+          "name": "model.8.cv2.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "5e7560e46e06f83680e944f39e2a2602b6541529e279a78c8abe2d40441b0d1f"
+        },
+        {
+          "name": "model.8.cv3.conv",
+          "shape": [
+            256,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "d60c063087d170e4dc8c37dc6a87413131890bed44e14f489ad7fe84b77b303d"
+        },
+        {
+          "name": "model.8.m.0.cv1.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "3c1243eac5285511e44980bb2ee1a573fc9deeb7e5734b9222de28a3243f843c"
+        },
+        {
+          "name": "model.8.m.0.cv2.conv",
+          "shape": [
+            128,
+            128,
+            3,
+            3
+          ],
+          "weight_sha256": "b05af3d43e2b7f315456be17509e65b5ee51a8a926fc55819046703ddae64aa5"
+        },
+        {
+          "name": "model.9.cv1.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "452f85f34823dabc4c672b0514cfabf90d8f90df6285e87ee170883159519fff"
+        },
+        {
+          "name": "model.9.cv2.conv",
+          "shape": [
+            256,
+            512,
+            1,
+            1
+          ],
+          "weight_sha256": "78008b4aad4197de6f785cc778543058977a33a34b15a94637b978df5a904762"
+        },
+        {
+          "name": "model.10.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "6039fc3e001a522e3d231b656be1c415ceb5a44d729afea359639bcf155f24f9"
+        },
+        {
+          "name": "model.13.cv1.conv",
+          "shape": [
+            64,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "f0c1045bebef9613f856a2b8476a73f2c864ed79126282f7787e4e7e25d96113"
+        },
+        {
+          "name": "model.13.cv2.conv",
+          "shape": [
+            64,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "ac50f23ed42fafa8d2568cdff7da197bb6571e01c6088136e8b8fb86738da68c"
+        },
+        {
+          "name": "model.13.cv3.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "f4fe8d79a58d24fd83f100df7068d8d5eed097e15f982d5f96c686bf20b828eb"
+        },
+        {
+          "name": "model.13.m.0.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "c69d810dbfbe3ca30804f3ee7644530ba865352396236b20e2572d59a02673c6"
+        },
+        {
+          "name": "model.13.m.0.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "5a28ded39b2134e28bec148b7e9d3d95a951dfe32588d9e2c32d0f92d7b6d742"
+        },
+        {
+          "name": "model.14.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "5b1c60577fed89272edb8b7ed2a3d1a4e3fa8a0931adfcbbe59cec9655f2dbda"
+        },
+        {
+          "name": "model.17.cv1.conv",
+          "shape": [
+            32,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "9a894e8f9a7cb38200fb2bfb0f37e5c37f03f561d3dab9083d2f830c2d80bc5f"
+        },
+        {
+          "name": "model.17.cv2.conv",
+          "shape": [
+            32,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "3e35e690ff1c5cd637d0d54c044b5a5df557cfacb10b42080353fd3ac2a41d5e"
+        },
+        {
+          "name": "model.17.cv3.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "8dabc53c71e74cbd210dac5b1a0f621b251918df9d3ca512aed4ee5174e0ebd7"
+        },
+        {
+          "name": "model.17.m.0.cv1.conv",
+          "shape": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "5844d2db96af656424ea6822fdde4ed29f0254d15377eb2efbf20516e1299105"
+        },
+        {
+          "name": "model.17.m.0.cv2.conv",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "weight_sha256": "9792301c219817e1db4af834bef5de9464e395367c84b2df7b30012e2ef928a7"
+        },
+        {
+          "name": "model.18.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "15e09f07be486a5fdd61cc18a7493269162a4f5b7e6f2392ece8adfa36b08a9e"
+        },
+        {
+          "name": "model.20.cv1.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "cb33bb8fdbfcd4359ea3ae30a775edebafeb007b51b60ac58c0ada52fc7e0c73"
+        },
+        {
+          "name": "model.20.cv2.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "5af9ece8c9751ccb97896488298110fd407b40453910ef8aa7d9f39b2082af8c"
+        },
+        {
+          "name": "model.20.cv3.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "76dd945d61707c299dbb7ea52ff8f5be5d52c777e78af8fb03ab99d81d86ba8e"
+        },
+        {
+          "name": "model.20.m.0.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "aa733f8815abf20f9952df5eb4bdf0433ebe0155946fb37408a046c9efd39e44"
+        },
+        {
+          "name": "model.20.m.0.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "bc561bac9228fbed78254a27856147e5a72978099f2030de0510e0becaabb7d0"
+        },
+        {
+          "name": "model.21.conv",
+          "shape": [
+            128,
+            128,
+            3,
+            3
+          ],
+          "weight_sha256": "2922b6f8d455661ee94b220a38b7617433175daaacce888bf8fc39a6d342b317"
+        },
+        {
+          "name": "model.23.cv1.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "85eb172ae8fdd833d5e1afe13e40f0cd9ce45b897c763e5e92027f4dbbe02c8f"
+        },
+        {
+          "name": "model.23.cv2.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "4180ee9f0be45f8000f1782f42a0db47064901e6247355a8e8c8fd92ca762bc3"
+        },
+        {
+          "name": "model.23.cv3.conv",
+          "shape": [
+            256,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "c35d1509b004a26d483a4e29d4b8e8baec6c4c814e7115a02ef8876ffb984af2"
+        },
+        {
+          "name": "model.23.m.0.cv1.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "f3fd61ca16d699795eb1b89344903fe275ba644823d45dac3da0f13bd1fc42ba"
+        },
+        {
+          "name": "model.23.m.0.cv2.conv",
+          "shape": [
+            128,
+            128,
+            3,
+            3
+          ],
+          "weight_sha256": "099c7c628731b5c38c91d2dd9a75128952fa31f99ea8a468318905f35acec3fa"
+        },
+        {
+          "name": "model.24.m.0",
+          "shape": [
+            27,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "5e181fc89a3037cfec8002fcdfd19ccbf816acb10aa37946bfe6ffc54f0d0edb"
+        },
+        {
+          "name": "model.24.m.1",
+          "shape": [
+            27,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "ecb991ccbc8ff7bb61bd5f98f39b442e9ef6f4642660cfe696d198153bcf8e98"
+        },
+        {
+          "name": "model.24.m.2",
+          "shape": [
+            27,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "a3c925c9e60915ab26e54c61c49b41844d2165aacebf5c692b038793877abf08"
+        }
+      ]
+    },
+    "last": {
+      "kind": "pytorch_fp32_fixed224",
+      "input": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "output": [
+        1,
+        3087,
+        9
+      ],
+      "convolutions": [
+        {
+          "name": "model.0.conv",
+          "shape": [
+            16,
+            3,
+            6,
+            6
+          ],
+          "weight_sha256": "87f34fa942294dbcd4700f162345a3146b1a2991e1e5d6f3af81cd347da032f6"
+        },
+        {
+          "name": "model.1.conv",
+          "shape": [
+            32,
+            16,
+            3,
+            3
+          ],
+          "weight_sha256": "0c12d20c5441ea965cb3944eaf9fe5e1d64ea5a8f4f07213e5628b8364ee2af9"
+        },
+        {
+          "name": "model.2.cv1.conv",
+          "shape": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "a17e2a510f70c8c0d106401adf0e71e89a85047d464a011501096f8f4fbd9ab2"
+        },
+        {
+          "name": "model.2.cv2.conv",
+          "shape": [
+            16,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "c97b12ecaf4259c53c390ea0e501e5046f18f328544c0dd766f4378eacb9093b"
+        },
+        {
+          "name": "model.2.cv3.conv",
+          "shape": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "d5f07381391194838b5ddaa13da8c670c7dac98dd7f5cae71a4710f5504e3306"
+        },
+        {
+          "name": "model.2.m.0.cv1.conv",
+          "shape": [
+            16,
+            16,
+            1,
+            1
+          ],
+          "weight_sha256": "382eca1840cf908408e729b4ebad7478e5ab661809cb43e814944fabf3777673"
+        },
+        {
+          "name": "model.2.m.0.cv2.conv",
+          "shape": [
+            16,
+            16,
+            3,
+            3
+          ],
+          "weight_sha256": "89a17057fd5aa3b0f9175c32cfa3fe6a53209759fa58f9b06fd60c8491fea0ee"
+        },
+        {
+          "name": "model.3.conv",
+          "shape": [
+            64,
+            32,
+            3,
+            3
+          ],
+          "weight_sha256": "210e244df2b663a07966a3a82bed6805c3c81aaf76f821c4324794f280c9fdce"
+        },
+        {
+          "name": "model.4.cv1.conv",
+          "shape": [
+            32,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "15df7e395d708c91c590726e3d3d5813d97a36a320c100436074c1162cc69824"
+        },
+        {
+          "name": "model.4.cv2.conv",
+          "shape": [
+            32,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "6fb130d178dc93bdbae6b5627a4b87b63e2e4dbc43221437fef4d11e70b254cc"
+        },
+        {
+          "name": "model.4.cv3.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "3f13b257cc8da1c0c506c043e120573cb9ed104274440687193c988554c0af22"
+        },
+        {
+          "name": "model.4.m.0.cv1.conv",
+          "shape": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "139a43f63099c44868ebed5bef5613c331e5d71e1942c63ee84e4d694a3c7cb4"
+        },
+        {
+          "name": "model.4.m.0.cv2.conv",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "weight_sha256": "35c8ceca72a75915580eb08f07624ef35643c0dbd695fae705411bd932368409"
+        },
+        {
+          "name": "model.4.m.1.cv1.conv",
+          "shape": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "34c63d2deda382b3b9215bb52a3e1bbc15274b04b1ff21e4c6f15ceab0d5240e"
+        },
+        {
+          "name": "model.4.m.1.cv2.conv",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "weight_sha256": "ecf8ed8f37d56c2c52813565232c06d8d762a038ea13205c9b635a1f5a9c62be"
+        },
+        {
+          "name": "model.5.conv",
+          "shape": [
+            128,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "fe9e205dcdf446979a5edcfd3f66fbe3abe0afec6791e9279296f1bd139dd1ee"
+        },
+        {
+          "name": "model.6.cv1.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "95626605a7356f1b79fd514862829951cc442df87a1380a415211fc64d72524c"
+        },
+        {
+          "name": "model.6.cv2.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "b0802242565d6209d2fb62e059315a83010ea2ea3ef37c647f9c63ff7b41ce72"
+        },
+        {
+          "name": "model.6.cv3.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "062242f8c36fbe20006bf3e505a4ad1d26700c00d6c981a1f2503245171db5dc"
+        },
+        {
+          "name": "model.6.m.0.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "7266911121a61f593101186132870ed1b426441fca9adc0ea2ec546d93a5d1e2"
+        },
+        {
+          "name": "model.6.m.0.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "fc4bc8e4426caf3cabd31e6830ee48c1a994d4e02a19941c59a32664aa1a8963"
+        },
+        {
+          "name": "model.6.m.1.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "174b4e8e17247290508f8c0c0e57ebaaa82170678e6bc83b8e6946b4b48bc155"
+        },
+        {
+          "name": "model.6.m.1.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "dc8a6001fa1eb805ed2c44eec9982d63d38dc43d89f19d9ccf0630bfbe0f8533"
+        },
+        {
+          "name": "model.6.m.2.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "76e7da1c2dc36aebd5e81a3eb58ab4314557a4d45e6797b41426907864432bfe"
+        },
+        {
+          "name": "model.6.m.2.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "f9f8faf97b8c9edcce4479226214b444ac1b6860c317f0e56e799e915775e4ba"
+        },
+        {
+          "name": "model.7.conv",
+          "shape": [
+            256,
+            128,
+            3,
+            3
+          ],
+          "weight_sha256": "6d1cc3c61d3f36d82e14a3416fec28f684820663ab1c4a161e973dcd796147d1"
+        },
+        {
+          "name": "model.8.cv1.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "b7f7d310081cfeaa476669341428369aecbb00d48d52d7d3713a5cf463020800"
+        },
+        {
+          "name": "model.8.cv2.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "a319c0ec3b9f5cc0761de0579f4f48aed5dbfcdfa8cd8c0c77a875b4b3f5a3d4"
+        },
+        {
+          "name": "model.8.cv3.conv",
+          "shape": [
+            256,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "b3c8b4d8f1cbc2286bc783d1e3fca7ebdc595c9ea437d61ef941636b1b651a74"
+        },
+        {
+          "name": "model.8.m.0.cv1.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "decb3979546d65034964b5694db04ab0b8712cb7f3f34173cd1f3aa2d9ab8ab1"
+        },
+        {
+          "name": "model.8.m.0.cv2.conv",
+          "shape": [
+            128,
+            128,
+            3,
+            3
+          ],
+          "weight_sha256": "cdd891b3af7d1d2941aae11481a745dcc0f86c403398cc39ba3ba4f86f3ef187"
+        },
+        {
+          "name": "model.9.cv1.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "94d434b4ce6e7df0249b0286052fd39b47fa6110c7d2bb584663019851fd99f1"
+        },
+        {
+          "name": "model.9.cv2.conv",
+          "shape": [
+            256,
+            512,
+            1,
+            1
+          ],
+          "weight_sha256": "2a79fba1eb907f10cde43483756930020fadc6b71f51dbcb189d3a4c396f950f"
+        },
+        {
+          "name": "model.10.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "cc7679b9ebf3ac47fb44b96cdf1bce02779fcad16449b1dd428907433535d233"
+        },
+        {
+          "name": "model.13.cv1.conv",
+          "shape": [
+            64,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "292d43d8cfacf9b8f53fdbff4b855d54b2ed1326280f9166dfa19cfa926f10f1"
+        },
+        {
+          "name": "model.13.cv2.conv",
+          "shape": [
+            64,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "6f95301107abed012d6a49575692ae433744ca1e7134a834c54fa40189145e79"
+        },
+        {
+          "name": "model.13.cv3.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "74511c11645643fc2145372866aac4d897c5348994c00071ee7d47eeffc88c19"
+        },
+        {
+          "name": "model.13.m.0.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "591e18f2b29fe6c9ea4623c31173855c92e467b551ab7b1d5eb847b3a1d4392c"
+        },
+        {
+          "name": "model.13.m.0.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "3450fa860d8541e8c2732ff39e03de823dccb776a2556d988ae9fce313845155"
+        },
+        {
+          "name": "model.14.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "dd1e5a990c5f6367c560756c0e9242e32115745d230f82086c037e31e34c079e"
+        },
+        {
+          "name": "model.17.cv1.conv",
+          "shape": [
+            32,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "e46be03de740a48804e77381fc3bb48fcadec1698624f6144b579a05b319c910"
+        },
+        {
+          "name": "model.17.cv2.conv",
+          "shape": [
+            32,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "05a4a32b79906f0dbc1b847db26ce984847b692ec9d0f4cc46ec03b13389f536"
+        },
+        {
+          "name": "model.17.cv3.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "af51eb2ca58bd671d65362bc20198802af7d436e948abcde3823ec216ee9bea4"
+        },
+        {
+          "name": "model.17.m.0.cv1.conv",
+          "shape": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "weight_sha256": "8545878962b270566847c89d5f1fd20301ae0daa2022755f473f75efebe766cd"
+        },
+        {
+          "name": "model.17.m.0.cv2.conv",
+          "shape": [
+            32,
+            32,
+            3,
+            3
+          ],
+          "weight_sha256": "0d48ecb3b39108897d1734ef1a08e1a3064506785e2344e4b7f5635fcff34832"
+        },
+        {
+          "name": "model.18.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "1e4f2d090cd868ff1a3edc1c40663dace44b11aa7aaf98a666811aef179cba0f"
+        },
+        {
+          "name": "model.20.cv1.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "c8394cae7030cdafe6185908efc11b62c252497dce88200b3e6f0413cbdd274c"
+        },
+        {
+          "name": "model.20.cv2.conv",
+          "shape": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "0e28809f165d91bec8ed7c3254f1dfb13e84db0b33892976d0810a58eb334014"
+        },
+        {
+          "name": "model.20.cv3.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "10a4238504d729e130ec0cedc2290b146818666df1a4c272c459f6fa84e1070b"
+        },
+        {
+          "name": "model.20.m.0.cv1.conv",
+          "shape": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "4fc9373270fc5f54dc30270a22602ec75180af4a187863941d5b8c0217c9bc6e"
+        },
+        {
+          "name": "model.20.m.0.cv2.conv",
+          "shape": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "weight_sha256": "638678e155508c5e81c26c5528bf065e227b9ad2fb0ce04b3fa8007a1b6c3cb3"
+        },
+        {
+          "name": "model.21.conv",
+          "shape": [
+            128,
+            128,
+            3,
+            3
+          ],
+          "weight_sha256": "8595d3d7f8c9760d4c11e0cbe9a46cdd1470678e5798b9a4b2706165c7db5105"
+        },
+        {
+          "name": "model.23.cv1.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "fb6ead103457025f4ed1c598e30005919c4402975b611f21687bd669aea27d91"
+        },
+        {
+          "name": "model.23.cv2.conv",
+          "shape": [
+            128,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "6a69103808a1678b7a2a0eeec5c0774e0bce97beec84056b4c90125f395aaab4"
+        },
+        {
+          "name": "model.23.cv3.conv",
+          "shape": [
+            256,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "e65cf2aad1265cb0eb42a099888489d5bfd77ac058456c61416f67f65dbd220d"
+        },
+        {
+          "name": "model.23.m.0.cv1.conv",
+          "shape": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "41815b9c8aa8a8bb24c73194bcd05e1c5994a9e24bfe102a7a605235f2996eae"
+        },
+        {
+          "name": "model.23.m.0.cv2.conv",
+          "shape": [
+            128,
+            128,
+            3,
+            3
+          ],
+          "weight_sha256": "0931436edf80a5c190f7d084bd1af6d4ddcf262fd1c592f2a4d41b8e543639de"
+        },
+        {
+          "name": "model.24.m.0",
+          "shape": [
+            27,
+            64,
+            1,
+            1
+          ],
+          "weight_sha256": "1085fdaf2419e8528965209baeb9264b3fe561bf12bf24338ef745e0dce9f699"
+        },
+        {
+          "name": "model.24.m.1",
+          "shape": [
+            27,
+            128,
+            1,
+            1
+          ],
+          "weight_sha256": "6aa7d5d436aa15e79c252d001bd8cc4b4abad5710c4fdc7fab21a0f78f3a3543"
+        },
+        {
+          "name": "model.24.m.2",
+          "shape": [
+            27,
+            256,
+            1,
+            1
+          ],
+          "weight_sha256": "0612d29bdcbd47dd8b9d1a292e973beaff49fe61f113418ade39eba1bf64ca89"
+        }
+      ]
+    }
+  },
+  "script_sha256": "0b202e0c341f387e98a7dfb2605a54ef8c5882723072bd2acd6dadc0428e4edf"
+}

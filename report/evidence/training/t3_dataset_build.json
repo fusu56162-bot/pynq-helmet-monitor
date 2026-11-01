@@ -1,0 +1,10 @@
+{
+  "train": 1769,
+  "source_image_entries": 1665,
+  "training_derivatives": 104,
+  "full_scope_early_stop_val": 60,
+  "separate_partial_head_val": 60,
+  "no_test_data_materialized": true,
+  "old_packages_unchanged": true,
+  "field_validation_not_moved_into_training": true
+}

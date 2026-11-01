@@ -1,0 +1,927 @@
+{
+  "status": "ROUND2_FIXED224_THREE_MODEL_COMPARISON_COMPLETED_NOT_BOARD_ACCEPTANCE",
+  "output": "D:\\Codex\\fpga_work\\joint_model_training_v1\\round2_result_20261025\\fixed224_20261025_135011_887450",
+  "models": [
+    "old",
+    "round1_best",
+    "round2_best"
+  ],
+  "images": 1473,
+  "inference_image_model_pairs": 4419,
+  "historical_test_images": 1288,
+  "development_val_images": 120,
+  "training_diagnostic_images": 65,
+  "old_and_round1_controls_reproduced": {
+    "old": 1288,
+    "round1_best": 1288
+  },
+  "input": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "output_shape": [
+    1,
+    3087,
+    9
+  ],
+  "classes": [
+    "ebike",
+    "rider",
+    "helmet_head",
+    "bare_head"
+  ],
+  "thresholds": [
+    0.35,
+    0.25,
+    0.5,
+    0.2
+  ],
+  "nms_iou": 0.45,
+  "matching_iou": 0.5,
+  "single_whole_frame": true,
+  "roi": false,
+  "multiscale": false,
+  "thresholds_retuned": false,
+  "standard_cloud_validation_is_not_same_protocol": true,
+  "model_selection": "round2 best selected at epoch4 from prior-defined validation; last not evaluated/reselected",
+  "counts": {
+    "field_train65/old": {
+      "images": 65,
+      "tp": 26,
+      "fp": 4,
+      "fn": 116,
+      "head_wrong_class": 1,
+      "empty_images": 13,
+      "empty_images_with_predictions": 0
+    },
+    "field_train65/round1_best": {
+      "images": 65,
+      "tp": 48,
+      "fp": 28,
+      "fn": 94,
+      "head_wrong_class": 9,
+      "empty_images": 13,
+      "empty_images_with_predictions": 0
+    },
+    "field_train65/round2_best": {
+      "images": 65,
+      "tp": 124,
+      "fp": 20,
+      "fn": 18,
+      "head_wrong_class": 4,
+      "empty_images": 13,
+      "empty_images_with_predictions": 0
+    },
+    "field_val23/old": {
+      "images": 23,
+      "tp": 8,
+      "fp": 3,
+      "fn": 16,
+      "head_wrong_class": 0,
+      "empty_images": 14,
+      "empty_images_with_predictions": 0
+    },
+    "field_val23/round1_best": {
+      "images": 23,
+      "tp": 10,
+      "fp": 5,
+      "fn": 14,
+      "head_wrong_class": 0,
+      "empty_images": 14,
+      "empty_images_with_predictions": 0
+    },
+    "field_val23/round2_best": {
+      "images": 23,
+      "tp": 12,
+      "fp": 6,
+      "fn": 12,
+      "head_wrong_class": 0,
+      "empty_images": 14,
+      "empty_images_with_predictions": 0
+    },
+    "legacy_full_val37/old": {
+      "images": 37,
+      "tp": 86,
+      "fp": 15,
+      "fn": 28,
+      "head_wrong_class": 2,
+      "empty_images": 0,
+      "empty_images_with_predictions": 0
+    },
+    "legacy_full_val37/round1_best": {
+      "images": 37,
+      "tp": 95,
+      "fp": 52,
+      "fn": 19,
+      "head_wrong_class": 4,
+      "empty_images": 0,
+      "empty_images_with_predictions": 0
+    },
+    "legacy_full_val37/round2_best": {
+      "images": 37,
+      "tp": 93,
+      "fp": 42,
+      "fn": 21,
+      "head_wrong_class": 7,
+      "empty_images": 0,
+      "empty_images_with_predictions": 0
+    },
+    "legacy_heads_val60/old": {
+      "images": 60,
+      "tp": 18,
+      "fp": 4,
+      "fn": 82,
+      "head_wrong_class": 2,
+      "empty_images": 0,
+      "empty_images_with_predictions": 0
+    },
+    "legacy_heads_val60/round1_best": {
+      "images": 60,
+      "tp": 29,
+      "fp": 17,
+      "fn": 71,
+      "head_wrong_class": 8,
+      "empty_images": 0,
+      "empty_images_with_predictions": 0
+    },
+    "legacy_heads_val60/round2_best": {
+      "images": 60,
+      "tp": 28,
+      "fp": 25,
+      "fn": 72,
+      "head_wrong_class": 9,
+      "empty_images": 0,
+      "empty_images_with_predictions": 0
+    },
+    "old_test/old": {
+      "images": 324,
+      "tp": 657,
+      "fp": 288,
+      "fn": 505,
+      "head_wrong_class": 128,
+      "empty_images": 0,
+      "empty_images_with_predictions": 0
+    },
+    "old_test/round1_best": {
+      "images": 324,
+      "tp": 761,
+      "fp": 407,
+      "fn": 401,
+      "head_wrong_class": 169,
+      "empty_images": 0,
+      "empty_images_with_predictions": 0
+    },
+    "old_test/round2_best": {
+      "images": 324,
+      "tp": 871,
+      "fp": 170,
+      "fn": 291,
+      "head_wrong_class": 61,
+      "empty_images": 0,
+      "empty_images_with_predictions": 0
+    },
+    "test/old": {
+      "images": 964,
+      "tp": 389,
+      "fp": 171,
+      "fn": 1848,
+      "head_wrong_class": 50,
+      "empty_images": 0,
+      "empty_images_with_predictions": 0
+    },
+    "test/round1_best": {
+      "images": 964,
+      "tp": 646,
+      "fp": 919,
+      "fn": 1591,
+      "head_wrong_class": 187,
+      "empty_images": 0,
+      "empty_images_with_predictions": 0
+    },
+    "test/round2_best": {
+      "images": 964,
+      "tp": 623,
+      "fp": 1386,
+      "fn": 1614,
+      "head_wrong_class": 260,
+      "empty_images": 0,
+      "empty_images_with_predictions": 0
+    }
+  },
+  "per_class": {
+    "field_train65/old/ebike": {
+      "tp": 25,
+      "fp": 3,
+      "fn": 27,
+      "precision": 0.8928571428571429,
+      "recall": 0.4807692307692308
+    },
+    "field_train65/old/rider": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 51,
+      "precision": 1.0,
+      "recall": 0.019230769230769232
+    },
+    "field_train65/old/helmet_head": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null
+    },
+    "field_train65/old/bare_head": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 38,
+      "precision": null,
+      "recall": 0.0
+    },
+    "field_train65/round1_best/ebike": {
+      "tp": 32,
+      "fp": 10,
+      "fn": 20,
+      "precision": 0.7619047619047619,
+      "recall": 0.6153846153846154
+    },
+    "field_train65/round1_best/rider": {
+      "tp": 12,
+      "fp": 8,
+      "fn": 40,
+      "precision": 0.6,
+      "recall": 0.23076923076923078
+    },
+    "field_train65/round1_best/helmet_head": {
+      "tp": 0,
+      "fp": 10,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null
+    },
+    "field_train65/round1_best/bare_head": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 34,
+      "precision": 1.0,
+      "recall": 0.10526315789473684
+    },
+    "field_train65/round2_best/ebike": {
+      "tp": 48,
+      "fp": 2,
+      "fn": 4,
+      "precision": 0.96,
+      "recall": 0.9230769230769231
+    },
+    "field_train65/round2_best/rider": {
+      "tp": 48,
+      "fp": 4,
+      "fn": 4,
+      "precision": 0.9230769230769231,
+      "recall": 0.9230769230769231
+    },
+    "field_train65/round2_best/helmet_head": {
+      "tp": 0,
+      "fp": 9,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null
+    },
+    "field_train65/round2_best/bare_head": {
+      "tp": 28,
+      "fp": 5,
+      "fn": 10,
+      "precision": 0.8484848484848485,
+      "recall": 0.7368421052631579
+    },
+    "field_val23/old/ebike": {
+      "tp": 7,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.875,
+      "recall": 0.7777777777777778
+    },
+    "field_val23/old/rider": {
+      "tp": 1,
+      "fp": 2,
+      "fn": 7,
+      "precision": 0.3333333333333333,
+      "recall": 0.125
+    },
+    "field_val23/old/helmet_head": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null
+    },
+    "field_val23/old/bare_head": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 7,
+      "precision": null,
+      "recall": 0.0
+    },
+    "field_val23/round1_best/ebike": {
+      "tp": 6,
+      "fp": 2,
+      "fn": 3,
+      "precision": 0.75,
+      "recall": 0.6666666666666666
+    },
+    "field_val23/round1_best/rider": {
+      "tp": 4,
+      "fp": 3,
+      "fn": 4,
+      "precision": 0.5714285714285714,
+      "recall": 0.5
+    },
+    "field_val23/round1_best/helmet_head": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null
+    },
+    "field_val23/round1_best/bare_head": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 7,
+      "precision": null,
+      "recall": 0.0
+    },
+    "field_val23/round2_best/ebike": {
+      "tp": 7,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.875,
+      "recall": 0.7777777777777778
+    },
+    "field_val23/round2_best/rider": {
+      "tp": 4,
+      "fp": 3,
+      "fn": 4,
+      "precision": 0.5714285714285714,
+      "recall": 0.5
+    },
+    "field_val23/round2_best/helmet_head": {
+      "tp": 0,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null
+    },
+    "field_val23/round2_best/bare_head": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 6,
+      "precision": 1.0,
+      "recall": 0.14285714285714285
+    },
+    "legacy_full_val37/old/ebike": {
+      "tp": 36,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.972972972972973,
+      "recall": 0.9473684210526315
+    },
+    "legacy_full_val37/old/rider": {
+      "tp": 26,
+      "fp": 10,
+      "fn": 12,
+      "precision": 0.7222222222222222,
+      "recall": 0.6842105263157895
+    },
+    "legacy_full_val37/old/helmet_head": {
+      "tp": 19,
+      "fp": 2,
+      "fn": 6,
+      "precision": 0.9047619047619048,
+      "recall": 0.76
+    },
+    "legacy_full_val37/old/bare_head": {
+      "tp": 5,
+      "fp": 2,
+      "fn": 8,
+      "precision": 0.7142857142857143,
+      "recall": 0.38461538461538464
+    },
+    "legacy_full_val37/round1_best/ebike": {
+      "tp": 37,
+      "fp": 2,
+      "fn": 1,
+      "precision": 0.9487179487179487,
+      "recall": 0.9736842105263158
+    },
+    "legacy_full_val37/round1_best/rider": {
+      "tp": 30,
+      "fp": 32,
+      "fn": 8,
+      "precision": 0.4838709677419355,
+      "recall": 0.7894736842105263
+    },
+    "legacy_full_val37/round1_best/helmet_head": {
+      "tp": 21,
+      "fp": 5,
+      "fn": 4,
+      "precision": 0.8076923076923077,
+      "recall": 0.84
+    },
+    "legacy_full_val37/round1_best/bare_head": {
+      "tp": 7,
+      "fp": 13,
+      "fn": 6,
+      "precision": 0.35,
+      "recall": 0.5384615384615384
+    },
+    "legacy_full_val37/round2_best/ebike": {
+      "tp": 37,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.9736842105263158,
+      "recall": 0.9736842105263158
+    },
+    "legacy_full_val37/round2_best/rider": {
+      "tp": 27,
+      "fp": 18,
+      "fn": 11,
+      "precision": 0.6,
+      "recall": 0.7105263157894737
+    },
+    "legacy_full_val37/round2_best/helmet_head": {
+      "tp": 19,
+      "fp": 4,
+      "fn": 6,
+      "precision": 0.8260869565217391,
+      "recall": 0.76
+    },
+    "legacy_full_val37/round2_best/bare_head": {
+      "tp": 10,
+      "fp": 19,
+      "fn": 3,
+      "precision": 0.3448275862068966,
+      "recall": 0.7692307692307693
+    },
+    "legacy_heads_val60/old/helmet_head": {
+      "tp": 14,
+      "fp": 3,
+      "fn": 49,
+      "precision": 0.8235294117647058,
+      "recall": 0.2222222222222222
+    },
+    "legacy_heads_val60/old/bare_head": {
+      "tp": 4,
+      "fp": 1,
+      "fn": 33,
+      "precision": 0.8,
+      "recall": 0.10810810810810811
+    },
+    "legacy_heads_val60/round1_best/helmet_head": {
+      "tp": 19,
+      "fp": 8,
+      "fn": 44,
+      "precision": 0.7037037037037037,
+      "recall": 0.30158730158730157
+    },
+    "legacy_heads_val60/round1_best/bare_head": {
+      "tp": 10,
+      "fp": 9,
+      "fn": 27,
+      "precision": 0.5263157894736842,
+      "recall": 0.2702702702702703
+    },
+    "legacy_heads_val60/round2_best/helmet_head": {
+      "tp": 17,
+      "fp": 5,
+      "fn": 46,
+      "precision": 0.7727272727272727,
+      "recall": 0.2698412698412698
+    },
+    "legacy_heads_val60/round2_best/bare_head": {
+      "tp": 11,
+      "fp": 20,
+      "fn": 26,
+      "precision": 0.3548387096774194,
+      "recall": 0.2972972972972973
+    },
+    "old_test/old/ebike": {
+      "tp": 307,
+      "fp": 19,
+      "fn": 41,
+      "precision": 0.941717791411043,
+      "recall": 0.882183908045977
+    },
+    "old_test/old/rider": {
+      "tp": 322,
+      "fp": 112,
+      "fn": 85,
+      "precision": 0.7419354838709677,
+      "recall": 0.7911547911547911
+    },
+    "old_test/old/helmet_head": {
+      "tp": 6,
+      "fp": 151,
+      "fn": 21,
+      "precision": 0.03821656050955414,
+      "recall": 0.2222222222222222
+    },
+    "old_test/old/bare_head": {
+      "tp": 22,
+      "fp": 6,
+      "fn": 358,
+      "precision": 0.7857142857142857,
+      "recall": 0.05789473684210526
+    },
+    "old_test/round1_best/ebike": {
+      "tp": 327,
+      "fp": 18,
+      "fn": 21,
+      "precision": 0.9478260869565217,
+      "recall": 0.9396551724137931
+    },
+    "old_test/round1_best/rider": {
+      "tp": 362,
+      "fp": 162,
+      "fn": 45,
+      "precision": 0.6908396946564885,
+      "recall": 0.8894348894348895
+    },
+    "old_test/round1_best/helmet_head": {
+      "tp": 10,
+      "fp": 205,
+      "fn": 17,
+      "precision": 0.046511627906976744,
+      "recall": 0.37037037037037035
+    },
+    "old_test/round1_best/bare_head": {
+      "tp": 62,
+      "fp": 22,
+      "fn": 318,
+      "precision": 0.7380952380952381,
+      "recall": 0.1631578947368421
+    },
+    "old_test/round2_best/ebike": {
+      "tp": 339,
+      "fp": 13,
+      "fn": 9,
+      "precision": 0.9630681818181818,
+      "recall": 0.9741379310344828
+    },
+    "old_test/round2_best/rider": {
+      "tp": 368,
+      "fp": 49,
+      "fn": 39,
+      "precision": 0.882494004796163,
+      "recall": 0.9041769041769042
+    },
+    "old_test/round2_best/helmet_head": {
+      "tp": 7,
+      "fp": 71,
+      "fn": 20,
+      "precision": 0.08974358974358974,
+      "recall": 0.25925925925925924
+    },
+    "old_test/round2_best/bare_head": {
+      "tp": 157,
+      "fp": 37,
+      "fn": 223,
+      "precision": 0.8092783505154639,
+      "recall": 0.4131578947368421
+    },
+    "test/old/helmet_head": {
+      "tp": 248,
+      "fp": 46,
+      "fn": 966,
+      "precision": 0.8435374149659864,
+      "recall": 0.2042833607907743
+    },
+    "test/old/bare_head": {
+      "tp": 141,
+      "fp": 125,
+      "fn": 882,
+      "precision": 0.5300751879699248,
+      "recall": 0.1378299120234604
+    },
+    "test/round1_best/helmet_head": {
+      "tp": 357,
+      "fp": 128,
+      "fn": 857,
+      "precision": 0.7360824742268042,
+      "recall": 0.2940691927512356
+    },
+    "test/round1_best/bare_head": {
+      "tp": 289,
+      "fp": 791,
+      "fn": 734,
+      "precision": 0.2675925925925926,
+      "recall": 0.2825024437927664
+    },
+    "test/round2_best/helmet_head": {
+      "tp": 283,
+      "fp": 76,
+      "fn": 931,
+      "precision": 0.7883008356545961,
+      "recall": 0.23311367380560133
+    },
+    "test/round2_best/bare_head": {
+      "tp": 340,
+      "fp": 1310,
+      "fn": 683,
+      "precision": 0.20606060606060606,
+      "recall": 0.33235581622678395
+    }
+  },
+  "target85_checks": {
+    "old_test": {
+      "target": "precision and recall >=0.85 per evaluated class at frozen thresholds",
+      "failing_classes": [
+        "helmet_head",
+        "bare_head"
+      ],
+      "not_evaluable_classes": [],
+      "passed_not_certification": false
+    },
+    "test": {
+      "target": "precision and recall >=0.85 per evaluated class at frozen thresholds",
+      "failing_classes": [
+        "helmet_head",
+        "bare_head"
+      ],
+      "not_evaluable_classes": [],
+      "passed_not_certification": false
+    },
+    "field_val23": {
+      "target": "precision and recall >=0.85 per evaluated class at frozen thresholds",
+      "failing_classes": [
+        "ebike",
+        "rider",
+        "bare_head"
+      ],
+      "not_evaluable_classes": [
+        "helmet_head"
+      ],
+      "passed_not_certification": false
+    }
+  },
+  "head_pixel_sizes": {
+    "field_train65": {
+      "heads": 38,
+      "median_width224": 21.876287999999995,
+      "median_height224": 18.679836,
+      "min_side_under8": 0,
+      "examples": [
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000001",
+          "width224": 15.622208000000002,
+          "height224": 18.74678400000001
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000002",
+          "width224": 13.939968000000004,
+          "height224": 17.064431999999986
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000003",
+          "width224": 14.420672000000009,
+          "height224": 16.583616000000003
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000004",
+          "width224": 15.38207999999998,
+          "height224": 15.141672
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000005",
+          "width224": 21.513631999999998,
+          "height224": 15.953952000000006
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000009",
+          "width224": 16.920959999999987,
+          "height224": 15.228696000000003
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000010",
+          "width224": 15.470560000000013,
+          "height224": 16.920792000000002
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000012",
+          "width224": 16.43734400000001,
+          "height224": 15.470448000000017
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000013",
+          "width224": 16.920960000000015,
+          "height224": 14.503608000000003
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000014",
+          "width224": 16.195648,
+          "height224": 14.745360000000003
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000015",
+          "width224": 13.295071999999987,
+          "height224": 14.261855999999993
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000016",
+          "width224": 18.129439999999985,
+          "height224": 16.920792000000002
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000017",
+          "width224": 14.986944,
+          "height224": 15.712199999999992
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000018",
+          "width224": 16.920960000000015,
+          "height224": 18.612887999999995
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000019",
+          "width224": 14.986944,
+          "height224": 16.195704000000003
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000020",
+          "width224": 15.228863999999993,
+          "height224": 14.987111999999994
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000021",
+          "width224": 22.23894399999999,
+          "height224": 17.16254399999999
+        },
+        {
+          "id": "empty_scene_20250504_145342_2452e624__frame_000022",
+          "width224": 13.295071999999998,
+          "height224": 17.887799999999995
+        },
+        {
+          "id": "empty_scene_20250504_145651_07c3c11c__frame_000010",
+          "width224": 15.470560000000013,
+          "height224": 10.394328000000002
+        },
+        {
+          "id": "empty_scene_20250504_145927_24126556__frame_000015",
+          "width224": 20.546848000000004,
+          "height224": 17.646048
+        },
+        {
+          "id": "empty_scene_20250504_150501_1b8a81dd__frame_000014",
+          "width224": 32.1496,
+          "height224": 29.490719999999996
+        },
+        {
+          "id": "empty_scene_20250504_150501_1b8a81dd__frame_000015",
+          "width224": 29.974111999999995,
+          "height224": 24.17268000000001
+        },
+        {
+          "id": "empty_scene_20250504_150501_1b8a81dd__frame_000016",
+          "width224": 27.556927999999996,
+          "height224": 26.831616000000004
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000001",
+          "width224": 30.699200000000005,
+          "height224": 26.106527999999997
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000002",
+          "width224": 23.931040000000003,
+          "height224": 26.831616
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000003",
+          "width224": 26.831616000000004,
+          "height224": 27.556872
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000004",
+          "width224": 27.315008,
+          "height224": 27.556704
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000005",
+          "width224": 27.798624000000004,
+          "height224": 26.589863999999995
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000006",
+          "width224": 28.040320000000005,
+          "height224": 25.381271999999996
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000007",
+          "width224": 28.040320000000005,
+          "height224": 26.106527999999997
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000008",
+          "width224": 27.798624000000004,
+          "height224": 21.755328
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000009",
+          "width224": 27.556928,
+          "height224": 20.063232
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000010",
+          "width224": 25.13951999999999,
+          "height224": 18.854639999999996
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000011",
+          "width224": 26.589919999999996,
+          "height224": 28.040207999999996
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000012",
+          "width224": 29.007103999999995,
+          "height224": 29.49072
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000013",
+          "width224": 28.282016,
+          "height224": 27.798623999999997
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000014",
+          "width224": 29.007104,
+          "height224": 28.765463999999998
+        },
+        {
+          "id": "empty_scene_20250504_150737_b76484b6__frame_000015",
+          "width224": 26.83161599999999,
+          "height224": 29.490719999999996
+        }
+      ]
+    },
+    "field_val23": {
+      "heads": 7,
+      "median_width224": 6.768384000000009,
+      "median_height224": 6.043127999999996,
+      "min_side_under8": 6,
+      "examples": [
+        {
+          "id": "empty_scene_20250504_151942_4d0cad5a__frame_000001",
+          "width224": 6.526688000000007,
+          "height224": 4.351032000000002
+        },
+        {
+          "id": "empty_scene_20250504_151942_4d0cad5a__frame_000002",
+          "width224": 7.493472000000004,
+          "height224": 5.31804
+        },
+        {
+          "id": "empty_scene_20250504_151942_4d0cad5a__frame_000009",
+          "width224": 14.503552000000015,
+          "height224": 17.404296000000006
+        },
+        {
+          "id": "empty_scene_20250504_151942_4d0cad5a__frame_000010",
+          "width224": 7.735168000000001,
+          "height224": 8.702231999999997
+        },
+        {
+          "id": "empty_scene_20250504_151942_4d0cad5a__frame_000011",
+          "width224": 6.043071999999988,
+          "height224": 6.043127999999996
+        },
+        {
+          "id": "empty_scene_20250504_151942_4d0cad5a__frame_000012",
+          "width224": 6.768384000000005,
+          "height224": 6.526632000000005
+        },
+        {
+          "id": "empty_scene_20250504_151942_4d0cad5a__frame_000013",
+          "width224": 6.768384000000009,
+          "height224": 4.592783999999991
+        }
+      ]
+    }
+  },
+  "annotation_limits": "old data model-assisted/partial heads; field user manual references; no expert independent field test",
+  "field_train65_is_not_holdout": true,
+  "field_val23_used_for_early_stopping_not_blind_test": true,
+  "missing_class_recall_reported_as_null_not_zero": true,
+  "runtime": {
+    "torch": "2.5.1+cpu",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0",
+    "cpu_threads": 2
+  },
+  "pc_time_not_pynq_time": true,
+  "evaluation_seconds": 99.72948879993055,
+  "unchanged_original_board_files": 48,
+  "received_checkpoints_unchanged": true,
+  "quantization_started": false,
+  "board_modified": false,
+  "accuracy_accepted": false
+}
