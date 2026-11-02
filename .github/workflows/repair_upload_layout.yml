@@ -1,7 +1,6 @@
 name: Repair uploaded project layout
 
-on:
-  workflow_dispatch:
+"on": workflow_dispatch
 
 permissions:
   contents: write
@@ -37,4 +36,3 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "fix: restore uploaded project directory layout"
           git push origin HEAD:main
-
