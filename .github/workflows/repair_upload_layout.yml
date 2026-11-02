@@ -1,1 +1,40 @@
+name: Repair uploaded project layout
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repair-upload-layout
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    if: github.repository == 'fusu56162-bot/pynq-helmet-monitor' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Get repository
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Restore paths and verify all 3141 original files
+        run: python3 repair_upload_layout.py --root . --apply
+
+      - name: Save verified repair to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add --all -- build report skill src data
+          if git diff --cached --quiet; then
+            echo "All original files are already correct."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "fix: restore uploaded project directory layout"
+          git push origin HEAD:main
 
