@@ -84,4 +84,4 @@ src/training保留训练、导出、量化和兼容修复工具；report/evidenc
 
 项目原创代码按GPL-3.0发布，采用YOLOv5 v6.2固定版，ncnn与改编数学代码保留BSD/zlib声明，AMD生成文件保留原版权声明。详见LICENSE、NOTICE.md和src/third_party/licenses。
 
-这是可上传GitHub的本地仓库包，尚未创建或上传远端仓库。解压后使用pynq_helmet_monitor目录作为仓库根目录，发布步骤见[GitHub操作说明](report/github_publish.md)。
+本仓库已在 GitHub 公开发布，比赛提交请使用[仓库首页](https://github.com/fusu56162-bot/pynq-helmet-monitor)。首次使用请按上文的电脑检查、板卡安装和源码构建步骤操作；仓库发布说明见[GitHub操作说明](report/github_publish.md)。
